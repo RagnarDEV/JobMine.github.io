@@ -1,0 +1,407 @@
+/* ==========================================================================
+   JobMine - Core Stylesheet (Premium Dark Mode)
+   ========================================================================== */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg-main: #0d1117;        /* خلفية الموقع الأساسية - داكنة جداً */
+    --bg-surface: #161b22;     /* خلفية الكروت والقوائم */
+    --bg-border: #30363d;      /* لون الحدود */
+    --text-main: #c9d1d9;      /* لون النصوص الأساسي */
+    --text-muted: #8b949e;    /* لون النصوص الثانوية */
+    --accent-gold: #ffc107;    /* لون الذهب - الهوية الأساسية للمنجم */
+    --accent-gold-hover: #e0a800;
+    --accent-green: #238636;   /* لون أزرار التقديم والوظائف الحية */
+    --accent-green-hover: #2ea043;
+    --font-sans: 'Inter', sans-serif;
+    --radius: 8px;
+    --transition: all 0.3s ease;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    padding-bottom: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 1. Hero & Welcome Section */
+.hero-section {
+    background: linear-gradient(180deg, #1f242c 0%, var(--bg-main) 100%);
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--bg-border);
+}
+
+.hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(255, 193, 7, 0.1);
+    color: var(--accent-gold);
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 193, 7, 0.2);
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.logo span {
+    color: var(--accent-gold);
+}
+
+.tagline {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 2. Stats Dashboard */
+.stats-section {
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.stats-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.stat-card {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--bg-border);
+    border-radius: var(--radius);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-gold);
+}
+
+.stat-icon {
+    font-size: 2rem;
+    color: var(--accent-gold);
+    background-color: rgba(255, 193, 7, 0.05);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.stat-info h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.stat-info p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* 3. Search & Filter Section */
+.filter-section {
+    padding: 40px 20px 20px;
+}
+
+.filter-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.search-wrapper, .select-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper {
+    flex: 2;
+    min-width: 280px;
+}
+
+.select-wrapper {
+    flex: 1;
+    min-width: 200px;
+}
+
+.search-icon, .filter-icon {
+    position: absolute;
+    left: 15px;
+    color: var(--text-muted);
+}
+
+#searchInput, #categoryFilter {
+    width: 100%;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--bg-border);
+    color: var(--text-main);
+    padding: 12px 15px 12px 40px;
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    outline: none;
+    transition: var(--transition);
+}
+
+#searchInput:focus, #categoryFilter:focus {
+    border-color: var(--accent-gold);
+    box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.15);
+}
+
+/* 4. Top Global Remote Hub */
+.hub-section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-title i {
+    color: var(--accent-gold);
+}
+
+.section-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 15px;
+}
+
+.hub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.hub-card {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--bg-border);
+    padding: 15px;
+    border-radius: var(--radius);
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: var(--transition);
+}
+
+.hub-card i {
+    color: var(--text-muted);
+    transition: var(--transition);
+}
+
+.hub-card:hover {
+    border-color: var(--accent-gold);
+    background-color: rgba(255, 193, 7, 0.02);
+}
+
+.hub-card:hover i {
+    color: var(--accent-gold);
+}
+
+/* 5. Jobs Display Section & Cards */
+.jobs-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.jobs-container-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--bg-border);
+    padding-bottom: 10px;
+}
+
+.feed-title {
+    font-size: 1.4rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feed-title i {
+    color: #ff5722; /* لون اللهب الدلالي للوظائف الجديدة */
+}
+
+.jobs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* الكروت الديناميكية التي سيتم توليدها بالجافا سكريبت لاحقاً */
+.job-card {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--bg-border);
+    border-radius: var(--radius);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    transition: var(--transition);
+}
+
+.job-card:hover {
+    border-color: var(--text-muted);
+    transform: scale(1.005);
+}
+
+.job-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.job-title {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.job-company {
+    color: var(--accent-gold);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.job-meta {
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.job-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.apply-btn {
+    background-color: var(--accent-green);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: var(--radius);
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    transition: var(--transition);
+}
+
+.apply-btn:hover {
+    background-color: var(--accent-green-hover);
+}
+
+/* حالات التحميل والخطأ */
+.loading-status, .no-results {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--bg-border);
+    border-radius: var(--radius);
+}
+
+.loading-status i {
+    margin-right: 8px;
+    color: var(--accent-gold);
+}
+
+/* 6. Footer */
+.main-footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--bg-border);
+    margin-top: 60px;
+}
+
+.main-footer strong {
+    color: #ffffff;
+}
+
+/* ==========================================================================
+   Responsive Media Queries (التجاوب مع الشاشات المختلفة)
+   ========================================================================== */
+@media (max-width: 768px) {
+    .filter-container {
+        flex-direction: column;
+    }
+    
+    .search-wrapper, .select-wrapper {
+        width: 100%;
+    }
+
+    .job-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .apply-btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .logo {
+        font-size: 2.3rem;
+    }
+}
