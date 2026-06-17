@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobMine - Premium Remote Jobs Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="hero-container">
+            <div class="welcome-badge"><i class="fa-solid fa-bolt"></i> Discover Your Next Career Move</div>
+            <h1 class="logo">Job<span>Mine</span></h1>
+            <p class="tagline">Dig deep into the ultimate remote tech mines. Hand-picked, premium opportunities from global industry leaders updated daily.</p>
+        </div>
+    </header>
+
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="stat-info">
+                    <h3 id="statTotalJobs">1,240+</h3>
+                    <p>Active Remote Positions</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-building"></i></div>
+                <div class="stat-info">
+                    <h3 id="statTotalCompanies">450+</h3>
+                    <p>Verified Tech Mines</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                <div class="stat-info">
+                    <h3>100%</h3>
+                    <p>Remote Worldwide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="filter-section">
+        <div class="filter-container">
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search by job title, company name, or stack keywords...">
+            </div>
+            
+            <div class="select-wrapper">
+                <i class="fa-solid fa-filter filter-icon"></i>
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="Development">💻 Software Development</option>
+                    <option value="Design">🎨 Design & UI/UX</option>
+                    <option value="Marketing">📈 Marketing & Sales</option>
+                    <option value="Product">🚀 Product Management</option>
+                    <option value="Support">🎧 Customer Support</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="hub-section">
+        <div class="hub-container">
+            <h2 class="section-title"><i class="fa-solid fa-star"></i> Top Global Remote Job Sources</h2>
+            <p class="section-subtitle">Can't find what you are looking for? Explore our top global curated partner mines:</p>
+            <div class="hub-grid">
+                <a href="https://weworkremotely.com" target="_blank" class="hub-card">
+                    <i class="fa-solid fa-laptop-code"></i> We Work Remotely
+                </a>
+                <a href="https://remoteok.com" target="_blank" class="hub-card">
+                    <i class="fa-solid fa-circle-check"></i> Remote OK
+                </a>
+                <a href="https://www.flexjobs.com" target="_blank" class="hub-card">
+                    <i class="fa-solid fa-gem"></i> FlexJobs
+                </a>
+                <a href="https://workingnomads.com" target="_blank" class="hub-card">
+                    <i class="fa-solid fa-passport"></i> Working Nomads
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class="jobs-section">
+        <div class="jobs-container-header">
+            <h2 class="feed-title"><i class="fa-solid fa-fire-flame-curved"></i> Latest Curated Job Openings</h2>
+        </div>
+        <div class="jobs-container" id="jobsContainer">
+            <div class="loading-status">
+                <i class="fa-solid fa-gear fa-spin"></i> Loading amazing opportunities for you...
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
