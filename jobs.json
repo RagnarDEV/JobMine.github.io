@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Remote Senior Frontend Engineer",
+    "company": "GitLab",
+    "category": "Development",
+    "location": "Worldwide",
+    "type": "Full-time",
+    "salary": "$110k - $140k",
+    "tags": ["React", "TypeScript", "Tailwind"],
+    "apply_link": "https://about.gitlab.com/jobs/",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 2,
+    "title": "Product & UI/UX Designer",
+    "company": "Buffer",
+    "category": "Design",
+    "location": "Worldwide",
+    "type": "Full-time",
+    "salary": "$85k - $105k",
+    "tags": ["Figma", "Product Design", "Design Systems"],
+    "apply_link": "https://buffer.com/journey",
+    "date": "2026-06-17"
+  },
+  {
+    "id": 3,
+    "title": "Growth Marketing Manager",
+    "company": "Zapier",
+    "category": "Marketing",
+    "location": "US / Europe Remote",
+    "type": "Contract",
+    "salary": "$90k - $110k",
+    "tags": ["SEO", "Google Analytics", "Content"],
+    "apply_link": "https://zapier.com/jobs",
+    "date": "2026-06-16"
+  },
+  {
+    "id": 4,
+    "title": "Technical Customer Support Specialist",
+    "company": "Doist",
+    "category": "Support",
+    "location": "Worldwide",
+    "type": "Part-time",
+    "salary": "Competitive",
+    "tags": ["Customer Success", "Technical Support", "SaaS"],
+    "apply_link": "https://doist.com/careers",
+    "date": "2026-06-15"
+  }
+]
