@@ -18,7 +18,7 @@
     <meta property="og:image" content="https://www.jobmine.site.je/assets/og-image.jpg">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css?v=1.2">
+    <link rel="stylesheet" href="style.css?v=1.3">
 
     <style>
         /* الهيكل الأساسي لتقسيم الموقع (إصدار الكمبيوتر) */
@@ -118,10 +118,36 @@
         }
         .load-more-btn:hover { background-color: #ffc107 !important; color: #000000 !important; }
 
-        /* 📱 التوافق الإجباري مع شاشات الهواتف والموبايل (Overriding) */
+        /* تنسيق الفوتر المطور مع الروابط السفلية القانونية */
+        .main-footer {
+            text-align: center !important;
+            padding: 40px 20px !important;
+            color: #8b949e !important;
+            font-size: 0.85rem !important;
+            border-top: 1px solid #30363d !important;
+            margin-top: 60px !important;
+            background-color: #0d1117 !important;
+        }
+        .footer-links {
+            display: flex !important;
+            justify-content: center !important;
+            gap: 20px !important;
+            margin-bottom: 15px !important;
+            flex-wrap: wrap !important;
+        }
+        .footer-links a {
+            color: #8b949e !important;
+            transition: all 0.2s !important;
+            font-weight: 500 !important;
+        }
+        .footer-links a:hover {
+            color: #ffc107 !important;
+        }
+
+        /* 📱 التوافق الإجباري الكامل مع شاشات الهواتف والموبايل */
         @media screen and (max-width: 850px) {
             .site-layout {
-                grid-template-columns: 1fr !important; /* تحويل الترتيب إلى عمودي مريح تلقائياً */
+                grid-template-columns: 1fr !important;
                 padding: 0 12px !important;
                 gap: 15px !important;
             }
@@ -132,7 +158,7 @@
                 padding: 15px !important;
                 box-shadow: none !important;
             }
-            /* تحويل القائمة الجانبية إلى كروت شبكية ثنائية عريضة بدلاً من قائمة طويلة */
+            /* ترتيب ذكي للأقسام الباقية لتصبح شبكة متناسقة خماسية/ثنائية */
             .sidebar-menu {
                 display: grid !important;
                 grid-template-columns: repeat(2, 1fr) !important;
@@ -140,16 +166,25 @@
             }
             .sidebar-menu-title {
                 grid-column: span 2 !important;
-                margin-top: 10px !important;
+                margin-top: 5px !important;
                 margin-bottom: 2px !important;
             }
+            .sidebar-menu li:first-child {
+                grid-column: span 2 !important; /* زر القائمة الرئيسية يأخذ العرض الكامل */
+            }
             .sidebar-menu li a {
-                padding: 8px 10px !important;
-                font-size: 0.82rem !important;
+                padding: 10px 12px !important;
+                font-size: 0.85rem !important;
                 background-color: rgba(255, 255, 255, 0.02) !important;
+                justify-content: center !important;
             }
             .showcase-container {
                 grid-template-columns: 1fr !important;
+            }
+            .footer-links {
+                gap: 12px !important;
+                flex-direction: column !important;
+                align-items: center !important;
             }
         }
     </style>
@@ -234,11 +269,6 @@
                 <li><a href="#" onclick="filterByCategory('Design')"><i class="fa-solid fa-paint-brush"></i> Design & UI/UX</a></li>
                 <li><a href="#" onclick="filterByCategory('Marketing')"><i class="fa-solid fa-chart-line"></i> Marketing</a></li>
                 <li><a href="#" onclick="filterByCategory('Product')"><i class="fa-solid fa-box-open"></i> Product</a></li>
-                
-                <li class="sidebar-menu-title">Legal & Info</li>
-                <li><a href="terms.html"><i class="fa-solid fa-file-contract"></i> Terms of Use</a></li>
-                <li><a href="privacy.html"><i class="fa-solid fa-shield-halved"></i> Privacy Policy</a></li>
-                <li><a href="disclaimer.html"><i class="fa-solid fa-triangle-exclamation"></i> Disclaimer</a></li>
             </ul>
         </aside>
 
@@ -338,6 +368,11 @@
     </div>
 
     <footer class="main-footer">
+        <div class="footer-links">
+            <a href="terms.html"><i class="fa-solid fa-file-contract"></i> Terms of Use</a>
+            <a href="privacy.html"><i class="fa-solid fa-shield-halved"></i> Privacy Policy</a>
+            <a href="disclaimer.html"><i class="fa-solid fa-triangle-exclamation"></i> Disclaimer</a>
+        </div>
         <div class="footer-content">
             <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
         </div>
@@ -350,7 +385,6 @@
                 select.value = cat;
                 select.dispatchEvent(new Event('change'));
             }
-            // سكرول ناعم لمنطقة الوظائف عند الضغط على الأقسام في الموبايل
             window.scrollTo({ top: document.querySelector('.filter-section').offsetTop - 20, behavior: 'smooth' });
         }
         function filterBySpecialty(spec) {
@@ -359,8 +393,6 @@
                 searchInput.value = (spec === 'all') ? '' : spec;
                 searchInput.dispatchEvent(new Event('input'));
             }
-            
-            // إدارة الحالة النشطة للأزرار بصرياً
             const buttons = document.querySelectorAll('.specialty-btn');
             buttons.forEach(btn => btn.classList.remove('active'));
             event.currentTarget.classList.add('active');
