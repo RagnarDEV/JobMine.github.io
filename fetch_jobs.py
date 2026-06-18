@@ -159,7 +159,7 @@ def fetch_from_we_work_remotely():
                     "title": w_job.get('title', 'Remote Web Developer'),
                     "company": w_job.get('company', 'Global Firm'),
                     "category": map_category([w_job.get('category', 'Development')]),
-                    "region": w_job.get('region', 'Worldwide'),
+                    "location": w_job.get('region', 'Worldwide'),  # 🎯 تم تصحيح المفتاح هنا ليعمل بسلاسة
                     "type": w_job.get('type', 'Full-time'),
                     "salary": "Competitive",
                     "tags": ["Tech", "Remote", "WWR"],
