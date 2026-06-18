@@ -23,17 +23,16 @@ def generate_dynamic_sitemap(current_dir):
     sitemap_path = os.path.join(current_dir, 'sitemap.xml')
     today_date = datetime.now().strftime('%Y-%m-%d')
     
-    # إنشاء العنصر الرئيسي للخارطة بالروابط القياسية لـ Google
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     
-    # 1. إضافة الصفحة الرئيسية للموقع
+    # 1. إضافة الصفحة الرئيسية
     main_url = ET.SubElement(urlset, "url")
     ET.SubElement(main_url, "loc").text = base_url
     ET.SubElement(main_url, "lastmod").text = today_date
     ET.SubElement(main_url, "changefreq").text = "daily"
     ET.SubElement(main_url, "priority").text = "1.0"
     
-    # 2. إضافة الصفحات الفرعية الملحقة بالموقع
+    # 2. إضافة الصفحات الفرعية
     static_pages = ["terms.html", "privacy.html", "disclaimer.html"]
     for page in static_pages:
         page_url = ET.SubElement(urlset, "url")
@@ -42,7 +41,6 @@ def generate_dynamic_sitemap(current_dir):
         ET.SubElement(page_url, "changefreq").text = "weekly"
         ET.SubElement(page_url, "priority").text = "0.5"
 
-    # تحويل الشجرة البرمجية إلى نص XML منسق وحفظه
     tree = ET.ElementTree(urlset)
     try:
         with open(sitemap_path, "wb") as f:
@@ -51,6 +49,76 @@ def generate_dynamic_sitemap(current_dir):
         print("✅ Dynamic sitemap.xml generated and updated successfully!")
     except Exception as e:
         print(f"⚠️ Error creating sitemap.xml: {e}")
+
+def load_existing_jobs(file_path):
+    """
+    قراءة الوظائف الحالية المخزنة في ملف jobs.json
+    """
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"⚠️ Could not read existing jobs, starting fresh: {e}")
+    return []
+
+def save_and_optimize_jobs(new_jobs, file_path):
+    """
+    دمج الوظائف الجديدة مع القديمة، حذف المكرر، تنظيف منتهي الصلاحية (>30 يوم)، وحفظ حد أقصى 1000 وظيفة
+    """
+    existing_jobs = load_existing_jobs(file_path)
+    
+    # دمج القائمتين مع تجنب التكرار بناءً على رابط التقديم (apply_link)
+    seen_links = set()
+    combined_jobs = []
+    
+    # نعطي الأولوية للوظائف الجديدة المستخرجة للتو
+    for job in new_jobs:
+        link = job.get('apply_link')
+        if link and link not in seen_links:
+            seen_links.add(link)
+            combined_jobs.append(job)
+            
+    # إضافة الوظائف القديمة غير المكررة
+    for job in existing_jobs:
+        link = job.get('apply_link')
+        if link and link not in seen_links:
+            seen_links.add(link)
+            combined_jobs.append(job)
+            
+    # تصفية القائمة لحذف الوظائف التي مر عليها أكثر من 30 يوماً
+    final_filtered_jobs = []
+    today = datetime.now()
+    
+    for job in combined_jobs:
+        job_date_str = job.get('date', today.strftime('%Y-%m-%d'))
+        try:
+            job_date = datetime.strptime(job_date_str, '%Y-%m-%d')
+            # حساب فارق الأيام
+            days_old = (today - job_date).days
+            if days_old <= 30:  # احتفاظ بالوظيفة إذا كانت أقل من أو تساوي 30 يوماً
+                final_filtered_jobs.append(job)
+        except ValueError:
+            # في حال وجود خطأ في تنسيق التاريخ، نحتفظ بها كأمان
+            final_filtered_jobs.append(job)
+
+    # ترتيب الوظائف من الأحدث تاريخاً إلى الأقدم
+    final_filtered_jobs.sort(key=lambda x: x.get('date', ''), reverse=True)
+
+    # اقتطاع أول 1000 وظيفة فقط لتجنب تضخم الملف وحجم البيانات
+    final_filtered_jobs = final_filtered_jobs[:1000]
+
+    # إعادة توليد الـ ID بشكل متسلسل من 1 إلى 1000 متوافق مع واجهة الجافاسكربت
+    for index, job in enumerate(final_filtered_jobs):
+        job['id'] = index + 1
+
+    # حفظ مصفوفة المنجم الكبرى في ملف jobs.json الموحد
+    try:
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(final_filtered_jobs, f, ensure_ascii=False, indent=2)
+        print(f"🚀 Success! Database updated. Total active tracked jobs: {len(final_filtered_jobs)}/1000")
+    except Exception as e:
+        print(f"⚠️ Failed to save jobs database: {e}")
 
 def fetch_remote_ok_jobs():
     url = "https://remoteok.com/api"
@@ -61,6 +129,7 @@ def fetch_remote_ok_jobs():
     
     current_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(current_dir, 'jobs.json')
+    fetched_jobs = []
     
     try:
         print("🤖 Attempting to mine Remote OK...")
@@ -68,10 +137,9 @@ def fetch_remote_ok_jobs():
             data = json.loads(response.read().decode())
             raw_jobs = data[1:] 
             
-            formatted_jobs = []
-            for index, r_job in enumerate(raw_jobs[:20]):
-                formatted_jobs.append({
-                    "id": index + 1,
+            for index, r_job in enumerate(raw_jobs[:40]): # نسحب أحدث 40 وظيفة في كل دورة تشغيل لدمجها
+                fetched_jobs.append({
+                    "id": 0, # سيتم ضبطه تلقائياً بالتسلسل لاحقاً
                     "title": r_job.get('position', 'Remote Software Engineer'),
                     "company": r_job.get('company', 'Tech Enterprise'),
                     "category": map_category(r_job.get('tags', [])),
@@ -82,18 +150,16 @@ def fetch_remote_ok_jobs():
                     "apply_link": r_job.get('url', 'https://remoteok.com'),
                     "date": datetime.now().strftime('%Y-%m-%d')
                 })
-            
-            with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(formatted_jobs, f, ensure_ascii=False, indent=2)
-            print("✅ Successfully updated jobs.json with live data!")
+            print(f"📥 Successfully fetched {len(fetched_jobs)} new raw jobs from server.")
+            save_and_optimize_jobs(fetched_jobs, file_path)
 
     except Exception as e:
         print(f"⚠️ Server temporary busy or rate-limited: {e}")
-        print("💡 Generating fallback active jobs to keep the mine running smoothly...")
+        print("💡 Utilizing fallback data injection mechanism...")
         
         fallback_jobs = [
             {
-                "id": 1,
+                "id": 0,
                 "title": "Senior Full-Stack Developer (Remote)",
                 "company": "Automattic",
                 "category": "Development",
@@ -105,7 +171,7 @@ def fetch_remote_ok_jobs():
                 "date": datetime.now().strftime('%Y-%m-%d')
             },
             {
-                "id": 2,
+                "id": 0,
                 "title": "Lead UI/UX Product Designer",
                 "company": "Canva",
                 "category": "Design",
@@ -117,12 +183,9 @@ def fetch_remote_ok_jobs():
                 "date": datetime.now().strftime('%Y-%m-%d')
             }
         ]
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(fallback_jobs, f, ensure_ascii=False, indent=2)
-        print("✅ Fallback jobs saved successfully.")
+        save_and_optimize_jobs(fallback_jobs, file_path)
         
     finally:
-        # استدعاء دالة توليد الخارطة ديناميكياً دائماً في نهاية العملية
         generate_dynamic_sitemap(current_dir)
 
 if __name__ == "__main__":
