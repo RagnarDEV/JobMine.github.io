@@ -267,6 +267,101 @@
         <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
     </footer>
 
-    <script src="job-details.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // استخراج معرف الوظيفة من رابط الصفحة الحالي
+            const urlParams = new URLSearchParams(window.location.search);
+            const jobId = urlParams.get('id');
+
+            const loadingState = document.getElementById('loadingState');
+            const errorState = document.getElementById('errorState');
+            const errorText = document.getElementById('errorText');
+            const jobCardDetails = document.getElementById('jobCardDetails');
+
+            if (!jobId) {
+                showError('No job ID specified in the URL.');
+                return;
+            }
+
+            // جلب البيانات من ملف الـ JSON الأساسي للموقع
+            fetch('jobs.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch the mining logs.');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // دمج مصفوفات الوظائف للبحث عن المعرف المطلوب
+                    const allJobs = [
+                        ...(data.featuredJobs || []),
+                        ...(data.latestJobs || []),
+                        ...(data.jobs || [])
+                    ];
+
+                    // البحث عن الوظيفة المطابقة للمعرف
+                    const foundJob = allJobs.find(job => String(job.id) === String(jobId));
+
+                    if (foundJob) {
+                        displayJobDetails(foundJob);
+                    } else {
+                        showError('Job not found or has expired from the mining logs.');
+                    }
+                })
+                .catch(err => {
+                    console.error(err);
+                    showError('Error loading specifications. Please try again later.');
+                });
+
+            function displayJobDetails(job) {
+                // تعبئة البيانات داخل العناصر
+                document.getElementById('jobTitle').textContent = job.title || 'No Title Available';
+                document.getElementById('jobCompany').textContent = job.company || 'Unknown Company';
+                document.getElementById('jobType').textContent = job.type || 'Remote / Full-time';
+                document.getElementById('jobLocation').textContent = job.location || 'Worldwide';
+                document.getElementById('jobSalary').textContent = job.salary || 'Competitive';
+                document.getElementById('jobDate').textContent = job.date || 'Recently';
+                document.getElementById('jobCategory').textContent = job.category || 'General Tech';
+
+                // معالجة الأوسام والتكنولوجيا المستخدمة
+                const tagsContainer = document.getElementById('jobTags');
+                tagsContainer.innerHTML = '';
+                if (job.tags && job.tags.length > 0) {
+                    job.tags.forEach(tag => {
+                        const span = document.createElement('span');
+                        span.className = 'job-tag';
+                        span.textContent = tag;
+                        tagsContainer.appendChild(span);
+                    });
+                } else if (job.specialty) {
+                    const span = document.createElement('span');
+                    span.className = 'job-tag';
+                    span.textContent = job.specialty;
+                    tagsContainer.appendChild(span);
+                } else {
+                    tagsContainer.innerHTML = '<span class="job-tag">Remote Tech</span>';
+                }
+
+                // تخصيص رابط التقديم الفعلي
+                const applyBtn = document.getElementById('jobApplyLink');
+                if (job.url || job.applyUrl) {
+                    applyBtn.href = job.url || job.applyUrl;
+                } else {
+                    applyBtn.style.display = 'none';
+                }
+
+                // إخفاء حالة التحميل وإظهار بطاقة تفاصيل الوظيفة الكاملة
+                loadingState.style.display = 'none';
+                jobCardDetails.style.display = 'block';
+            }
+
+            function showError(message) {
+                if (errorText) errorText.textContent = message;
+                loadingState.style.display = 'none';
+                jobCardDetails.style.display = 'none';
+                errorState.style.display = 'block';
+            }
+        });
+    </script>
 </body>
 </html>
