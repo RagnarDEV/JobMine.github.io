@@ -1,104 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JobMine - Premium Remote Jobs Hub</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <title>JobMine | Your Gateway to Remote Jobs & Tech Careers</title>
+    <meta name="description" content="Discover the latest remote jobs and tech career opportunities in development, design, and marketing on JobMine. Automatically updated 24/7 with the best global offers.">
+    <meta name="keywords" content="remote jobs, work from home, tech jobs, developer jobs, design jobs, programming jobs, JobMine, find jobs online, remote work platform, وظائف عن بعد">
+    <meta name="author" content="RagnarDEV">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.jobmine.site.je/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.jobmine.site.je/">
+    <meta property="og:title" content="JobMine | Your Gateway to Remote Jobs & Tech Careers">
+    <meta property="og:description" content="Find your next remote job with ease. Continuous automatic updates for the latest global tech and development positions with live statistics.">
+    <meta property="og:image" content="https://www.jobmine.site.je/assets/og-image.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.jobmine.site.je/">
+    <meta name="twitter:title" content="JobMine | Your Gateway to Remote Jobs & Tech Careers">
+    <meta name="twitter:description" content="Browse and discover hundreds of remote and tech jobs automatically updated every 6 hours.">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <header class="hero-section">
-        <div class="hero-container">
-            <div class="welcome-badge"><i class="fa-solid fa-bolt"></i> Discover Your Next Career Move</div>
-            <h1 class="logo">Job<span>Mine</span></h1>
-            <p class="tagline">Dig deep into the ultimate remote tech mines. Hand-picked, premium opportunities from global industry leaders updated daily.</p>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-hammer logo-icon"></i>
+                <h1>Job<span class="highlight">Mine</span></h1>
+            </div>
+            <p class="tagline">Mining the Best Remote Jobs Just For You</p>
         </div>
     </header>
 
-    <section class="stats-section">
-        <div class="stats-container">
+    <div class="ad-container top-ad">
+        <span class="ad-placeholder">Sponsored Ad</span>
+        <script>
+          atOptions = {
+            'key' : 'ec060ebe971281b3bae0688731834b5f',
+            'format' : 'iframe',
+            'height' : 50,
+            'width' : 320,
+            'params' : {}
+          };
+        </script>
+        <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
+    </div>
+
+    <main class="main-content">
+        <section class="stats-panel">
             <div class="stat-card">
-                <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <i class="fas fa-briefcase card-icon"></i>
                 <div class="stat-info">
-                    <h3 id="statTotalJobs">1,240+</h3>
-                    <p>Active Remote Positions</p>
+                    <span class="stat-number" id="total-jobs">0</span>
+                    <span class="stat-label">Total Live Jobs</span>
                 </div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon"><i class="fa-solid fa-building"></i></div>
+                <i class="fas fa-code card-icon"></i>
                 <div class="stat-info">
-                    <h3 id="statTotalCompanies">450+</h3>
-                    <p>Verified Tech Mines</p>
+                    <span class="stat-number" id="dev-jobs">0</span>
+                    <span class="stat-label">Development</span>
                 </div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                <i class="fas fa-paint-brush card-icon"></i>
                 <div class="stat-info">
-                    <h3>100%</h3>
-                    <p>Remote Worldwide</p>
+                    <span class="stat-number" id="design-jobs">0</span>
+                    <span class="stat-label">Design & UI</span>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="filter-section">
-        <div class="filter-container">
-            <div class="search-wrapper">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" id="searchInput" placeholder="Search by job title, company name, or stack keywords...">
-            </div>
-            
-            <div class="select-wrapper">
-                <i class="fa-solid fa-filter filter-icon"></i>
-                <select id="categoryFilter">
-                    <option value="all">All Categories</option>
-                    <option value="Development">💻 Software Development</option>
-                    <option value="Design">🎨 Design & UI/UX</option>
-                    <option value="Marketing">📈 Marketing & Sales</option>
-                    <option value="Product">🚀 Product Management</option>
-                    <option value="Support">🎧 Customer Support</option>
-                </select>
-            </div>
+        <div class="ad-container middle-ad">
+            <span class="ad-placeholder">Sponsored Ad</span>
+            <script>
+              atOptions = {
+                'key' : 'ec060ebe971281b3bae0688731834b5f',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+              };
+            </script>
+            <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
         </div>
-    </section>
 
-    <section class="hub-section">
-        <div class="hub-container">
-            <h2 class="section-title"><i class="fa-solid fa-star"></i> Top Global Remote Job Sources</h2>
-            <p class="section-subtitle">Can't find what you are looking for? Explore our top global curated partner mines:</p>
-            <div class="hub-grid">
-                <a href="https://weworkremotely.com" target="_blank" class="hub-card">
-                    <i class="fa-solid fa-laptop-code"></i> We Work Remotely
-                </a>
-                <a href="https://remoteok.com" target="_blank" class="hub-card">
-                    <i class="fa-solid fa-circle-check"></i> Remote OK
-                </a>
-                <a href="https://www.flexjobs.com" target="_blank" class="hub-card">
-                    <i class="fa-solid fa-gem"></i> FlexJobs
-                </a>
-                <a href="https://workingnomads.com" target="_blank" class="hub-card">
-                    <i class="fa-solid fa-passport"></i> Working Nomads
-                </a>
+        <section class="filter-section">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all"><i class="fas fa-globe"></i> All</button>
+                <button class="filter-btn" data-category="Development"><i class="fas fa-code"></i> Programming</button>
+                <button class="filter-btn" data-category="Design"><i class="fas fa-paint-brush"></i> Design</button>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <main class="jobs-section">
-        <div class="jobs-container-header">
-            <h2 class="feed-title"><i class="fa-solid fa-fire-flame-curved"></i> Latest Curated Job Openings</h2>
-        </div>
-        <div class="jobs-container" id="jobsContainer">
-            <div class="loading-status">
-                <i class="fa-solid fa-gear fa-spin"></i> Loading amazing opportunities for you...
-            </div>
+        <section class="jobs-wrapper">
+            <div id="jobs-container" class="jobs-list">
+                </div>
+        </section>
+
+        <div class="ad-container bottom-ad">
+            <span class="ad-placeholder">Sponsored Ad</span>
+            <script async="async" data-cfasync="false" src="https://pl29780511.effectivecpmnetwork.com/b72ef6d36261da411a14a962863babcf/invoke.js"></script>
+            <div id="container-b72ef6d36261da411a14a962863babcf"></div>
         </div>
     </main>
 
-    <footer class="main-footer">
-        <div class="footer-content">
-            <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
+    <footer>
+        <div class="footer-container">
+            <p>All Rights Reserved &copy; 2026 <span class="highlight">JobMine</span></p>
+            <p class="automation-note"><i class="fas fa-robot"></i> Automatically mined & updated every 6 hours by AI</p>
         </div>
     </footer>
 
