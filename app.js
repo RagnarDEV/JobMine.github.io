@@ -174,7 +174,8 @@ function createJobCard(job, isFeatured = false) {
     const tagsArray = Array.isArray(job.tags) ? job.tags : [];
     const tagsHTML = tagsArray.map(tag => `<span class="tag">${tag}</span>`).join('');
 
-    const finalApplyLink = job.apply_link || job.url || '#';
+    // 🎯 توجيه المستخدم لصفحة تفاصيل الوظيفة داخل المنصة باستخدام الـ ID الفرعي لكل وظيفة
+    const internalJobLink = `job.html?id=${job.id || 1}`;
 
     card.innerHTML = `
         <div class="job-details">
@@ -195,7 +196,7 @@ function createJobCard(job, isFeatured = false) {
             </div>
         </div>
         <div style="margin-top: 15px; text-align: right;">
-            <a href="${finalApplyLink}" target="_blank" class="apply-btn" style="background-color: #ffc107; color: #0d1117; padding: 8px 16px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-block; font-size: 0.88rem;">Apply Now <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i></a>
+            <a href="${internalJobLink}" class="apply-btn" style="background-color: #ffc107; color: #0d1117; padding: 8px 16px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-block; font-size: 0.88rem;">View Details <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; margin-left: 4px;"></i></a>
         </div>
     `;
     return card;
