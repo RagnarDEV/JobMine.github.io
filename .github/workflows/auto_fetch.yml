@@ -1,0 +1,43 @@
+name: JobMine Automated Mining
+
+on:
+  schedule:
+    # الاستيقاظ التلقائي المطور: كل 6 ساعات بأمان كامل لمنع الحظر
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    # يتيح لك خيار تشغيل البوت يدوياً للتجربة الفورية في أي وقت
+
+permissions:
+  contents: write
+
+jobs:
+  mine-jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. سحب ملفات المشروع الحالية للسيرفر
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    # 2. بناء وتجهيز بيئة لغة بايثون 
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    # 3. تشغيل ملف التنقيب الذكي لسحب أحدث 30 وظيفة حية
+    - name: Run Mining Script
+      run: python fetch_jobs.py
+
+    # 4. حفظ التعديلات الجديدة وتحديث ملف jobs.json وعمل Push للموقع تلقائياً
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "JobMine Automation Bot"
+        git config --global user.email "bot@jobmine.io"
+        git add jobs.json
+        if ! git diff --cached --quiet; then
+          git commit -m "🤖 Automated Mine Update: Hand-picked jobs synced (Every 6 Hours) [Skip CI]"
+          git push
+        else
+          echo "No new jobs detected in this shift."
+        fi
