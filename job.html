@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Details - JobMine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    
+    <style>
+        :root {
+            --bg-main: #0b0f19;
+            --bg-card: #131a2c;
+            --primary: #f59e0b;
+            --primary-hover: #d97706;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --border: #1e293b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        /* الترويسة المبسطة للموقع */
+        .job-nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .job-nav .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .job-nav .logo span {
+            color: var(--primary);
+        }
+
+        .back-btn {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .back-btn:hover {
+            color: var(--primary);
+        }
+
+        /* حاوية التفاصيل */
+        .job-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .loading-state, .error-state {
+            text-align: center;
+            padding: 40px;
+            background-color: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--border);
+        }
+
+        .loading-state i {
+            color: var(--primary);
+            font-size: 30px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .job-card-details {
+            display: none; /* سيتم تفعيله عبر الجافاسكربت فور اكتمال الجلب */
+            background-color: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        .job-header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+
+        .job-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .company-name {
+            font-size: 18px;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .meta-item i {
+            color: var(--primary);
+            width: 16px;
+        }
+
+        /* الأوسام والتفاصيل */
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 20px 0;
+        }
+
+        .job-tag {
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--primary);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .job-body {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .job-description {
+            color: var(--text-main);
+            font-size: 15px;
+            white-space: pre-line;
+        }
+
+        /* زر التقديم */
+        .apply-now-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: var(--primary);
+            color: #000;
+            text-decoration: none;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all 0.2s ease;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
+        }
+
+        .apply-now-btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+        }
+
+        /* التذييل */
+        .main-footer {
+            text-align: center;
+            padding: 30px 20px;
+            border-top: 1px solid var(--border);
+            margin-top: 60px;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="job-nav">
+        <a href="index.html" class="logo">Job<span>Mine</span></a>
+        <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Dashboard</a>
+    </nav>
+
+    <div class="job-container">
+        <div id="loadingState" class="loading-state">
+            <i class="fa-solid fa-circle-notch"></i>
+            <p>Digging into the mines for job specifications...</p>
+        </div>
+
+        <div id="errorState" class="error-state" style="display: none;">
+            <i class="fa-solid fa-triangle-exclamation" style="color: #ef4444; font-size: 30px; margin-bottom: 15px;"></i>
+            <p id="errorText">Job depth not found or has expired from the mining logs.</p>
+            <a href="index.html" class="apply-now-btn" style="display: inline-flex; margin-top: 20px; padding: 10px 20px;">Return Home</a>
+        </div>
+
+        <article id="jobCardDetails" class="job-card-details">
+            <div class="job-header">
+                <h1 id="jobTitle" class="job-title">---</h1>
+                <div id="jobCompany" class="company-name">---</div>
+                
+                <div class="meta-grid">
+                    <div class="meta-item"><i class="fa-solid fa-briefcase"></i> <span id="jobType">---</span></div>
+                    <div class="meta-item"><i class="fa-solid fa-globe"></i> <span id="jobLocation">---</span></div>
+                    <div class="meta-item"><i class="fa-solid fa-money-bill-wave"></i> <span id="jobSalary">---</span></div>
+                    <div class="meta-item"><i class="fa-solid fa-calendar-day"></i> <span id="jobDate">---</span></div>
+                </div>
+            </div>
+
+            <div class="job-body">
+                <h3 class="section-title"><i class="fa-solid fa-align-left"></i> Core Focus & Tags</h3>
+                <div id="jobTags" class="tags-container"></div>
+                
+                <h3 class="section-title" style="margin-top: 25px;"><i class="fa-solid fa-circle-info"></i> Position Category</h3>
+                <p id="jobCategory" class="job-description" style="font-weight: 600; color: var(--primary);">---</p>
+            </div>
+
+            <a id="jobApplyLink" href="#" target="_blank" class="apply-now-btn">
+                Apply on Official Platform <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+        </article>
+    </div>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
+    </footer>
+
+    <script src="job-details.js"></script>
+</body>
+</html>
