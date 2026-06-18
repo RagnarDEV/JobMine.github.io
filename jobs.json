@@ -1,6 +1,37 @@
 [
   {
     "id": 1,
+    "title": "Junior Director",
+    "company": "Newhouse",
+    "category": "Development",
+    "location": "Los Angeles Metropolitan Area",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "content writing",
+      "junior"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-junior-director-newhouse-1133574",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 2,
+    "title": "Junior Data Scientist",
+    "company": "Why Hiring",
+    "category": "Development",
+    "location": "Canada, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "data science",
+      "junior"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-junior-data-scientist-why-hiring-1133570",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 3,
     "title": "Interested future Corporate positions",
     "company": "Weedmaps",
     "category": "Development",
@@ -16,7 +47,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Executive Assistant",
     "company": "GrowthAssistant",
     "category": "Development",
@@ -32,7 +63,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Data Entry Specialist",
     "company": "Somewhere",
     "category": "Development",
@@ -48,7 +79,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Data Entry",
     "company": "Smart IT Frame LLC",
     "category": "Development",
@@ -64,7 +95,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Help Desk",
     "company": "Zenius Corporation",
     "category": "Development",
@@ -80,7 +111,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Scrum Master",
     "company": "SIRITECH SOLUTIONS CORP",
     "category": "Design",
@@ -96,7 +127,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Payroll Specialist",
     "company": "Elevate LLC",
     "category": "Design",
@@ -112,7 +143,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Document Specialist",
     "company": "CapitexAI",
     "category": "Design",
@@ -128,7 +159,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Operations Coordinator",
     "company": "CapitexAI",
     "category": "Design",
@@ -144,7 +175,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "Assistant Director Convenings",
     "company": "AccessLex Institute",
     "category": "Development",
@@ -160,7 +191,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "Elementary Teacher K 5",
     "company": "Stellar Virtual",
     "category": "Development",
@@ -176,7 +207,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "Social Media Manager",
     "company": "NeoReach",
     "category": "Development",
@@ -192,7 +223,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "Paralegal Senior Paralegal Fully",
     "company": "Leadenhall Search & Selection",
     "category": "Development",
@@ -206,7 +237,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 14,
+    "id": 16,
     "title": "People Operations",
     "company": "NABIS",
     "category": "Design",
@@ -222,7 +253,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 15,
+    "id": 17,
     "title": "Social Media and YouTube Content Manager",
     "company": "Podcast Monkey",
     "category": "Design",
@@ -238,7 +269,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 16,
+    "id": 18,
     "title": "Auxiliar Administrativo",
     "company": "Foursys",
     "category": "Development",
@@ -253,7 +284,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 17,
+    "id": 19,
     "title": "Client Success Manager",
     "company": "Empathy",
     "category": "Design",
@@ -269,7 +300,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 18,
+    "id": 20,
     "title": "Virtual Assistant",
     "company": "OnlineJobs.PH",
     "category": "Development",
@@ -282,38 +313,6 @@
       "junior"
     ],
     "apply_link": "https://remoteOK.com/remote-jobs/remote-virtual-assistant-onlinejobs-ph-1133575",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 19,
-    "title": "Farm Hand",
-    "company": "Department of Education and Training",
-    "category": "Development",
-    "location": "Tennant Creek, ",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "education",
-      "exec",
-      "ops"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-farm-hand-department-of-education-and-training-1133571",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 20,
-    "title": "Receptionist Front Office Executive",
-    "company": "Work Force Nexus",
-    "category": "Design",
-    "location": "Remote, ",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "design",
-      "education",
-      "designer"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-receptionist-front-office-executive-work-force-nexus-1133547",
     "date": "2026-06-18"
   }
 ]
