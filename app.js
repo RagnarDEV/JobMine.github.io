@@ -195,7 +195,7 @@ function createJobCard(job, isFeatured = false) {
             </div>
         </div>
         <div style="margin-top: 15px; text-align: right;">
-            <a href="${finalApplyLink}" target="_blank" class="apply-btn" style="background-color: #ffc107; color: #0d1117; padding: 8px 16px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-block; font-size: 0.88rem;">Mine Job <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75sem; margin-left: 4px;"></i></a>
+            <a href="${finalApplyLink}" target="_blank" class="apply-btn" style="background-color: #ffc107; color: #0d1117; padding: 8px 16px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-block; font-size: 0.88rem;">Apply Now <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i></a>
         </div>
     `;
     return card;
