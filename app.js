@@ -1,119 +1,238 @@
 /* ==========================================================================
-   JobMine - Core Application Logic
+   JobMine - Core Application Logic (Pagination & Dynamic Filtering)
    ========================================================================== */
 
-// مصفوفة عالمية لتخزين الوظائف بعد جلبها
+// مصفوفة عالمية لتخزين جميع الوظائف بعد جلبها
 let allJobs = [];
+
+// متغيرات التحكم في أعداد الوظائف المعروضة والتقطيع (Pagination)
+let displayedLatestCount = 20;
+let displayedFeaturedCount = 20;
 
 // 1. دالة جلب البيانات من ملف JSON
 async function fetchJobsData() {
-    const container = document.getElementById('jobsContainer');
     try {
-        // جلب ملف البيانات الساكن
         const response = await fetch('jobs.json');
         if (!response.ok) {
             throw new Error('Failed to fetch jobs database');
         }
         allJobs = await response.json();
         
-        // تحديث لوحة الإحصائيات الحية بناءً على البيانات المستلمة
+        // تحديث لوحة الإحصائيات الحية بناءً على إجمالي البيانات المستلمة
         updateStatsDashboard(allJobs);
         
-        // عرض الوظائف في الواجهة
-        displayJobs(allJobs);
+        // التشغيل الأولي للفص والفلترة والعرض
+        filterAndRenderJobs();
         
     } catch (error) {
         console.error("Error loading JobMine database:", error);
-        container.innerHTML = `
-            <div class="no-results">
-                <i class="fa-solid fa-triangle-exclamation" style="color: #ffc107; font-size: 2rem; margin-bottom: 10px;"></i>
-                <p>Failed to load jobs. Please try refreshing the page later.</p>
-            </div>
-        `;
+        const container = document.getElementById('jobsContainer');
+        if (container) {
+            container.innerHTML = `
+                <div class="no-results">
+                    <i class="fa-solid fa-triangle-exclamation" style="color: #ffc107; font-size: 2rem; margin-bottom: 10px;"></i>
+                    <p>Failed to load jobs. Please try refreshing the page later.</p>
+                </div>
+            `;
+        }
     }
 }
 
-// 2. دالة تحديث الإحصائيات حياً في أعلى الصفحة
+// 2. دالة تحديث الإحصائيات حياً في أعلى الصفحة بأرقام حقيقية
 function updateStatsDashboard(jobs) {
     const totalJobsElement = document.getElementById('statTotalJobs');
     const totalCompaniesElement = document.getElementById('statTotalCompanies');
     
-    // حساب عدد الوظائف الكلي
-    totalJobsElement.innerText = jobs.length;
+    if (totalJobsElement) totalJobsElement.innerText = jobs.length.toLocaleString() + '+';
     
-    // حساب عدد الشركات الفريدة بدون تكرار
-    const uniqueCompanies = [...new Set(jobs.map(job => job.company))];
-    totalCompaniesElement.innerText = uniqueCompanies.length;
-}
-
-// 3. دالة بناء وعرض كروت الوظائف في الصفحة
-function displayJobs(jobs) {
-    const container = document.getElementById('jobsContainer');
-    container.innerHTML = ''; // تنظيف حاوية العرض قبل الطباعة
-
-    // في حال عدم وجود وظائف تطابق البحث
-    if (jobs.length === 0) {
-        container.innerHTML = `
-            <div class="no-results">
-                <i class="fa-solid fa-magnifying-glass-blur" style="font-size: 2rem; margin-bottom: 10px;"></i>
-                <p>No remote jobs found matching your criteria. Try another keyword!</p>
-            </div>
-        `;
-        return;
+    if (totalCompaniesElement) {
+        const uniqueCompanies = [...new Set(jobs.map(job => job.company))];
+        totalCompaniesElement.innerText = uniqueCompanies.length.toLocaleString() + '+';
     }
-
-    // بناء الكروت لكل وظيفة متاح في المصفوفة
-    jobs.forEach(job => {
-        const card = document.createElement('div');
-        card.className = 'job-card';
-
-        // توليد كود الـ HTML الخاص بالمهارات (Tags)
-        const tagsHTML = job.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
-
-        card.innerHTML = `
-            <div class="job-details">
-                <div class="job-title">${job.title}</div>
-                <div class="job-company">${job.company}</div>
-                <div class="job-meta">
-                    <span><i class="fa-solid fa-earth-americas"></i> ${job.location}</span>
-                    <span><i class="fa-solid fa-clock"></i> ${job.type}</span>
-                    <span><i class="fa-solid fa-wallet"></i> ${job.salary}</span>
-                </div>
-                <div class="job-tags" style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px;">
-                    ${tagsHTML}
-                </div>
-            </div>
-            <div>
-                <a href="${job.apply_link}" target="_blank" class="apply-btn">Apply Now <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8rem; margin-left: 4px;"></i></a>
-            </div>
-        `;
-        container.appendChild(card);
-    });
 }
 
-// 4. محرك البحث والفلترة الفورية
-function filterJobsFeed() {
+// 3. المحرك الرئيسي للفلترة، الفصل، والعرض المتزامن
+function filterAndRenderJobs() {
     const searchQuery = document.getElementById('searchInput').value.toLowerCase().trim();
     const selectedCategory = document.getElementById('categoryFilter').value;
 
+    // أولاً: تطبيق فلاتر البحث والفلترة على المصفوفة الكاملة
     const filteredList = allJobs.filter(job => {
-        // البحث بالاسم، الشركة، أو الكلمات الدلالية للـ Tags
+        const tagsArray = Array.isArray(job.tags) ? job.tags : [];
+        
         const matchesSearch = job.title.toLowerCase().includes(searchQuery) || 
                               job.company.toLowerCase().includes(searchQuery) ||
-                              job.tags.some(tag => tag.toLowerCase().includes(searchQuery));
+                              tagsArray.some(tag => tag.toLowerCase().includes(searchQuery));
                               
-        // التصفية حسب القسم المختار
         const matchesCategory = selectedCategory === 'all' || job.category === selectedCategory;
 
         return matchesSearch && matchesCategory;
     });
 
-    displayJobs(filteredList);
+    // ثانياً: فصل الوظائف المفلترة إلى "مميزة" و "أحدث الوظائف"
+    // (يبحث السكربت عن علامة featured أو is_featured في ملف الـ JSON الخاص بك)
+    const featuredJobs = filteredList.filter(job => job.featured === true || job.is_featured === true);
+    const latestJobs = filteredList.filter(job => !job.featured && !job.is_featured);
+
+    // ثالثاً: إرسال القوائم المفصولة إلى دوال العرض الخاصة بها مع تطبيق الـ Pagination
+    renderFeaturedSection(featuredJobs);
+    renderLatestSection(latestJobs);
 }
 
-// 5. ربط أحداث الإدخال (Event Listeners) بصندوق البحث والقائمة المنسدلة
-document.getElementById('searchInput').addEventListener('input', filterJobsFeed);
-document.getElementById('categoryFilter').addEventListener('change', filterJobsFeed);
+// 4. دالة عرض قسم الوظائف المميزة (Featured Jobs)
+function renderFeaturedSection(jobs) {
+    const container = document.getElementById('featuredJobsContainer');
+    const loadMoreBtn = document.getElementById('loadMoreFeaturedBtn');
+    if (!container) return;
 
-// تشغيل جلب البيانات بمجرد اكتمال تحميل عناصر الصفحة
-window.addEventListener('DOMContentLoaded', fetchJobsData);
+    container.innerHTML = '';
+
+    if (jobs.length === 0) {
+        container.innerHTML = '<div class="loading-status" style="font-size:0.9rem; color:#8b949e;">No premium featured jobs matching this criteria.</div>';
+        if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+        return;
+    }
+
+    // اقتطاع العدد المطلوب للعرض حالياً (بداية من 20)
+    const jobsToDisplay = jobs.slice(0, displayedFeaturedCount);
+
+    jobsToDisplay.forEach(job => {
+        container.appendChild(createJobCard(job, true));
+    });
+
+    // التحكم في ظهور واختفاء زر تحميل المزيد الخاص بالمميزة
+    if (loadMoreBtn) {
+        if (displayedFeaturedCount >= jobs.length) {
+            loadMoreBtn.style.display = 'none';
+        } else {
+            loadMoreBtn.style.display = 'block';
+        }
+    }
+}
+
+// 5. دالة عرض قسم أحدث الوظائف (Latest Openings)
+function renderLatestSection(jobs) {
+    const container = document.getElementById('jobsContainer');
+    const loadMoreBtn = document.getElementById('loadMoreLatestBtn');
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    if (jobs.length === 0) {
+        container.innerHTML = `
+            <div class="no-results" style="text-align:center; padding:20px; color:#8b949e;">
+                <i class="fa-solid fa-magnifying-glass-blur" style="font-size: 2rem; margin-bottom: 10px; color:#ffc107;"></i>
+                <p>No remote openings found matching your criteria.</p>
+            </div>
+        `;
+        if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+        return;
+    }
+
+    // اقتطاع العدد المطلوب للعرض حالياً (بداية من 20)
+    const jobsToDisplay = jobs.slice(0, displayedLatestCount);
+
+    jobsToDisplay.forEach(job => {
+        container.appendChild(createJobCard(job, false));
+    });
+
+    // التحكم في ظهور واختفاء زر تحميل المزيد الخاص بالأحدث
+    if (loadMoreBtn) {
+        if (displayedLatestCount >= jobs.length) {
+            loadMoreBtn.style.display = 'none';
+        } else {
+            loadMoreBtn.style.display = 'block';
+        }
+    }
+}
+
+// 6. دالة بناء كرت الوظيفة الموحد (HTML Builder)
+function createJobCard(job, isFeatured = false) {
+    const card = document.createElement('div');
+    // إضافة ستايل خاص إذا كانت الوظيفة مميزة لتبدو جذابة
+    card.className = `job-card ${isFeatured ? 'featured-job-style' : ''}`;
+    if (isFeatured) {
+        card.style.borderLeft = '4px solid #ffc107';
+        card.style.backgroundColor = 'rgba(255, 193, 7, 0.02)';
+    }
+
+    // تخصيص الأيقونة ديناميكياً حسب القسم لتناسق المظهر
+    let categoryIcon = '<i class="fa-solid fa-briefcase"></i>';
+    if (job.category === 'Development') categoryIcon = '<i class="fa-solid fa-code"></i>';
+    if (job.category === 'Design') categoryIcon = '<i class="fa-solid fa-paint-brush"></i>';
+    if (job.category === 'Marketing') categoryIcon = '<i class="fa-solid fa-chart-line"></i>';
+    if (job.category === 'Product') categoryIcon = '<i class="fa-solid fa-box-open"></i>';
+
+    // توليد المهارات (Tags) بأمان
+    const tagsArray = Array.isArray(job.tags) ? job.tags : [];
+    const tagsHTML = tagsArray.map(tag => `<span class="tag">${tag}</span>`).join('');
+
+    // تأمين رابط التقديم سواء كان مسجلاً بـ apply_link أو url في الـ JSON
+    const finalApplyLink = job.apply_link || job.url || '#';
+
+    card.innerHTML = `
+        <div class="job-details">
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
+                <div class="job-icon-box" style="color: #ffc107; font-size: 1.1rem;">${categoryIcon}</div>
+                <div>
+                    <div class="job-title" style="font-weight: 600; color: #ffffff;">${job.title}</div>
+                    <div class="job-company" style="color: #8b949e; font-size: 0.9rem;">${job.company}</div>
+                </div>
+            </div>
+            <div class="job-meta" style="font-size: 0.85rem; color: #8b949e; display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px;">
+                <span><i class="fa-solid fa-earth-americas"></i> ${job.location || 'Remote Worldwide'}</span>
+                <span><i class="fa-solid fa-clock"></i> ${job.type || 'Full-time'}</span>
+                <span><i class="fa-solid fa-wallet"></i> ${job.salary || 'Competitive'}</span>
+            </div>
+            <div class="job-tags" style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px;">
+                ${tagsHTML}
+            </div>
+        </div>
+        <div style="margin-top: 15px; text-align: right;">
+            <a href="${finalApplyLink}" target="_blank" class="apply-btn" style="background-color: #ffc107; color: #0d1117; padding: 8px 16px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-block; font-size: 0.88rem;">Mine Job <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i></a>
+        </div>
+    `;
+    return card;
+}
+
+// 7. ربط أحداث الضغط على أزرار "Load More" لتوسيع العرض
+function setupPaginationEvents() {
+    const loadMoreLatestBtn = document.getElementById('loadMoreLatestBtn');
+    const loadMoreFeaturedBtn = document.getElementById('loadMoreFeaturedBtn');
+
+    if (loadMoreLatestBtn) {
+        loadMoreLatestBtn.addEventListener('click', () => {
+            displayedLatestCount += 20; // زيادة العرض بمقدار 20 وظيفة أخرى عند الضغط
+            filterAndRenderJobs();
+        });
+    }
+
+    if (loadMoreFeaturedBtn) {
+        loadMoreFeaturedBtn.addEventListener('click', () => {
+            displayedFeaturedCount += 20; // زيادة المميزة بمقدار 20 أخرى عند الضغط
+            filterAndRenderJobs();
+        });
+    }
+}
+
+// 8. ربط أحداث الإدخال والبحث الفوري (وتصفير العدادات عند البحث الجديد)
+function setupFilterListeners() {
+    const searchInput = document.getElementById('searchInput');
+    const categoryFilter = document.getElementById('categoryFilter');
+
+    const handleFilteringReset = () => {
+        displayedLatestCount = 20;   // إعادة تعيين العداد لـ 20 عند كتابة بحث جديد لتبدأ التجربة من الأول
+        displayedFeaturedCount = 20;
+        filterAndRenderJobs();
+    };
+
+    if (searchInput) searchInput.addEventListener('input', handleFilteringReset);
+    if (categoryFilter) categoryFilter.addEventListener('change', handleFilteringReset);
+}
+
+// تشغيل وربط كل شيء بمجرد تحميل المتصفح بالكامل
+document.addEventListener('DOMContentLoaded', () => {
+    fetchJobsData();
+    setupFilterListeners();
+    setupPaginationEvents();
+});
