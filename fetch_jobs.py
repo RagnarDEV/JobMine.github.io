@@ -21,24 +21,25 @@ def map_category(tags):
         if any(word in t for t in tags_lower): return 'Product'
     return 'Development'
 
-def generate_dynamic_sitemap(current_dir):
+def generate_dynamic_sitemap(current_dir, jobs_list):
     """
-    توليد وتحديث ملف sitemap.xml تلقائياً بناءً على تاريخ اليوم والروابط الأساسية
+    توليد وتحديث ملف sitemap.xml تلقائياً ليشمل الروابط الأساسية بالإضافة إلى الـ 1000 وظيفة النشطة
     """
     base_url = "https://www.jobmine.site.je/"
     sitemap_path = os.path.join(current_dir, 'sitemap.xml')
     today_date = datetime.now().strftime('%Y-%m-%d')
     
+    # بناء جذر ملف الـ XML
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     
-    # 1. إضافة الصفحة الرئيسية
+    # 1. إضافة الصفحة الرئيسية للموقع
     main_url = ET.SubElement(urlset, "url")
     ET.SubElement(main_url, "loc").text = base_url
     ET.SubElement(main_url, "lastmod").text = today_date
     ET.SubElement(main_url, "changefreq").text = "daily"
     ET.SubElement(main_url, "priority").text = "1.0"
     
-    # 2. إضافة الصفحات الفرعية
+    # 2. إضافة الصفحات الثابتة (شروط الاستخدام، الخصوصية، إخلاء المسؤولية)
     static_pages = ["terms.html", "privacy.html", "disclaimer.html"]
     for page in static_pages:
         page_url = ET.SubElement(urlset, "url")
@@ -47,12 +48,23 @@ def generate_dynamic_sitemap(current_dir):
         ET.SubElement(page_url, "changefreq").text = "weekly"
         ET.SubElement(page_url, "priority").text = "0.5"
 
+    # 3. الثورة الجديدة: التكرار داخل المصفوفة لتوليد سطر مؤرشف مستقل لكل وظيفة نشطة
+    for job in jobs_list:
+        job_id = job.get('id')
+        if job_id:
+            job_url = ET.SubElement(urlset, "url")
+            ET.SubElement(job_url, "loc").text = f"{base_url}job.html?id={job_id}"
+            ET.SubElement(job_url, "lastmod").text = job.get('date', today_date)
+            ET.SubElement(job_url, "changefreq").text = "weekly"
+            ET.SubElement(job_url, "priority").text = "0.7"
+
+    # حفظ الملف بصيغة UTF-8 مع ترويسة الـ XML الصحيحة
     tree = ET.ElementTree(urlset)
     try:
         with open(sitemap_path, "wb") as f:
             f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
             tree.write(f, encoding="utf-8", xml_declaration=False)
-        print("✅ Dynamic sitemap.xml generated and updated successfully!")
+        print(f"✅ Mega SEO Success! sitemap.xml generated with {len(jobs_list) + 4} total indexed paths.")
     except Exception as e:
         print(f"⚠️ Error creating sitemap.xml: {e}")
 
@@ -65,12 +77,12 @@ def load_existing_jobs(file_path):
             print(f"⚠️ Could not read existing jobs, starting fresh: {e}")
     return []
 
-def save_and_optimize_jobs(new_jobs, file_path):
+def save_and_optimize_jobs(new_jobs, file_path, current_dir):
     existing_jobs = load_existing_jobs(file_path)
     seen_links = set()
     combined_jobs = []
     
-    # دمج القائمتين مع تجنب التكرار بناءً على رابط التقديم (apply_link)
+    # دمج القائمتين مع تجنب التكرار بناءً على رابط التتقديم
     for job in new_jobs:
         link = job.get('apply_link')
         if link and link not in seen_links:
@@ -83,7 +95,7 @@ def save_and_optimize_jobs(new_jobs, file_path):
             seen_links.add(link)
             combined_jobs.append(job)
             
-    # تصفية القائمة لحذف الوظائف التي مر عليها أكثر من 30 يوماً
+    # تصفية القائمة لحذف الوظائف القديمة (أكثر من 30 يوماً)
     final_filtered_jobs = []
     today = datetime.now()
     
@@ -96,13 +108,13 @@ def save_and_optimize_jobs(new_jobs, file_path):
         except ValueError:
             final_filtered_jobs.append(job)
 
-    # ترتيب الوظائف من الأحدث تاريخاً إلى الأقدم
+    # ترتيب الوظائف من الأحدث إلى الأقدم
     final_filtered_jobs.sort(key=lambda x: x.get('date', ''), reverse=True)
 
-    # اقتطاع أول 1000 وظيفة فقط لتجنب تضخم البيانات
+    # اقتطاع أول 1000 وظيفة فقط لتجنب تضخم حجم الملف
     final_filtered_jobs = final_filtered_jobs[:1000]
 
-    # إعادة توليد الـ ID بشكل متسلسل للواجهة
+    # إعادة توليد الـ ID بشكل متسلسل ومستقر وثابت للروابط
     for index, job in enumerate(final_filtered_jobs):
         job['id'] = index + 1
 
@@ -112,6 +124,9 @@ def save_and_optimize_jobs(new_jobs, file_path):
         print(f"🚀 Mega Update Success! JobMine database expanded: {len(final_filtered_jobs)}/1000 jobs active.")
     except Exception as e:
         print(f"⚠️ Failed to save jobs database: {e}")
+        
+    # حقن استدعاء الـ Sitemap هنا لتمرير المصفوفة النهائية الجاهزة مباشرة
+    generate_dynamic_sitemap(current_dir, final_filtered_jobs)
 
 
 # ==========================================================================
@@ -119,7 +134,6 @@ def save_and_optimize_jobs(new_jobs, file_path):
 # ==========================================================================
 
 def fetch_from_remote_ok():
-    """المصدر 1: Remote OK General"""
     print("🤖 Mining Source 1: Remote OK...")
     jobs = []
     try:
@@ -145,7 +159,6 @@ def fetch_from_remote_ok():
     return jobs
 
 def fetch_from_we_work_remotely():
-    """المصدر 2: We Work Remotely"""
     print("🤖 Mining Source 2: We Work Remotely...")
     jobs = []
     try:
@@ -159,7 +172,7 @@ def fetch_from_we_work_remotely():
                     "title": w_job.get('title', 'Remote Web Developer'),
                     "company": w_job.get('company', 'Global Firm'),
                     "category": map_category([w_job.get('category', 'Development')]),
-                    "location": w_job.get('region', 'Worldwide'),  # 🎯 تم تصحيح المفتاح هنا ليعمل بسلاسة
+                    "location": w_job.get('region', 'Worldwide'),
                     "type": w_job.get('type', 'Full-time'),
                     "salary": "Competitive",
                     "tags": ["Tech", "Remote", "WWR"],
@@ -171,7 +184,6 @@ def fetch_from_we_work_remotely():
     return jobs
 
 def fetch_from_design_feed():
-    """المصدر 3: Remote OK Design Segment (مخصص للتصميم والـ UI/UX)"""
     print("🤖 Mining Source 3: Design & UI/UX Segment...")
     jobs = []
     try:
@@ -197,7 +209,6 @@ def fetch_from_design_feed():
     return jobs
 
 def fetch_from_marketing_feed():
-    """المصدر 4: Remote OK Marketing Segment (مخصص للتسويق والمبيعات)"""
     print("🤖 Mining Source 4: Marketing & Sales Segment...")
     jobs = []
     try:
@@ -223,7 +234,6 @@ def fetch_from_marketing_feed():
     return jobs
 
 def fetch_from_product_feed():
-    """المصدر 5: Remote OK Product Segment (مخصص لإدارة المشاريع والمنتجات)"""
     print("🤖 Mining Source 5: Product & Management Segment...")
     jobs = []
     try:
@@ -253,7 +263,6 @@ def main_mining_process():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(current_dir, 'jobs.json')
     
-    # تجميع كتل البيانات من كافة المصادر الخمسة
     all_fetched_jobs = []
     all_fetched_jobs.extend(fetch_from_remote_ok())
     all_fetched_jobs.extend(fetch_from_we_work_remotely())
@@ -262,7 +271,7 @@ def main_mining_process():
     all_fetched_jobs.extend(fetch_from_product_feed())
     
     if all_fetched_jobs:
-        save_and_optimize_jobs(all_fetched_jobs, file_path)
+        save_and_optimize_jobs(all_fetched_jobs, file_path, current_dir)
     else:
         print("⚠️ All 5 engines returned empty shifts. Utilizing fallback active mechanism...")
         fallback_jobs = [
@@ -291,9 +300,7 @@ def main_mining_process():
                 "date": datetime.now().strftime('%Y-%m-%d')
             }
         ]
-        save_and_optimize_jobs(fallback_jobs, file_path)
-        
-    generate_dynamic_sitemap(current_dir)
+        save_and_optimize_jobs(fallback_jobs, file_path, current_dir)
 
 if __name__ == "__main__":
     main_mining_process()
