@@ -1,6 +1,198 @@
 [
   {
     "id": 1,
+    "title": "Entry Level Administrative Assistant",
+    "company": "RecruitLytixs Hires",
+    "category": "Development",
+    "location": "Ø§ÙÙØ¯ÙÙØ©, Ø§ÙÙØ¯ÙÙØ© Ø§ÙÙØ¯ÙÙØ© Ø§ÙØ³Ø¹ÙØ¯ÙØ©",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "customer support",
+      "dev"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-entry-level-administrative-assistant-recruitlytixs-hires-1133566",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 2,
+    "title": "Operations Support Manager",
+    "company": "The Chartered Institute for Securities &amp; Investment (The CISI)",
+    "category": "Development",
+    "location": "Ø§ÙØ±ÙØ§Ø¶, Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ³Ø¹ÙØ¯ÙØ©",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "customer support",
+      "dev"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-operations-support-manager-the-chartered-institute-for-securities-amp-investment-the-cisi-1133565",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 3,
+    "title": "Head of Content",
+    "company": "OnTheGoSystems",
+    "category": "Development",
+    "location": "Lisboa, Lisboa, Lisboa, Portugal",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "writer",
+      "strategy",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-head-of-content-onthegosystems-1133539",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 4,
+    "title": "Social Support Coordinator",
+    "company": "Focusrite",
+    "category": "Development",
+    "location": "El Segundo, El Segundo, California, United States",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "senior",
+      "exec",
+      "social media"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-social-support-coordinator-focusrite-1133553",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 5,
+    "title": "FX Dealer",
+    "company": "RBC",
+    "category": "Design",
+    "location": "Port of Spain, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "education",
+      "customer support",
+      "marketing"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-fx-dealer-rbc-1133536",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 6,
+    "title": "Scheduling Coordinator",
+    "company": "Classet",
+    "category": "Development",
+    "location": "",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "sys admin",
+      "exec",
+      "content writing"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-scheduling-coordinator-classet-1133535",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 7,
+    "title": "Junior Customer Success Representative",
+    "company": "Mission Inbox",
+    "category": "Development",
+    "location": "Belgrade, Belgrade, Serbia",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "writer",
+      "strategy",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-junior-customer-success-representative-mission-inbox-1133540",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 8,
+    "title": "Customer Service Agent",
+    "company": "OnlineJobs.PH",
+    "category": "Development",
+    "location": "Sydney, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "consulting",
+      "education",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-customer-service-agent-onlinejobs-ph-1133544",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 9,
+    "title": "Business Development Representative",
+    "company": "Bucket Listers",
+    "category": "Development",
+    "location": "New York, New York, New York, United States",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "sys admin",
+      "exec",
+      "content writing"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-business-development-representative-bucket-listers-1133532",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 10,
+    "title": "Content & Social Media Executive",
+    "company": "Work Force Nexus",
+    "category": "Development",
+    "location": "UK",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "education",
+      "writer",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-content-social-media-executive-work-force-nexus-1133530",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 11,
+    "title": "Creative Copywriter",
+    "company": "Deadpan ð ð¬",
+    "category": "Development",
+    "location": "",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "education",
+      "writer",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-creative-copywriter-deadpan-1133529",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 12,
+    "title": "Pharmacovigilance Associate Position",
+    "company": "Puma Biotechnology, Inc.",
+    "category": "Development",
+    "location": "Los Angeles, Los Angeles, California, United States",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "sys admin",
+      "exec",
+      "content writing"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-pharmacovigilance-associate-position-puma-biotechnology-inc-1133533",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 13,
     "title": "Test posting",
     "company": "Vortex Companies - Trenchless Infrastructure Rehabilitation Solutions",
     "category": "Development",
@@ -16,7 +208,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 2,
+    "id": 14,
     "title": "Performance Marketing Manager",
     "company": "Varun Digital Media",
     "category": "Development",
@@ -31,7 +223,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 3,
+    "id": 15,
     "title": "Patient Care Coordinator",
     "company": "Winning Assistants",
     "category": "Development",
@@ -46,7 +238,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 4,
+    "id": 16,
     "title": "Lead Software Engineer Ads",
     "company": "Jane Technologies",
     "category": "Development",
@@ -62,7 +254,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 5,
+    "id": 17,
     "title": "Social Media and Content Manager",
     "company": "ForceBrands",
     "category": "Design",
@@ -78,7 +270,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 6,
+    "id": 18,
     "title": "Corporate Payroll Administrator",
     "company": "PENN Entertainment, Inc",
     "category": "Development",
@@ -94,7 +286,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 7,
+    "id": 19,
     "title": "Clinical Research Associate",
     "company": "i-Pharm Consulting",
     "category": "Development",
@@ -109,7 +301,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 8,
+    "id": 20,
     "title": "Project Manager",
     "company": "Kate Farms",
     "category": "Development",
@@ -122,196 +314,6 @@
       "payroll"
     ],
     "apply_link": "https://remoteOK.com/remote-jobs/remote-project-manager-kate-farms-1133515",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 9,
-    "title": "Capital Planning Analyst",
-    "company": "PBG",
-    "category": "Development",
-    "location": "Washington, Washington, District of Columbia, United States",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "exec",
-      "content writing",
-      "junior"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-capital-planning-analyst-pbg-1133580",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 10,
-    "title": "Inventory Planner",
-    "company": "Grove Collaborative",
-    "category": "Design",
-    "location": "Philadelphia, Philadelphia, Pennsylvania, United States",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "consulting",
-      "senior",
-      "payroll"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-inventory-planner-grove-collaborative-1133514",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 11,
-    "title": "Program Manager",
-    "company": "PBG",
-    "category": "Development",
-    "location": "Washington, Washington, District of Columbia, United States",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "consulting",
-      "senior",
-      "payroll"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-program-manager-pbg-1133517",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 12,
-    "title": "Director of Commercial Operations",
-    "company": "Curaleaf International",
-    "category": "Development",
-    "location": "Blackpool Area",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "education",
-      "writer",
-      "customer support"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-director-of-commercial-operations-curaleaf-international-1133527",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 13,
-    "title": "Junior Data Analyst Data Scientist",
-    "company": "AWISEE",
-    "category": "Development",
-    "location": "Serbia, ",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "analyst",
-      "data science",
-      "junior"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-junior-data-analyst-data-scientist-awisee-1133504",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 14,
-    "title": "Medical Writer",
-    "company": "Lumanity",
-    "category": "Development",
-    "location": "London, London, England, United Kingdom",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "education",
-      "writer",
-      "customer support"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-medical-writer-lumanity-1133526",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 15,
-    "title": "Front End Developer Fresher",
-    "company": "ZYPHRA TECH",
-    "category": "Development",
-    "location": "Greater Visakhapatnam Area",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "exec",
-      "customer support",
-      "dev"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-front-end-developer-fresher-zyphra-tech-1133568",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 16,
-    "title": "Business Development Representative MARCORSYSCOM",
-    "company": "NOBLE",
-    "category": "Development",
-    "location": "Quantico, Quantico, Virginia, United States",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "exec",
-      "content writing",
-      "junior"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-business-development-representative-marcorsyscom-noble-1133582",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 17,
-    "title": "Customer Support Representative",
-    "company": "Dario",
-    "category": "Development",
-    "location": "Gurugram, Gurugram, Haryana, India",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "exec",
-      "marketing",
-      "customer support"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-customer-support-representative-dario-1133522",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 18,
-    "title": "24 HR Review VA Virtual Receptionist",
-    "company": "OnlineJobs.PH",
-    "category": "Development",
-    "location": "Fairfax County, ",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "consulting",
-      "senior",
-      "payroll"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-24-hr-review-va-virtual-receptionist-onlinejobs-ph-1133516",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 19,
-    "title": "Gerente de Receita SÃªnior",
-    "company": "E-inscriÃ§Ã£o",
-    "category": "Development",
-    "location": "Barueri, Barueri, SÃ£o Paulo, Brasil",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "exec",
-      "saas",
-      "marketing"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-gerente-de-receita-senior-e-inscricao-1133585",
-    "date": "2026-06-18"
-  },
-  {
-    "id": 20,
-    "title": "Narrator",
-    "company": "Hire Feed",
-    "category": "Development",
-    "location": "Remote, ",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "hr"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-narrator-hire-feed-1133501",
     "date": "2026-06-18"
   }
 ]
