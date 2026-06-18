@@ -45,6 +45,128 @@
             margin-bottom: 6px;
             font-family: sans-serif;
         }
+        
+        /* Sidebar Layout Integration */
+        .site-layout {
+            display: flex;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            gap: 20px;
+        }
+        .sidebar {
+            width: 280px;
+            flex-shrink: 0;
+            background-color: var(--card-bg, #1e1e24);
+            border-radius: 12px;
+            padding: 20px;
+            height: fit-content;
+        }
+        .sidebar-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar-menu-title {
+            font-size: 14px;
+            color: #777;
+            text-transform: uppercase;
+            margin: 15px 0 10px 0;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+        .sidebar-menu li a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            color: #ccc;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            margin-bottom: 5px;
+        }
+        .sidebar-menu li a:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: #fff;
+        }
+        .main-content-area {
+            flex-grow: 1;
+            min-width: 0;
+        }
+        
+        /* Showcase Cards */
+        .showcase-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+        .showcase-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .showcase-card:hover { transform: translateY(-5px); }
+        .showcase-card i { font-size: 28px; color: #ffb703; margin-bottom: 12px; }
+        .showcase-card h4 { margin: 0 0 8px 0; color: #fff; }
+        .showcase-card p { margin: 0; font-size: 13px; color: #aaa; }
+
+        /* Load More Buttons */
+        .load-more-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0 40px 0;
+        }
+        .load-more-btn {
+            background: transparent;
+            border: 2px solid #ffb703;
+            color: #ffb703;
+            padding: 10px 24px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .load-more-btn:hover {
+            background: #ffb703;
+            color: #000;
+        }
+
+        /* Specialty Quick Buttons */
+        .specialty-buttons-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .specialty-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        .specialty-btn:hover, .specialty-btn.active {
+            background: #ffb703;
+            color: #000;
+            border-color: #ffb703;
+        }
+
+        @media (max-width: 992px) {
+            .site-layout { flex-direction: column; }
+            .sidebar { width: 100%; }
+        }
     </style>
 </head>
 <body>
@@ -54,6 +176,24 @@
             <div class="welcome-badge"><i class="fa-solid fa-bolt"></i> Discover Your Next Career Move</div>
             <h1 class="logo">Job<span>Mine</span></h1>
             <p class="tagline">Dig deep into the ultimate remote tech mines. Hand-picked, premium opportunities from global industry leaders updated daily.</p>
+            
+            <div class="showcase-container">
+                <div class="showcase-card">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h4>Instant Access</h4>
+                    <p>No registration required, explore directly.</p>
+                </div>
+                <div class="showcase-card">
+                    <i class="fa-solid fa-robot"></i>
+                    <h4>AI Curated</h4>
+                    <p>Smart mining and filtering every 6 hours.</p>
+                </div>
+                <div class="showcase-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h4>Verified Sources</h4>
+                    <p>100% scam-free tech opportunities.</p>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -97,72 +237,115 @@
         </div>
     </section>
 
-    <section class="filter-section">
-        <div class="filter-container">
-            <div class="search-wrapper">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" id="searchInput" placeholder="Search by job title, company name, or stack keywords...">
-            </div>
+    <div class="site-layout">
+        
+        <aside class="sidebar">
+            <ul class="sidebar-menu">
+                <li class="sidebar-menu-title">Main Navigation</li>
+                <li><a href="#" class="active"><i class="fa-solid fa-house"></i> Home Hub</a></li>
+                
+                <li class="sidebar-menu-title">Categories</li>
+                <li><a href="#"><i class="fa-solid fa-code"></i> Development</a></li>
+                <li><a href="#"><i class="fa-solid fa-paint-brush"></i> Design & UI/UX</a></li>
+                <li><a href="#"><i class="fa-solid fa-chart-line"></i> Marketing</a></li>
+                <li><a href="#"><i class="fa-solid fa-box-open"></i> Product Management</a></li>
+                
+                <li class="sidebar-menu-title">Legal & Info</li>
+                <li><a href="#"><i class="fa-solid fa-file-contract"></i> Terms of Use</a></li>
+                <li><a href="#"><i class="fa-solid fa-shield-halved"></i> Privacy Policy</a></li>
+                <li><a href="#"><i class="fa-solid fa-triangle-exclamation"></i> Disclaimer</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content-area">
             
-            <div class="select-wrapper">
-                <i class="fa-solid fa-filter filter-icon"></i>
-                <select id="categoryFilter">
-                    <option value="all">All Categories</option>
-                    <option value="Development">💻 Software Development</option>
-                    <option value="Design">🎨 Design & UI/UX</option>
-                    <option value="Marketing">📈 Marketing & Sales</option>
-                    <option value="Product">📦 Product Management</option>
-                    <option value="Support">🎧 Customer Support</option>
-                </select>
-            </div>
-        </div>
-    </section>
+            <section class="filter-section" style="padding: 0; margin-bottom: 20px;">
+                <div class="filter-container" style="max-width: 100%; width: 100%;">
+                    <div class="search-wrapper">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="searchInput" placeholder="Search by job title, company name, or stack keywords...">
+                    </div>
+                    
+                    <div class="select-wrapper">
+                        <i class="fa-solid fa-filter filter-icon"></i>
+                        <select id="categoryFilter">
+                            <option value="all">All Categories</option>
+                            <option value="Development">💻 Software Development</option>
+                            <option value="Design">🎨 Design & UI/UX</option>
+                            <option value="Marketing">📈 Marketing & Sales</option>
+                            <option value="Product">📦 Product Management</option>
+                            <option value="Support">🎧 Customer Support</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="specialty-buttons-container">
+                    <button class="specialty-btn active" data-spec="all">All Mines</button>
+                    <button class="specialty-btn" data-spec="frontend">Frontend</button>
+                    <button class="specialty-btn" data-spec="backend">Backend</button>
+                    <button class="specialty-btn" data-spec="fullstack">Fullstack</button>
+                    <button class="specialty-btn" data-spec="uiux">UI/UX Design</button>
+                    <button class="specialty-btn" data-spec="seo">SEO & Marketing</button>
+                </div>
+            </section>
 
-    <div class="ad-zone-wrapper">
-        <div class="ad-zone-label">Sponsored Advertisement</div>
-        <script>
-          atOptions = {
-            'key' : 'ec060ebe971281b3bae0688731834b5f',
-            'format' : 'iframe',
-            'height' : 50,
-            'width' : 320,
-            'params' : {}
-          };
-        </script>
-        <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
+            <div class="ad-zone-wrapper">
+                <div class="ad-zone-label">Sponsored Advertisement</div>
+                <script>
+                  atOptions = {
+                    'key' : 'ec060ebe971281b3bae0688731834b5f',
+                    'format' : 'iframe',
+                    'height' : 50,
+                    'width' : 320,
+                    'params' : {}
+                  };
+                </script>
+                <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
+            </div>
+
+            <section class="hub-section" style="max-width: 100%; padding: 0; margin-bottom: 30px;">
+                <div class="hub-container" style="max-width: 100%;">
+                    <h2 class="section-title"><i class="fa-solid fa-star"></i> Top Global Remote Job Sources</h2>
+                    <p class="section-subtitle">Explore our top global curated partner mines:</p>
+                    <div class="hub-grid">
+                        <a href="https://weworkremotely.com" target="_blank" class="hub-card"><i class="fa-solid fa-laptop-code"></i> We Work Remotely</a>
+                        <a href="https://remoteok.com" target="_blank" class="hub-card"><i class="fa-solid fa-circle-check"></i> Remote OK</a>
+                        <a href="https://www.flexjobs.com" target="_blank" class="hub-card"><i class="fa-solid fa-gem"></i> FlexJobs</a>
+                        <a href="https://workingnomads.com" target="_blank" class="hub-card"><i class="fa-solid fa-passport"></i> Working Nomads</a>
+                    </div>
+                </div>
+            </section>
+
+            <main class="jobs-section" style="max-width: 100%; padding: 0;">
+                
+                <div class="jobs-container-header">
+                    <h2 class="feed-title" style="color: #ffb703;"><i class="fa-solid fa-fire-flame-curved"></i> Featured & Demanded Jobs</h2>
+                </div>
+                <div class="jobs-container" id="featuredJobsContainer" style="max-width: 100%; margin-bottom: 15px;">
+                    <div class="loading-status">
+                        <i class="fa-solid fa-gear fa-spin"></i> Loading premium demanded opportunities...
+                    </div>
+                </div>
+                <div class="load-more-container">
+                    <button class="load-more-btn" id="loadMoreFeaturedBtn"><i class="fa-solid fa-arrow-down"></i> Load More Featured Jobs</button>
+                </div>
+
+                <div class="jobs-container-header">
+                    <h2 class="feed-title"><i class="fa-solid fa-clock"></i> Latest Remote Openings</h2>
+                </div>
+                <div class="jobs-container" id="jobsContainer" style="max-width: 100%;">
+                    <div class="loading-status">
+                        <i class="fa-solid fa-gear fa-spin"></i> Loading latest opportunities for you...
+                    </div>
+                </div>
+                <div class="load-more-container">
+                    <button class="load-more-btn" id="loadMoreLatestBtn"><i class="fa-solid fa-arrow-down"></i> Load More Latest Jobs</button>
+                </div>
+
+            </main>
+
+        </div>
     </div>
-
-    <section class="hub-section">
-        <div class="hub-container">
-            <h2 class="section-title"><i class="fa-solid fa-star"></i> Top Global Remote Job Sources</h2>
-            <p class="section-subtitle">Can't find what you are looking for? Explore our top global curated partner mines:</p>
-            <div class="hub-grid">
-                <a href="https://weworkremotely.com" target="_blank" class="hub-card">
-                    <i class="fa-solid fa-laptop-code"></i> We Work Remotely
-                </a>
-                <a href="https://remoteok.com" target="_blank" class="hub-card">
-                    <i class="fa-solid fa-circle-check"></i> Remote OK
-                </a>
-                <a href="https://www.flexjobs.com" target="_blank" class="hub-card">
-                    <i class="fa-solid fa-gem"></i> FlexJobs
-                </a>
-                <a href="https://workingnomads.com" target="_blank" class="hub-card">
-                    <i class="fa-solid fa-passport"></i> Working Nomads
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <main class="jobs-section">
-        <div class="jobs-container-header">
-            <h2 class="feed-title"><i class="fa-solid fa-fire-flame-curved"></i> Latest Curated Job Openings</h2>
-        </div>
-        <div class="jobs-container" id="jobsContainer">
-            <div class="loading-status">
-                <i class="fa-solid fa-gear fa-spin"></i> Loading amazing opportunities for you...
-            </div>
-        </div>
-    </main>
 
     <div class="ad-zone-wrapper">
         <div class="ad-zone-label">Recommended for you</div>
