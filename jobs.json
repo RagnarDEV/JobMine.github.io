@@ -1,50 +1,316 @@
 [
   {
     "id": 1,
-    "title": "Remote Senior Frontend Engineer",
-    "company": "GitLab",
+    "title": "Performance Marketing Manager",
+    "company": "Varun Digital Media",
     "category": "Development",
-    "location": "Worldwide",
+    "location": "India, ",
     "type": "Full-time",
-    "salary": "$110k - $140k",
-    "tags": ["React", "TypeScript", "Tailwind"],
-    "apply_link": "https://about.gitlab.com/jobs/",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "marketing"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-performance-marketing-manager-varun-digital-media-1133521",
     "date": "2026-06-18"
   },
   {
     "id": 2,
-    "title": "Product & UI/UX Designer",
-    "company": "Buffer",
-    "category": "Design",
-    "location": "Worldwide",
+    "title": "Patient Care Coordinator",
+    "company": "Winning Assistants",
+    "category": "Development",
+    "location": "",
     "type": "Full-time",
-    "salary": "$85k - $105k",
-    "tags": ["Figma", "Product Design", "Design Systems"],
-    "apply_link": "https://buffer.com/journey",
-    "date": "2026-06-17"
+    "salary": "$5k - $6k",
+    "tags": [
+      "coordinator",
+      "full time"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-patient-care-coordinator-winning-assistants-1133520",
+    "date": "2026-06-18"
   },
   {
     "id": 3,
-    "title": "Growth Marketing Manager",
-    "company": "Zapier",
-    "category": "Marketing",
-    "location": "US / Europe Remote",
-    "type": "Contract",
-    "salary": "$90k - $110k",
-    "tags": ["SEO", "Google Analytics", "Content"],
-    "apply_link": "https://zapier.com/jobs",
-    "date": "2026-06-16"
+    "title": "Lead Software Engineer Ads",
+    "company": "Jane Technologies",
+    "category": "Development",
+    "location": "Santa Cruz, California",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "dev",
+      "design",
+      "sys admin"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-lead-software-engineer-ads-jane-technologies-1133519",
+    "date": "2026-06-18"
   },
   {
     "id": 4,
-    "title": "Technical Customer Support Specialist",
-    "company": "Doist",
-    "category": "Support",
-    "location": "Worldwide",
-    "type": "Part-time",
+    "title": "Social Media and Content Manager",
+    "company": "ForceBrands",
+    "category": "Design",
+    "location": "",
+    "type": "Full-time",
     "salary": "Competitive",
-    "tags": ["Customer Success", "Technical Support", "SaaS"],
-    "apply_link": "https://doist.com/careers",
-    "date": "2026-06-15"
+    "tags": [
+      "consulting",
+      "senior",
+      "payroll"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-social-media-and-content-manager-forcebrands-1133513",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 5,
+    "title": "Corporate Payroll Administrator",
+    "company": "PENN Entertainment, Inc",
+    "category": "Development",
+    "location": "United States, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "consulting",
+      "senior",
+      "payroll"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-corporate-payroll-administrator-penn-entertainment-inc-1133511",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 6,
+    "title": "Clinical Research Associate",
+    "company": "i-Pharm Consulting",
+    "category": "Development",
+    "location": "United States, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "consulting",
+      "senior"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-clinical-research-associate-i-pharm-consulting-1133510",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 7,
+    "title": "Project Manager",
+    "company": "Kate Farms",
+    "category": "Development",
+    "location": "Goleta, Goleta, California, United States",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "consulting",
+      "senior",
+      "payroll"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-project-manager-kate-farms-1133515",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 8,
+    "title": "Capital Planning Analyst",
+    "company": "PBG",
+    "category": "Development",
+    "location": "Washington, Washington, District of Columbia, United States",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "content writing",
+      "junior"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-capital-planning-analyst-pbg-1133580",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 9,
+    "title": "Inventory Planner",
+    "company": "Grove Collaborative",
+    "category": "Design",
+    "location": "Philadelphia, Philadelphia, Pennsylvania, United States",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "consulting",
+      "senior",
+      "payroll"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-inventory-planner-grove-collaborative-1133514",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 10,
+    "title": "Program Manager",
+    "company": "PBG",
+    "category": "Development",
+    "location": "Washington, Washington, District of Columbia, United States",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "consulting",
+      "senior",
+      "payroll"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-program-manager-pbg-1133517",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 11,
+    "title": "Director of Commercial Operations",
+    "company": "Curaleaf International",
+    "category": "Development",
+    "location": "Blackpool Area",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "education",
+      "writer",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-director-of-commercial-operations-curaleaf-international-1133527",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 12,
+    "title": "Junior Data Analyst Data Scientist",
+    "company": "AWISEE",
+    "category": "Development",
+    "location": "Serbia, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "analyst",
+      "data science",
+      "junior"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-junior-data-analyst-data-scientist-awisee-1133504",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 13,
+    "title": "Medical Writer",
+    "company": "Lumanity",
+    "category": "Development",
+    "location": "London, London, England, United Kingdom",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "education",
+      "writer",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-medical-writer-lumanity-1133526",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 14,
+    "title": "Front End Developer Fresher",
+    "company": "ZYPHRA TECH",
+    "category": "Development",
+    "location": "Greater Visakhapatnam Area",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "customer support",
+      "dev"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-front-end-developer-fresher-zyphra-tech-1133568",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 15,
+    "title": "Business Development Representative MARCORSYSCOM",
+    "company": "NOBLE",
+    "category": "Development",
+    "location": "Quantico, Quantico, Virginia, United States",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "content writing",
+      "junior"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-business-development-representative-marcorsyscom-noble-1133582",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 16,
+    "title": "Customer Support Representative",
+    "company": "Dario",
+    "category": "Development",
+    "location": "Gurugram, Gurugram, Haryana, India",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "marketing",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-customer-support-representative-dario-1133522",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 17,
+    "title": "24 HR Review VA Virtual Receptionist",
+    "company": "OnlineJobs.PH",
+    "category": "Development",
+    "location": "Fairfax County, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "consulting",
+      "senior",
+      "payroll"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-24-hr-review-va-virtual-receptionist-onlinejobs-ph-1133516",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 18,
+    "title": "Narrator",
+    "company": "Hire Feed",
+    "category": "Development",
+    "location": "Remote, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "hr"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-narrator-hire-feed-1133501",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 19,
+    "title": "Marketing Manager",
+    "company": "Hunt St",
+    "category": "Development",
+    "location": "Philippines",
+    "type": "Full-time",
+    "salary": "$2500k - $3500k",
+    "tags": [
+      "exec",
+      "marketing"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-marketing-manager-hunt-st-1133500",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 20,
+    "title": "Product Designer Design Systems",
+    "company": "Penn Interactive",
+    "category": "Design",
+    "location": "Remote",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "design",
+      "product designer",
+      "sys admin"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-product-designer-design-systems-penn-interactive-1133499",
+    "date": "2026-06-18"
   }
 ]
