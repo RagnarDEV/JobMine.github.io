@@ -1,0 +1,16 @@
+# robots.txt for JobMine
+# السماح لمحركات البحث بأرشفة الموقع بالكامل
+User-agent: *
+Allow: /
+
+# مسارات الصفحات القانونية المسموح بأرشفتها
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /disclaimer.html
+
+# تحديد خريطة الموقع (إذا قمت بإنشائها لاحقاً، استبدل الرابط أدناه)
+Sitemap: https://www.jobmine.site.je/sitemap.xml
+
+# منع أرشفة ملفات التصميم والبرمجة (اختياري)
+Disallow: /style.css
+Disallow: /app.js
