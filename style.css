@@ -40,7 +40,7 @@ a {
 }
 
 /* ==========================================================================
-   ⚙️ Adsterra Advertisement Wrappers (تنسيق الحاويات الإعلانية لمنع تشويه الهيكل)
+   ⚙️ Adsterra Advertisement Wrappers
    ========================================================================== */
 .ad-zone-wrapper {
     display: flex;
@@ -62,7 +62,7 @@ a {
 }
 
 /* ==========================================================================
-   📦 Global Layout Grid System (هيكل تقسيم الواجهة المطور والمصلح)
+   📦 Global Layout Grid System (إصدار الكمبيوتر الافتراضي)
    ========================================================================== */
 .site-layout {
     display: grid;
@@ -74,7 +74,7 @@ a {
 }
 
 .main-content-area {
-    min-width: 0; /* يمنع تمدد وكسر العناصر الداخلية المتجاوبة */
+    min-width: 0; 
 }
 
 /* 1. Hero & Welcome Section */
@@ -123,7 +123,7 @@ a {
     margin: 0 auto 10px;
 }
 
-/* 🌟 Showcase Feature Cards (البطاقات الاستعراضية المضافة حديثاً) */
+/* 🌟 Showcase Feature Cards */
 .showcase-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -165,7 +165,7 @@ a {
     line-height: 1.4;
 }
 
-/* 2. Sidebar Component (تنسيق القائمة الجانبية وإصلاح ظهورها) */
+/* 2. Sidebar Component (القائمة الجانبية للكمبيوتر) */
 .sidebar {
     background-color: var(--bg-surface);
     border: 1px solid var(--bg-border);
@@ -321,7 +321,7 @@ a {
     box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.15);
 }
 
-/* 🎯 Specialty Quick Buttons (أزرار الاختصاص السريعة) */
+/* 🎯 Specialty Quick Buttons */
 .specialty-buttons-container {
     display: flex;
     flex-wrap: wrap;
@@ -501,7 +501,7 @@ a {
     background-color: var(--accent-green-hover);
 }
 
-/* 🔄 Load More Button Styling (تنسيق أزرار عرض المزيد) */
+/* 🔄 Load More Button Styling */
 .load-more-container {
     display: flex;
     justify-content: center;
@@ -556,70 +556,75 @@ a {
 }
 
 /* ==========================================================================
-   Responsive Media Queries (إصلاح وتجاوب الشاشات المختلفة والموبايل بالكامل)
+   📱 Responsive Media Queries (قواعد صارمة ومجربة للموبايل فقط لمنع التداخل)
    ========================================================================== */
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
+    /* إلغاء نظام العامودين التابع للكمبيوتر برمجياً بشكل صارم */
     .site-layout {
-        grid-template-columns: 1fr; /* إلغاء التقسيم ثنائي الأعمدة ليكون متوافقاً عمودياً */
+        grid-template-columns: 1fr !important; 
         padding: 0 15px;
         gap: 15px;
     }
 
+    /* إلغاء ميزة الـ sticky والتثبيت على الموبايل لكي لا تطفو فوق الإعلانات */
     .sidebar {
-        position: relative;
-        top: 0;
-        padding: 15px;
+        position: relative !important;
+        top: 0 !important;
+        padding: 15px !important;
+        width: 100% !important;
     }
 
-    /* تحويل القائمة الجانبية إلى كروت شبكية ثنائية أنيقة على الموبايل */
+    /* تقسيم روابط القائمة الجانبية تلقائياً لشبكة ثنائية الأسطر والروابط */
     .sidebar-menu {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
     }
 
+    /* جعل العناوين الفرعية تأخذ العرض الكامل للمربعات التفاعلية */
     .sidebar-menu-title {
-        grid-column: span 2;
-        margin-top: 10px;
-        margin-bottom: 2px;
+        grid-column: span 2 !important;
+        margin-top: 12px !important;
+        margin-bottom: 2px !important;
     }
 
     .sidebar-menu-title:first-child {
-        margin-top: 0;
+        margin-top: 0 !important;
     }
 
     .sidebar-menu li a {
-        margin-bottom: 0;
-        padding: 8px 12px;
-        font-size: 0.85rem;
+        margin-bottom: 0 !important;
+        padding: 8px 12px !important;
+        font-size: 0.85rem !important;
+        background-color: rgba(255, 255, 255, 0.02);
     }
-}
-
-@media (max-width: 768px) {
+    
+    /* جعل كروت الفلاتر والبحث مرنة تحت بعضها عمودياً على الموبايل */
     .filter-container {
-        flex-direction: column;
+        flex-direction: column !important;
     }
     
     .search-wrapper, .select-wrapper {
-        width: 100%;
+        width: 100% !important;
     }
 
+    /* جعل كروت الوظائف تترتب بشكل عمودي لتناسب حجم الشاشات الصغيرة */
     .job-card {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 15px !important;
     }
 
     .apply-btn {
-        width: 100%;
-        text-align: center;
+        width: 100% !important;
+        text-align: center !important;
     }
     
     .logo {
-        font-size: 2.3rem;
+        font-size: 2.3rem !important;
     }
 
     .showcase-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 }
