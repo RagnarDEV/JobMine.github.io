@@ -297,11 +297,11 @@
                 </div>
                 
                 <div class="specialty-buttons-container">
-                    <button class="specialty-btn active" onclick="filterBySpecialty('all')">All Mines</button>
-                    <button class="specialty-btn" onclick="filterBySpecialty('frontend')">Frontend</button>
-                    <button class="specialty-btn" onclick="filterBySpecialty('backend')">Backend</button>
-                    <button class="specialty-btn" onclick="filterBySpecialty('fullstack')">Fullstack</button>
-                    <button class="specialty-btn" onclick="filterBySpecialty('uiux')">UI/UX Design</button>
+                    <button class="specialty-btn active" onclick="filterBySpecialty(event, 'all')">All Mines</button>
+                    <button class="specialty-btn" onclick="filterBySpecialty(event, 'frontend')">Frontend</button>
+                    <button class="specialty-btn" onclick="filterBySpecialty(event, 'backend')">Backend</button>
+                    <button class="specialty-btn" onclick="filterBySpecialty(event, 'fullstack')">Fullstack</button>
+                    <button class="specialty-btn" onclick="filterBySpecialty(event, 'uiux')">UI/UX Design</button>
                 </div>
             </section>
 
@@ -385,19 +385,27 @@
             const select = document.getElementById('categoryFilter');
             if(select) {
                 select.value = cat;
-                select.dispatchEvent(new Event('change'));
+                // إطلاق حدث التغيير بشكل متوافق تماماً
+                const event = new Event('change', { bubbles: true });
+                select.dispatchEvent(event);
             }
             window.scrollTo({ top: document.querySelector('.filter-section').offsetTop - 20, behavior: 'smooth' });
         }
-        function filterBySpecialty(spec) {
+        
+        function filterBySpecialty(e, spec) {
+            if (e) e.preventDefault();
             const searchInput = document.getElementById('searchInput');
             if(searchInput) {
                 searchInput.value = (spec === 'all') ? '' : spec;
-                searchInput.dispatchEvent(new Event('input'));
+                // إطلاق حدث الإدخال البرمجي الصحيح ليتم التقاطه فوراً بواسطة آلية الفلترة في app.js
+                const event = new Event('input', { bubbles: true });
+                searchInput.dispatchEvent(event);
             }
             const buttons = document.querySelectorAll('.specialty-btn');
             buttons.forEach(btn => btn.classList.remove('active'));
-            event.currentTarget.classList.add('active');
+            if (e && e.currentTarget) {
+                e.currentTarget.classList.add('active');
+            }
         }
     </script>
     <script src="app.js"></script>
