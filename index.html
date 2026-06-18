@@ -17,11 +17,6 @@
     <meta property="og:description" content="Hand-picked, premium remote opportunities from global industry leaders updated daily. Find your next tech career move.">
     <meta property="og:image" content="https://www.jobmine.site.je/assets/og-image.jpg">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://www.jobmine.site.je/">
-    <meta name="twitter:title" content="JobMine - Premium Remote Jobs Hub">
-    <meta name="twitter:description" content="Explore top global curated remote jobs in programming, design, and tech.">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 
@@ -31,91 +26,119 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin: 25px auto;
-            padding: 10px;
+            margin: 20px auto;
+            padding: 5px;
             max-width: 100%;
             overflow: hidden;
             text-align: center;
         }
         .ad-zone-label {
-            font-size: 11px;
-            color: #777;
+            font-size: 10px;
+            color: #666;
             text-transform: uppercase;
             letter-spacing: 1px;
-            margin-bottom: 6px;
-            font-family: sans-serif;
+            margin-bottom: 4px;
         }
         
-        /* Sidebar Layout Integration */
+        /* الهيكل الرئيسي المطور للكمبيوتر والموبايل */
         .site-layout {
-            display: flex;
-            max-width: 1400px;
+            display: grid;
+            grid-template-columns: 260px 1fr;
+            max-width: 1300px;
             margin: 0 auto;
             padding: 20px;
-            gap: 20px;
+            gap: 25px;
         }
+
         .sidebar {
-            width: 280px;
-            flex-shrink: 0;
-            background-color: var(--card-bg, #1e1e24);
+            background-color: #111115;
+            border: 1px solid rgba(255, 255, 255, 0.05);
             border-radius: 12px;
             padding: 20px;
             height: fit-content;
+            position: sticky;
+            top: 20px;
         }
+
         .sidebar-menu {
             list-style: none;
             padding: 0;
             margin: 0;
         }
+
         .sidebar-menu-title {
-            font-size: 14px;
-            color: #777;
+            font-size: 11px;
+            color: #555;
             text-transform: uppercase;
-            margin: 15px 0 10px 0;
+            margin: 20px 0 8px 0;
             letter-spacing: 1px;
             font-weight: bold;
         }
+        .sidebar-menu-title:first-child { margin-top: 0; }
+
         .sidebar-menu li a {
             display: flex;
             align-items: center;
             gap: 12px;
-            padding: 12px;
-            color: #ccc;
+            padding: 10px 14px;
+            color: #aaa;
             text-decoration: none;
             border-radius: 8px;
-            transition: all 0.3s ease;
-            margin-bottom: 5px;
+            transition: all 0.2s ease;
+            font-size: 14px;
+            margin-bottom: 4px;
         }
-        .sidebar-menu li a:hover {
-            background-color: rgba(255, 255, 255, 0.05);
-            color: #fff;
+
+        .sidebar-menu li a:hover, .sidebar-menu li a.active {
+            background-color: rgba(255, 255, 255, 0.04);
+            color: #ffb703;
         }
+
         .main-content-area {
-            flex-grow: 1;
-            min-width: 0;
+            min-width: 0; /* يمنع تمدد العناصر لكسر الواجهة */
         }
         
-        /* Showcase Cards */
+        /* البطاقات الاستعراضية */
         .showcase-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
             gap: 15px;
             margin-top: 25px;
         }
         .showcase-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            transition: transform 0.3s;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: left;
         }
-        .showcase-card:hover { transform: translateY(-5px); }
-        .showcase-card i { font-size: 28px; color: #ffb703; margin-bottom: 12px; }
-        .showcase-card h4 { margin: 0 0 8px 0; color: #fff; }
-        .showcase-card p { margin: 0; font-size: 13px; color: #aaa; }
+        .showcase-card i { font-size: 22px; color: #ffb703; margin-bottom: 8px; }
+        .showcase-card h4 { margin: 0 0 4px 0; color: #fff; font-size: 15px; }
+        .showcase-card p { margin: 0; font-size: 12px; color: #888; }
 
-        /* Load More Buttons */
+        /* أزرار المقارنة والاختصاصات */
+        .specialty-buttons-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .specialty-btn {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #ccc;
+            padding: 6px 14px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .specialty-btn:hover, .specialty-btn.active {
+            background: #ffb703;
+            color: #000;
+            border-color: #ffb703;
+        }
+
         .load-more-container {
             display: flex;
             justify-content: center;
@@ -125,47 +148,36 @@
             background: transparent;
             border: 2px solid #ffb703;
             color: #ffb703;
-            padding: 10px 24px;
-            font-size: 15px;
+            padding: 10px 22px;
+            font-size: 14px;
             font-weight: bold;
             border-radius: 30px;
             cursor: pointer;
-            transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+            transition: all 0.2s;
         }
-        .load-more-btn:hover {
-            background: #ffb703;
-            color: #000;
-        }
+        .load-more-btn:hover { background: #ffb703; color: #000; }
 
-        /* Specialty Quick Buttons */
-        .specialty-buttons-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 15px;
-        }
-        .specialty-btn {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            color: #fff;
-            padding: 8px 16px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 14px;
-            transition: all 0.3s;
-        }
-        .specialty-btn:hover, .specialty-btn.active {
-            background: #ffb703;
-            color: #000;
-            border-color: #ffb703;
-        }
-
-        @media (max-width: 992px) {
-            .site-layout { flex-direction: column; }
-            .sidebar { width: 100%; }
+        /* 📱 شاشات الهواتف والموبايل (Media Query لإصلاح التداخل) */
+        @media (max-width: 850px) {
+            .site-layout {
+                grid-template-columns: 1fr; /* إلغاء النظام الجانبي ليصبح عمودياً متناسقاً */
+                padding: 12px;
+                gap: 15px;
+            }
+            .sidebar {
+                position: relative;
+                top: 0;
+                padding: 15px;
+            }
+            .sidebar-menu {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr); /* ترتيب الروابط في شبكة ثنائية أنيقة بدلاً من قائمة طويلة */
+                gap: 8px;
+            }
+            .sidebar-menu-title {
+                grid-column: span 2;
+                margin-top: 10px;
+            }
         }
     </style>
 </head>
@@ -181,17 +193,17 @@
                 <div class="showcase-card">
                     <i class="fa-solid fa-bolt"></i>
                     <h4>Instant Access</h4>
-                    <p>No registration required, explore directly.</p>
+                    <p>Explore curated mines directly without any signup.</p>
                 </div>
                 <div class="showcase-card">
                     <i class="fa-solid fa-robot"></i>
                     <h4>AI Curated</h4>
-                    <p>Smart mining and filtering every 6 hours.</p>
+                    <p>Smart mining and filtering engine updates every 6 hours.</p>
                 </div>
                 <div class="showcase-card">
                     <i class="fa-solid fa-shield-halved"></i>
                     <h4>Verified Sources</h4>
-                    <p>100% scam-free tech opportunities.</p>
+                    <p>100% scam-free global tech opportunities.</p>
                 </div>
             </div>
         </div>
@@ -245,15 +257,15 @@
                 <li><a href="#" class="active"><i class="fa-solid fa-house"></i> Home Hub</a></li>
                 
                 <li class="sidebar-menu-title">Categories</li>
-                <li><a href="#"><i class="fa-solid fa-code"></i> Development</a></li>
-                <li><a href="#"><i class="fa-solid fa-paint-brush"></i> Design & UI/UX</a></li>
-                <li><a href="#"><i class="fa-solid fa-chart-line"></i> Marketing</a></li>
-                <li><a href="#"><i class="fa-solid fa-box-open"></i> Product Management</a></li>
+                <li><a href="#" onclick="filterByCategory('Development')"><i class="fa-solid fa-code"></i> Development</a></li>
+                <li><a href="#" onclick="filterByCategory('Design')"><i class="fa-solid fa-paint-brush"></i> Design & UI/UX</a></li>
+                <li><a href="#" onclick="filterByCategory('Marketing')"><i class="fa-solid fa-chart-line"></i> Marketing</a></li>
+                <li><a href="#" onclick="filterByCategory('Product')"><i class="fa-solid fa-box-open"></i> Product</a></li>
                 
                 <li class="sidebar-menu-title">Legal & Info</li>
-                <li><a href="#"><i class="fa-solid fa-file-contract"></i> Terms of Use</a></li>
-                <li><a href="#"><i class="fa-solid fa-shield-halved"></i> Privacy Policy</a></li>
-                <li><a href="#"><i class="fa-solid fa-triangle-exclamation"></i> Disclaimer</a></li>
+                <li><a href="terms.html"><i class="fa-solid fa-file-contract"></i> Terms of Use</a></li>
+                <li><a href="privacy.html"><i class="fa-solid fa-shield-halved"></i> Privacy Policy</a></li>
+                <li><a href="disclaimer.html"><i class="fa-solid fa-triangle-exclamation"></i> Disclaimer</a></li>
             </ul>
         </aside>
 
@@ -280,12 +292,11 @@
                 </div>
                 
                 <div class="specialty-buttons-container">
-                    <button class="specialty-btn active" data-spec="all">All Mines</button>
-                    <button class="specialty-btn" data-spec="frontend">Frontend</button>
-                    <button class="specialty-btn" data-spec="backend">Backend</button>
-                    <button class="specialty-btn" data-spec="fullstack">Fullstack</button>
-                    <button class="specialty-btn" data-spec="uiux">UI/UX Design</button>
-                    <button class="specialty-btn" data-spec="seo">SEO & Marketing</button>
+                    <button class="specialty-btn active" onclick="filterBySpecialty('all')">All Mines</button>
+                    <button class="specialty-btn" onclick="filterBySpecialty('frontend')">Frontend</button>
+                    <button class="specialty-btn" onclick="filterBySpecialty('backend')">Backend</button>
+                    <button class="specialty-btn" onclick="filterBySpecialty('fullstack')">Fullstack</button>
+                    <button class="specialty-btn" onclick="filterBySpecialty('uiux')">UI/UX Design</button>
                 </div>
             </section>
 
@@ -306,7 +317,7 @@
             <section class="hub-section" style="max-width: 100%; padding: 0; margin-bottom: 30px;">
                 <div class="hub-container" style="max-width: 100%;">
                     <h2 class="section-title"><i class="fa-solid fa-star"></i> Top Global Remote Job Sources</h2>
-                    <p class="section-subtitle">Explore our top global curated partner mines:</p>
+                    <p class="section-subtitle">Explore top global curated partner mines:</p>
                     <div class="hub-grid">
                         <a href="https://weworkremotely.com" target="_blank" class="hub-card"><i class="fa-solid fa-laptop-code"></i> We Work Remotely</a>
                         <a href="https://remoteok.com" target="_blank" class="hub-card"><i class="fa-solid fa-circle-check"></i> Remote OK</a>
@@ -327,7 +338,7 @@
                     </div>
                 </div>
                 <div class="load-more-container">
-                    <button class="load-more-btn" id="loadMoreFeaturedBtn"><i class="fa-solid fa-arrow-down"></i> Load More Featured Jobs</button>
+                    <button class="load-more-btn" id="loadMoreFeaturedBtn">Load More Featured Jobs</button>
                 </div>
 
                 <div class="jobs-container-header">
@@ -339,7 +350,7 @@
                     </div>
                 </div>
                 <div class="load-more-container">
-                    <button class="load-more-btn" id="loadMoreLatestBtn"><i class="fa-solid fa-arrow-down"></i> Load More Latest Jobs</button>
+                    <button class="load-more-btn" id="loadMoreLatestBtn">Load More Latest Jobs</button>
                 </div>
 
             </main>
@@ -359,6 +370,22 @@
         </div>
     </footer>
 
+    <script>
+        function filterByCategory(cat) {
+            const select = document.getElementById('categoryFilter');
+            if(select) {
+                select.value = cat;
+                select.dispatchEvent(new Event('change'));
+            }
+        }
+        function filterBySpecialty(spec) {
+            const searchInput = document.getElementById('searchInput');
+            if(searchInput) {
+                searchInput.value = (spec === 'all') ? '' : spec;
+                searchInput.dispatchEvent(new Event('input'));
+            }
+        }
+    </script>
     <script src="app.js"></script>
 </body>
 </html>
