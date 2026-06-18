@@ -90,7 +90,7 @@
         }
 
         @keyframes spin {
-            0% { transform: rotate(0deg); }
+            0 { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
 
@@ -233,7 +233,7 @@
         <div id="errorState" class="error-state" style="display: none;">
             <i class="fa-solid fa-triangle-exclamation" style="color: #ef4444; font-size: 30px; margin-bottom: 15px;"></i>
             <p id="errorText">Job depth not found or has expired from the mining logs.</p>
-            <a href="index.html" class="apply-now-btn" style="display: inline-flex; margin-top: 20px; padding: 10px 20px;">Return Home</a>
+            <a href="index.html" class="apply-now-btn" style="display: inline-flex; margin-top: 20px; padding: 10px 20px; box-shadow: none;">Return Home</a>
         </div>
 
         <article id="jobCardDetails" class="job-card-details">
@@ -269,7 +269,6 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // استخراج معرف الوظيفة من رابط الصفحة الحالي
             const urlParams = new URLSearchParams(window.location.search);
             const jobId = urlParams.get('id');
 
@@ -283,23 +282,23 @@
                 return;
             }
 
-            // جلب البيانات من ملف الـ JSON الأساسي للموقع
+            // قراءة ملف الـ JSON الأساسي الموجود في نفس المجلد
             fetch('jobs.json')
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error('Failed to fetch the mining logs.');
+                        throw new Error('Could not parse database logs.');
                     }
                     return response.json();
                 })
                 .then(data => {
-                    // دمج مصفوفات الوظائف للبحث عن المعرف المطلوب
+                    // دمج كل مصفوفات الوظائف المحتملة في السيرفر للبحث بداخلها
                     const allJobs = [
                         ...(data.featuredJobs || []),
                         ...(data.latestJobs || []),
                         ...(data.jobs || [])
                     ];
 
-                    // البحث عن الوظيفة المطابقة للمعرف
+                    // البحث عن معرف الوظيفة المطابق
                     const foundJob = allJobs.find(job => String(job.id) === String(jobId));
 
                     if (foundJob) {
@@ -310,22 +309,22 @@
                 })
                 .catch(err => {
                     console.error(err);
-                    showError('Error loading specifications. Please try again later.');
+                    showError('Error connection to data stream. Make sure jobs.json exists.');
                 });
 
             function displayJobDetails(job) {
-                // تعبئة البيانات داخل العناصر
-                document.getElementById('jobTitle').textContent = job.title || 'No Title Available';
-                document.getElementById('jobCompany').textContent = job.company || 'Unknown Company';
-                document.getElementById('jobType').textContent = job.type || 'Remote / Full-time';
-                document.getElementById('jobLocation').textContent = job.location || 'Worldwide';
-                document.getElementById('jobSalary').textContent = job.salary || 'Competitive';
-                document.getElementById('jobDate').textContent = job.date || 'Recently';
-                document.getElementById('jobCategory').textContent = job.category || 'General Tech';
+                document.getElementById('jobTitle').textContent = job.title || 'Untitled Remote Position';
+                document.getElementById('jobCompany').textContent = job.company || 'Verified Recruiter';
+                document.getElementById('jobType').textContent = job.type || 'Full-Time';
+                document.getElementById('jobLocation').textContent = job.location || 'Worldwide (Remote)';
+                document.getElementById('jobSalary').textContent = job.salary || 'Competitive Pay';
+                document.getElementById('jobDate').textContent = job.date || 'Recently Posted';
+                document.getElementById('jobCategory').textContent = job.category || 'Tech Sphere';
 
-                // معالجة الأوسام والتكنولوجيا المستخدمة
+                // تعبئة الكلمات الدلالية والأوسام
                 const tagsContainer = document.getElementById('jobTags');
                 tagsContainer.innerHTML = '';
+                
                 if (job.tags && job.tags.length > 0) {
                     job.tags.forEach(tag => {
                         const span = document.createElement('span');
@@ -339,10 +338,10 @@
                     span.textContent = job.specialty;
                     tagsContainer.appendChild(span);
                 } else {
-                    tagsContainer.innerHTML = '<span class="job-tag">Remote Tech</span>';
+                    tagsContainer.innerHTML = '<span class="job-tag">Remote Opportunity</span>';
                 }
 
-                // تخصيص رابط التقديم الفعلي
+                // ربط زر التقديم
                 const applyBtn = document.getElementById('jobApplyLink');
                 if (job.url || job.applyUrl) {
                     applyBtn.href = job.url || job.applyUrl;
@@ -350,7 +349,7 @@
                     applyBtn.style.display = 'none';
                 }
 
-                // إخفاء حالة التحميل وإظهار بطاقة تفاصيل الوظيفة الكاملة
+                // إظهار البطاقة وإخفاء شاشة الانتظار
                 loadingState.style.display = 'none';
                 jobCardDetails.style.display = 'block';
             }
