@@ -1,6 +1,7 @@
 import urllib.request
 import json
 import os
+import xml.etree.ElementTree as ET
 from datetime import datetime
 
 def map_category(tags):
@@ -13,6 +14,43 @@ def map_category(tags):
     for word in design_keywords:
         if any(word in t for t in tags_lower): return 'Design'
     return 'Development'
+
+def generate_dynamic_sitemap(current_dir):
+    """
+    توليد وتحديث ملف sitemap.xml تلقائياً بناءً على تاريخ اليوم والروابط الأساسية
+    """
+    base_url = "https://www.jobmine.site.je/"
+    sitemap_path = os.path.join(current_dir, 'sitemap.xml')
+    today_date = datetime.now().strftime('%Y-%m-%d')
+    
+    # إنشاء العنصر الرئيسي للخارطة بالروابط القياسية لـ Google
+    urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+    
+    # 1. إضافة الصفحة الرئيسية للموقع
+    main_url = ET.SubElement(urlset, "url")
+    ET.SubElement(main_url, "loc").text = base_url
+    ET.SubElement(main_url, "lastmod").text = today_date
+    ET.SubElement(main_url, "changefreq").text = "daily"
+    ET.SubElement(main_url, "priority").text = "1.0"
+    
+    # 2. إضافة الصفحات الفرعية الملحقة بالموقع
+    static_pages = ["terms.html", "privacy.html", "disclaimer.html"]
+    for page in static_pages:
+        page_url = ET.SubElement(urlset, "url")
+        ET.SubElement(page_url, "loc").text = f"{base_url}{page}"
+        ET.SubElement(page_url, "lastmod").text = today_date
+        ET.SubElement(page_url, "changefreq").text = "weekly"
+        ET.SubElement(page_url, "priority").text = "0.5"
+
+    # تحويل الشجرة البرمجية إلى نص XML منسق وحفظه
+    tree = ET.ElementTree(urlset)
+    try:
+        with open(sitemap_path, "wb") as f:
+            f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+            tree.write(f, encoding="utf-8", xml_declaration=False)
+        print("✅ Dynamic sitemap.xml generated and updated successfully!")
+    except Exception as e:
+        print(f"⚠️ Error creating sitemap.xml: {e}")
 
 def fetch_remote_ok_jobs():
     url = "https://remoteok.com/api"
@@ -53,7 +91,6 @@ def fetch_remote_ok_jobs():
         print(f"⚠️ Server temporary busy or rate-limited: {e}")
         print("💡 Generating fallback active jobs to keep the mine running smoothly...")
         
-        # بيانات احتياطية ذكية ومحدثة بتاريخ اليوم لكي لا يتوقف الموقع أبداً في حال حظر السيرفر الخارجي
         fallback_jobs = [
             {
                 "id": 1,
@@ -83,6 +120,10 @@ def fetch_remote_ok_jobs():
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(fallback_jobs, f, ensure_ascii=False, indent=2)
         print("✅ Fallback jobs saved successfully.")
+        
+    finally:
+        # استدعاء دالة توليد الخارطة ديناميكياً دائماً في نهاية العملية
+        generate_dynamic_sitemap(current_dir)
 
 if __name__ == "__main__":
     fetch_remote_ok_jobs()
