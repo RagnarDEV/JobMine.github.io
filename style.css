@@ -39,10 +39,48 @@ a {
     color: inherit;
 }
 
+/* ==========================================================================
+   ⚙️ Adsterra Advertisement Wrappers (تنسيق الحاويات الإعلانية لمنع تشويه الهيكل)
+   ========================================================================== */
+.ad-zone-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 5px;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.ad-zone-label {
+    font-size: 10px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+/* ==========================================================================
+   📦 Global Layout Grid System (هيكل تقسيم الواجهة المطور والمصلح)
+   ========================================================================== */
+.site-layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 25px;
+}
+
+.main-content-area {
+    min-width: 0; /* يمنع تمدد وكسر العناصر الداخلية المتجاوبة */
+}
+
 /* 1. Hero & Welcome Section */
 .hero-section {
     background: linear-gradient(180deg, #1f242c 0%, var(--bg-main) 100%);
-    padding: 60px 20px;
+    padding: 60px 20px 40px;
     text-align: center;
     border-bottom: 1px solid var(--bg-border);
 }
@@ -82,20 +120,113 @@ a {
     font-size: 1.1rem;
     color: var(--text-muted);
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 
-/* 2. Stats Dashboard */
+/* 🌟 Showcase Feature Cards (البطاقات الاستعراضية المضافة حديثاً) */
+.showcase-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.showcase-card {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--bg-border);
+    padding: 18px 15px;
+    border-radius: var(--radius);
+    text-align: left;
+    transition: var(--transition);
+}
+
+.showcase-card:hover {
+    border-color: var(--accent-gold);
+    transform: translateY(-2px);
+}
+
+.showcase-card i {
+    font-size: 1.4rem;
+    color: var(--accent-gold);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.showcase-card h4 {
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.showcase-card p {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+/* 2. Sidebar Component (تنسيق القائمة الجانبية وإصلاح ظهورها) */
+.sidebar {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--bg-border);
+    border-radius: var(--radius);
+    padding: 20px;
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu-title {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin: 20px 0 8px 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.sidebar-menu-title:first-child {
+    margin-top: 0;
+}
+
+.sidebar-menu li a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    color: var(--text-main);
+    text-decoration: none;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.sidebar-menu li a:hover, .sidebar-menu li a.active {
+    background-color: rgba(255, 193, 7, 0.08);
+    color: var(--accent-gold);
+}
+
+/* 3. Stats Dashboard */
 .stats-section {
     padding: 20px;
     margin-top: -30px;
+    margin-bottom: 25px;
 }
 
 .stats-container {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
 }
 
@@ -138,17 +269,16 @@ a {
     color: var(--text-muted);
 }
 
-/* 3. Search & Filter Section */
+/* 4. Search & Filter Section */
 .filter-section {
-    padding: 40px 20px 20px;
+    padding: 0px 0px 20px;
 }
 
 .filter-container {
-    max-width: 1000px;
-    margin: 0 auto;
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .search-wrapper, .select-wrapper {
@@ -159,18 +289,19 @@ a {
 
 .search-wrapper {
     flex: 2;
-    min-width: 280px;
+    min-width: 250px;
 }
 
 .select-wrapper {
     flex: 1;
-    min-width: 200px;
+    min-width: 180px;
 }
 
 .search-icon, .filter-icon {
     position: absolute;
     left: 15px;
     color: var(--text-muted);
+    z-index: 2;
 }
 
 #searchInput, #categoryFilter {
@@ -190,11 +321,35 @@ a {
     box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.15);
 }
 
-/* 4. Top Global Remote Hub */
+/* 🎯 Specialty Quick Buttons (أزرار الاختصاص السريعة) */
+.specialty-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.specialty-btn {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--bg-border);
+    color: var(--text-main);
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.specialty-btn:hover, .specialty-btn.active {
+    background-color: var(--accent-gold);
+    color: #000000;
+    border-color: var(--accent-gold);
+}
+
+/* 5. Top Global Remote Hub */
 .hub-section {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 20px;
+    margin: 20px auto 35px;
 }
 
 .section-title {
@@ -218,18 +373,18 @@ a {
 
 .hub-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
 }
 
 .hub-card {
     background-color: var(--bg-surface);
     border: 1px solid var(--bg-border);
-    padding: 15px;
+    padding: 14px;
     border-radius: var(--radius);
     text-align: center;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,11 +406,9 @@ a {
     color: var(--accent-gold);
 }
 
-/* 5. Jobs Display Section & Cards */
+/* 6. Jobs Display Section & Cards */
 .jobs-section {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 0 20px;
+    margin: 25px auto;
 }
 
 .jobs-container-header {
@@ -265,7 +418,7 @@ a {
 }
 
 .feed-title {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -273,7 +426,7 @@ a {
 }
 
 .feed-title i {
-    color: #ff5722; /* لون اللهب الدلالي للوظائف الجديدة */
+    color: #ff5722; 
 }
 
 .jobs-container {
@@ -348,6 +501,30 @@ a {
     background-color: var(--accent-green-hover);
 }
 
+/* 🔄 Load More Button Styling (تنسيق أزرار عرض المزيد) */
+.load-more-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 35px 0;
+}
+
+.load-more-btn {
+    background-color: transparent;
+    border: 2px solid var(--accent-gold);
+    color: var(--accent-gold);
+    padding: 9px 22px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.load-more-btn:hover {
+    background-color: var(--accent-gold);
+    color: #000000;
+}
+
 /* حالات التحميل والخطأ */
 .loading-status, .no-results {
     text-align: center;
@@ -364,7 +541,7 @@ a {
     color: var(--accent-gold);
 }
 
-/* 6. Footer */
+/* 7. Footer */
 .main-footer {
     text-align: center;
     padding: 30px 20px;
@@ -379,8 +556,45 @@ a {
 }
 
 /* ==========================================================================
-   Responsive Media Queries (التجاوب مع الشاشات المختلفة)
+   Responsive Media Queries (إصلاح وتجاوب الشاشات المختلفة والموبايل بالكامل)
    ========================================================================== */
+@media (max-width: 850px) {
+    .site-layout {
+        grid-template-columns: 1fr; /* إلغاء التقسيم ثنائي الأعمدة ليكون متوافقاً عمودياً */
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    .sidebar {
+        position: relative;
+        top: 0;
+        padding: 15px;
+    }
+
+    /* تحويل القائمة الجانبية إلى كروت شبكية ثنائية أنيقة على الموبايل */
+    .sidebar-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .sidebar-menu-title {
+        grid-column: span 2;
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+
+    .sidebar-menu-title:first-child {
+        margin-top: 0;
+    }
+
+    .sidebar-menu li a {
+        margin-bottom: 0;
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+}
+
 @media (max-width: 768px) {
     .filter-container {
         flex-direction: column;
@@ -403,5 +617,9 @@ a {
     
     .logo {
         font-size: 2.3rem;
+    }
+
+    .showcase-container {
+        grid-template-columns: 1fr;
     }
 }
