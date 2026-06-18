@@ -1,5 +1,5 @@
 /* ==========================================================================
-   JobMine - Core Application Logic (Pagination & Dynamic Filtering)
+   JobMine - Core Application Logic (Pagination & Random Filtering)
    ========================================================================== */
 
 // مصفوفة عالمية لتخزين جميع الوظائف بعد جلبها
@@ -51,12 +51,22 @@ function updateStatsDashboard(jobs) {
     }
 }
 
-// 3. المحرك الرئيسي للفلترة، الفصل، والعرض المتزامن
+// دالة مساعدة لعمل خلط عشوائي للمصفوفات (Fisher-Yates Shuffle Algorithm)
+function shuffleArray(array) {
+    const newArray = [...array]; // أخذ نسخة من المصفوفة لعدم تخريب الترتيب الأصلي الكلي
+    for (let i = newArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
+}
+
+// 3. المحرك الرئيسي للفلترة، الفصل العشوائي، والعرض المتزامن
 function filterAndRenderJobs() {
     const searchQuery = document.getElementById('searchInput').value.toLowerCase().trim();
     const selectedCategory = document.getElementById('categoryFilter').value;
 
-    // أولاً: تطبيق فلاتر البحث والفلترة على المصفوفة الكاملة
+    // أولاً: تطبيق فلاتر البحث والفلترة على مصفوفة الوظائف الكاملة
     const filteredList = allJobs.filter(job => {
         const tagsArray = Array.isArray(job.tags) ? job.tags : [];
         
@@ -69,12 +79,16 @@ function filterAndRenderJobs() {
         return matchesSearch && matchesCategory;
     });
 
-    // ثانياً: فصل الوظائف المفلترة إلى "مميزة" و "أحدث الوظائف"
-    // (يبحث السكربت عن علامة featured أو is_featured في ملف الـ JSON الخاص بك)
-    const featuredJobs = filteredList.filter(job => job.featured === true || job.is_featured === true);
-    const latestJobs = filteredList.filter(job => !job.featured && !job.is_featured);
+    // ثانياً: خلط الوظائف المفلترة عشوائياً واقتطاع المميز منها
+    const randomizedList = shuffleArray(filteredList);
 
-    // ثالثاً: إرسال القوائم المفصولة إلى دوال العرض الخاصة بها مع تطبيق الـ Pagination
+    // سنأخذ 5 وظائف عشوائية تماماً من القائمة المخلوطة لتكون في قسم "المميزة"
+    const featuredJobs = randomizedList.slice(0, 5); 
+    
+    // باقي الوظائف تذهب إلى قسم "أحدث الوظائف" بالترتيب العشوائي أيضاً لكسر التكرار
+    const latestJobs = randomizedList.slice(5); 
+
+    // ثالثاً: إرسال القوائم إلى دوال العرض مع تطبيق الـ Pagination
     renderFeaturedSection(featuredJobs);
     renderLatestSection(latestJobs);
 }
@@ -88,19 +102,17 @@ function renderFeaturedSection(jobs) {
     container.innerHTML = '';
 
     if (jobs.length === 0) {
-        container.innerHTML = '<div class="loading-status" style="font-size:0.9rem; color:#8b949e;">No premium featured jobs matching this criteria.</div>';
+        container.innerHTML = '<div class="loading-status" style="font-size:0.9rem; color:#8b949e; text-align:center; padding:15px;">No premium featured jobs matching this criteria.</div>';
         if (loadMoreBtn) loadMoreBtn.style.display = 'none';
         return;
     }
 
-    // اقتطاع العدد المطلوب للعرض حالياً (بداية من 20)
     const jobsToDisplay = jobs.slice(0, displayedFeaturedCount);
 
     jobsToDisplay.forEach(job => {
         container.appendChild(createJobCard(job, true));
     });
 
-    // التحكم في ظهور واختفاء زر تحميل المزيد الخاص بالمميزة
     if (loadMoreBtn) {
         if (displayedFeaturedCount >= jobs.length) {
             loadMoreBtn.style.display = 'none';
@@ -120,7 +132,7 @@ function renderLatestSection(jobs) {
 
     if (jobs.length === 0) {
         container.innerHTML = `
-            <div class="no-results" style="text-align:center; padding:20px; color:#8b949e;">
+            <div class="no-results" style="text-align:center; padding:20px; color:#8b949e; width: 100%;">
                 <i class="fa-solid fa-magnifying-glass-blur" style="font-size: 2rem; margin-bottom: 10px; color:#ffc107;"></i>
                 <p>No remote openings found matching your criteria.</p>
             </div>
@@ -129,14 +141,12 @@ function renderLatestSection(jobs) {
         return;
     }
 
-    // اقتطاع العدد المطلوب للعرض حالياً (بداية من 20)
     const jobsToDisplay = jobs.slice(0, displayedLatestCount);
 
     jobsToDisplay.forEach(job => {
         container.appendChild(createJobCard(job, false));
     });
 
-    // التحكم في ظهور واختفاء زر تحميل المزيد الخاص بالأحدث
     if (loadMoreBtn) {
         if (displayedLatestCount >= jobs.length) {
             loadMoreBtn.style.display = 'none';
@@ -149,25 +159,21 @@ function renderLatestSection(jobs) {
 // 6. دالة بناء كرت الوظيفة الموحد (HTML Builder)
 function createJobCard(job, isFeatured = false) {
     const card = document.createElement('div');
-    // إضافة ستايل خاص إذا كانت الوظيفة مميزة لتبدو جذابة
     card.className = `job-card ${isFeatured ? 'featured-job-style' : ''}`;
     if (isFeatured) {
         card.style.borderLeft = '4px solid #ffc107';
         card.style.backgroundColor = 'rgba(255, 193, 7, 0.02)';
     }
 
-    // تخصيص الأيقونة ديناميكياً حسب القسم لتناسق المظهر
     let categoryIcon = '<i class="fa-solid fa-briefcase"></i>';
     if (job.category === 'Development') categoryIcon = '<i class="fa-solid fa-code"></i>';
     if (job.category === 'Design') categoryIcon = '<i class="fa-solid fa-paint-brush"></i>';
     if (job.category === 'Marketing') categoryIcon = '<i class="fa-solid fa-chart-line"></i>';
     if (job.category === 'Product') categoryIcon = '<i class="fa-solid fa-box-open"></i>';
 
-    // توليد المهارات (Tags) بأمان
     const tagsArray = Array.isArray(job.tags) ? job.tags : [];
     const tagsHTML = tagsArray.map(tag => `<span class="tag">${tag}</span>`).join('');
 
-    // تأمين رابط التقديم سواء كان مسجلاً بـ apply_link أو url في الـ JSON
     const finalApplyLink = job.apply_link || job.url || '#';
 
     card.innerHTML = `
@@ -189,39 +195,39 @@ function createJobCard(job, isFeatured = false) {
             </div>
         </div>
         <div style="margin-top: 15px; text-align: right;">
-            <a href="${finalApplyLink}" target="_blank" class="apply-btn" style="background-color: #ffc107; color: #0d1117; padding: 8px 16px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-block; font-size: 0.88rem;">Mine Job <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i></a>
+            <a href="${finalApplyLink}" target="_blank" class="apply-btn" style="background-color: #ffc107; color: #0d1117; padding: 8px 16px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-block; font-size: 0.88rem;">Mine Job <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75sem; margin-left: 4px;"></i></a>
         </div>
     `;
     return card;
 }
 
-// 7. ربط أحداث الضغط على أزرار "Load More" لتوسيع العرض
+// 7. ربط أحداث الضغط على أزرار "Load More" لتوسيع نطاق العرض
 function setupPaginationEvents() {
     const loadMoreLatestBtn = document.getElementById('loadMoreLatestBtn');
     const loadMoreFeaturedBtn = document.getElementById('loadMoreFeaturedBtn');
 
     if (loadMoreLatestBtn) {
         loadMoreLatestBtn.addEventListener('click', () => {
-            displayedLatestCount += 20; // زيادة العرض بمقدار 20 وظيفة أخرى عند الضغط
+            displayedLatestCount += 20;
             filterAndRenderJobs();
         });
     }
 
     if (loadMoreFeaturedBtn) {
         loadMoreFeaturedBtn.addEventListener('click', () => {
-            displayedFeaturedCount += 20; // زيادة المميزة بمقدار 20 أخرى عند الضغط
+            displayedFeaturedCount += 20;
             filterAndRenderJobs();
         });
     }
 }
 
-// 8. ربط أحداث الإدخال والبحث الفوري (وتصفير العدادات عند البحث الجديد)
+// 8. ربط أحداث الإدخال والبحث الفوري وتحديث العشوائية عند الفلترة الجديدة
 function setupFilterListeners() {
     const searchInput = document.getElementById('searchInput');
     const categoryFilter = document.getElementById('categoryFilter');
 
     const handleFilteringReset = () => {
-        displayedLatestCount = 20;   // إعادة تعيين العداد لـ 20 عند كتابة بحث جديد لتبدأ التجربة من الأول
+        displayedLatestCount = 20; 
         displayedFeaturedCount = 20;
         filterAndRenderJobs();
     };
@@ -230,7 +236,6 @@ function setupFilterListeners() {
     if (categoryFilter) categoryFilter.addEventListener('change', handleFilteringReset);
 }
 
-// تشغيل وربط كل شيء بمجرد تحميل المتصفح بالكامل
 document.addEventListener('DOMContentLoaded', () => {
     fetchJobsData();
     setupFilterListeners();
