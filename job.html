@@ -199,14 +199,14 @@
             white-space: pre-line;
         }
 
-        /* زر التقديم المطور */
+        /* زر التقديم الأساسي */
         .apply-now-btn {
-            display: flex;
+            display: inline-flex;
             align-items: center;
             justify-content: center;
             gap: 10px;
             background-color: var(--primary);
-            color: #000;
+            color: #000 !important;
             text-decoration: none;
             padding: 16px 32px;
             border-radius: 12px;
@@ -216,6 +216,7 @@
             text-align: center;
             box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
             margin-top: 25px;
+            width: 100%;
         }
 
         .apply-now-btn:hover {
@@ -245,14 +246,14 @@
         <div class="ad-zone-label">Sponsored Advertisement</div>
         <script>
           atOptions = {
-            'key' : '36be12983ba9c788354b541d5d7f4801',
+            'key' : 'ec060ebe971281b3bae0688731834b5f',
             'format' : 'iframe',
-            'height' : 250,
-            'width' : 300,
+            'height' : 50,
+            'width' : 320,
             'params' : {}
           };
         </script>
-        <script src="https://www.highperformanceformat.com/36be12983ba9c788354b541d5d7f4801/invoke.js"></script>
+        <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
     </div>
 
     <div class="job-container">
@@ -264,7 +265,7 @@
         <div id="errorState" class="error-state" style="display: none;">
             <i class="fa-solid fa-triangle-exclamation" style="color: #ef4444; font-size: 30px; margin-bottom: 15px;"></i>
             <p id="errorText">Job details not found. It will appear properly once the database updates.</p>
-            <a href="index.html" class="apply-now-btn" style="display: inline-flex; padding: 10px 20px; box-shadow: none;">Return Home</a>
+            <a href="index.html" class="apply-now-btn" style="display: inline-flex; padding: 10px 20px; box-shadow: none; width: auto;">Return Home</a>
         </div>
 
         <article id="jobCardDetails" class="job-card-details">
@@ -288,9 +289,7 @@
                 <p id="jobCategory" class="job-description" style="font-weight: 600; color: var(--primary);">---</p>
             </div>
 
-            <a id="jobApplyLink" href="#" target="_blank" class="apply-now-btn">
-                Apply on Official Platform <i class="fa-solid fa-up-right-from-square"></i>
-            </a>
+            <div id="applyButtonContainer"></div>
         </article>
     </div>
 
@@ -298,14 +297,14 @@
         <div class="ad-zone-label">Recommended for you</div>
         <script>
           atOptions = {
-            'key' : 'ec060ebe971281b3bae0688731834b5f',
+            'key' : '36be12983ba9c788354b541d5d7f4801',
             'format' : 'iframe',
-            'height' : 50,
-            'width' : 320,
+            'height' : 250,
+            'width' : 300,
             'params' : {}
           };
         </script>
-        <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
+        <script src="https://www.highperformanceformat.com/36be12983ba9c788354b541d5d7f4801/invoke.js"></script>
     </div>
 
     <footer class="main-footer">
@@ -321,6 +320,7 @@
             const errorState = document.getElementById('errorState');
             const errorText = document.getElementById('errorText');
             const jobCardDetails = document.getElementById('jobCardDetails');
+            const applyButtonContainer = document.getElementById('applyButtonContainer');
 
             if (!jobId) {
                 showError('No job identifier specified in the URL.');
@@ -346,10 +346,10 @@
                         ];
                     }
 
-                    // 🔍 الخطوة 1: البحث المباشر عن طريق الـ ID
+                    // 🔍 الخطوة 1: البحث المباشر بـ ID الوظيفة
                     let foundJob = allJobs.find(job => job.id && String(job.id) === String(jobId));
 
-                    // 💡 الخطوة 2: الخطة البديلة بمطابقة العنوان والشركة للروابط الحالية
+                    // 💡 الخطوة 2: البحث البديل عن طريق مطابقة الاسم للوظائف القديمة
                     if (!foundJob) {
                         const decodedParam = decodeURIComponent(jobId).replace(/-/g, ' ').toLowerCase();
                         foundJob = allJobs.find(job => {
@@ -398,15 +398,23 @@
                     tagsContainer.innerHTML = '<span class="job-tag">Remote Opportunity</span>';
                 }
 
-                // 🛠️ التحقق الشامل من كل التسميات المحتملة للرابط الخارجي (URL / applyUrl / link / apply_url / source_url)
-                const applyBtn = document.getElementById('jobApplyLink');
-                const actualUrl = job.url || job.applyUrl || job.link || job.apply_url || job.source_url;
+                // 🛠️ الفحص الذكي والشامل عن رابط التقديم الخارجي وحقنه بالكامل في الـ HTML لمنع الاختفاء
+                const actualUrl = job.url || job.applyUrl || job.link || job.apply_url || job.source_url || job.jobUrl || job.redirect_url;
                 
-                if (actualUrl) {
-                    applyBtn.href = actualUrl;
-                    applyBtn.style.display = 'flex'; 
+                if (actualUrl && actualUrl.trim() !== "" && actualUrl !== "#") {
+                    applyButtonContainer.innerHTML = `
+                        <a href="${actualUrl}" target="_blank" class="apply-now-btn">
+                            Apply on Official Platform <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    `;
                 } else {
-                    applyBtn.style.display = 'none'; // الإخفاء التام في حال عدم توفر أي رابط لمنع الأخطاء للمستخدمين
+                    // في حال عدم وجود رابط، نقوم بوضع رابط افتراضي للبحث في جوجل تسهيلاً للمستخدم
+                    const fallbackSearch = `https://www.google.com/search?q=${encodeURIComponent(job.title + ' ' + job.company)}`;
+                    applyButtonContainer.innerHTML = `
+                        <a href="${fallbackSearch}" target="_blank" class="apply-now-btn">
+                            Search & Apply on Web <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    `;
                 }
 
                 loadingState.style.display = 'none';
