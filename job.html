@@ -18,12 +18,7 @@
             --border: #1e293b;
         }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
             background-color: var(--bg-main);
@@ -32,7 +27,6 @@
             padding-bottom: 60px;
         }
 
-        /* الترويسة */
         .job-nav {
             background-color: var(--bg-card);
             border-bottom: 1px solid var(--border);
@@ -42,163 +36,31 @@
             align-items: center;
         }
 
-        .job-nav .logo {
-            font-size: 24px;
-            font-weight: 800;
-            color: #fff;
-            text-decoration: none;
-        }
+        .job-nav .logo { font-size: 24px; font-weight: 800; color: #fff; text-decoration: none; }
+        .job-nav .logo span { color: var(--primary); }
+        .back-btn { color: var(--text-muted); text-decoration: none; font-weight: 500; display: inline-flex; align-items: center; gap: 8px; }
+        .back-btn:hover { color: var(--primary); }
 
-        .job-nav .logo span {
-            color: var(--primary);
-        }
+        .ad-zone-wrapper { max-width: 800px; margin: 20px auto; padding: 0 20px; text-align: center; }
+        .ad-zone-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
 
-        .back-btn {
-            color: var(--text-muted);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.2s;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-        }
+        .job-container { max-width: 800px; margin: 20px auto; padding: 0 20px; }
+        .loading-state, .error-state { text-align: center; padding: 40px; background-color: var(--bg-card); border-radius: 16px; border: 1px solid var(--border); }
+        .loading-state i { color: var(--primary); font-size: 30px; animation: spin 1s linear infinite; margin-bottom: 15px; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-        .back-btn:hover {
-            color: var(--primary);
-        }
-
-        /* حاوية الإعلانات المنسقة */
-        .ad-zone-wrapper {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-            text-align: center;
-        }
+        .job-card-details { display: none; background-color: var(--bg-card); border-radius: 16px; border: 1px solid var(--border); padding: 40px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
+        .job-header { border-bottom: 1px solid var(--border); padding-bottom: 25px; margin-bottom: 25px; }
+        .job-title { font-size: 28px; font-weight: 700; margin-bottom: 10px; color: #fff; }
+        .company-name { font-size: 18px; color: var(--primary); font-weight: 600; margin-bottom: 15px; display: inline-flex; align-items: center; gap: 8px; }
         
-        .ad-zone-label {
-            font-size: 11px;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 6px;
-        }
+        .meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
+        .meta-item { display: flex; align-items: center; gap: 10px; color: var(--text-muted); font-size: 14px; }
+        .meta-item i { color: var(--primary); width: 16px; }
 
-        /* حاوية التفاصيل */
-        .job-container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
+        .tags-container { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
+        .job-tag { background: rgba(245, 158, 11, 0.1); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
 
-        .loading-state, .error-state {
-            text-align: center;
-            padding: 40px;
-            background-color: var(--bg-card);
-            border-radius: 16px;
-            border: 1px solid var(--border);
-        }
-
-        .loading-state i {
-            color: var(--primary);
-            font-size: 30px;
-            animation: spin 1s linear infinite;
-            margin-bottom: 15px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .job-card-details {
-            display: none;
-            background-color: var(--bg-card);
-            border-radius: 16px;
-            border: 1px solid var(--border);
-            padding: 40px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-        }
-
-        .job-header {
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 25px;
-            margin-bottom: 25px;
-        }
-
-        .job-title {
-            font-size: 28px;
-            font-weight: 700;
-            margin-bottom: 10px;
-            color: #fff;
-        }
-
-        .company-name {
-            font-size: 18px;
-            color: var(--primary);
-            font-weight: 600;
-            margin-bottom: 15px;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .meta-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .meta-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-
-        .meta-item i {
-            color: var(--primary);
-            width: 16px;
-        }
-
-        .tags-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin: 20px 0;
-        }
-
-        .job-tag {
-            background: rgba(245, 158, 11, 0.1);
-            color: var(--primary);
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 600;
-        }
-
-        .job-body {
-            margin-bottom: 35px;
-        }
-
-        .section-title {
-            font-size: 18px;
-            font-weight: 600;
-            margin-bottom: 12px;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .job-description {
-            color: var(--text-main);
-            font-size: 15px;
-            white-space: pre-line;
-        }
-
-        /* تنسيق زر التقديم المباشر */
         .apply-now-btn {
             display: inline-flex;
             align-items: center;
@@ -213,25 +75,11 @@
             font-size: 16px;
             transition: all 0.2s ease;
             text-align: center;
-            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
-            margin-top: 25px;
             width: 100%;
-            cursor: pointer;
+            margin-top: 25px;
         }
-
-        .apply-now-btn:hover {
-            background-color: var(--primary-hover);
-            transform: translateY(-2px);
-        }
-
-        .main-footer {
-            text-align: center;
-            padding: 30px 20px;
-            border-top: 1px solid var(--border);
-            margin-top: 60px;
-            font-size: 14px;
-            color: var(--text-muted);
-        }
+        .apply-now-btn:hover { background-color: var(--primary-hover); transform: translateY(-2px); }
+        .main-footer { text-align: center; padding: 30px 20px; border-top: 1px solid var(--border); margin-top: 60px; font-size: 14px; color: var(--text-muted); }
     </style>
 </head>
 <body>
@@ -244,13 +92,7 @@
     <div class="ad-zone-wrapper">
         <div class="ad-zone-label">Sponsored Advertisement</div>
         <script>
-          atOptions = {
-            'key' : 'ec060ebe971281b3bae0688731834b5f',
-            'format' : 'iframe',
-            'height' : 50,
-            'width' : 320,
-            'params' : {}
-          };
+          atOptions = { 'key' : 'ec060ebe971281b3bae0688731834b5f', 'format' : 'iframe', 'height' : 50, 'width' : 320, 'params' : {} };
         </script>
         <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
     </div>
@@ -263,8 +105,8 @@
 
         <div id="errorState" class="error-state" style="display: none;">
             <i class="fa-solid fa-triangle-exclamation" style="color: #ef4444; font-size: 30px; margin-bottom: 15px;"></i>
-            <p id="errorText">Job details not found or has expired from the mining logs.</p>
-            <a href="index.html" class="apply-now-btn" style="display: inline-flex; padding: 10px 20px; box-shadow: none; width: auto;">Return Home</a>
+            <p id="errorText">Job details not found or has expired.</p>
+            <a href="index.html" class="apply-now-btn" style="display: inline-flex; padding: 10px 20px; width: auto;">Return Home</a>
         </div>
 
         <article id="jobCardDetails" class="job-card-details">
@@ -283,9 +125,6 @@
             <div class="job-body">
                 <h3 class="section-title"><i class="fa-solid fa-align-left"></i> Core Focus & Tags</h3>
                 <div id="jobTags" class="tags-container"></div>
-                
-                <h3 class="section-title" style="margin-top: 25px;"><i class="fa-solid fa-circle-info"></i> Position Category</h3>
-                <p id="jobCategory" class="job-description" style="font-weight: 600; color: var(--primary);">---</p>
             </div>
 
             <div id="applyButtonContainer"></div>
@@ -295,123 +134,87 @@
     <div class="ad-zone-wrapper">
         <div class="ad-zone-label">Recommended for you</div>
         <script>
-          atOptions = {
-            'key' : '36be12983ba9c788354b541d5d7f4801',
-            'format' : 'iframe',
-            'height' : 250,
-            'width' : 300,
-            'params' : {}
-          };
+          atOptions = { 'key' : '36be12983ba9c788354b541d5d7f4801', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
         </script>
         <script src="https://www.highperformanceformat.com/36be12983ba9c788354b541d5d7f4801/invoke.js"></script>
     </div>
 
     <footer class="main-footer">
-        <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
+        <p>&copy; 2026 <strong>JobMine</strong>. All rights reserved.</p>
     </footer>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const urlParams = new URLSearchParams(window.location.search);
             const jobId = urlParams.get('id');
+            // 🛑 جلب الرابط المباشر من المتصفح مباشرة إذا تم تمريره من الصفحة الرئيسية
+            let directUrl = urlParams.get('url'); 
 
             const loadingState = document.getElementById('loadingState');
             const errorState = document.getElementById('errorState');
-            const errorText = document.getElementById('errorText');
             const jobCardDetails = document.getElementById('jobCardDetails');
             const applyButtonContainer = document.getElementById('applyButtonContainer');
 
             if (!jobId) {
-                showError('No job identifier specified in the URL.');
+                showError('No job identifier specified.');
                 return;
             }
 
             fetch('jobs.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Could not parse database logs.');
-                    }
-                    return response.json();
-                })
+                .then(response => response.json())
                 .then(data => {
-                    let allJobs = [];
-                    if (Array.isArray(data)) {
-                        allJobs = data;
-                    } else {
-                        allJobs = [
-                            ...(data.featuredJobs || []),
-                            ...(data.latestJobs || []),
-                            ...(data.jobs || [])
-                        ];
-                    }
-
-                    // 🔍 الخطوة 1: البحث المطابق الصارم عن طريق الـ ID المستخرج
+                    let allJobs = Array.isArray(data) ? data : [...(data.featuredJobs || []), ...(data.latestJobs || []), ...(data.jobs || [])];
+                    
                     let foundJob = allJobs.find(job => job.id && String(job.id) === String(jobId));
 
-                    // 💡 الخطوة 2: البحث البديل عن طريق معالجة ومطابقة العناوين المنظفة
                     if (!foundJob) {
-                        const decodedParam = decodeURIComponent(jobId).replace(/-/g, ' ').trim().toLowerCase();
-                        foundJob = allJobs.find(job => {
-                            const titleStr = job.title ? String(job.title).toLowerCase() : '';
-                            const companyStr = job.company ? String(job.company).toLowerCase() : '';
-                            return titleStr.includes(decodedParam) || decodedParam.includes(titleStr) || companyStr.includes(decodedParam);
-                        });
+                        const decodedParam = decodeURIComponent(jobId).replace(/-/g, ' ').toLowerCase();
+                        foundJob = allJobs.find(job => (job.title && job.title.toLowerCase().includes(decodedParam)) || (job.company && job.company.toLowerCase().includes(decodedParam)));
                     }
 
                     if (foundJob) {
-                        displayJobDetails(foundJob);
+                        // استخدام الرابط المخزن بالملف، أو الرابط الممرر في المتصفح كأولوية قصوى
+                        let finalUrl = directUrl || foundJob.url || foundJob.link || foundJob.apply_url;
+                        displayJobDetails(foundJob, finalUrl);
+                    } else if (directUrl) {
+                        // حتى لو لم يجد تفاصيل الوظيفة بالملف، ما دام الرابط متوفراً سنعرض زر التقديم مباشرة بناءً على الرابط الممرر
+                        displayJobDetails({ title: decodeURIComponent(jobId).replace(/-/g, ' ') }, directUrl);
                     } else {
-                        showError('Job details not found or has expired from the mining logs.');
+                        showError('Job details not found or expired.');
                     }
                 })
-                .catch(err => {
-                    console.error(err);
-                    showError('Error connecting to data stream.');
+                .catch(() => {
+                    if (directUrl) {
+                        displayJobDetails({ title: decodeURIComponent(jobId).replace(/-/g, ' ') }, directUrl);
+                    } else {
+                        showError('Error connecting to data stream.');
+                    }
                 });
 
-            function displayJobDetails(job) {
-                document.getElementById('jobTitle').textContent = job.title || 'Untitled Remote Position';
+            function displayJobDetails(job, targetUrl) {
+                document.getElementById('jobTitle').textContent = job.title || 'Remote Position';
                 document.getElementById('jobCompany').textContent = job.company || 'Verified Recruiter';
                 document.getElementById('jobType').textContent = job.type || 'Full-Time';
-                document.getElementById('jobLocation').textContent = job.location || 'Worldwide (Remote)';
-                document.getElementById('jobSalary').textContent = job.salary || 'Competitive Pay';
-                document.getElementById('jobDate').textContent = job.date || 'Recently Posted';
-                document.getElementById('jobCategory').textContent = job.category || 'Tech Sphere';
+                document.getElementById('jobLocation').textContent = job.location || 'Remote (Worldwide)';
+                document.getElementById('jobSalary').textContent = job.salary || 'Competitive';
+                document.getElementById('jobDate').textContent = job.date || 'Recently';
 
                 const tagsContainer = document.getElementById('jobTags');
                 tagsContainer.innerHTML = '';
-                
-                if (job.tags && job.tags.length > 0) {
-                    job.tags.forEach(tag => {
-                        const span = document.createElement('span');
-                        span.className = 'job-tag';
-                        span.textContent = tag;
-                        tagsContainer.appendChild(span);
-                    });
-                } else if (job.specialty) {
+                (job.tags || ['Remote']).forEach(tag => {
                     const span = document.createElement('span');
                     span.className = 'job-tag';
-                    span.textContent = job.specialty;
+                    span.textContent = tag;
                     tagsContainer.appendChild(span);
-                } else {
-                    tagsContainer.innerHTML = '<span class="job-tag">Remote Opportunity</span>';
-                }
+                });
 
-                // 🛠️ الفحص الفعلي الصارم والدقيق للرابط الأصلي التفصيلي للوظيفة المجلوبة من الـ API 
-                // قمنا بفحص كافة المفاتيح المحتملة بما فيها حقل 'url' وحقل 'link' للتوافق مع Remote OK
-                let finalTargetUrl = job.url || job.link || job.applyUrl || job.apply_url || job.source_url || job.jobUrl;
-                
-                if (finalTargetUrl && finalTargetUrl.trim() !== "" && finalTargetUrl !== "#") {
-                    // سحب وتنظيف الرابط لضمان خلوه من أي فراغات تمنع توجيهه بشكل سليم
-                    finalTargetUrl = finalTargetUrl.trim();
-                    
+                if (targetUrl && targetUrl !== "#") {
                     applyButtonContainer.innerHTML = `
-                        <a href="${finalTargetUrl}" target="_blank" class="apply-now-btn">
+                        <a href="${decodeURIComponent(targetUrl)}" target="_blank" class="apply-now-btn">
                             Apply on Official Platform <i class="fa-solid fa-up-right-from-square"></i>
                         </a>
                     `;
                 } else {
-                    // في حال تعذر الحصول على الرابط الفردي للوظيفة لأي سبب، يتم ربطه برابط صفحة عرض الوظائف بمصدرها المباشر
                     applyButtonContainer.innerHTML = `
                         <a href="https://remoteok.com" target="_blank" class="apply-now-btn">
                             Apply on Partner Platform <i class="fa-solid fa-up-right-from-square"></i>
@@ -423,10 +226,9 @@
                 jobCardDetails.style.display = 'block';
             }
 
-            function showError(message) {
-                if (errorText) errorText.textContent = message;
+            function showError(msg) {
+                document.getElementById('errorText').textContent = msg;
                 loadingState.style.display = 'none';
-                jobCardDetails.style.display = 'none';
                 errorState.style.display = 'block';
             }
         });
