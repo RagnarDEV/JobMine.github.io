@@ -32,7 +32,7 @@
             padding-bottom: 60px;
         }
 
-        /* الترويسة المبسطة للموقع */
+        /* الترويسة */
         .job-nav {
             background-color: var(--bg-card);
             border-bottom: 1px solid var(--border);
@@ -111,7 +111,7 @@
         }
 
         .job-card-details {
-            display: none; /* يتم إظهاره بعد اكتمال التحميل */
+            display: none;
             background-color: var(--bg-card);
             border-radius: 16px;
             border: 1px solid var(--border);
@@ -162,7 +162,6 @@
             width: 16px;
         }
 
-        /* الأوسام والتفاصيل */
         .tags-container {
             display: flex;
             flex-wrap: wrap;
@@ -199,7 +198,7 @@
             white-space: pre-line;
         }
 
-        /* زر التقديم الأساسي */
+        /* زر التقديم */
         .apply-now-btn {
             display: inline-flex;
             align-items: center;
@@ -224,7 +223,6 @@
             transform: translateY(-2px);
         }
 
-        /* التذييل */
         .main-footer {
             text-align: center;
             padding: 30px 20px;
@@ -264,7 +262,7 @@
 
         <div id="errorState" class="error-state" style="display: none;">
             <i class="fa-solid fa-triangle-exclamation" style="color: #ef4444; font-size: 30px; margin-bottom: 15px;"></i>
-            <p id="errorText">Job details not found. It will appear properly once the database updates.</p>
+            <p id="errorText">Job details not found or has expired from the mining logs.</p>
             <a href="index.html" class="apply-now-btn" style="display: inline-flex; padding: 10px 20px; box-shadow: none; width: auto;">Return Home</a>
         </div>
 
@@ -346,10 +344,10 @@
                         ];
                     }
 
-                    // 🔍 الخطوة 1: البحث المباشر بـ ID الوظيفة
+                    // البحث عن طريق الـ ID
                     let foundJob = allJobs.find(job => job.id && String(job.id) === String(jobId));
 
-                    // 💡 الخطوة 2: البحث البديل عن طريق مطابقة الاسم للوظائف القديمة
+                    // خطة البحث البديلة بمطابقة العنوان
                     if (!foundJob) {
                         const decodedParam = decodeURIComponent(jobId).replace(/-/g, ' ').toLowerCase();
                         foundJob = allJobs.find(job => {
@@ -362,7 +360,7 @@
                     if (foundJob) {
                         displayJobDetails(foundJob);
                     } else {
-                        showError('Job details not found. It will appear properly once the database updates.');
+                        showError('Job details not found or has expired from the mining logs.');
                     }
                 })
                 .catch(err => {
@@ -398,21 +396,20 @@
                     tagsContainer.innerHTML = '<span class="job-tag">Remote Opportunity</span>';
                 }
 
-                // 🛠️ الفحص الذكي والشامل عن رابط التقديم الخارجي وحقنه بالكامل في الـ HTML لمنع الاختفاء
-                const actualUrl = job.url || job.applyUrl || job.link || job.apply_url || job.source_url || job.jobUrl || job.redirect_url;
+                // 🛠️ الفحص الفعلي لرابط جلب الوظيفة الأصلي المتوافق مع بنيتك البرمجية والمواقع الشريكة
+                const actualUrl = job.url || job.link || job.applyUrl || job.apply_url || job.source_url || job.jobUrl;
                 
-                if (actualUrl && actualUrl.trim() !== "" && actualUrl !== "#") {
+                if (actualUrl && actualUrl !== "#") {
                     applyButtonContainer.innerHTML = `
                         <a href="${actualUrl}" target="_blank" class="apply-now-btn">
                             Apply on Official Platform <i class="fa-solid fa-up-right-from-square"></i>
                         </a>
                     `;
                 } else {
-                    // في حال عدم وجود رابط، نقوم بوضع رابط افتراضي للبحث في جوجل تسهيلاً للمستخدم
-                    const fallbackSearch = `https://www.google.com/search?q=${encodeURIComponent(job.title + ' ' + job.company)}`;
+                    // إذا لم يتوفر رابط لسبب ما، نضع له رابط التوجيه المباشر لموقع Remote OK كمرجع بدلاً من جملة البحث السابقة
                     applyButtonContainer.innerHTML = `
-                        <a href="${fallbackSearch}" target="_blank" class="apply-now-btn">
-                            Search & Apply on Web <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="https://remoteok.com" target="_blank" class="apply-now-btn">
+                            Apply via Partner Platform <i class="fa-solid fa-up-right-from-square"></i>
                         </a>
                     `;
                 }
