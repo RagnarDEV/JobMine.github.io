@@ -174,8 +174,8 @@ function createJobCard(job, isFeatured = false) {
     const tagsArray = Array.isArray(job.tags) ? job.tags : [];
     const tagsHTML = tagsArray.map(tag => `<span class="tag">${tag}</span>`).join('');
 
-    // 🔍 جلب رابط التقديم الخارجي الفعلي للوظيفة من أي حقل محتمل بملف الـ JSON الخاص بك
-    const rawUrl = job.url || job.link || job.applyUrl || job.apply_url || job.source_url || '#';
+    // 🔍 جلب رابط التقديم الخارجي الفعلي للوظيفة باستخدام المفتاح الصحيح 'apply_link'
+    const rawUrl = job.apply_link || job.url || job.link || job.applyUrl || job.apply_url || job.source_url || '#';
 
     // 🛑 التعديل الجوهري: نقوم بتمرير الـ ID المتاح وبجانبه رابط الوظيفة المباشر مشفراً لحل مشكلة تحويل الزائر
     const targetId = job.id ? encodeURIComponent(job.id) : encodeURIComponent(job.title);
@@ -206,7 +206,7 @@ function createJobCard(job, isFeatured = false) {
     return card;
 }
 
-// 7. ربط أحداث الضтить على أزرار "Load More" لتوسيع نطاق العرض
+// 7. ربط أحداث الضغط على أزرار "Load More" لتوسيع نطاق العرض
 function setupPaginationEvents() {
     const loadMoreLatestBtn = document.getElementById('loadMoreLatestBtn');
     const loadMoreFeaturedBtn = document.getElementById('loadMoreFeaturedBtn');
