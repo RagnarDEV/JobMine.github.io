@@ -198,7 +198,7 @@
             white-space: pre-line;
         }
 
-        /* زر التقديم */
+        /* تنسيق زر التقديم المباشر */
         .apply-now-btn {
             display: inline-flex;
             align-items: center;
@@ -216,6 +216,7 @@
             box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
             margin-top: 25px;
             width: 100%;
+            cursor: pointer;
         }
 
         .apply-now-btn:hover {
@@ -344,16 +345,16 @@
                         ];
                     }
 
-                    // البحث عن طريق الـ ID
+                    // 🔍 الخطوة 1: البحث المطابق الصارم عن طريق الـ ID المستخرج
                     let foundJob = allJobs.find(job => job.id && String(job.id) === String(jobId));
 
-                    // خطة البحث البديلة بمطابقة العنوان
+                    // 💡 الخطوة 2: البحث البديل عن طريق معالجة ومطابقة العناوين المنظفة
                     if (!foundJob) {
-                        const decodedParam = decodeURIComponent(jobId).replace(/-/g, ' ').toLowerCase();
+                        const decodedParam = decodeURIComponent(jobId).replace(/-/g, ' ').trim().toLowerCase();
                         foundJob = allJobs.find(job => {
-                            const titleMatch = job.title && job.title.toLowerCase().includes(decodedParam);
-                            const companyMatch = job.company && job.company.toLowerCase().includes(decodedParam);
-                            return titleMatch || companyMatch;
+                            const titleStr = job.title ? String(job.title).toLowerCase() : '';
+                            const companyStr = job.company ? String(job.company).toLowerCase() : '';
+                            return titleStr.includes(decodedParam) || decodedParam.includes(titleStr) || companyStr.includes(decodedParam);
                         });
                     }
 
@@ -396,20 +397,24 @@
                     tagsContainer.innerHTML = '<span class="job-tag">Remote Opportunity</span>';
                 }
 
-                // 🛠️ الفحص الفعلي لرابط جلب الوظيفة الأصلي المتوافق مع بنيتك البرمجية والمواقع الشريكة
-                const actualUrl = job.url || job.link || job.applyUrl || job.apply_url || job.source_url || job.jobUrl;
+                // 🛠️ الفحص الفعلي الصارم والدقيق للرابط الأصلي التفصيلي للوظيفة المجلوبة من الـ API 
+                // قمنا بفحص كافة المفاتيح المحتملة بما فيها حقل 'url' وحقل 'link' للتوافق مع Remote OK
+                let finalTargetUrl = job.url || job.link || job.applyUrl || job.apply_url || job.source_url || job.jobUrl;
                 
-                if (actualUrl && actualUrl !== "#") {
+                if (finalTargetUrl && finalTargetUrl.trim() !== "" && finalTargetUrl !== "#") {
+                    // سحب وتنظيف الرابط لضمان خلوه من أي فراغات تمنع توجيهه بشكل سليم
+                    finalTargetUrl = finalTargetUrl.trim();
+                    
                     applyButtonContainer.innerHTML = `
-                        <a href="${actualUrl}" target="_blank" class="apply-now-btn">
+                        <a href="${finalTargetUrl}" target="_blank" class="apply-now-btn">
                             Apply on Official Platform <i class="fa-solid fa-up-right-from-square"></i>
                         </a>
                     `;
                 } else {
-                    // إذا لم يتوفر رابط لسبب ما، نضع له رابط التوجيه المباشر لموقع Remote OK كمرجع بدلاً من جملة البحث السابقة
+                    // في حال تعذر الحصول على الرابط الفردي للوظيفة لأي سبب، يتم ربطه برابط صفحة عرض الوظائف بمصدرها المباشر
                     applyButtonContainer.innerHTML = `
                         <a href="https://remoteok.com" target="_blank" class="apply-now-btn">
-                            Apply via Partner Platform <i class="fa-solid fa-up-right-from-square"></i>
+                            Apply on Partner Platform <i class="fa-solid fa-up-right-from-square"></i>
                         </a>
                     `;
                 }
