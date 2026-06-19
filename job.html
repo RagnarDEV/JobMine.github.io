@@ -67,10 +67,26 @@
             color: var(--primary);
         }
 
+        /* حاوية الإعلانات المنسقة */
+        .ad-zone-wrapper {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        
+        .ad-zone-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+
         /* حاوية التفاصيل */
         .job-container {
             max-width: 800px;
-            margin: 40px auto;
+            margin: 20px auto;
             padding: 0 20px;
         }
 
@@ -95,7 +111,7 @@
         }
 
         .job-card-details {
-            display: none; /* سيتم تفعيله عبر الجافاسكربت فور اكتمال الجلب */
+            display: none; /* يتم إظهاره بعد اكتمال التحميل */
             background-color: var(--bg-card);
             border-radius: 16px;
             border: 1px solid var(--border);
@@ -183,7 +199,7 @@
             white-space: pre-line;
         }
 
-        /* زر التقديم */
+        /* زر التقديم المطور */
         .apply-now-btn {
             display: flex;
             align-items: center;
@@ -199,6 +215,7 @@
             transition: all 0.2s ease;
             text-align: center;
             box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
+            margin-top: 25px;
         }
 
         .apply-now-btn:hover {
@@ -224,6 +241,20 @@
         <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Dashboard</a>
     </nav>
 
+    <div class="ad-zone-wrapper">
+        <div class="ad-zone-label">Sponsored Advertisement</div>
+        <script>
+          atOptions = {
+            'key' : '36be12983ba9c788354b541d5d7f4801',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://www.highperformanceformat.com/36be12983ba9c788354b541d5d7f4801/invoke.js"></script>
+    </div>
+
     <div class="job-container">
         <div id="loadingState" class="loading-state">
             <i class="fa-solid fa-circle-notch"></i>
@@ -232,8 +263,8 @@
 
         <div id="errorState" class="error-state" style="display: none;">
             <i class="fa-solid fa-triangle-exclamation" style="color: #ef4444; font-size: 30px; margin-bottom: 15px;"></i>
-            <p id="errorText">Job details not found. It might appear properly once the next automated build updates the database.</p>
-            <a href="index.html" class="apply-now-btn" style="display: inline-flex; margin-top: 20px; padding: 10px 20px; box-shadow: none;">Return Home</a>
+            <p id="errorText">Job details not found. It will appear properly once the database updates.</p>
+            <a href="index.html" class="apply-now-btn" style="display: inline-flex; padding: 10px 20px; box-shadow: none;">Return Home</a>
         </div>
 
         <article id="jobCardDetails" class="job-card-details">
@@ -263,6 +294,20 @@
         </article>
     </div>
 
+    <div class="ad-zone-wrapper">
+        <div class="ad-zone-label">Recommended for you</div>
+        <script>
+          atOptions = {
+            'key' : 'ec060ebe971281b3bae0688731834b5f',
+            'format' : 'iframe',
+            'height' : 50,
+            'width' : 320,
+            'params' : {}
+          };
+        </script>
+        <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
+    </div>
+
     <footer class="main-footer">
         <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
     </footer>
@@ -282,7 +327,6 @@
                 return;
             }
 
-            // جلب ملف البيانات الرئيسي
             fetch('jobs.json')
                 .then(response => {
                     if (!response.ok) {
@@ -291,7 +335,6 @@
                     return response.json();
                 })
                 .then(data => {
-                    // تجميع كافة مصفوفات الوظائف للبحث داخلها بشكل مرن
                     let allJobs = [];
                     if (Array.isArray(data)) {
                         allJobs = data;
@@ -303,11 +346,10 @@
                         ];
                     }
 
-                    // 🔍 الخطوة 1: البحث المطابق المباشر عن طريق معرف الـ ID
+                    // 🔍 الخطوة 1: البحث المباشر عن طريق الـ ID
                     let foundJob = allJobs.find(job => job.id && String(job.id) === String(jobId));
 
-                    // 💡 الخطوة 2: الخطة البديلة (في حال كانت الوظائف القديمة لا تحتوي على حقل ID في الـ JSON الحالي)
-                    // نقوم بفك تشفير المعرف الممرر بالرابط ومطابقته مع اسم العنوان أو الشركة
+                    // 💡 الخطوة 2: الخطة البديلة بمطابقة العنوان والشركة للروابط الحالية
                     if (!foundJob) {
                         const decodedParam = decodeURIComponent(jobId).replace(/-/g, ' ').toLowerCase();
                         foundJob = allJobs.find(job => {
@@ -320,12 +362,12 @@
                     if (foundJob) {
                         displayJobDetails(foundJob);
                     } else {
-                        showError('Job details not found. It will appear properly once the next automated automated build updates the database.');
+                        showError('Job details not found. It will appear properly once the database updates.');
                     }
                 })
                 .catch(err => {
                     console.error(err);
-                    showError('Error connecting to data stream. Make sure jobs.json is updated.');
+                    showError('Error connecting to data stream.');
                 });
 
             function displayJobDetails(job) {
@@ -337,7 +379,6 @@
                 document.getElementById('jobDate').textContent = job.date || 'Recently Posted';
                 document.getElementById('jobCategory').textContent = job.category || 'Tech Sphere';
 
-                // معالجة الأوسام بشكل ذكي
                 const tagsContainer = document.getElementById('jobTags');
                 tagsContainer.innerHTML = '';
                 
@@ -357,15 +398,17 @@
                     tagsContainer.innerHTML = '<span class="job-tag">Remote Opportunity</span>';
                 }
 
-                // ربط الرابط الفعلي لزر التقديم للمنصة الخارجية
+                // 🛠️ التحقق الشامل من كل التسميات المحتملة للرابط الخارجي (URL / applyUrl / link / apply_url / source_url)
                 const applyBtn = document.getElementById('jobApplyLink');
-                if (job.url || job.applyUrl || job.link) {
-                    applyBtn.href = job.url || job.applyUrl || job.link;
+                const actualUrl = job.url || job.applyUrl || job.link || job.apply_url || job.source_url;
+                
+                if (actualUrl) {
+                    applyBtn.href = actualUrl;
+                    applyBtn.style.display = 'flex'; 
                 } else {
-                    applyBtn.style.display = 'none';
+                    applyBtn.style.display = 'none'; // الإخفاء التام في حال عدم توفر أي رابط لمنع الأخطاء للمستخدمين
                 }
 
-                // إخفاء التحميل وإظهار بطاقة تفاصيل الوظيفة الكاملة بنجاح
                 loadingState.style.display = 'none';
                 jobCardDetails.style.display = 'block';
             }
