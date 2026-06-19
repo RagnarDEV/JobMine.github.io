@@ -90,7 +90,7 @@
         }
 
         @keyframes spin {
-            0 { transform: rotate(0deg); }
+            0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
 
@@ -232,7 +232,7 @@
 
         <div id="errorState" class="error-state" style="display: none;">
             <i class="fa-solid fa-triangle-exclamation" style="color: #ef4444; font-size: 30px; margin-bottom: 15px;"></i>
-            <p id="errorText">Job depth not found or has expired from the mining logs.</p>
+            <p id="errorText">Job details not found. It might appear properly once the next automated build updates the database.</p>
             <a href="index.html" class="apply-now-btn" style="display: inline-flex; margin-top: 20px; padding: 10px 20px; box-shadow: none;">Return Home</a>
         </div>
 
@@ -278,11 +278,11 @@
             const jobCardDetails = document.getElementById('jobCardDetails');
 
             if (!jobId) {
-                showError('No job ID specified in the URL.');
+                showError('No job identifier specified in the URL.');
                 return;
             }
 
-            // قراءة ملف الـ JSON الأساسي الموجود في نفس المجلد
+            // جلب ملف البيانات الرئيسي
             fetch('jobs.json')
                 .then(response => {
                     if (!response.ok) {
@@ -291,25 +291,41 @@
                     return response.json();
                 })
                 .then(data => {
-                    // دمج كل مصفوفات الوظائف المحتملة في السيرفر للبحث بداخلها
-                    const allJobs = [
-                        ...(data.featuredJobs || []),
-                        ...(data.latestJobs || []),
-                        ...(data.jobs || [])
-                    ];
+                    // تجميع كافة مصفوفات الوظائف للبحث داخلها بشكل مرن
+                    let allJobs = [];
+                    if (Array.isArray(data)) {
+                        allJobs = data;
+                    } else {
+                        allJobs = [
+                            ...(data.featuredJobs || []),
+                            ...(data.latestJobs || []),
+                            ...(data.jobs || [])
+                        ];
+                    }
 
-                    // البحث عن معرف الوظيفة المطابق
-                    const foundJob = allJobs.find(job => String(job.id) === String(jobId));
+                    // 🔍 الخطوة 1: البحث المطابق المباشر عن طريق معرف الـ ID
+                    let foundJob = allJobs.find(job => job.id && String(job.id) === String(jobId));
+
+                    // 💡 الخطوة 2: الخطة البديلة (في حال كانت الوظائف القديمة لا تحتوي على حقل ID في الـ JSON الحالي)
+                    // نقوم بفك تشفير المعرف الممرر بالرابط ومطابقته مع اسم العنوان أو الشركة
+                    if (!foundJob) {
+                        const decodedParam = decodeURIComponent(jobId).replace(/-/g, ' ').toLowerCase();
+                        foundJob = allJobs.find(job => {
+                            const titleMatch = job.title && job.title.toLowerCase().includes(decodedParam);
+                            const companyMatch = job.company && job.company.toLowerCase().includes(decodedParam);
+                            return titleMatch || companyMatch;
+                        });
+                    }
 
                     if (foundJob) {
                         displayJobDetails(foundJob);
                     } else {
-                        showError('Job not found or has expired from the mining logs.');
+                        showError('Job details not found. It will appear properly once the next automated automated build updates the database.');
                     }
                 })
                 .catch(err => {
                     console.error(err);
-                    showError('Error connection to data stream. Make sure jobs.json exists.');
+                    showError('Error connecting to data stream. Make sure jobs.json is updated.');
                 });
 
             function displayJobDetails(job) {
@@ -321,7 +337,7 @@
                 document.getElementById('jobDate').textContent = job.date || 'Recently Posted';
                 document.getElementById('jobCategory').textContent = job.category || 'Tech Sphere';
 
-                // تعبئة الكلمات الدلالية والأوسام
+                // معالجة الأوسام بشكل ذكي
                 const tagsContainer = document.getElementById('jobTags');
                 tagsContainer.innerHTML = '';
                 
@@ -341,15 +357,15 @@
                     tagsContainer.innerHTML = '<span class="job-tag">Remote Opportunity</span>';
                 }
 
-                // ربط زر التقديم
+                // ربط الرابط الفعلي لزر التقديم للمنصة الخارجية
                 const applyBtn = document.getElementById('jobApplyLink');
-                if (job.url || job.applyUrl) {
-                    applyBtn.href = job.url || job.applyUrl;
+                if (job.url || job.applyUrl || job.link) {
+                    applyBtn.href = job.url || job.applyUrl || job.link;
                 } else {
                     applyBtn.style.display = 'none';
                 }
 
-                // إظهار البطاقة وإخفاء شاشة الانتظار
+                // إخفاء التحميل وإظهار بطاقة تفاصيل الوظيفة الكاملة بنجاح
                 loadingState.style.display = 'none';
                 jobCardDetails.style.display = 'block';
             }
