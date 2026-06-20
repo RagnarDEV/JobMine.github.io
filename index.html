@@ -26,6 +26,31 @@
         .no-results { text-align: center; padding: 40px; color: var(--text-muted); }
         .tag { background-color: rgba(255, 255, 255, 0.05); color: var(--text-main); padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; border: 1px solid var(--bg-border); }
         .featured-job-style { border-left: 4px solid var(--accent-gold) !important; background-color: rgba(255, 193, 7, 0.01) !important; }
+        
+        /* تنسيق زر Post a Job المدمج ليتناسب مع الهوية البصرية الحالية */
+        .btn-post-job {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #f5c300, #ffdb3a);
+            color: #0c0f14;
+            padding: 10px 22px;
+            font-size: 14px;
+            font-weight: 700;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 15px;
+            box-shadow: 0 4px 15px rgba(245, 195, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        .btn-post-job:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(245, 195, 0, 0.4);
+            background: linear-gradient(135deg, #ffdb3a, #f5c300);
+        }
+        .btn-post-job:active {
+            transform: translateY(0);
+        }
     </style>
 </head>
 <body>
@@ -37,6 +62,10 @@
             </div>
             <h1 class="logo">Job<span>Mine</span></h1>
             <p class="tagline">Your premier gateway to elite remote careers and hand-picked global opportunities.</p>
+            
+            <a href="post-job.html" class="btn-post-job">
+                <i class="fa-solid fa-plus-circle"></i> Post a Job
+            </a>
             
             <div class="showcase-container">
                 <div class="showcase-card">
@@ -124,7 +153,6 @@
                 </div>
             </section>
 
-            <!-- الإعلان الأول العلوي بعد التحديث -->
             <div class="ad-zone-wrapper">
                 <div class="ad-zone-label">Sponsored Resource</div>
                 <script>
@@ -167,7 +195,6 @@
         </main>
     </div>
 
-    <!-- الإعلان الثاني السفلي مدمج هنا بدقة قبل الفوتر -->
     <div class="ad-zone-wrapper" style="margin-top: 30px;">
         <script async="async" data-cfasync="false" src="https://pl29780511.effectivecpmnetwork.com/b72ef6d36261da411a14a962863babcf/invoke.js"></script>
         <div id="container-b72ef6d36261da411a14a962863babcf"></div>
