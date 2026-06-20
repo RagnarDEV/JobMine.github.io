@@ -1,14 +1,14 @@
 /* ==========================================================================
-   JobMine - Core Application Logic (Fixed Pagination & Filtering)
+   JobMine - Core Application Logic (Premium SEO & Dynamic Schema Ecosystem)
    ========================================================================== */
 
 let allJobs = [];
 
-// عدادات التقطيع الافتراضية
+// عدادات التقطيع الافتراضية للوظائف
 let displayedLatestCount = 20;
 let displayedFeaturedCount = 20;
 
-// 1. جلب البيانات من ملف JSON
+// 1. جلب البيانات من ملف JSON الافتراضي
 async function fetchJobsData() {
     try {
         const response = await fetch('jobs.json');
@@ -27,14 +27,14 @@ async function fetchJobsData() {
             container.innerHTML = `
                 <div class="no-results" style="text-align:center; padding:20px; color:#8b949e; width: 100%;">
                     <i class="fa-solid fa-triangle-exclamation" style="color: #ffc107; font-size: 2rem; margin-bottom: 10px;"></i>
-                    <p>Failed to load jobs. Please try refreshing the page later.</p>
+                    <p>Failed to load opportunities. Please try refreshing the page later.</p>
                 </div>
             `;
         }
     }
 }
 
-// 2. تحديث لوحة الإحصائيات
+// 2. تحديث لوحة الإحصائيات الذكية
 function updateStatsDashboard(jobs) {
     const totalJobsElement = document.getElementById('statTotalJobs');
     const totalCompaniesElement = document.getElementById('statTotalCompanies');
@@ -47,7 +47,7 @@ function updateStatsDashboard(jobs) {
     }
 }
 
-// دالة الخلط العشوائي ثنائية الثبات
+// دالة الخلط العشوائي ثنائية الثبات لكسر الرتابة البصرية
 function shuffleArray(array) {
     const newArray = [...array];
     for (let i = newArray.length - 1; i > 0; i--) {
@@ -55,6 +55,51 @@ function shuffleArray(array) {
         [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
     }
     return newArray;
+}
+
+// 🌐 محرك الـ SEO المتقدم: حقن الـ Structured Data (Google Jobs Schema) ديناميكياً
+function injectJobSchema(job) {
+    // بناء الهيكل البرمجي المعتمد لدى عناكب بحث جوجل للوظائف عن بعد
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        "title": job.title,
+        "description": `Premium remote career opportunity for a talented ${job.title} to join ${job.company || 'a global enterprise'}. This position is 100% remote working worldwide.`,
+        "datePosted": job.date || new Date().toISOString().split('T')[0],
+        "validThrough": new Date(Date.now() + 60 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // صالحة لمدة 60 يوماً
+        "employmentType": "FULL_TIME",
+        "hiringOrganization": {
+            "@type": "Organization",
+            "name": job.company || "Verified Global Enterprise",
+            "sameAs": "https://www.jobmine.site.je/"
+        },
+        "jobLocationType": "TELECOMMUTE", // إشارة صريحة لجوجل أن الوظيفة عن بعد بالكامل
+        "applicantLocationRequirements": {
+            "@type": "Country",
+            "name": "Anywhere"
+        },
+        "baseSalary": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": {
+                "@type": "QuantitativeValue",
+                "unitText": "MONTH"
+            }
+        }
+    };
+
+    // إنشاء العنصر برمجياً وحقنه في الـ <head>
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.className = 'dynamic-job-schema'; // فئة مميزة لتسهيل تنظيفها لاحقاً
+    script.text = JSON.stringify(schemaData);
+    document.head.appendChild(script);
+}
+
+// دالة تنظيف الـ Schema القديمة عند إعادة التصفية والبحث لمنع التضارب
+function clearOldSchemas() {
+    const oldScripts = document.querySelectorAll('.dynamic-job-schema');
+    oldScripts.forEach(script => script.remove());
 }
 
 // 3. المحرك المطور للفلترة والفرز الفوري
@@ -65,7 +110,7 @@ function filterAndRenderJobs() {
     const searchQuery = searchInput ? searchInput.value.toLowerCase().trim() : "";
     const selectedCategory = categoryFilter ? categoryFilter.value : "all";
 
-    // تصفية المصفوفة بناءً على البحث والقطاع الجغرافي/الفني
+    // تصفية المصفوفة بناءً على البحث والقطاع المختار
     const filteredList = allJobs.filter(job => {
         const tagsArray = Array.isArray(job.tags) ? job.tags : [];
         
@@ -78,6 +123,9 @@ function filterAndRenderJobs() {
         return matchesSearch && matchesCategory;
     });
 
+    // تنظيف أكواد الأرشفة السابقة قبل طباعة النتائج المحدثة
+    clearOldSchemas();
+
     // خلط النتائج المفلترة لكسر التكرار بصرياً
     const randomizedList = shuffleArray(filteredList);
 
@@ -89,7 +137,7 @@ function filterAndRenderJobs() {
     renderLatestSection(latestJobs);
 }
 
-// 4. عرض الوظائف المميزة
+// 4. عرض الوظائف المميزة (Executive Placements)
 function renderFeaturedSection(jobs) {
     const container = document.getElementById('featuredJobsContainer');
     const loadMoreBtn = document.getElementById('loadMoreFeaturedBtn');
@@ -98,7 +146,7 @@ function renderFeaturedSection(jobs) {
     container.innerHTML = '';
 
     if (jobs.length === 0) {
-        container.innerHTML = '<div class="loading-status" style="font-size:0.9rem; color:#8b949e; text-align:center; padding:15px; width:100%;">No premium featured jobs matching this criteria.</div>';
+        container.innerHTML = '<div class="loading-status" style="font-size:0.9rem; color:#8b949e; text-align:center; padding:15px; width:100%;">No premium corporate placements matching this criteria.</div>';
         if (loadMoreBtn) loadMoreBtn.style.display = 'none';
         return;
     }
@@ -107,6 +155,7 @@ function renderFeaturedSection(jobs) {
 
     jobsToDisplay.forEach(job => {
         container.appendChild(createJobCard(job, true));
+        injectJobSchema(job); // أرشفة الوظيفة المميزة لدى جوجل تلقائياً
     });
 
     if (loadMoreBtn) {
@@ -114,7 +163,7 @@ function renderFeaturedSection(jobs) {
     }
 }
 
-// 5. عرض أحدث الوظائف المفتوحة
+// 5. عرض أحدث الوظائف المفتوحة (Global Openings)
 function renderLatestSection(jobs) {
     const container = document.getElementById('jobsContainer');
     const loadMoreBtn = document.getElementById('loadMoreLatestBtn');
@@ -137,6 +186,7 @@ function renderLatestSection(jobs) {
 
     jobsToDisplay.forEach(job => {
         container.appendChild(createJobCard(job, false));
+        injectJobSchema(job); // أرشفة الوظيفة العامة لدى جوجل تلقائياً
     });
 
     if (loadMoreBtn) {
@@ -144,7 +194,7 @@ function renderLatestSection(jobs) {
     }
 }
 
-// 6. بناء كرت الوظيفة الموحد
+// 6. بناء كرت الوظيفة الموحد المنسق
 function createJobCard(job, isFeatured = false) {
     const card = document.createElement('div');
     card.className = `job-card ${isFeatured ? 'featured-job-style' : ''}`;
@@ -191,7 +241,7 @@ function createJobCard(job, isFeatured = false) {
     return card;
 }
 
-// 7. ربط أحداث الـ Pagination
+// 7. ربط أحداث الـ Pagination (مشاهدة المزيد)
 function setupPaginationEvents() {
     const loadMoreLatestBtn = document.getElementById('loadMoreLatestBtn');
     const loadMoreFeaturedBtn = document.getElementById('loadMoreFeaturedBtn');
@@ -211,7 +261,7 @@ function setupPaginationEvents() {
     }
 }
 
-// 8. الاستماع لمدخلات البحث والفلترة وإعادة تصفير العدادات تلقائياً عند تغيير الكلمات
+// 8. الاستماع الفوري لمدخلات البحث والفلترة وإعادة تصفير العدادات تلقائياً
 function setupFilterListeners() {
     const searchInput = document.getElementById('searchInput');
     const categoryFilter = document.getElementById('categoryFilter');
