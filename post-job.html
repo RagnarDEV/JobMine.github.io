@@ -213,9 +213,9 @@ apply_url: "${jobData.apply_url}"
 date: "${jobData.date}"
 ---`;
 
-            // 3. تحديد معلومات المستودع لإنشاء الرابط التلقائي للـ Issue
-            const repoOwner = "ahmed-alrahal"; 
-            const repoName = "JobMine"; 
+            // 3. تحديث معلومات المستودع لتوجه برمجياً لحسابك والمستودع الفعلي بدقة
+            const repoOwner = "RagnarDEV"; 
+            const repoName = "JobMine.github.io"; 
             
             const titleText = `New Job: ${jobData.title} at ${jobData.company}`;
             const githubIssueUrl = `https://github.com/${repoOwner}/${repoName}/issues/new?title=${encodeURIComponent(titleText)}&body=${encodeURIComponent(issueBody)}`;
