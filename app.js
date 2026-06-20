@@ -1,15 +1,14 @@
 /* ==========================================================================
-   JobMine - Core Application Logic (Pagination & Random Filtering)
+   JobMine - Core Application Logic (Fixed Pagination & Filtering)
    ========================================================================== */
 
-// مصفوفة عالمية لتخزين جميع الوظائف بعد جلبها
 let allJobs = [];
 
-// متغيرات التحكم في أعداد الوظائف المعروضة والتقطيع (Pagination)
+// عدادات التقطيع الافتراضية
 let displayedLatestCount = 20;
 let displayedFeaturedCount = 20;
 
-// 1. دالة جلب البيانات من ملف JSON
+// 1. جلب البيانات من ملف JSON
 async function fetchJobsData() {
     try {
         const response = await fetch('jobs.json');
@@ -18,10 +17,7 @@ async function fetchJobsData() {
         }
         allJobs = await response.json();
         
-        // تحديث لوحة الإحصائيات الحية بناءً على إجمالي البيانات المستلمة
         updateStatsDashboard(allJobs);
-        
-        // التشغيل الأولي للفص والفلترة والعرض
         filterAndRenderJobs();
         
     } catch (error) {
@@ -29,7 +25,7 @@ async function fetchJobsData() {
         const container = document.getElementById('jobsContainer');
         if (container) {
             container.innerHTML = `
-                <div class="no-results">
+                <div class="no-results" style="text-align:center; padding:20px; color:#8b949e; width: 100%;">
                     <i class="fa-solid fa-triangle-exclamation" style="color: #ffc107; font-size: 2rem; margin-bottom: 10px;"></i>
                     <p>Failed to load jobs. Please try refreshing the page later.</p>
                 </div>
@@ -38,7 +34,7 @@ async function fetchJobsData() {
     }
 }
 
-// 2. دالة تحديث الإحصائيات حياً في أعلى الصفحة بأرقام حقيقية
+// 2. تحديث لوحة الإحصائيات
 function updateStatsDashboard(jobs) {
     const totalJobsElement = document.getElementById('statTotalJobs');
     const totalCompaniesElement = document.getElementById('statTotalCompanies');
@@ -51,9 +47,9 @@ function updateStatsDashboard(jobs) {
     }
 }
 
-// دالة مساعدة لعمل خلط عشوائي للمصفوفات (Fisher-Yates Shuffle Algorithm)
+// دالة الخلط العشوائي ثنائية الثبات
 function shuffleArray(array) {
-    const newArray = [...array]; // أخذ نسخة من المصفوفة لعدم تخريب الترتيب الأصلي الكلي
+    const newArray = [...array];
     for (let i = newArray.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
@@ -61,12 +57,15 @@ function shuffleArray(array) {
     return newArray;
 }
 
-// 3. المحرك الرئيسي للفلترة، الفصل العشوائي، والعرض المتزامن
+// 3. المحرك المطور للفلترة والفرز الفوري
 function filterAndRenderJobs() {
-    const searchQuery = document.getElementById('searchInput').value.toLowerCase().trim();
-    const selectedCategory = document.getElementById('categoryFilter').value;
+    const searchInput = document.getElementById('searchInput');
+    const categoryFilter = document.getElementById('categoryFilter');
+    
+    const searchQuery = searchInput ? searchInput.value.toLowerCase().trim() : "";
+    const selectedCategory = categoryFilter ? categoryFilter.value : "all";
 
-    // أولاً: تطبيق فلاتر البحث والفلترة على مصفوفة الوظائف الكاملة
+    // تصفية المصفوفة بناءً على البحث والقطاع الجغرافي/الفني
     const filteredList = allJobs.filter(job => {
         const tagsArray = Array.isArray(job.tags) ? job.tags : [];
         
@@ -79,21 +78,18 @@ function filterAndRenderJobs() {
         return matchesSearch && matchesCategory;
     });
 
-    // ثانياً: خلط الوظائف المفلترة عشوائياً واقتطاع المميز منها
+    // خلط النتائج المفلترة لكسر التكرار بصرياً
     const randomizedList = shuffleArray(filteredList);
 
-    // سنأخذ 5 وظائف عشوائية تماماً من القائمة المخلوطة لتكون في قسم "المميزة"
+    // تقسيم العناصر المفلترة بالتساوي بين الأقسام المتاحة
     const featuredJobs = randomizedList.slice(0, 5); 
-    
-    // باقي الوظائف تذهب إلى قسم "أحدث الوظائف" بالترتيب العشوائي أيضاً لكسر التكرار
     const latestJobs = randomizedList.slice(5); 
 
-    // ثالثاً: إرسال القوائم إلى دوال العرض مع تطبيق الـ Pagination
     renderFeaturedSection(featuredJobs);
     renderLatestSection(latestJobs);
 }
 
-// 4. دالة عرض قسم الوظائف المميزة (Featured Jobs)
+// 4. عرض الوظائف المميزة
 function renderFeaturedSection(jobs) {
     const container = document.getElementById('featuredJobsContainer');
     const loadMoreBtn = document.getElementById('loadMoreFeaturedBtn');
@@ -102,7 +98,7 @@ function renderFeaturedSection(jobs) {
     container.innerHTML = '';
 
     if (jobs.length === 0) {
-        container.innerHTML = '<div class="loading-status" style="font-size:0.9rem; color:#8b949e; text-align:center; padding:15px;">No premium featured jobs matching this criteria.</div>';
+        container.innerHTML = '<div class="loading-status" style="font-size:0.9rem; color:#8b949e; text-align:center; padding:15px; width:100%;">No premium featured jobs matching this criteria.</div>';
         if (loadMoreBtn) loadMoreBtn.style.display = 'none';
         return;
     }
@@ -114,15 +110,11 @@ function renderFeaturedSection(jobs) {
     });
 
     if (loadMoreBtn) {
-        if (displayedFeaturedCount >= jobs.length) {
-            loadMoreBtn.style.display = 'none';
-        } else {
-            loadMoreBtn.style.display = 'block';
-        }
+        loadMoreBtn.style.display = (displayedFeaturedCount >= jobs.length) ? 'none' : 'block';
     }
 }
 
-// 5. دالة عرض قسم أحدث الوظائف (Latest Openings)
+// 5. عرض أحدث الوظائف المفتوحة
 function renderLatestSection(jobs) {
     const container = document.getElementById('jobsContainer');
     const loadMoreBtn = document.getElementById('loadMoreLatestBtn');
@@ -148,21 +140,17 @@ function renderLatestSection(jobs) {
     });
 
     if (loadMoreBtn) {
-        if (displayedLatestCount >= jobs.length) {
-            loadMoreBtn.style.display = 'none';
-        } else {
-            loadMoreBtn.style.display = 'block';
-        }
+        loadMoreBtn.style.display = (displayedLatestCount >= jobs.length) ? 'none' : 'block';
     }
 }
 
-// 6. دالة بناء كرت الوظيفة الموحد (HTML Builder)
+// 6. بناء كرت الوظيفة الموحد
 function createJobCard(job, isFeatured = false) {
     const card = document.createElement('div');
     card.className = `job-card ${isFeatured ? 'featured-job-style' : ''}`;
     if (isFeatured) {
         card.style.borderLeft = '4px solid #ffc107';
-        card.style.backgroundColor = 'rgba(255, 193, 7, 0.02)';
+        card.style.backgroundColor = 'rgba(255, 193, 7, 0.01)';
     }
 
     let categoryIcon = '<i class="fa-solid fa-briefcase"></i>';
@@ -174,10 +162,7 @@ function createJobCard(job, isFeatured = false) {
     const tagsArray = Array.isArray(job.tags) ? job.tags : [];
     const tagsHTML = tagsArray.map(tag => `<span class="tag">${tag}</span>`).join('');
 
-    // 🔍 جلب رابط التقديم الخارجي الفعلي للوظيفة باستخدام المفتاح الصحيح 'apply_link'
-    const rawUrl = job.apply_link || job.url || job.link || job.applyUrl || job.apply_url || job.source_url || '#';
-
-    // 🛑 التعديل الجوهري: نقوم بتمرير الـ ID المتاح وبجانبه رابط الوظيفة المباشر مشفراً لحل مشكلة تحويل الزائر
+    const rawUrl = job.apply_link || job.url || job.link || '#';
     const targetId = job.id ? encodeURIComponent(job.id) : encodeURIComponent(job.title);
     const internalJobLink = `job.html?id=${targetId}&url=${encodeURIComponent(rawUrl)}`;
 
@@ -206,7 +191,7 @@ function createJobCard(job, isFeatured = false) {
     return card;
 }
 
-// 7. ربط أحداث الضغط على أزرار "Load More" لتوسيع نطاق العرض
+// 7. ربط أحداث الـ Pagination
 function setupPaginationEvents() {
     const loadMoreLatestBtn = document.getElementById('loadMoreLatestBtn');
     const loadMoreFeaturedBtn = document.getElementById('loadMoreFeaturedBtn');
@@ -226,7 +211,7 @@ function setupPaginationEvents() {
     }
 }
 
-// 8. ربط أحداث الإدخال والبحث الفوري وتحديث العشوائية عند الفلترة الجديدة
+// 8. الاستماع لمدخلات البحث والفلترة وإعادة تصفير العدادات تلقائياً عند تغيير الكلمات
 function setupFilterListeners() {
     const searchInput = document.getElementById('searchInput');
     const categoryFilter = document.getElementById('categoryFilter');
