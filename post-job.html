@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a New Remote Job - JobMine</title>
+    <!-- ربط ملف التنسيق الموحد للموقع لضمان نفس الألوان والخلفيات -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* تنسيقات مخصصة لصفحة استمارة إضافة الوظيفة دون المساس بالملف الأساسي */
+        .form-section {
+            max-width: 650px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .form-container {
+            background-color: var(--bg-surface);
+            border: 1px solid var(--bg-border);
+            border-radius: var(--radius);
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        .form-header {
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--bg-border);
+            padding-bottom: 15px;
+        }
+        .form-header h2 {
+            color: #ffffff;
+            font-size: 1.6rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .form-header h2 i {
+            color: var(--accent-gold);
+        }
+        .form-header p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            color: var(--text-main);
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .form-group label span {
+            color: #ff5722;
+        }
+        .form-control {
+            width: 100%;
+            background-color: var(--bg-main);
+            border: 1px solid var(--bg-border);
+            color: var(--text-main);
+            padding: 12px 15px;
+            border-radius: var(--radius);
+            font-size: 0.95rem;
+            outline: none;
+            transition: var(--transition);
+            font-family: var(--font-sans);
+        }
+        .form-control:focus {
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.15);
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .btn-submit-job {
+            width: 100%;
+            background: linear-gradient(135deg, var(--accent-gold), #ffdb3a);
+            color: #0c0f14;
+            border: none;
+            padding: 14px;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: var(--radius);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: var(--transition);
+            margin-top: 10px;
+        }
+        .btn-submit-job:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 193, 7, 0.3);
+            background: linear-gradient(135deg, #ffdb3a, var(--accent-gold));
+        }
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            transition: var(--transition);
+        }
+        .btn-back:hover {
+            color: var(--accent-gold);
+        }
+
+        @media screen and (max-width: 600px) {
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section" style="padding: 40px 20px 20px;">
+        <div class="hero-container">
+            <h1 class="logo"><a href="index.html">Job<span>Mine</span></a></h1>
+            <p class="tagline">The premium gateway for elite borderless talent.</p>
+        </div>
+    </header>
+
+    <main class="form-section">
+        <a href="index.html" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Back to Elite Feed</a>
+        
+        <div class="form-container">
+            <div class="form-header">
+                <h2><i class="fa-solid fa-paper-plane"></i> Post a Remote Position</h2>
+                <p>Reach thousands of qualified global professionals instantly.</p>
+            </div>
+            
+            <form id="postJobForm">
+                <div class="form-group">
+                    <label for="jobTitle">Job Title <span>*</span></label>
+                    <input type="text" id="jobTitle" class="form-control" placeholder="e.g. Senior Full-Stack Engineer (React & Node)" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="companyName">Company Name <span>*</span></label>
+                    <input type="text" id="companyName" class="form-control" placeholder="e.g. Stripe, Inc." required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="jobCategory">Sector / Category <span>*</span></label>
+                        <select id="jobCategory" class="form-control" style="padding: 11px 15px;" required>
+                            <option value="" disabled selected>Select Sector</option>
+                            <option value="Development">Software Engineering</option>
+                            <option value="Design">Product Design & Creative</option>
+                            <option value="Marketing">Growth & Digital Marketing</option>
+                            <option value="Product">Product Management</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="jobSalary">Salary Range (Optional)</label>
+                        <input type="text" id="jobSalary" class="form-control" placeholder="e.g. $90k - $120k / year">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="jobTags">Core Stack / Keywords (Comma separated) <span>*</span></label>
+                    <input type="text" id="jobTags" class="form-control" placeholder="e.g. React, Node.js, TypeScript, Remote" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="applyUrl">Application Link or Email <span>*</span></label>
+                    <input type="url" id="applyUrl" class="form-control" placeholder="https://careers.company.com/job/apply" required>
+                </div>
+
+                <button type="submit" class="btn-submit-job">
+                    <i class="fa-solid fa-circle-plus"></i> Broadcast Position
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages Ecosystem. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('postJobForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Excellent! Your job detail capturing logic will be connected here in the next step.');
+        });
+    </script>
+</body>
+</html>
