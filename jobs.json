@@ -1,6 +1,70 @@
 [
   {
     "id": 1,
+    "title": "Project Systems Specialist",
+    "company": "Dart",
+    "category": "Development",
+    "location": "George Town, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "c sharp",
+      "sys admin",
+      "technical"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-project-systems-specialist-dart-1133738",
+    "date": "2026-06-20"
+  },
+  {
+    "id": 2,
+    "title": "Social Media Manager",
+    "company": "Rotaract Club of University of Ruhuna",
+    "category": "Design",
+    "location": "New York, New York, United States",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "design",
+      "education"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-social-media-manager-rotaract-club-of-university-of-ruhuna-1133711",
+    "date": "2026-06-20"
+  },
+  {
+    "id": 3,
+    "title": "Influencer",
+    "company": "Pashet",
+    "category": "Development",
+    "location": "India, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "sys admin",
+      "supervisor",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-influencer-pashet-1133708",
+    "date": "2026-06-20"
+  },
+  {
+    "id": 4,
+    "title": "Marketing Assistant",
+    "company": "Brooklyn Cured",
+    "category": "Design",
+    "location": "New York City Metropolitan Area",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "exec",
+      "design",
+      "education"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-marketing-assistant-brooklyn-cured-1133713",
+    "date": "2026-06-20"
+  },
+  {
+    "id": 5,
     "title": "Election Officials",
     "company": "City of New Westminster",
     "category": "Development",
@@ -16,7 +80,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Executive Assistant France",
     "company": "Zirtual",
     "category": "Development",
@@ -31,7 +95,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Employment Lawyer Fully",
     "company": "KMA Legal Recruitment",
     "category": "Development",
@@ -47,7 +111,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Entry Level Administrative Assistant",
     "company": "Recruitlytixs HR",
     "category": "Marketing",
@@ -63,7 +127,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "Junior Graphic Designer",
     "company": "Work Force Nexus",
     "category": "Design",
@@ -78,7 +142,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "Executive & Admin Assistant",
     "company": "Nexist",
     "category": "Development",
@@ -94,7 +158,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Corporate Commercial Paralegal Fully",
     "company": "Leadenhall Search & Selection",
     "category": "Development",
@@ -108,7 +172,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "AdministraÃ§Ã£o Virtual Segunda a Sexta USD $5 hr Remoto",
     "company": "Elevate Teams",
     "category": "Development",
@@ -122,7 +186,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Coordenador de Marketing Criativo",
     "company": "KÄsper",
     "category": "Development",
@@ -137,7 +201,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "Analista de Relacionamento com o Cliente Jr Remoto",
     "company": "Shopper.com.br",
     "category": "Development",
@@ -151,7 +215,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "Analista de Software SÃªnior",
     "company": "Banco BV",
     "category": "Design",
@@ -167,7 +231,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "Desktop Support Technician",
     "company": "Pathway Communications",
     "category": "Development",
@@ -183,7 +247,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "TEST JOB AD 2",
     "company": "TEST",
     "category": "Development",
@@ -199,7 +263,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "Executive Assistant",
     "company": "ChaosTrack",
     "category": "Development",
@@ -215,7 +279,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "Customer Support Specialist",
     "company": "Velsera",
     "category": "Development",
@@ -231,7 +295,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Data Entry Clerk Virtual Assistant",
     "company": "Sundayy",
     "category": "Development",
@@ -246,7 +310,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Operations Administrator",
     "company": "RECSEEKERS",
     "category": "Development",
@@ -262,7 +326,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "HR Administrative Assistant",
     "company": "Atlantic Health Strategiesâ¢",
     "category": "Development",
@@ -278,7 +342,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "Documentation Specialist",
     "company": "Pinnacle Home Care",
     "category": "Marketing",
@@ -294,7 +358,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "Senior Backend Engineer Studio AI",
     "company": "Creative Fabrica",
     "category": "Development",
@@ -310,7 +374,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 21,
+    "id": 25,
     "title": "Customer Solutions Technician",
     "company": "Johnson Controls",
     "category": "Design",
@@ -325,7 +389,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 22,
+    "id": 26,
     "title": "Graphic Designer",
     "company": "Swoon",
     "category": "Development",
@@ -341,7 +405,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 23,
+    "id": 27,
     "title": "Sales Director Dairy Ingredients",
     "company": "Kinisla",
     "category": "Development",
@@ -357,7 +421,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 24,
+    "id": 28,
     "title": "Strategy and Engagement Officer",
     "company": "Ministry of Housing, Communities and Local Government",
     "category": "Development",
@@ -373,7 +437,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 25,
+    "id": 29,
     "title": "VP Strategic Customer Programs",
     "company": "Karbon",
     "category": "Development",
@@ -389,69 +453,39 @@
     "date": "2026-06-20"
   },
   {
-    "id": 26,
+    "id": 30,
     "title": "VP GM East &amp; Control",
     "company": "Mast-JÃ¤germeister US, Inc.",
     "category": "Development",
-    "location": "White Plains, White Plains, New York, United States",
+    "location": "Remote Worldwide",
     "type": "Full-time",
     "salary": "Competitive",
     "tags": [
-      "hr",
-      "virtual assistant",
-      "medical"
+      "Design",
+      "UI/UX",
+      "Creative"
     ],
     "apply_link": "https://remoteOK.com/remote-jobs/remote-vp-gm-east-amp-control-mast-jagermeister-us-inc-1133678",
     "date": "2026-06-20"
   },
   {
-    "id": 27,
+    "id": 31,
     "title": "Scrum Master",
     "company": "Blackstone Talent Group",
     "category": "Development",
-    "location": "Dallas-Fort Worth Metroplex",
+    "location": "Remote Worldwide",
     "type": "Full-time",
     "salary": "Competitive",
     "tags": [
-      "hr",
-      "virtual assistant",
-      "medical"
+      "Design",
+      "UI/UX",
+      "Creative"
     ],
     "apply_link": "https://remoteOK.com/remote-jobs/remote-scrum-master-blackstone-talent-group-1133679",
     "date": "2026-06-20"
   },
   {
-    "id": 28,
-    "title": "Agent",
-    "company": "Kier Group",
-    "category": "Development",
-    "location": "Isleworth, ",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "Remote"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-agent-kier-group-1133662",
-    "date": "2026-06-20"
-  },
-  {
-    "id": 29,
-    "title": "Call Center Agent Quality",
-    "company": "Aljazira Bank | Ø¨ÙÙ Ø§ÙØ¬Ø²ÙØ±Ø©",
-    "category": "Marketing",
-    "location": "Ø§ÙØ±ÙØ§Ø¶, Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ³Ø¹ÙØ¯ÙØ©",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "sys admin",
-      "supervisor",
-      "customer support"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-call-center-agent-quality-aljazira-bank-1133706",
-    "date": "2026-06-20"
-  },
-  {
-    "id": 30,
+    "id": 32,
     "title": "Staff Product Manager Product Information Management",
     "company": "HighLevel",
     "category": "Development",
@@ -467,7 +501,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 31,
+    "id": 33,
     "title": "Social Media Manager",
     "company": "Crypto.com",
     "category": "Development",
@@ -483,7 +517,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 32,
+    "id": 34,
     "title": "Executive Assistant",
     "company": "Spriggs Excavation, Inc.",
     "category": "Development",
@@ -499,7 +533,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 33,
+    "id": 35,
     "title": "Social Content Designer & Producer",
     "company": "Josie Maran",
     "category": "Development",
@@ -515,7 +549,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 34,
+    "id": 36,
     "title": "Loan Processor",
     "company": "SFMC Home Lending",
     "category": "Design",
@@ -531,7 +565,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 35,
+    "id": 37,
     "title": "Executive Assistant",
     "company": "GrowthAssistant",
     "category": "Development",
@@ -547,7 +581,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 36,
+    "id": 38,
     "title": "Data Entry",
     "company": "Smart IT Frame LLC",
     "category": "Development",
@@ -563,7 +597,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 37,
+    "id": 39,
     "title": "Help Desk",
     "company": "Zenius Corporation",
     "category": "Development",
@@ -579,7 +613,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 38,
+    "id": 40,
     "title": "Scrum Master",
     "company": "SIRITECH SOLUTIONS CORP",
     "category": "Development",
@@ -595,7 +629,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 39,
+    "id": 41,
     "title": "Payroll Specialist",
     "company": "Elevate LLC",
     "category": "Development",
@@ -611,7 +645,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 40,
+    "id": 42,
     "title": "Client Success Manager",
     "company": "Empathy",
     "category": "Design",
@@ -624,38 +658,6 @@
       "Creative"
     ],
     "apply_link": "https://remoteOK.com/remote-jobs/remote-client-success-manager-empathy-1133591",
-    "date": "2026-06-20"
-  },
-  {
-    "id": 41,
-    "title": "Virtual Assistant",
-    "company": "OnlineJobs.PH",
-    "category": "Development",
-    "location": "Remote Worldwide",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "Design",
-      "UI/UX",
-      "Creative"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-virtual-assistant-onlinejobs-ph-1133575",
-    "date": "2026-06-20"
-  },
-  {
-    "id": 42,
-    "title": "Receptionist Front Office Executive",
-    "company": "Work Force Nexus",
-    "category": "Design",
-    "location": "Remote Worldwide",
-    "type": "Full-time",
-    "salary": "Competitive",
-    "tags": [
-      "Design",
-      "UI/UX",
-      "Creative"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-receptionist-front-office-executive-work-force-nexus-1133547",
     "date": "2026-06-20"
   },
   {
@@ -676,38 +678,6 @@
   },
   {
     "id": 44,
-    "title": "Junior Director",
-    "company": "Newhouse",
-    "category": "Marketing",
-    "location": "Worldwide Remote",
-    "type": "Full-time",
-    "salary": "Attractive",
-    "tags": [
-      "Marketing",
-      "SEO",
-      "Growth"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-junior-director-newhouse-1133574",
-    "date": "2026-06-20"
-  },
-  {
-    "id": 45,
-    "title": "Data Entry Specialist",
-    "company": "Somewhere",
-    "category": "Marketing",
-    "location": "Worldwide Remote",
-    "type": "Full-time",
-    "salary": "Attractive",
-    "tags": [
-      "Marketing",
-      "SEO",
-      "Growth"
-    ],
-    "apply_link": "https://remoteOK.com/remote-jobs/remote-data-entry-specialist-somewhere-1133567",
-    "date": "2026-06-20"
-  },
-  {
-    "id": 46,
     "title": "Product Designer Design Systems",
     "company": "Penn Interactive",
     "category": "Design",
@@ -723,7 +693,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 47,
+    "id": 45,
     "title": "Product Manager",
     "company": "Ripjar",
     "category": "Development",
@@ -739,7 +709,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 48,
+    "id": 46,
     "title": "Senior Product Manager",
     "company": "Distru",
     "category": "Development",
@@ -755,7 +725,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 49,
+    "id": 47,
     "title": "Product Manager",
     "company": "PadSplit",
     "category": "Development",
@@ -771,7 +741,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 50,
+    "id": 48,
     "title": "IMAGING CALL CENTER SCHEDULER",
     "company": "Home Health Focus AI",
     "category": "Development",
@@ -787,7 +757,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 51,
+    "id": 49,
     "title": "Human Resources Coordinator",
     "company": "Sundayy",
     "category": "Development",
@@ -803,7 +773,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 52,
+    "id": 50,
     "title": "Public Health Communications Professional",
     "company": "CuraSenseAI",
     "category": "Development",
@@ -819,7 +789,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 53,
+    "id": 51,
     "title": "VP of Sales",
     "company": "Transform9",
     "category": "Development",
@@ -835,7 +805,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 54,
+    "id": 52,
     "title": "Event Planning Assistant",
     "company": "Travel Planning Careers",
     "category": "Development",
@@ -851,7 +821,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 55,
+    "id": 53,
     "title": "Product Designer",
     "company": "Butter",
     "category": "Development",
@@ -867,7 +837,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 56,
+    "id": 54,
     "title": "Technical Product Manager",
     "company": "Worth AI",
     "category": "Development",
@@ -883,7 +853,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 57,
+    "id": 55,
     "title": "Territory Business Development Manager USMC",
     "company": "Shield AI",
     "category": "Development",
@@ -899,7 +869,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 58,
+    "id": 56,
     "title": "Product Designer",
     "company": "Nevis",
     "category": "Design",
@@ -915,7 +885,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 59,
+    "id": 57,
     "title": "Data Entry",
     "company": "Torentify",
     "category": "Design",
@@ -931,7 +901,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 60,
+    "id": 58,
     "title": "Product Designer",
     "company": "South Geeks",
     "category": "Development",
@@ -947,7 +917,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 61,
+    "id": 59,
     "title": "Product Designer",
     "company": "DesignMeshAI",
     "category": "Design",
@@ -963,7 +933,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 62,
+    "id": 60,
     "title": "MSL CART AndalucÃ­a Oriental",
     "company": "Johnson &amp; Johnson",
     "category": "Design",
@@ -979,7 +949,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 63,
+    "id": 61,
     "title": "Product Designer",
     "company": "Heidi",
     "category": "Development",
@@ -995,7 +965,101 @@
     "date": "2026-06-20"
   },
   {
+    "id": 62,
+    "title": "Agent",
+    "company": "Kier Group",
+    "category": "Development",
+    "location": "Isleworth, ",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "Remote"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-agent-kier-group-1133662",
+    "date": "2026-06-20"
+  },
+  {
+    "id": 63,
+    "title": "Call Center Agent Quality",
+    "company": "Aljazira Bank | Ø¨ÙÙ Ø§ÙØ¬Ø²ÙØ±Ø©",
+    "category": "Marketing",
+    "location": "Ø§ÙØ±ÙØ§Ø¶, Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ³Ø¹ÙØ¯ÙØ©",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "sys admin",
+      "supervisor",
+      "customer support"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-call-center-agent-quality-aljazira-bank-1133706",
+    "date": "2026-06-20"
+  },
+  {
     "id": 64,
+    "title": "Virtual Assistant",
+    "company": "OnlineJobs.PH",
+    "category": "Development",
+    "location": "Remote Worldwide",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "Design",
+      "UI/UX",
+      "Creative"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-virtual-assistant-onlinejobs-ph-1133575",
+    "date": "2026-06-20"
+  },
+  {
+    "id": 65,
+    "title": "Receptionist Front Office Executive",
+    "company": "Work Force Nexus",
+    "category": "Design",
+    "location": "Remote Worldwide",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "Design",
+      "UI/UX",
+      "Creative"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-receptionist-front-office-executive-work-force-nexus-1133547",
+    "date": "2026-06-20"
+  },
+  {
+    "id": 66,
+    "title": "Junior Director",
+    "company": "Newhouse",
+    "category": "Marketing",
+    "location": "Worldwide Remote",
+    "type": "Full-time",
+    "salary": "Attractive",
+    "tags": [
+      "Marketing",
+      "SEO",
+      "Growth"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-junior-director-newhouse-1133574",
+    "date": "2026-06-20"
+  },
+  {
+    "id": 67,
+    "title": "Data Entry Specialist",
+    "company": "Somewhere",
+    "category": "Marketing",
+    "location": "Worldwide Remote",
+    "type": "Full-time",
+    "salary": "Attractive",
+    "tags": [
+      "Marketing",
+      "SEO",
+      "Growth"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-data-entry-specialist-somewhere-1133567",
+    "date": "2026-06-20"
+  },
+  {
+    "id": 68,
     "title": "IT Infrastructure Systems Lead",
     "company": "Monde Nissin Corporation",
     "category": "Development",
@@ -1011,7 +1075,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 65,
+    "id": 69,
     "title": "HR Associate",
     "company": "Ateneo de Manila University",
     "category": "Design",
@@ -1027,7 +1091,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 66,
+    "id": 70,
     "title": "Junior Data Analyst",
     "company": "Haystack",
     "category": "Development",
@@ -1043,7 +1107,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 67,
+    "id": 71,
     "title": "Call Center Agent Social Media",
     "company": "Aljazira Bank | Ø¨ÙÙ Ø§ÙØ¬Ø²ÙØ±Ø©",
     "category": "Marketing",
@@ -1059,7 +1123,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 68,
+    "id": 72,
     "title": "Designer",
     "company": "Newsquest Media Group",
     "category": "Design",
@@ -1075,7 +1139,7 @@
     "date": "2026-06-20"
   },
   {
-    "id": 69,
+    "id": 73,
     "title": "Procurement Officer",
     "company": "KAIZEN Asset Management Services",
     "category": "Development",
@@ -1089,7 +1153,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 70,
+    "id": 74,
     "title": "Analista de Sucesso do Cliente Pleno",
     "company": "ZENVIA",
     "category": "Development",
@@ -1103,7 +1167,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 71,
+    "id": 75,
     "title": "EstÃ¡gio em Recrutamento e SeleÃ§Ã£o Remoto",
     "company": "talent's club",
     "category": "Development",
@@ -1119,7 +1183,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 72,
+    "id": 76,
     "title": "Recruiter",
     "company": "Pavago",
     "category": "Development",
@@ -1135,7 +1199,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 73,
+    "id": 77,
     "title": "Business Development Representative",
     "company": "Zyte",
     "category": "Development",
@@ -1149,7 +1213,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 74,
+    "id": 78,
     "title": "Industrial Operatives",
     "company": "Denholm Energy Services",
     "category": "Development",
@@ -1163,7 +1227,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 75,
+    "id": 79,
     "title": "MTM II",
     "company": "Integer Holdings Corporation",
     "category": "Development",
@@ -1179,7 +1243,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 76,
+    "id": 80,
     "title": "Head of Communications",
     "company": "Marie Curie UK",
     "category": "Design",
@@ -1195,7 +1259,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 77,
+    "id": 81,
     "title": "Junior Data Scientist",
     "company": "Why Hiring",
     "category": "Development",
@@ -1210,7 +1274,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 78,
+    "id": 82,
     "title": "Launch and Recovery Technician I",
     "company": "Amentum",
     "category": "Development",
@@ -1226,7 +1290,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 79,
+    "id": 83,
     "title": "Interested future Corporate positions",
     "company": "Weedmaps",
     "category": "Development",
@@ -1242,7 +1306,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 80,
+    "id": 84,
     "title": "Payroll &amp; HRIS Coordinator",
     "company": "Sangoma",
     "category": "Development",
@@ -1258,7 +1322,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 81,
+    "id": 85,
     "title": "Designer Freelance",
     "company": "Interactive Strategies",
     "category": "Development",
@@ -1274,7 +1338,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 82,
+    "id": 86,
     "title": "Document Specialist",
     "company": "CapitexAI",
     "category": "Design",
@@ -1290,7 +1354,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 83,
+    "id": 87,
     "title": "Operations Coordinator",
     "company": "CapitexAI",
     "category": "Design",
@@ -1306,7 +1370,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 84,
+    "id": 88,
     "title": "Assistant Director Convenings",
     "company": "AccessLex Institute",
     "category": "Marketing",
@@ -1322,7 +1386,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 85,
+    "id": 89,
     "title": "Elementary Teacher K 5",
     "company": "Stellar Virtual",
     "category": "Marketing",
@@ -1338,7 +1402,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 86,
+    "id": 90,
     "title": "Social Media Manager",
     "company": "NeoReach",
     "category": "Marketing",
@@ -1354,7 +1418,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 87,
+    "id": 91,
     "title": "Paralegal Senior Paralegal Fully",
     "company": "Leadenhall Search & Selection",
     "category": "Development",
@@ -1368,7 +1432,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 88,
+    "id": 92,
     "title": "People Operations",
     "company": "NABIS",
     "category": "Design",
@@ -1384,7 +1448,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 89,
+    "id": 93,
     "title": "Content & Social Media Executive",
     "company": "Work Force Nexus",
     "category": "Development",
@@ -1400,7 +1464,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 90,
+    "id": 94,
     "title": "Creative Copywriter",
     "company": "Deadpan ð ð¬",
     "category": "Development",
@@ -1416,7 +1480,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 91,
+    "id": 95,
     "title": "Lead Software Engineer Ads",
     "company": "Jane Technologies",
     "category": "Development",
@@ -1432,7 +1496,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 92,
+    "id": 96,
     "title": "Social Media and YouTube Content Manager",
     "company": "Podcast Monkey",
     "category": "Design",
@@ -1448,7 +1512,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 93,
+    "id": 97,
     "title": "Auxiliar Administrativo",
     "company": "Foursys",
     "category": "Development",
@@ -1462,7 +1526,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 94,
+    "id": 98,
     "title": "Junior Project Designer",
     "company": "Archinect",
     "category": "Development",
@@ -1478,7 +1542,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 95,
+    "id": 99,
     "title": "Sales Representative State and Local Education",
     "company": "NOBLE",
     "category": "Development",
@@ -1494,7 +1558,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 96,
+    "id": 100,
     "title": "Data Entry Clerk",
     "company": "DigiHyre",
     "category": "Design",
@@ -1510,7 +1574,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 97,
+    "id": 101,
     "title": "Product Manager Retail Lending &amp; Enablement",
     "company": "RBC",
     "category": "Design",
@@ -1526,7 +1590,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 98,
+    "id": 102,
     "title": "Farm Hand",
     "company": "Department of Education and Training",
     "category": "Development",
@@ -1542,7 +1606,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 99,
+    "id": 103,
     "title": "Maintenance Technician",
     "company": "Sivananda Ashram Yoga Retreat Bahamas",
     "category": "Development",
@@ -1558,7 +1622,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 100,
+    "id": 104,
     "title": "Social Media and Content Manager",
     "company": "ForceBrands",
     "category": "Design",
@@ -1574,7 +1638,7 @@
     "date": "2026-06-19"
   },
   {
-    "id": 101,
+    "id": 105,
     "title": "Project Manager",
     "company": "Kate Farms",
     "category": "Development",
@@ -1590,7 +1654,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 102,
+    "id": 106,
     "title": "Capital Planning Analyst",
     "company": "PBG",
     "category": "Development",
@@ -1606,7 +1670,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 103,
+    "id": 107,
     "title": "Junior Admin Assistant",
     "company": "VITA CV",
     "category": "Development",
