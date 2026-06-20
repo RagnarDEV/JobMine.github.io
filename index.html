@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>JobMine - Premium Remote Jobs Hub</title>
-    <meta name="description" content="Dig deep into the ultimate remote tech mines. Discover premium, hand-picked remote jobs in web development, UI/UX design, marketing, and product management. Updated daily.">
+    <meta name="description" content="Dig deep into the ultimate remote tech mines. Discover premium, hand-picked remote jobs in web development, UI/UX design, marketing, and product management. Updated daily Rutinely.">
     <meta name="keywords" content="remote jobs, work from home, tech jobs, web developer jobs, UI/UX design jobs, software engineering jobs, remote marketing jobs, JobMine, global remote work">
     <meta name="author" content="RagnarDEV">
     <meta name="robots" content="index, follow">
@@ -19,243 +19,71 @@
     <meta property="og:description" content="Hand-picked, premium remote opportunities from global industry leaders updated daily. Find your next tech career move.">
     <meta property="og:image" content="https://www.jobmine.site.je/assets/og-image.jpg">
 
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css?v=1.3">
-
-    <style>
-        /* الهيكل الأساسي لتقسيم الموقع (إصدار الكمبيوتر) */
-        .site-layout {
-            display: grid !important;
-            grid-template-columns: 260px 1fr !important;
-            max-width: 1200px !important;
-            margin: 0 auto !important;
-            padding: 0 20px !important;
-            gap: 25px !important;
-        }
-
-        .main-content-area {
-            min-width: 0 !important;
-        }
-
-        /* تنسيق البطاقات الاستعراضية الجديدة في الـ Hero */
-        .showcase-container {
-            display: grid !important;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
-            gap: 15px !important;
-            margin-top: 30px !important;
-        }
-        .showcase-card {
-            background-color: #161b22 !important;
-            border: 1px solid #30363d !important;
-            padding: 15px !important;
-            border-radius: 8px !important;
-            text-align: left !important;
-        }
-        .showcase-card i { color: #ffc107 !important; font-size: 1.3rem !important; margin-bottom: 6px !important; display: block !important; }
-        .showcase-card h4 { color: #ffffff !important; font-size: 0.9rem !important; margin-bottom: 4px !important; }
-        .showcase-card p { color: #8b949e !important; font-size: 0.78rem !important; line-height: 1.4 !important; }
-
-        /* تنسيق القائمة الجانبية (إصدار الكمبيوتر) */
-        .sidebar {
-            background-color: #161b22 !important;
-            border: 1px solid #30363d !important;
-            border-radius: 8px !important;
-            padding: 20px !important;
-            height: fit-content !important;
-            position: sticky !important;
-            top: 20px !important;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
-        }
-        .sidebar-menu { list-style: none !important; padding: 0 !important; margin: 0 !important; }
-        .sidebar-menu-title {
-            font-size: 0.75rem !important;
-            color: #8b949e !important;
-            text-transform: uppercase !important;
-            margin: 18px 0 8px 0 !important;
-            letter-spacing: 1px !important;
-            font-weight: 700 !important;
-        }
-        .sidebar-menu-title:first-child { margin-top: 0 !important; }
-        .sidebar-menu li a {
-            display: flex !important;
-            align-items: center !important;
-            gap: 12px !important;
-            padding: 10px 14px !important;
-            color: #c9d1d9 !important;
-            border-radius: 8px !important;
-            transition: all 0.2s ease !important;
-            font-size: 0.9rem !important;
-        }
-        .sidebar-menu li a:hover, .sidebar-menu li a.active {
-            background-color: rgba(255, 193, 7, 0.08) !important;
-            color: #ffc107 !important;
-        }
-
-        /* أزرار الاختصاص السريعة */
-        .specialty-buttons-container { display: flex !important; flex-wrap: wrap !important; gap: 8px !important; margin-top: 12px !important; }
-        .specialty-btn {
-            background-color: #161b22 !important;
-            border: 1px solid #30363d !important;
-            color: #c9d1d9 !important;
-            padding: 6px 14px !important;
-            border-radius: 20px !important;
-            cursor: pointer !important;
-            font-size: 0.85rem !important;
-            transition: all 0.2s !important;
-        }
-        .specialty-btn:hover, .specialty-btn.active { background-color: #ffc107 !important; color: #000000 !important; border-color: #ffc107 !important; }
-
-        /* أزرار تحميل المزيد */
-        .load-more-container { display: flex !important; justify-content: center !important; margin: 20px 0 35px 0 !important; }
-        .load-more-btn {
-            background-color: transparent !important;
-            border: 2px solid #ffc107 !important;
-            color: #ffc107 !important;
-            padding: 9px 22px !important;
-            font-size: 0.9rem !important;
-            font-weight: 600 !important;
-            border-radius: 30px !important;
-            cursor: pointer !important;
-            transition: all 0.2s !important;
-        }
-        .load-more-btn:hover { background-color: #ffc107 !important; color: #000000 !important; }
-
-        /* تنسيق الفوتر المطور مع الروابط السفلية القانونية */
-        .main-footer {
-            text-align: center !important;
-            padding: 40px 20px !important;
-            color: #8b949e !important;
-            font-size: 0.85rem !important;
-            border-top: 1px solid #30363d !important;
-            margin-top: 60px !important;
-            background-color: #0d1117 !important;
-        }
-        .footer-links {
-            display: flex !important;
-            justify-content: center !important;
-            gap: 20px !important;
-            margin-bottom: 15px !important;
-            flex-wrap: wrap !important;
-        }
-        .footer-links a {
-            color: #8b949e !important;
-            transition: all 0.2s !important;
-            font-weight: 500 !important;
-        }
-        .footer-links a:hover {
-            color: #ffc107 !important;
-        }
-
-        /* 📱 التوافق الإجباري الكامل مع شاشات الهواتف والموبايل */
-        @media screen and (max-width: 850px) {
-            .site-layout {
-                grid-template-columns: 1fr !important;
-                padding: 0 12px !important;
-                gap: 15px !important;
-            }
-            .sidebar {
-                position: relative !important;
-                top: 0 !important;
-                width: 100% !important;
-                padding: 15px !important;
-                box-shadow: none !important;
-            }
-            /* ترتيب ذكي للأقسام الباقية لتصبح شبكة متناسقة خماسية/ثنائية */
-            .sidebar-menu {
-                display: grid !important;
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 8px !important;
-            }
-            .sidebar-menu-title {
-                grid-column: span 2 !important;
-                margin-top: 5px !important;
-                margin-bottom: 2px !important;
-            }
-            .sidebar-menu li:first-child {
-                grid-column: span 2 !important; /* زر القائمة الرئيسية يأخذ العرض الكامل */
-            }
-            .sidebar-menu li a {
-                padding: 10px 12px !important;
-                font-size: 0.85rem !important;
-                background-color: rgba(255, 255, 255, 0.02) !important;
-                justify-content: center !important;
-            }
-            .showcase-container {
-                grid-template-columns: 1fr !important;
-            }
-            .footer-links {
-                gap: 12px !important;
-                flex-direction: column !important;
-                align-items: center !important;
-            }
-        }
-    </style>
 </head>
 <body>
 
     <header class="hero-section">
         <div class="hero-container">
-            <div class="welcome-badge"><i class="fa-solid fa-bolt"></i> Discover Your Next Career Move</div>
-            <h1 class="logo">Job<span>Mine</span></h1>
-            <p class="tagline">Dig deep into the ultimate remote tech mines. Hand-picked, premium opportunities from global industry leaders updated daily.</p>
-            
-            <div class="showcase-container">
-                <div class="showcase-card">
-                    <i class="fa-solid fa-bolt"></i>
-                    <h4>Instant Access</h4>
-                    <p>Explore curated mines directly without any signup.</p>
-                </div>
-                <div class="showcase-card">
-                    <i class="fa-solid fa-robot"></i>
-                    <h4>AI Curated</h4>
-                    <p>Smart mining and filtering engine updates every 6 hours.</p>
-                </div>
-                <div class="showcase-card">
-                    <i class="fa-solid fa-shield-halved"></i>
-                    <h4>Verified Sources</h4>
-                    <p>100% scam-free global tech opportunities.</p>
-                </div>
+            <div class="welcome-badge">
+                <i class="fa-solid fa-bolt"></i> Automated Remote Data Mining Station Active
             </div>
+            <h1 class="logo">Job<span>Mine</span></h1>
+            <p class="tagline">Dig deep into the tech industry's elite remote openings. Automatically aggregated, cleaned, and verified from top global career channels every 2 hours.</p>
         </div>
     </header>
-
-    <div class="ad-zone-wrapper">
-        <div class="ad-zone-label">Sponsored Advertisement</div>
-        <script>
-          atOptions = {
-            'key' : 'ec060ebe971281b3bae0688731834b5f',
-            'format' : 'iframe',
-            'height' : 50,
-            'width' : 320,
-            'params' : {}
-          };
-        </script>
-        <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
-    </div>
 
     <section class="stats-section">
         <div class="stats-container">
             <div class="stat-card">
-                <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="stat-icon"><i class="fa-solid fa-database"></i></div>
                 <div class="stat-info">
-                    <h3 id="statTotalJobs">1,240+</h3>
-                    <p>Active Remote Positions</p>
+                    <h3 id="statTotalJobs">0+</h3>
+                    <p>Total Mined Vacancies</p>
                 </div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon"><i class="fa-solid fa-building"></i></div>
+                <div class="stat-icon" style="color: #00bcd4; background-color: rgba(0, 188, 212, 0.05);"><i class="fa-solid fa-building-columns"></i></div>
                 <div class="stat-info">
-                    <h3 id="statTotalCompanies">450+</h3>
-                    <p>Verified Tech Mines</p>
+                    <h3 id="statTotalCompanies">0+</h3>
+                    <p>Verified Enterprises</p>
                 </div>
             </div>
-            <div class="stat-card">
-                <div class="stat-icon"><i class="fa-solid fa-earth-americas"></i></div>
+            <div class="stat-card" style="border: 1px solid rgba(35, 134, 54, 0.3);">
+                <div class="stat-icon" style="color: var(--accent-green); background-color: rgba(35, 134, 54, 0.05);"><i class="fa-solid fa-circle-check"></i></div>
                 <div class="stat-info">
                     <h3>100%</h3>
-                    <p>Remote Worldwide</p>
+                    <p>Remote Guaranteed</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="filter-section">
+        <div class="filter-container">
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search title, company, or tech stack keywords...">
+            </div>
+            <div class="select-wrapper">
+                <i class="fa-solid fa-sliders select-icon"></i>
+                <select id="categoryFilter">
+                    <option value="all">All Mined Tracks</option>
+                    <option value="Development">Development & Engineering</option>
+                    <option value="Design">Design & UI/UX Artists</option>
+                    <option value="Marketing">Growth & Marketing Experts</option>
+                    <option value="Product">Product Management Leaders</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="specialty-tags-layer">
+            <button class="specialty-btn active" onclick="filterBySpecialty(event, 'all')"><i class="fa-solid fa-layer-group"></i> All Mining Results</button>
+            <button class="specialty-btn" onclick="filterBySpecialty(event, 'React')"><i class="fa-brands fa-react"></i> React Node</button>
+            <button class="specialty-btn" onclick="filterBySpecialty(event, 'Python')"><i class="fa-brands fa-python"></i> Python Engine</button>
+            <button class="specialty-btn" onclick="filterBySpecialty(event, 'Figma')"><i class="fa-solid fa-vector-square"></i> Figma Pro</button>
+            <button class="specialty-btn" onclick="filterBySpecialty(event, 'Crypto')"><i class="fa-solid fa-coins"></i> Web3 Crypto</button>
         </div>
     </section>
 
@@ -264,7 +92,8 @@
         <aside class="sidebar">
             <ul class="sidebar-menu">
                 <li class="sidebar-menu-title">Main Navigation</li>
-                <li><a href="#" class="active"><i class="fa-solid fa-house"></i> Home Hub</a></li>
+                <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i> Home Hub</a></li>
+                <li><a href="trends.html"><i class="fa-solid fa-chart-line" style="color: var(--accent-gold);"></i> Job Trends</a></li>
                 
                 <li class="sidebar-menu-title">Categories</li>
                 <li><a href="#" onclick="filterByCategory('Development')"><i class="fa-solid fa-code"></i> Development</a></li>
@@ -274,106 +103,42 @@
             </ul>
         </aside>
 
-        <div class="main-content-area">
+        <main class="main-content-area">
             
-            <section class="filter-section" style="padding: 0; margin-bottom: 20px;">
-                <div class="filter-container" style="max-width: 100%; width: 100%;">
-                    <div class="search-wrapper">
-                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                        <input type="text" id="searchInput" placeholder="Search by job title, company name, or stack keywords...">
-                    </div>
-                    
-                    <div class="select-wrapper">
-                        <i class="fa-solid fa-filter filter-icon"></i>
-                        <select id="categoryFilter">
-                            <option value="all">All Categories</option>
-                            <option value="Development">💻 Software Development</option>
-                            <option value="Design">🎨 Design & UI/UX</option>
-                            <option value="Marketing">📈 Marketing & Sales</option>
-                            <option value="Product">📦 Product Management</option>
-                            <option value="Support">🎧 Customer Support</option>
-                        </select>
-                    </div>
-                </div>
-                
-                <div class="specialty-buttons-container">
-                    <button class="specialty-btn active" onclick="filterBySpecialty(event, 'all')">All Mines</button>
-                    <button class="specialty-btn" onclick="filterBySpecialty(event, 'frontend')">Frontend</button>
-                    <button class="specialty-btn" onclick="filterBySpecialty(event, 'backend')">Backend</button>
-                    <button class="specialty-btn" onclick="filterBySpecialty(event, 'fullstack')">Fullstack</button>
-                    <button class="specialty-btn" onclick="filterBySpecialty(event, 'uiux')">UI/UX Design</button>
-                </div>
-            </section>
-
-            <div class="ad-zone-wrapper">
-                <div class="ad-zone-label">Sponsored Advertisement</div>
-                <script>
-                  atOptions = {
-                    'key' : 'ec060ebe971281b3bae0688731834b5f',
-                    'format' : 'iframe',
-                    'height' : 50,
-                    'width' : 320,
-                    'params' : {}
-                  };
-                </script>
-                <script src="https://www.highperformanceformat.com/ec060ebe971281b3bae0688731834b5f/invoke.js"></script>
+            <div class="feed-header-title">
+                <i class="fa-solid fa-star" style="color: var(--accent-gold);"></i> Handpicked Hot Mining Picks
             </div>
+            <div id="featuredJobsContainer" class="jobs-grid-wrapper">
+                <div class="loading-status">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i> Digging data nodes from the mine repository...
+                </div>
+            </div>
+            <button id="loadMoreFeaturedBtn" class="load-more-btn" style="display: none; margin-bottom: 30px;">Load More Premium Matches</button>
 
-            <section class="hub-section" style="max-width: 100%; padding: 0; margin-bottom: 30px;">
-                <div class="hub-container" style="max-width: 100%;">
-                    <h2 class="section-title"><i class="fa-solid fa-star"></i> Top Global Remote Job Sources</h2>
-                    <p class="section-subtitle">Explore top global curated partner mines:</p>
-                    <div class="hub-grid">
-                        <a href="https://weworkremotely.com" target="_blank" class="hub-card"><i class="fa-solid fa-laptop-code"></i> We Work Remotely</a>
-                        <a href="https://remoteok.com" target="_blank" class="hub-card"><i class="fa-solid fa-circle-check"></i> Remote OK</a>
-                        <a href="https://www.flexjobs.com" target="_blank" class="hub-card"><i class="fa-solid fa-gem"></i> FlexJobs</a>
-                        <a href="https://workingnomads.com" target="_blank" class="hub-card"><i class="fa-solid fa-passport"></i> Working Nomads</a>
-                    </div>
+            <div class="feed-header-title" style="margin-top: 20px;">
+                <i class="fa-solid fa-bolt" style="color: #00bcd4;"></i> Chronological Open Stream Feed
+            </div>
+            <div id="jobsContainer" class="jobs-grid-wrapper">
                 </div>
-            </section>
+            <button id="loadMoreLatestBtn" class="load-more-btn" style="display: none;">Expand Data Pipeline Stream</button>
 
-            <main class="jobs-section" style="max-width: 100%; padding: 0;">
-                
-                <div class="jobs-container-header">
-                    <h2 class="feed-title" style="color: #ffc107;"><i class="fa-solid fa-fire-flame-curved"></i> Featured & Demanded Jobs</h2>
-                </div>
-                <div class="jobs-container" id="featuredJobsContainer" style="max-width: 100%; margin-bottom: 15px;">
-                    <div class="loading-status">
-                        <i class="fa-solid fa-gear fa-spin"></i> Loading premium demanded opportunities...
-                    </div>
-                </div>
-                <div class="load-more-container">
-                    <button class="load-more-btn" id="loadMoreFeaturedBtn">Load More Featured Jobs</button>
-                </div>
-
-                <div class="jobs-container-header">
-                    <h2 class="feed-title"><i class="fa-solid fa-clock"></i> Latest Remote Openings</h2>
-                </div>
-                <div class="jobs-container" id="jobsContainer" style="max-width: 100%;">
-                    <div class="loading-status">
-                        <i class="fa-solid fa-gear fa-spin"></i> Loading latest opportunities for you...
-                    </div>
-                </div>
-                <div class="load-more-container">
-                    <button class="load-more-btn" id="loadMoreLatestBtn">Load More Latest Jobs</button>
-                </div>
-
-            </main>
-
-        </div>
-    </div>
-
-    <div class="ad-zone-wrapper">
-        <div class="ad-zone-label">Recommended for you</div>
-        <script async="async" data-cfasync="false" src="https://pl29780511.effectivecpmnetwork.com/b72ef6d36261da411a14a962863babcf/invoke.js"></script>
-        <div id="container-b72ef6d36261da411a14a962863babcf"></div>
+        </main>
     </div>
 
     <footer class="main-footer">
-        <div class="footer-links">
-            <a href="terms.html"><i class="fa-solid fa-file-contract"></i> Terms of Use</a>
-            <a href="privacy.html"><i class="fa-solid fa-shield-halved"></i> Privacy Policy</a>
-            <a href="disclaimer.html"><i class="fa-solid fa-triangle-exclamation"></i> Disclaimer</a>
+        <div class="footer-grid">
+            <div>
+                <h4>JobMine Station</h4>
+                <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-top: 8px;">An advanced web crawling engine aggregating global tech nodes automatically. Designed for seamless remote accessibility.</p>
+            </div>
+            <div>
+                <h4>Mining Sub-tracks</h4>
+                <ul style="list-style: none; font-size: 0.85rem; padding: 0; line-height: 2;">
+                    <li><a href="#" onclick="filterByCategory('Development')" style="color: var(--text-muted); text-decoration: none;">Software Nodes</a></li>
+                    <li><a href="#" onclick="filterByCategory('Design')" style="color: var(--text-muted); text-decoration: none;">Creative Design</a></li>
+                    <li><a href="#" onclick="filterByCategory('Marketing')" style="color: var(--text-muted); text-decoration: none;">Growth Distribution</a></li>
+                </ul>
+            </div>
         </div>
         <div class="footer-content">
             <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
