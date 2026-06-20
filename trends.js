@@ -1,5 +1,5 @@
 /* ==========================================================================
-   JobMine - Advanced Analytics & Market Intelligence Engine
+   JobMine - Advanced Analytics & Market Intelligence Engine (Self-Healing)
    ========================================================================== */
 
 async function fetchTrendsData() {
@@ -7,7 +7,10 @@ async function fetchTrendsData() {
         const response = await fetch('jobs.json');
         if (!response.ok) throw new Error('Failed to fetch corporate database');
         const jobs = await response.json();
-        analyzeAndRenderTrends(jobs);
+        
+        // تشغيل محرك التنظيف الذكي وتصحيح البيانات قبل رندرتها
+        const sanitizedJobs = sanitizeAndFixJobs(jobs);
+        analyzeAndRenderTrends(sanitizedJobs);
     } catch (error) {
         console.error("Analytics Error:", error);
         const leaderboard = document.getElementById('skillsLeaderboard');
@@ -21,6 +24,51 @@ async function fetchTrendsData() {
     }
 }
 
+/**
+ * دالة الإصلاح الذاتي وتنظيف البيانات المشوهة والتصنيفات الخاطئة
+ */
+function sanitizeAndFixJobs(jobs) {
+    if (!jobs || !Array.isArray(jobs)) return [];
+
+    return jobs.map(job => {
+        // 1. إصلاح نصوص المواقع والشركات المشوهة الناتجة عن ترميز الحروف الغريب
+        if (job.location) {
+            if (job.location.includes('Ø§ÙØ±ÙØ§Ø¶')) job.location = 'الرياض، المملكة العربية السعودية';
+            if (job.location.includes('ÙØ¨ÙØ§Ù')) job.location = 'لبنان';
+            if (job.location.includes('RepÃºblica')) job.location = 'Dominican Republic';
+        }
+        if (job.company) {
+            job.company = job.company.replace(/â¢/g, '™').replace(/JÃ¤germeister/g, 'Jägermeister').replace(/&amp;/g, '&');
+        }
+
+        // تحضير الوسوم وتوحيد حالتها الأحرف (Lowercase) للتحليل الدقيق
+        let tagsArray = Array.isArray(job.tags) ? job.tags.map(t => t.trim()) : [];
+        
+        // تصفية واستبعاد الوسوم العامة غير المفيدة في التحليل الإحصائي للمهارات
+        const ignoredTags = ['remote', 'full time', 'non tech', 'exec', 'senior', 'junior'];
+        tagsArray = tagsArray.filter(tag => !ignoredTags.includes(tag.toLowerCase()));
+
+        // 2. محرك إعادة التصنيف الذكي (Smart Re-Categorization)
+        // فحص عنوان الوظيفة والوسوم لنقل الوظيفة لقطاعها الصحيح وحل التضارب البصري
+        const titleLower = job.title.toLowerCase();
+        const tagsJoined = tagsArray.join(' ').toLowerCase();
+
+        if (titleLower.includes('design') || titleLower.includes('ux') || titleLower.includes('ui') || titleLower.includes('creative') || tagsJoined.includes('design') || tagsJoined.includes('ui/ux')) {
+            job.category = 'Design';
+        } else if (titleLower.includes('marketing') || titleLower.includes('seo') || titleLower.includes('growth') || tagsJoined.includes('marketing') || tagsJoined.includes('seo')) {
+            job.category = 'Marketing';
+        } else if (titleLower.includes('product manager') || titleLower.includes('product management') || tagsJoined.includes('product manager')) {
+            job.category = 'Product';
+        } else if (titleLower.includes('engineer') || titleLower.includes('developer') || titleLower.includes('software') || tagsJoined.includes('dev') || tagsJoined.includes('python') || tagsJoined.includes('golang')) {
+            job.category = 'Development';
+        }
+
+        // إعادة الوسوم النظيفة إلى الكائن
+        job.tags = tagsArray;
+        return job;
+    });
+}
+
 function analyzeAndRenderTrends(jobs) {
     if (!jobs || jobs.length === 0) return;
 
@@ -28,16 +76,17 @@ function analyzeAndRenderTrends(jobs) {
     const tagCounts = {};
     const categoryCounts = { Development: 0, Design: 0, Marketing: 0, Product: 0 };
 
-    // تحليل قطاعات العمل والتقنيات المطلوبة ديناميكياً
+    // حساب الإحصائيات الدقيقة بعد التنظيف
     jobs.forEach(job => {
         if (categoryCounts[job.category] !== undefined) {
             categoryCounts[job.category]++;
         }
-        const tagsArray = Array.isArray(job.tags) ? job.tags : [];
-        tagsArray.forEach(tag => {
-            let cleanTag = tag.trim();
-            if (cleanTag.length > 1) {
-                tagCounts[cleanTag] = (tagCounts[cleanTag] || 0) + 1;
+        
+        job.tags.forEach(tag => {
+            if (tag.length > 1) {
+                // جعل الحرف الأول كبير لإعطاء مظهر احترافي في اللوحة (مثال: Python بدلاً من python)
+                let formattedTag = tag.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                tagCounts[formattedTag] = (tagCounts[formattedTag] || 0) + 1;
             }
         });
     });
@@ -45,7 +94,7 @@ function analyzeAndRenderTrends(jobs) {
     const sortedSkills = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
     const totalUniqueSkills = sortedSkills.length;
 
-    // 1. تحديث لوحة الإحصائيات العلوية (المعرفات الجديدة)
+    // تحديث الخانات العلوية بالبيانات الدقيقة والمصححة
     const trendTotalSkillsElem = document.getElementById('trendTotalSkills');
     if (trendTotalSkillsElem) {
         trendTotalSkillsElem.innerText = totalUniqueSkills.toLocaleString() + '+';
@@ -63,7 +112,7 @@ function analyzeAndRenderTrends(jobs) {
         if (trendTopCategoryElem) trendTopCategoryElem.innerText = topCatName;
     }
 
-    // 2. بناء وحقن لوحة متصدرة المهارات (Skills Leaderboard)
+    // بناء وحقن لوحة متصدرة المهارات (Top 6 Skills Leaderboard)
     const leaderboardContainer = document.getElementById('skillsLeaderboard');
     if (leaderboardContainer) {
         leaderboardContainer.innerHTML = '';
@@ -86,7 +135,7 @@ function analyzeAndRenderTrends(jobs) {
         });
     }
 
-    // 3. بناء وحقن نسب التوزيع على القطاعات (Sector Distribution)
+    // بناء وحقن نسب التوزيع على القطاعات المحدثة بدقة وبدون تضارب
     const categoryContainer = document.getElementById('categoriesShare');
     if (categoryContainer) {
         categoryContainer.innerHTML = '';
@@ -95,7 +144,7 @@ function analyzeAndRenderTrends(jobs) {
             const catPercentage = totalJobs > 0 ? Math.round((count / totalJobs) * 100) : 0;
             let displayName = catName;
             let catIcon = 'fa-briefcase';
-            let barColor = '#ffc107'; // الحفاظ على توحيد النمط الفخم الذهبي مع تدرجات ذكية
+            let barColor = '#ffc107';
 
             if (catName === 'Development') { displayName = 'Engineering & Dev'; catIcon = 'fa-code'; barColor = '#2f81f7'; }
             if (catName === 'Design') { displayName = 'Creative & UI/UX'; catIcon = 'fa-bezier-curve'; barColor = '#56d364'; }
