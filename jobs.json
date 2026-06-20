@@ -994,7 +994,7 @@
     "category": "Management",
     "location": "Worldwide Remote",
     "type": "Full-time",
-    "salary": "Attractive",
+    "salary": "Competitive",
     "tags": [
       "admin",
       "documentation"
@@ -1009,7 +1009,7 @@
     "category": "Management",
     "location": "Worldwide Remote",
     "type": "Full-time",
-    "salary": "Attractive",
+    "salary": "Competitive",
     "tags": [
       "operations",
       "management"
@@ -1147,7 +1147,7 @@
     "category": "Marketing",
     "location": "Worldwide Remote",
     "type": "Full-time",
-    "attractive": true,
+    "salary": "Attractive",
     "tags": [
       "Marketing",
       "YouTube",
@@ -1263,3 +1263,65 @@
     "apply_link": "https://remoteOK.com/remote-jobs/remote-maintenance-technician-sivananda-ashram-yoga-retreat-bahamas-1133687",
     "date": "2026-06-19"
   },
+  {
+    "id": 82,
+    "title": "Social Media and Content Manager",
+    "company": "ForceBrands",
+    "category": "Marketing",
+    "location": "Remote Worldwide",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "Marketing",
+      "Social Media",
+      "Content"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-social-media-and-content-manager-forcebrands-113313",
+    "date": "2026-06-19"
+  },
+  {
+    "id": 83,
+    "title": "Project Manager",
+    "company": "Kate Farms",
+    "category": "Product",
+    "location": "Remote Worldwide",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "project management",
+      "agile"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-project-manager-kate-farms-1133515",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 84,
+    "title": "Capital Planning Analyst",
+    "company": "PBG",
+    "category": "Development",
+    "location": "Remote Worldwide",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "analyst",
+      "finance"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-capital-planning-analyst-pbg-1133580",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 85,
+    "title": "Junior Admin Assistant",
+    "company": "VITA CV",
+    "category": "Management",
+    "location": "Worldwide Remote",
+    "type": "Full-time",
+    "salary": "Attractive",
+    "tags": [
+      "admin",
+      "office"
+    ],
+    "apply_link": "https://remoteOK.com/remote-jobs/remote-junior-admin-assistant-vita-cv-1133542",
+    "date": "2026-06-18"
+  }
+]
