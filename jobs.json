@@ -1,5 +1,19 @@
 [
   {
+    "title": "Senior React Developer",
+    "company": "AlphaTech Global",
+    "category": "Development",
+    "salary": "$95,000 - $125,000 / year",
+    "tags": [
+      "React",
+      "Node",
+      "TypeScript",
+      "Remote"
+    ],
+    "apply_url": "https://careers.alphatech.example.com/apply",
+    "date": "Jun 21, 2026"
+  },
+  {
     "id": 1,
     "title": "Junior Human Resources Assistant",
     "company": "Helic & Co",
