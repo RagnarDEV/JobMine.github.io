@@ -123,6 +123,33 @@ a {
     margin: 0 auto 10px;
 }
 
+/* 🌟 [تنسيق مدمج]: زر Post a Job التفاعلي المضاف حديثاً */
+.btn-post-job {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, var(--accent-gold), #ffdb3a);
+    color: #0c0f14;
+    padding: 10px 22px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: var(--radius);
+    text-decoration: none;
+    margin-top: 15px;
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.2);
+    transition: var(--transition);
+}
+
+.btn-post-job:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 193, 7, 0.4);
+    background: linear-gradient(135deg, #ffdb3a, var(--accent-gold));
+}
+
+.btn-post-job:active {
+    transform: translateY(0);
+}
+
 /* 🌟 Showcase Feature Cards */
 .showcase-container {
     display: grid;
