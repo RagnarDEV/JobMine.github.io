@@ -2,6 +2,7 @@ import urllib.request
 import json
 import os
 import xml.etree.ElementTree as ET
+import shutil
 from datetime import datetime
 
 def map_category(tags):
@@ -122,8 +123,20 @@ def save_and_optimize_jobs(new_jobs, file_path, current_dir):
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(final_filtered_jobs, f, ensure_ascii=False, indent=2)
         print(f"🚀 Mega Update Success! JobMine database expanded: {len(final_filtered_jobs)}/1000 jobs active.")
+        
+        # 📂 [نظام الأرشفة المدمج]: أخذ نسخة احتياطية يومية مؤتمتة داخل مجلد archive
+        archive_dir = os.path.join(current_dir, 'archive')
+        if not os.path.exists(archive_dir):
+            os.makedirs(archive_dir)
+            
+        current_date = datetime.now().strftime('%Y_%m_%d')
+        archive_file_path = os.path.join(archive_dir, f"jobs_{current_date}.json")
+        
+        shutil.copyfile(file_path, archive_file_path)
+        print(f"📦 Data Archiving Success! Daily backup snapshot created at: archive/jobs_{current_date}.json")
+        
     except Exception as e:
-        print(f"⚠️ Failed to save jobs database: {e}")
+        print(f"⚠️ Failed to save jobs database or create archive: {e}")
         
     # حقن استدعاء الـ Sitemap هنا لتمرير المصفوفة النهائية الجاهزة مباشرة
     generate_dynamic_sitemap(current_dir, final_filtered_jobs)
