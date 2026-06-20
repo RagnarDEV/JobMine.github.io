@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JobMine - Live Market Trends</title>
+    <title>JobMine - Elite Market Insights & Trends</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -36,31 +36,49 @@
         .skill-info {
             display: flex;
             justify-content: space-between;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             margin-bottom: 5px;
-        }
-        .skill-name {
             color: #c9d1d9;
-            font-weight: 500;
         }
-        .skill-count {
-            color: var(--accent-gold);
-            font-weight: 600;
-        }
-        .progress-bar-bg {
-            background-color: #0d1117;
-            border: 1px solid #30363d;
-            height: 10px;
-            border-radius: 10px;
+        .skill-bar-bg {
+            background-color: #21262d;
+            height: 8px;
+            border-radius: 4px;
             overflow: hidden;
+            border: 1px solid #30363d;
         }
-        .progress-bar-fill {
-            background: linear-gradient(90deg, var(--accent-gold) 0%, #ff9800 100%);
+        .skill-bar-fill {
             height: 100%;
+            background-color: var(--accent-gold);
             width: 0%;
-            border-radius: 10px;
             transition: width 1s ease-in-out;
         }
+        .cat-share-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #21262d;
+            font-size: 0.9rem;
+        }
+        .cat-share-item:last-child {
+            border-bottom: none;
+        }
+        .cat-name {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #ffffff;
+        }
+        .cat-count {
+            background-color: rgba(255, 193, 7, 0.1);
+            color: var(--accent-gold);
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
         @media screen and (max-width: 850px) {
             .trends-grid {
                 grid-template-columns: 1fr !important;
@@ -73,38 +91,37 @@
     <header class="hero-section">
         <div class="hero-container">
             <div class="welcome-badge">
-                <i class="fa-solid fa-chart-line"></i> Live Remote Job Market Analytics
+                <i class="fa-solid fa-chart-bar"></i> Advanced Remote Labor Analytics
             </div>
-            <h1 class="logo">Job<span>Mine</span> Trends</h1>
-            <p class="tagline">We analyze hundreds of active jobs live in our database to uncover the most demanded tech stacks, skills, and industry distributions.</p>
+            <h1 class="logo">Market<span>Insights</span></h1>
+            <p class="tagline">Real-time analytical data and intelligence on global remote career distributions.</p>
         </div>
     </header>
 
-    <div class="site-layout" style="margin-top: 30px;">
+    <div class="site-layout">
         
         <aside class="sidebar">
             <ul class="sidebar-menu">
-                <li class="sidebar-menu-title">Main Navigation</li>
-                <li><a href="index.html"><i class="fa-solid fa-house"></i> Home Hub</a></li>
-                <li><a href="trends.html" class="active"><i class="fa-solid fa-chart-line"></i> Job Trends</a></li>
+                <li class="sidebar-menu-title">Navigation</li>
+                <li><a href="index.html"><i class="fa-solid fa-arrow-left"></i> Back to Career Hub</a></li>
+                
+                <li class="sidebar-menu-title">Explore Sectors</li>
+                <li><a href="index.html?cat=all"><i class="fa-solid fa-globe"></i> All Opportunities</a></li>
+                <li><a href="index.html?cat=Development"><i class="fa-solid fa-code"></i> Engineering & Dev</a></li>
+                <li><a href="index.html?cat=Design"><i class="fa-solid fa-bezier-curve"></i> Creative & Design</a></li>
+                <li><a href="index.html?cat=Marketing"><i class="fa-solid fa-bullhorn"></i> Growth & Marketing</a></li>
+                <li><a href="index.html?cat=Product"><i class="fa-solid fa-cubes"></i> Product Management</a></li>
             </ul>
         </aside>
 
         <main class="main-content-area">
             
-            <div class="stats-container" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 0 0 25px 0;">
+            <div class="stats-container" style="max-width:100%; margin:0; padding:0; margin-bottom:25px;">
                 <div class="stat-card">
-                    <div class="stat-icon"><i class="fa-solid fa-database"></i></div>
+                    <div class="stat-icon" style="color: #00bcd4; background-color: rgba(0,188,212,0.05);"><i class="fa-solid fa-gears"></i></div>
                     <div class="stat-info">
-                        <h3 id="trendTotalJobs">-</h3>
-                        <p>Analyzed Vacancies</p>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon" style="color: #00bcd4; background-color: rgba(0,188,212,0.05);"><i class="fa-solid fa-fire"></i></div>
-                    <div class="stat-info">
-                        <h3 id="trendHotSkill" style="font-size: 1.1rem; padding-top: 5px;">-</h3>
-                        <p>Top Demanded Skill</p>
+                        <h3 id="trendTotalSkills">-</h3>
+                        <p>Tracked Technologies</p>
                     </div>
                 </div>
                 <div class="stat-card">
@@ -119,16 +136,16 @@
             <div class="trends-grid">
                 
                 <div class="trends-card">
-                    <h3><i class="fa-solid fa-list-ol" style="color: var(--accent-gold);"></i> Hot Tech Skills Leaderboard</h3>
+                    <h3><i class="fa-solid fa-list-ol" style="color: var(--accent-gold);"></i> High-Demand Tech Skills Leaderboard</h3>
                     <div id="skillsLeaderboard">
-                        <div class="loading-status" style="border:none; padding:20px;">Mining data nodes...</div>
+                        <div class="loading-status" style="border:none; padding:20px;">Analyzing market matrices...</div>
                     </div>
                 </div>
 
                 <div class="trends-card">
-                    <h3><i class="fa-solid fa-chart-bar" style="color: var(--accent-green);"></i> Track Shares Distribution</h3>
+                    <h3><i class="fa-solid fa-chart-pie" style="color: var(--accent-green);"></i> Sector Distribution Weight</h3>
                     <div id="categoriesShare">
-                        <div class="loading-status" style="border:none; padding:20px;">Calculating market weight...</div>
+                        <div class="loading-status" style="border:none; padding:20px;">Calculating sector volumes...</div>
                     </div>
                 </div>
 
@@ -138,7 +155,16 @@
     </div>
 
     <footer class="main-footer">
-        <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
+        <div class="footer-content">
+            <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages Ecosystem. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <span>•</span>
+            <a href="terms.html">Terms of Use</a>
+            <span>•</span>
+            <a href="disclaimer.html">Disclaimer</a>
+        </div>
     </footer>
 
     <script src="trends.js"></script>
