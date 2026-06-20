@@ -217,12 +217,45 @@ function createJobCard(job, isFeatured = false) {
     const targetId = job.id ? encodeURIComponent(job.id) : encodeURIComponent(job.title);
     const internalJobLink = `job.html?id=${targetId}&url=${encodeURIComponent(rawUrl)}`;
 
+    // === إلحاق شارة NEW تفاعلية ونابضة حركياً للوظائف المضافة حديثاً اليوم ===
+    let newBadgeHTML = '';
+    if (job.date) {
+        const todayStr = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        if (job.date === todayStr) {
+            newBadgeHTML = `
+                <span class="new-badge" style="
+                    background: linear-gradient(135deg, #ff5722, #ff9800);
+                    color: #ffffff;
+                    font-size: 0.72rem;
+                    font-weight: 800;
+                    padding: 3px 8px;
+                    border-radius: 4px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                    animation: pulseBadge 1.8s infinite;
+                    box-shadow: 0 2px 8px rgba(255, 87, 34, 0.4);
+                    display: inline-block;
+                ">New</span>
+                
+                <style>
+                    @keyframes pulseBadge {
+                        0% { transform: scale(1); opacity: 0.9; }
+                        50% { transform: scale(1.05); opacity: 1; box-shadow: 0 4px 12px rgba(255, 87, 34, 0.6); }
+                        100% { transform: scale(1); opacity: 0.9; }
+                    }
+                </style>
+            `;
+        }
+    }
+
     card.innerHTML = `
         <div class="job-details">
             <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
                 <div class="job-icon-box" style="color: #ffc107; font-size: 1.1rem;">${categoryIcon}</div>
                 <div>
-                    <div class="job-title" style="font-weight: 600; color: #ffffff;">${job.title}</div>
+                    <div class="job-title" style="font-weight: 600; color: #ffffff; display: flex; align-items: center; gap: 8px;">
+                        ${job.title} ${newBadgeHTML}
+                    </div>
                     <div class="job-company" style="color: #8b949e; font-size: 0.9rem;">${job.company}</div>
                 </div>
             </div>
