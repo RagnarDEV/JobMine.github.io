@@ -212,7 +212,8 @@ function createJobCard(job, isFeatured = false) {
     const tagsArray = Array.isArray(job.tags) ? job.tags : [];
     const tagsHTML = tagsArray.map(tag => `<span class="tag">${tag}</span>`).join('');
 
-    const rawUrl = job.apply_link || job.url || job.link || '#';
+    // تم إضافة خيار تفقد خاصية التقديم القادمة من الاستمارة الآلية (job.apply_url) لضمان الربط التام
+    const rawUrl = job.apply_url || job.apply_link || job.url || job.link || '#';
     const targetId = job.id ? encodeURIComponent(job.id) : encodeURIComponent(job.title);
     const internalJobLink = `job.html?id=${targetId}&url=${encodeURIComponent(rawUrl)}`;
 
