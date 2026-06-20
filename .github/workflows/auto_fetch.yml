@@ -1,8 +1,8 @@
-name: JobMine Automated Mining
+Name: JobMine Automated Mining
 
 on:
   schedule:
-    # الاستيقاظ التلقائي المطور: كل 6 ساعات بأمان كامل لمنع الحظر
+    # الاستيقاظ التلقائي المطور: كل 3 ساعات بأمان كامل لمنع الحظر
     - cron: '0 */3 * * *'
   workflow_dispatch:
     # يتيح لك خيار تشغيل البوت يدوياً للتجربة الفورية في أي وقت
@@ -25,18 +25,19 @@ jobs:
       with:
         python-version: '3.10'
 
-    # 3. تشغيل ملف التنقيب الذكي لسحب أحدث الوظائف الحية وتوليد الخارطة
+    # 3. تشغيل ملف التنقيب الذكي لسحب أحدث الوظائف الحية وتوليد الخارطة والأرشيف
     - name: Run Mining Script
       run: python fetch_jobs.py
 
-    # 4. حفظ التعديلات الجديدة وتحديث ملفات البيانات والخارطة وعمل Push تلقائياً
+    # 4. حفظ التعديلات الجديدة وتحديث ملفات البيانات والخارطة والأرشيف وعمل Push تلقائياً
     - name: Commit and Push Changes
       run: |
         git config --global user.name "JobMine Automation Bot"
         git config --global user.email "bot@jobmine.io"
-        git add jobs.json sitemap.xml
+        # تم تعديل السطر التالي ليشمل مجلد الأرشيف بالكامل في التتبع والرفع
+        git add jobs.json sitemap.xml archive/
         if ! git diff --cached --quiet; then
-          git commit -m "🤖 Automated Mine Update: Jobs & Sitemap synced [skip ci]"
+          git commit -m "🤖 Automated Mine Update: Jobs, Sitemap & Archive synced [skip ci]"
           git push
         else
           echo "No new changes detected in this shift."
