@@ -212,16 +212,33 @@ function createJobCard(job, isFeatured = false) {
     const tagsArray = Array.isArray(job.tags) ? job.tags : [];
     const tagsHTML = tagsArray.map(tag => `<span class="tag">${tag}</span>`).join('');
 
-    // تم إضافة خيار تفقد خاصية التقديم القادمة من الاستمارة الآلية (job.apply_url) لضمان الربط التام
     const rawUrl = job.apply_url || job.apply_link || job.url || job.link || '#';
     const targetId = job.id ? encodeURIComponent(job.id) : encodeURIComponent(job.title);
     const internalJobLink = `job.html?id=${targetId}&url=${encodeURIComponent(rawUrl)}`;
 
-    // === إلحاق شارة NEW تفاعلية ونابضة حركياً للوظائف المضافة حديثاً اليوم ===
+    // ==========================================
+    // 📊 معالجة الأدوات التفاعلية الذكية الجديدة
+    // ==========================================
     let newBadgeHTML = '';
+    let highPayBadgeHTML = '';
+    let experienceBadgeHTML = '';
+    let timeAgoText = job.type || 'Full-time'; // النص الافتراضي في حال غياب التاريخ
+
     if (job.date) {
-        const todayStr = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-        if (job.date === todayStr) {
+        const jobDateObj = new Date(job.date);
+        const todayObj = new Date();
+        
+        jobDateObj.setHours(0,0,0,0);
+        todayObj.setHours(0,0,0,0);
+        
+        const diffTime = todayObj - jobDateObj;
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+        // 1. حساب الوقت المنقضي ديناميكياً (نقطة رقم 2)
+        if (diffDays === 0) {
+            timeAgoText = 'Posted Today';
+            
+            // شارة NEW التفاعلية للوظائف المنشورة اليوم فقط
             newBadgeHTML = `
                 <span class="new-badge" style="
                     background: linear-gradient(135deg, #ff5722, #ff9800);
@@ -236,15 +253,32 @@ function createJobCard(job, isFeatured = false) {
                     box-shadow: 0 2px 8px rgba(255, 87, 34, 0.4);
                     display: inline-block;
                 ">New</span>
-                
-                <style>
-                    @keyframes pulseBadge {
-                        0% { transform: scale(1); opacity: 0.9; }
-                        50% { transform: scale(1.05); opacity: 1; box-shadow: 0 4px 12px rgba(255, 87, 34, 0.6); }
-                        100% { transform: scale(1); opacity: 0.9; }
-                    }
-                </style>
             `;
+        } else if (diffDays === 1) {
+            timeAgoText = 'Posted Yesterday';
+        } else if (diffDays > 1) {
+            timeAgoText = `Posted ${diffDays} days ago`;
+        } else {
+            timeAgoText = `Posted on ${job.date}`;
+        }
+    }
+
+    // 2. فحص مستوى الخبرة تلقائياً من العنوان (نقطة رقم 4)
+    const titleLower = job.title.toLowerCase();
+    if (titleLower.includes('senior') || titleLower.includes('lead') || titleLower.includes('expert') || titleLower.includes('principal')) {
+        experienceBadgeHTML = `<span style="background: rgba(56, 139, 253, 0.15); color: #58a6ff; font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; border: 1px solid rgba(56, 139, 253, 0.3);">Senior Level</span>`;
+    } else if (titleLower.includes('junior') || titleLower.includes('entry') || titleLower.includes('intern')) {
+        experienceBadgeHTML = `<span style="background: rgba(46, 160, 67, 0.15); color: #56d364; font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; border: 1px solid rgba(46, 160, 67, 0.3);">Entry Level</span>`;
+    }
+
+    // 3. فحص مستويات الرواتب المرتفعة تلقائياً (نقطة رقم 1)
+    if (job.salary) {
+        const salaryNumbers = job.salary.replace(/,/g, '').match(/\d+/g);
+        if (salaryNumbers) {
+            const maxNum = Math.max(...salaryNumbers.map(Number));
+            if (maxNum >= 90000) {
+                highPayBadgeHTML = `<span style="background: rgba(218, 165, 32, 0.15); color: #f1e05a; font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; border: 1px solid rgba(218, 165, 32, 0.3); display: flex; align-items: center; gap: 4px;"><i class="fa-solid fa-fire" style="color: #ff9800;"></i> High Pay</span>`;
+            }
         }
     }
 
@@ -253,15 +287,19 @@ function createJobCard(job, isFeatured = false) {
             <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
                 <div class="job-icon-box" style="color: #ffc107; font-size: 1.1rem;">${categoryIcon}</div>
                 <div>
-                    <div class="job-title" style="font-weight: 600; color: #ffffff; display: flex; align-items: center; gap: 8px;">
+                    <div class="job-title" style="font-weight: 600; color: #ffffff; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                         ${job.title} ${newBadgeHTML}
                     </div>
-                    <div class="job-company" style="color: #8b949e; font-size: 0.9rem;">${job.company}</div>
+                    <div class="job-company" style="color: #8b949e; font-size: 0.9rem; display: flex; align-items: center; gap: 8px; margin-top: 4px; flex-wrap: wrap;">
+                        <span>${job.company}</span>
+                        ${experienceBadgeHTML}
+                        ${highPayBadgeHTML}
+                    </div>
                 </div>
             </div>
             <div class="job-meta" style="font-size: 0.85rem; color: #8b949e; display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px;">
                 <span><i class="fa-solid fa-earth-americas"></i> ${job.location || 'Remote Worldwide'}</span>
-                <span><i class="fa-solid fa-clock"></i> ${job.type || 'Full-time'}</span>
+                <span><i class="fa-solid fa-clock"></i> ${timeAgoText}</span>
                 <span><i class="fa-solid fa-wallet"></i> ${job.salary || 'Competitive'}</span>
             </div>
             <div class="job-tags" style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px;">
@@ -271,6 +309,14 @@ function createJobCard(job, isFeatured = false) {
         <div style="margin-top: 15px; text-align: right;">
             <a href="${internalJobLink}" class="apply-btn" style="background-color: #ffc107; color: #0d1117; padding: 8px 16px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-block; font-size: 0.88rem;">View Details <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; margin-left: 4px;"></i></a>
         </div>
+        
+        <style>
+            @keyframes pulseBadge {
+                0% { transform: scale(1); opacity: 0.9; }
+                50% { transform: scale(1.05); opacity: 1; box-shadow: 0 4px 12px rgba(255, 87, 34, 0.6); }
+                100% { transform: scale(1); opacity: 0.9; }
+            }
+        </style>
     `;
     return card;
 }
