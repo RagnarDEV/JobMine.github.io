@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post a New Remote Job - JobMine</title>
-    <!-- ربط ملف التنسيق الموحد للموقع لضمان نفس الألوان والخلفيات -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -191,7 +190,39 @@
     <script>
         document.getElementById('postJobForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Excellent! Your job detail capturing logic will be connected here in the next step.');
+            
+            // 1. تجميع البيانات وتجهيزها بشكل منظم وموحد
+            const jobData = {
+                title: document.getElementById('jobTitle').value,
+                company: document.getElementById('companyName').value,
+                category: document.getElementById('jobCategory').value,
+                salary: document.getElementById('jobSalary').value || "Competitive",
+                tags: document.getElementById('jobTags').value.split(',').map(tag => tag.trim()).join(', '),
+                apply_url: document.getElementById('applyUrl').value,
+                date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+            };
+
+            // 2. صياغة نص الـ Body الموجه إلى الـ Issue لكي يستخلص منه الـ Action البيانات بدقة
+            const issueBody = `---
+title: "${jobData.title}"
+company: "${jobData.company}"
+category: "${jobData.category}"
+salary: "${jobData.salary}"
+tags: "${jobData.tags}"
+apply_url: "${jobData.apply_url}"
+date: "${jobData.date}"
+---`;
+
+            // 3. تحديد معلومات المستودع لإنشاء الرابط التلقائي للـ Issue
+            const repoOwner = "ahmed-alrahal"; 
+            const repoName = "JobMine"; 
+            
+            const titleText = `New Job: ${jobData.title} at ${jobData.company}`;
+            const githubIssueUrl = `https://github.com/${repoOwner}/${repoName}/issues/new?title=${encodeURIComponent(titleText)}&body=${encodeURIComponent(issueBody)}`;
+
+            // 4. إشعار المستخدم والتحويل لصفحة تأكيد النشر على GitHub مباشرة
+            alert('🚀 To finalize your broadcast, you will be redirected to GitHub to submit the automated job ticket.');
+            window.location.href = githubIssueUrl;
         });
     </script>
 </body>
