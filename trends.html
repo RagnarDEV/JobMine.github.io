@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JobMine - اتجاهات سوق العمل الحية</title>
+    <title>JobMine - Live Market Trends</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* تنسيقات إضافية مخصصة للرسوم البيانية البسيطة وقوائم المهارات */
         .trends-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -15,9 +14,9 @@
             margin-top: 25px;
         }
         .trends-card {
-            background-color: var(--bg-surface);
-            border: 1px solid var(--bg-border);
-            border-radius: var(--radius);
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
@@ -28,10 +27,9 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            border-bottom: 1px solid var(--bg-border);
+            border-bottom: 1px solid #30363d;
             padding-bottom: 10px;
         }
-        /* تصميم الـ Progress Bar للمهارات الساخنة */
         .skill-item {
             margin-bottom: 15px;
         }
@@ -42,7 +40,7 @@
             margin-bottom: 5px;
         }
         .skill-name {
-            color: var(--text-main);
+            color: #c9d1d9;
             font-weight: 500;
         }
         .skill-count {
@@ -50,33 +48,14 @@
             font-weight: 600;
         }
         .progress-bar-bg {
-            background-color: var(--bg-main);
-            border: 1px solid var(--bg-border);
+            background-color: #0d1117;
+            border: 1px solid #30363d;
             height: 10px;
             border-radius: 10px;
             overflow: hidden;
         }
         .progress-bar-fill {
             background: linear-gradient(90deg, var(--accent-gold) 0%, #ff9800 100%);
-            height: 100%;
-            width: 0%; /* سيتم تحديثها حياً بواسطة جافا سكريبت */
-            border-radius: 10px;
-            transition: width 1s ease-in-out;
-        }
-        /* تصميم توزيع كعكة السوق للأقسام */
-        .category-row {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 16px;
-        }
-        .category-label {
-            min-width: 110px;
-            font-size: 0.9rem;
-            color: var(--text-main);
-        }
-        .category-bar-fill {
-            background-color: var(--accent-green);
             height: 100%;
             width: 0%;
             border-radius: 10px;
@@ -94,10 +73,10 @@
     <header class="hero-section">
         <div class="hero-container">
             <div class="welcome-badge">
-                <i class="fa-solid fa-chart-line"></i> لوحة بيانات سوق العمل الحية عن بعد
+                <i class="fa-solid fa-chart-line"></i> Live Remote Job Market Analytics
             </div>
             <h1 class="logo">Job<span>Mine</span> Trends</h1>
-            <p class="tagline">نحلل مئات الوظائف النشطة حياً في منجمنا لنكشف لك المهارات الأكثر طلباً وأين تتجه الرواتب والفرص الآن.</p>
+            <p class="tagline">We analyze hundreds of active jobs live in our database to uncover the most demanded tech stacks, skills, and industry distributions.</p>
         </div>
     </header>
 
@@ -105,12 +84,9 @@
         
         <aside class="sidebar">
             <ul class="sidebar-menu">
-                <li class="sidebar-menu-title">لوحة التحكم</li>
-                <li><a href="index.html"><i class="fa-solid fa-briefcase"></i> تصفح الوظائف</a></li>
-                <li><a href="trends.html" class="active"><i class="fa-solid fa-chart-pie"></i> اتجاهات السوق</a></li>
-                <li class="sidebar-menu-title">قانوني</li>
-                <li><a href="privacy.html"><i class="fa-solid fa-shield-halved"></i> الخصوصية</a></li>
-                <li><a href="terms.html"><i class="fa-solid fa-gavel"></i> الشروط</a></li>
+                <li class="sidebar-menu-title">Main Navigation</li>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Home Hub</a></li>
+                <li><a href="trends.html" class="active"><i class="fa-solid fa-chart-line"></i> Job Trends</a></li>
             </ul>
         </aside>
 
@@ -121,21 +97,21 @@
                     <div class="stat-icon"><i class="fa-solid fa-database"></i></div>
                     <div class="stat-info">
                         <h3 id="trendTotalJobs">-</h3>
-                        <p>وظيفة جرى تحليلها</p>
+                        <p>Analyzed Vacancies</p>
                     </div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon" style="color: #00bcd4; background-color: rgba(0,188,212,0.05);"><i class="fa-solid fa-fire"></i></div>
                     <div class="stat-info">
                         <h3 id="trendHotSkill" style="font-size: 1.1rem; padding-top: 5px;">-</h3>
-                        <p>المهارة الأكثر طلباً</p>
+                        <p>Top Demanded Skill</p>
                     </div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon" style="color: #e91e63; background-color: rgba(233,30,99,0.05);"><i class="fa-solid fa-star"></i></div>
                     <div class="stat-info">
                         <h3 id="trendTopCategory">-</h3>
-                        <p>القسم الأكثر توظيفاً</p>
+                        <p>Top Domain Sector</p>
                     </div>
                 </div>
             </div>
@@ -143,16 +119,16 @@
             <div class="trends-grid">
                 
                 <div class="trends-card">
-                    <h3><i class="fa-solid fa-list-ol" style="color: var(--accent-gold);"></i> المهارات الأكثر طلباً (Hot Skills)</h3>
+                    <h3><i class="fa-solid fa-list-ol" style="color: var(--accent-gold);"></i> Hot Tech Skills Leaderboard</h3>
                     <div id="skillsLeaderboard">
-                        <div class="loading-status" style="border:none; padding:20px;">جاري تحليل منجم البيانات...</div>
+                        <div class="loading-status" style="border:none; padding:20px;">Mining data nodes...</div>
                     </div>
                 </div>
 
                 <div class="trends-card">
-                    <h3><i class="fa-solid fa-chart-bar" style="color: var(--accent-green);"></i> توزيع الفرص حسب المجالات</h3>
+                    <h3><i class="fa-solid fa-chart-bar" style="color: var(--accent-green);"></i> Track Shares Distribution</h3>
                     <div id="categoriesShare">
-                        <div class="loading-status" style="border:none; padding:20px;">جاري حساب حصص السوق...</div>
+                        <div class="loading-status" style="border:none; padding:20px;">Calculating market weight...</div>
                     </div>
                 </div>
 
@@ -162,7 +138,7 @@
     </div>
 
     <footer class="main-footer">
-        <p>جميع الحقوق محفوظة © 2026 لـ <strong>JobMine</strong></p>
+        <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages. All rights reserved.</p>
     </footer>
 
     <script src="trends.js"></script>
