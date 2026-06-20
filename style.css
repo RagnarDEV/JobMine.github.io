@@ -503,26 +503,31 @@ a {
 
 /* 🔄 Load More Button Styling */
 .load-more-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0 35px 0;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 30px auto !important;
+    text-align: center !important;
 }
 
 .load-more-btn {
-    background-color: transparent;
-    border: 2px solid var(--accent-gold);
-    color: var(--accent-gold);
-    padding: 9px 22px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: var(--transition);
+    display: inline-block !important;
+    background-color: transparent !important;
+    border: 2px solid var(--accent-gold) !important;
+    color: var(--accent-gold) !important;
+    padding: 10px 26px !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    cursor: pointer !important;
+    transition: var(--transition) !important;
+    margin: 0 auto !important; /* يجبر الزر على الاستقرار في السنتر تماماً */
 }
 
 .load-more-btn:hover {
-    background-color: var(--accent-gold);
-    color: #000000;
+    background-color: var(--accent-gold) !important;
+    color: #000000 !important;
 }
 
 /* حالات التحميل والخطأ */
@@ -541,10 +546,10 @@ a {
     color: var(--accent-gold);
 }
 
-/* 7. Footer */
+/* 7. Footer Links & Setup */
 .main-footer {
     text-align: center;
-    padding: 30px 20px;
+    padding: 40px 20px;
     color: var(--text-muted);
     font-size: 0.85rem;
     border-top: 1px solid var(--bg-border);
@@ -553,6 +558,24 @@ a {
 
 .main-footer strong {
     color: #ffffff;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: var(--text-muted);
+    transition: var(--transition);
+    font-size: 0.85rem;
+}
+
+.footer-links a:hover {
+    color: var(--accent-gold);
 }
 
 /* ==========================================================================
@@ -572,6 +595,8 @@ a {
         top: 0 !important;
         padding: 15px !important;
         width: 100% !important;
+        display: block !important;
+        box-shadow: none !important;
     }
 
     /* تقسيم روابط القائمة الجانبية تلقائياً لشبكة ثنائية الأسطر والروابط */
@@ -579,6 +604,7 @@ a {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 8px !important;
+        list-style: none !important;
     }
 
     /* جعل العناوين الفرعية تأخذ العرض الكامل للمربعات التفاعلية */
@@ -593,10 +619,13 @@ a {
     }
 
     .sidebar-menu li a {
+        display: flex !important;
+        width: 100% !important;
         margin-bottom: 0 !important;
-        padding: 8px 12px !important;
+        padding: 10px 12px !important;
         font-size: 0.85rem !important;
-        background-color: rgba(255, 255, 255, 0.02);
+        background-color: rgba(255, 255, 255, 0.02) !important;
+        border: 1px solid var(--bg-border);
     }
     
     /* جعل كروت الفلاتر والبحث مرنة تحت بعضها عمودياً على الموبايل */
