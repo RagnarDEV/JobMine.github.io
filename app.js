@@ -59,21 +59,27 @@ function shuffleArray(array) {
 
 // 🌐 محرك الـ SEO المتقدم: حقن الـ Structured Data (Google Jobs Schema) ديناميكياً
 function injectJobSchema(job) {
-    // بناء الهيكل البرمجي المعتمد لدى عناكب بحث جوجل للوظائف عن بعد
+    // دمج المؤهلات والمسؤوليات داخل وصف الـ Schema الموجه لجوجل لرفع رتبة السيو
+    let descriptionText = `Premium remote career opportunity for a talented ${job.title} to join ${job.company || 'a global enterprise'}. This position is 100% remote working worldwide.`;
+    
+    if (job.qualifications && job.qualifications.length > 0) {
+        descriptionText += ` Requirements: ${job.qualifications.join(', ')}.`;
+    }
+
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "JobPosting",
         "title": job.title,
-        "description": `Premium remote career opportunity for a talented ${job.title} to join ${job.company || 'a global enterprise'}. This position is 100% remote working worldwide.`,
+        "description": descriptionText,
         "datePosted": job.date || new Date().toISOString().split('T')[0],
-        "validThrough": new Date(Date.now() + 60 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // صالحة لمدة 60 يوماً
+        "validThrough": new Date(Date.now() + 60 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
         "employmentType": "FULL_TIME",
         "hiringOrganization": {
             "@type": "Organization",
             "name": job.company || "Verified Global Enterprise",
             "sameAs": "https://www.jobmine.site.je/"
         },
-        "jobLocationType": "TELECOMMUTE", // إشارة صريحة لجوجل أن الوظيفة عن بعد بالكامل
+        "jobLocationType": "TELECOMMUTE",
         "applicantLocationRequirements": {
             "@type": "Country",
             "name": "Anywhere"
@@ -88,10 +94,9 @@ function injectJobSchema(job) {
         }
     };
 
-    // إنشاء العنصر برمجياً وحقنه في الـ <head>
     const script = document.createElement('script');
     script.type = 'application/ld+json';
-    script.className = 'dynamic-job-schema'; // فئة مميزة لتسهيل تنظيفها لاحقاً
+    script.className = 'dynamic-job-schema';
     script.text = JSON.stringify(schemaData);
     document.head.appendChild(script);
 }
@@ -110,7 +115,6 @@ function filterAndRenderJobs() {
     const searchQuery = searchInput ? searchInput.value.toLowerCase().trim() : "";
     const selectedCategory = categoryFilter ? categoryFilter.value : "all";
 
-    // تصفية المصفوفة بناءً على البحث والقطاع المختار
     const filteredList = allJobs.filter(job => {
         const tagsArray = Array.isArray(job.tags) ? job.tags : [];
         
@@ -123,13 +127,10 @@ function filterAndRenderJobs() {
         return matchesSearch && matchesCategory;
     });
 
-    // تنظيف أكواد الأرشفة السابقة قبل طباعة النتائج المحدثة
     clearOldSchemas();
 
-    // خلط النتائج المفلترة لكسر التكرار بصرياً
     const randomizedList = shuffleArray(filteredList);
 
-    // تقسيم العناصر المفلترة بالتساوي بين الأقسام المتاحة
     const featuredJobs = randomizedList.slice(0, 5); 
     const latestJobs = randomizedList.slice(5); 
 
@@ -155,7 +156,7 @@ function renderFeaturedSection(jobs) {
 
     jobsToDisplay.forEach(job => {
         container.appendChild(createJobCard(job, true));
-        injectJobSchema(job); // أرشفة الوظيفة المميزة لدى جوجل تلقائياً
+        injectJobSchema(job);
     });
 
     if (loadMoreBtn) {
@@ -186,7 +187,7 @@ function renderLatestSection(jobs) {
 
     jobsToDisplay.forEach(job => {
         container.appendChild(createJobCard(job, false));
-        injectJobSchema(job); // أرشفة الوظيفة العامة لدى جوجل تلقائياً
+        injectJobSchema(job);
     });
 
     if (loadMoreBtn) {
@@ -194,7 +195,7 @@ function renderLatestSection(jobs) {
     }
 }
 
-// 6. بناء كرت الوظيفة الموحد المنسق
+// 6. بناء كرت الوظيفة الموحد المنسق (مع مقتطفات التفاصيل الذكية)
 function createJobCard(job, isFeatured = false) {
     const card = document.createElement('div');
     card.className = `job-card ${isFeatured ? 'featured-job-style' : ''}`;
@@ -212,18 +213,14 @@ function createJobCard(job, isFeatured = false) {
     const tagsArray = Array.isArray(job.tags) ? job.tags : [];
     const tagsHTML = tagsArray.map(tag => `<span class="tag">${tag}</span>`).join('');
 
-    // تعديل ذكي ومباشر لتقديم أولوية المفتاح القادم من السكربت الجديد JSearch دون أي تغيير في المنطق
     const rawUrl = job.apply_link || job.apply_url || job.url || job.link || '#';
     const targetId = job.id ? encodeURIComponent(job.id) : encodeURIComponent(job.title);
     const internalJobLink = `job.html?id=${targetId}&url=${encodeURIComponent(rawUrl)}`;
 
-    // ==========================================
-    // 📊 معالجة الأدوات التفاعلية الذكية الجديدة
-    // ==========================================
     let newBadgeHTML = '';
     let highPayBadgeHTML = '';
     let experienceBadgeHTML = '';
-    let timeAgoText = job.type || 'Full-time'; // النص الافتراضي في حال غياب التاريخ
+    let timeAgoText = job.type || 'Full-time';
 
     if (job.date) {
         const jobDateObj = new Date(job.date);
@@ -235,11 +232,8 @@ function createJobCard(job, isFeatured = false) {
         const diffTime = todayObj - jobDateObj;
         const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
-        // 1. حساب الوقت المنقضي ديناميكياً
         if (diffDays === 0) {
             timeAgoText = 'Posted Today';
-            
-            // شارة NEW التفاعلية للوظائف المنشورة اليوم فقط
             newBadgeHTML = `
                 <span class="new-badge" style="
                     background: linear-gradient(135deg, #ff5722, #ff9800);
@@ -264,7 +258,6 @@ function createJobCard(job, isFeatured = false) {
         }
     }
 
-    // 2. فحص مستوى الخبرة تلقائياً من العنوان
     const titleLower = job.title.toLowerCase();
     if (titleLower.includes('senior') || titleLower.includes('lead') || titleLower.includes('expert') || titleLower.includes('principal')) {
         experienceBadgeHTML = `<span style="background: rgba(56, 139, 253, 0.15); color: #58a6ff; font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; border: 1px solid rgba(56, 139, 253, 0.3);">Senior Level</span>`;
@@ -272,7 +265,6 @@ function createJobCard(job, isFeatured = false) {
         experienceBadgeHTML = `<span style="background: rgba(46, 160, 67, 0.15); color: #56d364; font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; border: 1px solid rgba(46, 160, 67, 0.3);">Entry Level</span>`;
     }
 
-    // 3. فحص مستويات الرواتب المرتفعة تلقائياً
     if (job.salary) {
         const salaryNumbers = job.salary.replace(/,/g, '').match(/\d+/g);
         if (salaryNumbers) {
@@ -281,6 +273,34 @@ function createJobCard(job, isFeatured = false) {
                 highPayBadgeHTML = `<span style="background: rgba(218, 165, 32, 0.15); color: #f1e05a; font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; border: 1px solid rgba(218, 165, 32, 0.3); display: flex; align-items: center; gap: 4px;"><i class="fa-solid fa-fire" style="color: #ff9800;"></i> High Pay</span>`;
             }
         }
+    }
+
+    // 📊 صياغة كتل عرض التفاصيل الجديدة (المؤهلات والمسؤوليات) ديناميكياً
+    let highlightsHTML = '';
+    if ((job.qualifications && job.qualifications.length > 0) || (job.responsibilities && job.responsibilities.length > 0)) {
+        highlightsHTML = `<div class="job-highlights-preview" style="margin-top: 12px; padding: 10px; background: rgba(255,255,255,0.02); border-radius: 6px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.82rem; color: #c9d1d9;">`;
+        
+        if (job.qualifications && job.qualifications.length > 0) {
+            highlightsHTML += `
+                <div style="margin-bottom: 6px;">
+                    <strong style="color: #ffc107; font-size:0.8rem; text-transform: uppercase;"><i class="fa-solid fa-award"></i> Requirements:</strong>
+                    <ul style="margin: 4px 0 0 15px; padding: 0; list-style-type: disc;">
+                        ${job.qualifications.map(q => `<li style="margin-bottom:2px;">${q}</li>`).join('')}
+                    </ul>
+                </div>`;
+        }
+        
+        if (job.responsibilities && job.responsibilities.length > 0) {
+            highlightsHTML += `
+                <div>
+                    <strong style="color: #58a6ff; font-size:0.8rem; text-transform: uppercase;"><i class="fa-solid fa-list-check"></i> Core Tasks:</strong>
+                    <ul style="margin: 4px 0 0 15px; padding: 0; list-style-type: disc;">
+                        ${job.responsibilities.map(r => `<li style="margin-bottom:2px;">${r}</li>`).join('')}
+                    </ul>
+                </div>`;
+        }
+        
+        highlightsHTML += `</div>`;
     }
 
     card.innerHTML = `
@@ -303,6 +323,9 @@ function createJobCard(job, isFeatured = false) {
                 <span><i class="fa-solid fa-clock"></i> ${timeAgoText}</span>
                 <span><i class="fa-solid fa-wallet"></i> ${job.salary || 'Competitive'}</span>
             </div>
+            
+            ${highlightsHTML}
+
             <div class="job-tags" style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px;">
                 ${tagsHTML}
             </div>
