@@ -173,8 +173,8 @@
                     }
 
                     if (foundJob) {
-                        // استخدام الرابط المخزن بالملف، أو الرابط الممرر في المتصفح كأولوية قصوى
-                        let finalUrl = directUrl || foundJob.url || foundJob.link || foundJob.apply_url;
+                        // الحفاظ على التوافق الكامل مع بنية JSearch بجعل apply_link الأولوية الأولى
+                        let finalUrl = directUrl || foundJob.apply_link || foundJob.url || foundJob.link || foundJob.apply_url;
                         displayJobDetails(foundJob, finalUrl);
                     } else if (directUrl) {
                         // حتى لو لم يجد تفاصيل الوظيفة بالملف، ما دام الرابط متوفراً سنعرض زر التقديم مباشرة بناءً على الرابط الممرر
