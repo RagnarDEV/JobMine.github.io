@@ -6,17 +6,21 @@ on:
       - main
   workflow_dispatch:
 
+# إعطاء صلاحيات الكتابة للـ Bot ليتمكن من عمل push للملفات
+permissions:
+  contents: write
+
 jobs:
   mine-jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # تحديث للإصدار الأحدث والأكثر استقراراً
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # تحديث للإصدار الأحدث والأكثر استقراراً
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       - name: Install dependencies
         run: pip install requests
@@ -28,7 +32,11 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config --global user.name 'JobMine Automation Bot'
-          git config --global user.email 'bot@jobmine.site.je'
-          git add jobs.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated Mine Update: Jobs, Sitemap, and Trends" && git push)
+          git config --local user.name 'JobMine Automation Bot'
+          git config --local user.email 'bot@jobmine.site.je'
+          
+          # تعديل هام: إضافة كل التغييرات (الملف الرئيسي، ملف الأرشيف اليومي، والـ sitemap)
+          git add -A
+          
+          # تعديل جوهري: التحقق الذكي من التغييرات، إذا لم تكن هناك تغييرات يمر السكربت بنجاح دون إطلاق خطأ 1
+          git diff-index --quiet HEAD || (git commit -m "Automated Mine Update: Jobs, Sitemap, and Trends" && git push)
