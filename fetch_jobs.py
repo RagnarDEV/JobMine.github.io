@@ -151,9 +151,9 @@ def fetch_from_jsearch():
     print("🤖 Mining Engine Activated: Fetching from JSearch API...")
     
     # جلب مفتاح الـ API المؤمن من متغيرات البيئة بسلامة وأمان
-    api_key = os.environ.get("RAPIDAPI_KEY")
+    api_key = os.environ.get("RAPID_API_KEY")
     if not api_key:
-        print("❌ Error: RAPIDAPI_KEY variable is missing from repository secrets.")
+        print("❌ Error: RAPID_API_KEY variable is missing from repository secrets.")
         return []
         
     api_key = api_key.strip()
