@@ -111,11 +111,11 @@
         <aside class="sidebar">
             <ul class="sidebar-menu">
                 <li class="sidebar-menu-title">Explore Sectors</li>
-                <li><a href="#" class="active" onclick="filterByCategory('all'); return false;"><i class="fa-solid fa-globe"></i> All Opportunities</a></li>
-                <li><a href="#" onclick="filterByCategory('Development'); return false;"><i class="fa-solid fa-code"></i> Engineering & Dev</a></li>
-                <li><a href="#" onclick="filterByCategory('Design'); return false;"><i class="fa-solid fa-bezier-curve"></i> Creative & Design</a></li>
-                <li><a href="#" onclick="filterByCategory('Marketing'); return false;"><i class="fa-solid fa-bullhorn"></i> Growth & Marketing</a></li>
-                <li><a href="#" onclick="filterByCategory('Product'); return false;"><i class="fa-solid fa-cubes"></i> Product Management</a></li>
+                <li><a href="#" class="active sidebar-link" onclick="filterByCategory(this, 'all'); return false;"><i class="fa-solid fa-globe"></i> All Opportunities</a></li>
+                <li><a href="#" class="sidebar-link" onclick="filterByCategory(this, 'Development'); return false;"><i class="fa-solid fa-code"></i> Engineering & Dev</a></li>
+                <li><a href="#" class="sidebar-link" onclick="filterByCategory(this, 'Design'); return false;"><i class="fa-solid fa-bezier-curve"></i> Creative & Design</a></li>
+                <li><a href="#" class="sidebar-link" onclick="filterByCategory(this, 'Marketing'); return false;"><i class="fa-solid fa-bullhorn"></i> Growth & Marketing</a></li>
+                <li><a href="#" class="sidebar-link" onclick="filterByCategory(this, 'Product'); return false;"><i class="fa-solid fa-cubes"></i> Product Management</a></li>
                 
                 <li class="sidebar-menu-title">Analytical Intelligence</li>
                 <li><a href="trends.html"><i class="fa-solid fa-chart-line"></i> Market Insights</a></li>
@@ -205,7 +205,7 @@
             <p>&copy; 2026 <strong>JobMine</strong>. Powered by GitHub Pages Ecosystem. All rights reserved.</p>
         </div>
         <div class="footer-links">
-            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="privacy.html">Privacy Policy</a>
             <span>•</span>
             <a href="terms.html">Terms of Use</a>
             <span>•</span>
@@ -214,13 +214,18 @@
     </footer>
 
     <script>
-        function filterByCategory(cat) {
+        function filterByCategory(element, cat) {
             const select = document.getElementById('categoryFilter');
             if(select) {
                 select.value = cat;
                 const event = new Event('change', { bubbles: true });
                 select.dispatchEvent(event);
             }
+            // تحديث كلاس النشاط الجانبي بصرياً
+            const links = document.querySelectorAll('.sidebar-link');
+            links.forEach(link => link.classList.remove('active'));
+            if(element) element.classList.add('active');
+
             window.scrollTo({ top: document.querySelector('.filter-section').offsetTop - 20, behavior: 'smooth' });
         }
         
