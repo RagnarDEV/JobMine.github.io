@@ -1,20 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Senior Developer (Remote)",
-    "company": "TechCorp",
-    "category": "Development",
-    "location": "Worldwide",
-    "type": "Full-time",
-    "salary": "$100k",
-    "tags": [
-      "Tech"
-    ],
-    "apply_link": "#",
-    "date": "2026-06-22"
-  },
-  {
-    "id": 2,
     "title": "Senior Full-Stack Developer (Remote)",
     "company": "Automattic",
     "category": "Development",
@@ -30,7 +16,7 @@
     "date": "2026-06-22"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Lead UI/UX Product Designer",
     "company": "Canva",
     "category": "Design",
@@ -43,6 +29,20 @@
       "Product"
     ],
     "apply_link": "https://www.canva.com/careers/",
+    "date": "2026-06-22"
+  },
+  {
+    "id": 3,
+    "title": "Senior Developer (Remote)",
+    "company": "TechCorp",
+    "category": "Development",
+    "location": "Worldwide",
+    "type": "Full-time",
+    "salary": "$100k",
+    "tags": [
+      "Tech"
+    ],
+    "apply_link": "#",
     "date": "2026-06-22"
   },
   {
