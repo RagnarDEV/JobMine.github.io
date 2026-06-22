@@ -124,7 +124,6 @@ def fetch_from_jsearch():
     api_key = api_key.strip()
     jobs = []
     
-    # صياغة وتشفير معاملات البحث برمجياً وبشكل قياسي لمنع خطأ 400 تماماً
     params = {
         "query": "developer remote",
         "page": "1",
@@ -150,6 +149,12 @@ def fetch_from_jsearch():
                 if raw_date:
                     try: posted_at = raw_date.split('T')[0]
                     except: pass
+                
+                # استخراج المقتطفات الذكية (المؤهلات والمسؤوليات) بأمان
+                highlights = j_data.get('job_highlights', {})
+                qualifications = highlights.get('Qualifications', [])[:3] # نكتفي بـ 3 نقاط لحفظ مساحة الملف
+                responsibilities = highlights.get('Responsibilities', [])[:3]
+                
                 jobs.append({
                     "id": 0, 
                     "title": j_data.get('job_title', 'Remote Specialist'),
@@ -160,7 +165,9 @@ def fetch_from_jsearch():
                     "salary": "Competitive", 
                     "tags": detected_tags[:3],
                     "apply_link": j_data.get('job_apply_link', 'https://google.com/search?q=jobs'),
-                    "date": posted_at
+                    "date": posted_at,
+                    "qualifications": qualifications if isinstance(qualifications, list) else [],
+                    "responsibilities": responsibilities if isinstance(responsibilities, list) else []
                 })
         print(f"🎯 Successfully extracted {len(jobs)} FRESH vacancies via JSearch Engine.")
     except Exception as e:
@@ -176,7 +183,6 @@ def main_mining_process():
         save_and_optimize_jobs(all_fetched_jobs, file_path, current_dir)
     else:
         print("⚠️ Fetch returned no new results. Preserving existing database entries...")
-        # إذا لم يتم جلب وظائف جديدة بسبب انتهاء الكوتا، نمرر مصفوفة فارغة للحفاظ على الوظائف المخزنة مسبقاً وتفادي الوظائف العشوائية
         save_and_optimize_jobs([], file_path, current_dir)
 
 if __name__ == "__main__":
