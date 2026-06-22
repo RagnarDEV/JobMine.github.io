@@ -1,9 +1,9 @@
-name: JobMine Automated Mining
+Name: JobMine Automated Mining
 
 on:
   schedule:
-    # الاستيقاظ التلقائي المطور: كل 3 ساعات بأمان كامل لمنع الحظر
-    - cron: '0 */3 * * *'
+    # الاستيقاظ التلقائي المطور والأمن: يعمل كل 4 ساعات (6 مرات يومياً) للمحافظة على الباقة المحدودة
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     # يتيح لك خيار تشغيل البوت يدوياً للتجربة الفورية في أي وقت
 
@@ -28,6 +28,9 @@ jobs:
     # 3. تشغيل ملف التنقيب الذكي لسحب أحدث الوظائف الحية وتوليد الخارطة والأرشيف
     - name: Run Mining Script
       run: python fetch_jobs.py
+      env:
+        # تمرير المفتاح السري الآمن لـ JSearch أثناء التشغيل
+        RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
 
     # 4. حفظ التعديلات الجديدة وتحديث ملفات البيانات والخارطة والأرشيف وعمل Push تلقائياً
     - name: Commit and Push Changes
