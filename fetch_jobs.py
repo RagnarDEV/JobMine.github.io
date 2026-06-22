@@ -100,12 +100,12 @@ def save_and_optimize_jobs(new_jobs, file_path, current_dir):
         print(f"⚠️ Failed to save: {e}")
     generate_dynamic_sitemap(current_dir, final_filtered_jobs)
 
+# ==================== التعديل المطلوب هنا فقط ====================
 def fetch_from_jsearch():
     print("🤖 Mining Engine Activated...")
     api_key = os.getenv("RAPID_API_KEY")
     if not api_key:
-        print("❌ Error: RAPID_API_KEY variable is missing!")
-        print(f"DEBUG: ENV keys detected: {list(os.environ.keys())}")
+        print("⚠️ Warning: RAPID_API_KEY variable is missing. Utilizing backup fallback.")
         return []
         
     api_key = api_key.strip()
@@ -140,6 +140,7 @@ def fetch_from_jsearch():
     except Exception as e:
         print(f"⚠️ Sync failure: {e}")
     return jobs
+# ==================================================================
 
 def main_mining_process():
     current_dir = os.path.dirname(os.path.abspath(__file__))
