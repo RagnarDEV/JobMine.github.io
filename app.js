@@ -212,7 +212,8 @@ function createJobCard(job, isFeatured = false) {
     const tagsArray = Array.isArray(job.tags) ? job.tags : [];
     const tagsHTML = tagsArray.map(tag => `<span class="tag">${tag}</span>`).join('');
 
-    const rawUrl = job.apply_url || job.apply_link || job.url || job.link || '#';
+    // تعديل ذكي ومباشر لتقديم أولوية المفتاح القادم من السكربت الجديد JSearch دون أي تغيير في المنطق
+    const rawUrl = job.apply_link || job.apply_url || job.url || job.link || '#';
     const targetId = job.id ? encodeURIComponent(job.id) : encodeURIComponent(job.title);
     const internalJobLink = `job.html?id=${targetId}&url=${encodeURIComponent(rawUrl)}`;
 
@@ -234,7 +235,7 @@ function createJobCard(job, isFeatured = false) {
         const diffTime = todayObj - jobDateObj;
         const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
-        // 1. حساب الوقت المنقضي ديناميكياً (نقطة رقم 2)
+        // 1. حساب الوقت المنقضي ديناميكياً
         if (diffDays === 0) {
             timeAgoText = 'Posted Today';
             
@@ -263,7 +264,7 @@ function createJobCard(job, isFeatured = false) {
         }
     }
 
-    // 2. فحص مستوى الخبرة تلقائياً من العنوان (نقطة رقم 4)
+    // 2. فحص مستوى الخبرة تلقائياً من العنوان
     const titleLower = job.title.toLowerCase();
     if (titleLower.includes('senior') || titleLower.includes('lead') || titleLower.includes('expert') || titleLower.includes('principal')) {
         experienceBadgeHTML = `<span style="background: rgba(56, 139, 253, 0.15); color: #58a6ff; font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; border: 1px solid rgba(56, 139, 253, 0.3);">Senior Level</span>`;
@@ -271,7 +272,7 @@ function createJobCard(job, isFeatured = false) {
         experienceBadgeHTML = `<span style="background: rgba(46, 160, 67, 0.15); color: #56d364; font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; border: 1px solid rgba(46, 160, 67, 0.3);">Entry Level</span>`;
     }
 
-    // 3. فحص مستويات الرواتب المرتفعة تلقائياً (نقطة رقم 1)
+    // 3. فحص مستويات الرواتب المرتفعة تلقائياً
     if (job.salary) {
         const salaryNumbers = job.salary.replace(/,/g, '').match(/\d+/g);
         if (salaryNumbers) {
