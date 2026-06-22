@@ -9,10 +9,14 @@ from datetime import datetime
 
 def map_category(tags):
     tags_lower = [t.lower() for t in tags]
-    dev_keywords = ['developer', 'engineer', 'frontend', 'backend', 'fullstack', 'software', 'devops', 'tech', 'code', 'web', 'programming', 'python', 'javascript', 'react', 'node']
-    design_keywords = ['design', 'designer', 'ui', 'ux', 'figma', 'graphics', 'creative']
-    marketing_keywords = ['marketing', 'sales', 'seo', 'growth', 'ads', 'social media', 'content']
-    product_keywords = ['product manager', 'product management', 'scrum', 'agile', 'project manager']
+    
+    # تصنيفات موسعة وشاملة لتغطية كافة مجالات العمل عن بعد المجلوبة
+    dev_keywords = ['developer', 'engineer', 'frontend', 'backend', 'fullstack', 'software', 'devops', 'tech', 'code', 'web', 'programming', 'python', 'javascript', 'react', 'node', 'data scientist', 'cyber']
+    design_keywords = ['design', 'designer', 'ui', 'ux', 'figma', 'graphics', 'creative', 'illustrator', 'video editor']
+    marketing_keywords = ['marketing', 'sales', 'seo', 'growth', 'ads', 'social media', 'content', 'copywriter', 'media buyer']
+    product_keywords = ['product manager', 'product management', 'scrum', 'agile', 'project manager', 'operations']
+    support_keywords = ['support', 'customer service', 'helpdesk', 'moderator', 'virtual assistant', 'chat support']
+    writer_keywords = ['writer', 'editor', 'translation', 'translator', 'content creation']
     
     for word in dev_keywords:
         if any(word in t for t in tags_lower): return 'Development'
@@ -22,7 +26,12 @@ def map_category(tags):
         if any(word in t for t in tags_lower): return 'Marketing'
     for word in product_keywords:
         if any(word in t for t in tags_lower): return 'Product'
-    return 'Development'
+    for word in support_keywords:
+        if any(word in t for t in tags_lower): return 'Customer Support'
+    for word in writer_keywords:
+        if any(word in t for t in tags_lower): return 'Writing & Translation'
+        
+    return 'Other Remote Jobs'
 
 def generate_dynamic_sitemap(current_dir, jobs_list):
     base_url = "https://www.jobmine.site.je/"
@@ -124,8 +133,9 @@ def fetch_from_jsearch():
     api_key = api_key.strip()
     jobs = []
     
+    # طلب واحد ذكي، مرن وموسّع للغاية يشمل كافة التخصصات والكلمات المفتاحية الممكنة للعمل عن بعد
     params = {
-        "query": "developer remote",
+        "query": "remote developer or engineer or designer or marketing or manager or support or sales or writer",
         "page": "1",
         "num_pages": "1"
     }
@@ -169,7 +179,7 @@ def fetch_from_jsearch():
                     "qualifications": qualifications if isinstance(qualifications, list) else [],
                     "responsibilities": responsibilities if isinstance(responsibilities, list) else []
                 })
-        print(f"🎯 Successfully extracted {len(jobs)} FRESH vacancies via JSearch Engine.")
+        print(f"🎯 Successfully extracted {len(jobs)} FRESH vacancies via Advanced JSearch Query.")
     except Exception as e:
         print(f"⚠️ JSearch API Engine sync failure: {e}")
     return jobs
