@@ -133,9 +133,9 @@ def fetch_from_jsearch():
     api_key = api_key.strip()
     jobs = []
     
-    # طلب واحد ذكي، مرن وموسّع للغاية يشمل كافة التخصصات والكلمات المفتاحية الممكنة للعمل عن بعد
+    # تم التعديل هنا: استخدام المسافات كبديل مباشر ومبسط يفهمه المحرك لتجميع كافة الاختصاصات
     params = {
-        "query": "remote developer or engineer or designer or marketing or manager or support or sales or writer",
+        "query": "remote developer engineer designer marketing manager support sales writer",
         "page": "1",
         "num_pages": "1"
     }
