@@ -2466,6 +2466,23 @@
   },
   {
     "id": 157,
+    "title": "Junior/Entry Software Developer - Remote",
+    "company": "SynergisticIT",
+    "category": "Development",
+    "location": "Worldwide Remote",
+    "type": "Full-time",
+    "salary": "Competitive",
+    "tags": [
+      "Junior/Entry Software Developer - Remote",
+      ""
+    ],
+    "apply_link": "https://www.whatjobs.com/jobs/junior-entry-software-developer/remote?id=2753386369",
+    "date": "2026-06-18",
+    "qualifications": [],
+    "responsibilities": []
+  },
+  {
+    "id": 158,
     "title": "Junior Developer - Python & Go",
     "company": "Buyers Edge Platform, LLC",
     "category": "Development",
@@ -2482,7 +2499,7 @@
     "responsibilities": []
   },
   {
-    "id": 158,
+    "id": 159,
     "title": "Project Manager",
     "company": "Kate Farms",
     "category": "Development",
@@ -2498,7 +2515,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 159,
+    "id": 160,
     "title": "Capital Planning Analyst",
     "company": "PBG",
     "category": "Development",
@@ -2514,7 +2531,7 @@
     "date": "2026-06-18"
   },
   {
-    "id": 160,
+    "id": 161,
     "title": "Junior Admin Assistant",
     "company": "VITA CV",
     "category": "Development",
@@ -2528,5 +2545,22 @@
     ],
     "apply_link": "https://remoteOK.com/remote-jobs/remote-junior-admin-assistant-vita-cv-1133542",
     "date": "2026-06-18"
+  },
+  {
+    "id": 162,
+    "title": "Remote Front-End Web Developer — Impactful Contract",
+    "company": "Stackruit Ltd.",
+    "category": "Development",
+    "location": "Worldwide Remote",
+    "type": "Contractor",
+    "salary": "Competitive",
+    "tags": [
+      "Remote Front-End Web Developer — Impactful Contract",
+      ""
+    ],
+    "apply_link": "https://www.mediabistro.com/jobs/3539633395-remote-front-end-web-developer-impactful-contract",
+    "date": "2026-05-29",
+    "qualifications": [],
+    "responsibilities": []
   }
 ]
