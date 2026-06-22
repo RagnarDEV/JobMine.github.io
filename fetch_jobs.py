@@ -3,6 +3,7 @@ import json
 import os
 import xml.etree.ElementTree as ET
 import shutil
+import sys
 from datetime import datetime
 
 def map_category(tags):
@@ -143,132 +144,82 @@ def save_and_optimize_jobs(new_jobs, file_path, current_dir):
 
 
 # ==========================================================================
-# 🎛️ محركات الجلب الخمسة المتوازية (5-Engine Mining System)
+# 🎛️ محرك الجلب الموحد الجديد: JSearch Mining Engine
 # ==========================================================================
 
-def fetch_from_remote_ok():
-    print("🤖 Mining Source 1: Remote OK...")
+def fetch_from_jsearch():
+    print("🤖 Mining Engine Activated: Fetching from JSearch API...")
+    
+    # جلب مفتاح الـ API المؤمن من متغيرات البيئة بسلامة وأمان
+    api_key = os.environ.get("RAPIDAPI_KEY")
+    if not api_key:
+        print("❌ Error: RAPIDAPI_KEY variable is missing from repository secrets.")
+        return []
+        
+    api_key = api_key.strip()
     jobs = []
+    
+    # إعداد الاستعلام لجلب أفضل الوظائف عن بُعد لخدمة تخصصات موقعك
+    query_term = "developer engineer designer marketing manager remote"
+    encoded_query = urllib.parse.quote(query_term)
+    
+    # نطلب صفحة غنية بالبيانات تحتوي على حد أقصى (50 نتيجة) لتعظيم قيمة الطلب الواحد
+    url = f"https://jsearch.p.rapidapi.com/search?query={encoded_query}&page=1&num_pages=1"
+    
+    headers = {
+        "x-rapidapi-host": "jsearch.p.rapidapi.com",
+        "x-rapidapi-key": api_key,
+        "Content-Type": "application/json"
+    }
+    
     try:
-        url = "https://remoteok.com/api"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebkit/537.36'})
-        with urllib.request.urlopen(req, timeout=10) as response:
-            data = json.loads(response.read().decode())
-            for r_job in data[1:30]:
-                jobs.append({
-                    "id": 0,
-                    "title": r_job.get('position', 'Remote Software Engineer'),
-                    "company": r_job.get('company', 'Tech Enterprise'),
-                    "category": map_category(r_job.get('tags', [])),
-                    "location": r_job.get('location', 'Worldwide'),
-                    "type": "Full-time",
-                    "salary": f"${r_job.get('salary_min', 70)}k - ${r_job.get('salary_max', 130)}k" if r_job.get('salary_max') else "Competitive",
-                    "tags": r_job.get('tags', [])[:3] if r_job.get('tags') else ["Remote"],
-                    "apply_link": r_job.get('url', 'https://remoteok.com'),
-                    "date": datetime.now().strftime('%Y-%m-%d')
-                })
-    except Exception as e:
-        print(f"⚠️ Source 1 (Remote OK) temporary skipped: {e}")
-    return jobs
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=15) as response:
+            res_data = json.loads(response.read().decode('utf-8'))
+            raw_jobs = res_data.get('data', [])
+            
+            for j_data in raw_jobs:
+                # تجميع الكلمات الدلالية المناسبة للفئات من البيانات المسترجعة
+                detected_tags = []
+                if j_data.get('job_title'): detected_tags.append(j_data.get('job_title'))
+                if j_data.get('job_category'): detected_tags.append(j_data.get('job_category'))
+                
+                # استخراج وتحسين صيغة التاريخ القادم من الـ API
+                posted_at = datetime.now().strftime('%Y-%m-%d')
+                raw_date = j_data.get('job_posted_at_datetime_utc')
+                if raw_date:
+                    try:
+                        posted_at = raw_date.split('T')[0]
+                    except Exception:
+                        pass
+                
+                # تجميع الراتب بصيغة نصية واضحة ومقروءة للزائر
+                salary_str = "Competitive"
+                min_sal = j_data.get('job_min_salary')
+                max_sal = j_data.get('job_max_salary')
+                currency = j_data.get('job_salary_currency', '$')
+                if min_sal and max_sal:
+                    salary_str = f"{currency}{min_sal} - {currency}{max_sal}"
+                elif max_sal:
+                    salary_str = f"{currency}{max_sal}"
 
-def fetch_from_we_work_remotely():
-    print("🤖 Mining Source 2: We Work Remotely...")
-    jobs = []
-    try:
-        url = "https://weworkremotely.com/categories/remote-programming-jobs.json"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebkit/537.36'})
-        with urllib.request.urlopen(req, timeout=10) as response:
-            data = json.loads(response.read().decode())
-            for w_job in data[:25]:
+                # ضخ البيانات في المصفوفة محافظين على نفس المفاتيح القديمة بدقة لسلامة الواجهة
                 jobs.append({
                     "id": 0,
-                    "title": w_job.get('title', 'Remote Web Developer'),
-                    "company": w_job.get('company', 'Global Firm'),
-                    "category": map_category([w_job.get('category', 'Development')]),
-                    "location": w_job.get('region', 'Worldwide'),
-                    "type": w_job.get('type', 'Full-time'),
-                    "salary": "Competitive",
-                    "tags": ["Tech", "Remote", "WWR"],
-                    "apply_link": w_job.get('url', 'https://weworkremotely.com'),
-                    "date": datetime.now().strftime('%Y-%m-%d')
+                    "title": j_data.get('job_title', 'Remote Specialist'),
+                    "company": j_data.get('employer_name', 'Tech Corporation'),
+                    "category": map_category(detected_tags),
+                    "location": j_data.get('job_city', 'Remote') if j_data.get('job_city') else "Worldwide Remote",
+                    "type": j_data.get('job_employment_type', 'Full-time'),
+                    "salary": salary_str,
+                    "tags": detected_tags[:3] if detected_tags else ["Remote"],
+                    "apply_link": j_data.get('job_apply_link', 'https://google.com/search?q=jobs'),
+                    "date": posted_at
                 })
+        print(f"🎯 Successfully extracted {len(jobs)} high-quality vacancies via JSearch Engine.")
     except Exception as e:
-        print(f"⚠️ Source 2 (We Work Remotely) temporary skipped: {e}")
-    return jobs
-
-def fetch_from_design_feed():
-    print("🤖 Mining Source 3: Design & UI/UX Segment...")
-    jobs = []
-    try:
-        url = "https://remoteok.com/api?tags=design"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebkit/537.36'})
-        with urllib.request.urlopen(req, timeout=10) as response:
-            data = json.loads(response.read().decode())
-            for d_job in data[1:20]:
-                jobs.append({
-                    "id": 0,
-                    "title": d_job.get('position', 'Remote UI/UX Designer'),
-                    "company": d_job.get('company', 'Creative Studio'),
-                    "category": map_category(d_job.get('tags', [])),
-                    "location": "Remote Worldwide",
-                    "type": "Full-time",
-                    "salary": "Competitive",
-                    "tags": ["Design", "UI/UX", "Creative"],
-                    "apply_link": d_job.get('url', 'https://remoteok.com'),
-                    "date": datetime.now().strftime('%Y-%m-%d')
-                })
-    except Exception as e:
-        print(f"⚠️ Source 3 Engine temporary skipped: {e}")
-    return jobs
-
-def fetch_from_marketing_feed():
-    print("🤖 Mining Source 4: Marketing & Sales Segment...")
-    jobs = []
-    try:
-        url = "https://remoteok.com/api?tags=marketing"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebkit/537.36'})
-        with urllib.request.urlopen(req, timeout=10) as response:
-            data = json.loads(response.read().decode())
-            for m_job in data[1:20]:
-                jobs.append({
-                    "id": 0,
-                    "title": m_job.get('position', 'Remote Marketing Specialist'),
-                    "company": m_job.get('company', 'Growth Agency'),
-                    "category": map_category(m_job.get('tags', [])),
-                    "location": "Worldwide Remote",
-                    "type": "Full-time",
-                    "salary": "Attractive",
-                    "tags": ["Marketing", "SEO", "Growth"],
-                    "apply_link": m_job.get('url', 'https://remoteok.com'),
-                    "date": datetime.now().strftime('%Y-%m-%d')
-                })
-    except Exception as e:
-        print(f"⚠️ Source 4 Engine temporary skipped: {e}")
-    return jobs
-
-def fetch_from_product_feed():
-    print("🤖 Mining Source 5: Product & Management Segment...")
-    jobs = []
-    try:
-        url = "https://remoteok.com/api?tags=product"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebkit/537.36'})
-        with urllib.request.urlopen(req, timeout=10) as response:
-            data = json.loads(response.read().decode())
-            for p_job in data[1:20]:
-                jobs.append({
-                    "id": 0,
-                    "title": p_job.get('position', 'Remote Product Operations Manager'),
-                    "company": p_job.get('company', 'Enterprise SaaS'),
-                    "category": map_category(p_job.get('tags', [])),
-                    "location": "Global Remote",
-                    "type": "Full-time",
-                    "salary": "Competitive",
-                    "tags": ["Product", "Management", "SaaS"],
-                    "apply_link": p_job.get('url', 'https://remoteok.com'),
-                    "date": datetime.now().strftime('%Y-%m-%d')
-                })
-    except Exception as e:
-        print(f"⚠️ Source 5 Engine temporary skipped: {e}")
+        print(f"⚠️ JSearch API Engine synchronization failure: {e}")
+        
     return jobs
 
 
@@ -276,17 +227,13 @@ def main_mining_process():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(current_dir, 'jobs.json')
     
-    all_fetched_jobs = []
-    all_fetched_jobs.extend(fetch_from_remote_ok())
-    all_fetched_jobs.extend(fetch_from_we_work_remotely())
-    all_fetched_jobs.extend(fetch_from_design_feed())
-    all_fetched_jobs.extend(fetch_from_marketing_feed())
-    all_fetched_jobs.extend(fetch_from_product_feed())
+    # جلب الداتا من المصدر الموحد المحدث JSearch
+    all_fetched_jobs = fetch_from_jsearch()
     
     if all_fetched_jobs:
         save_and_optimize_jobs(all_fetched_jobs, file_path, current_dir)
     else:
-        print("⚠️ All 5 engines returned empty shifts. Utilizing fallback active mechanism...")
+        print("⚠️ JSearch returned an empty shift. Utilizing backup fallback active mechanism...")
         fallback_jobs = [
             {
                 "id": 0,
