@@ -1,4 +1,5 @@
 import urllib.request
+import urllib.parse
 import json
 import os
 import xml.etree.ElementTree as ET
@@ -69,14 +70,14 @@ def save_and_optimize_jobs(new_jobs, file_path, current_dir):
     seen_links = set()
     combined_jobs = []
     
-    # دمج الوظائف الجديدة أولاً لتكون في البداية والقمة
+    # دمج الوظائف الجديدة أولاً
     for job in new_jobs:
         link = job.get('apply_link')
         if link and link not in seen_links:
             seen_links.add(link)
             combined_jobs.append(job)
             
-    # إضافة الوظائف القديمة المخزنة مسبقاً لمنع حذفها
+    # دمج الوظائف القديمة المخزنة مسبقاً لمنع فقدان البيانات القديمة
     for job in existing_jobs:
         link = job.get('apply_link')
         if link and link not in seen_links:
@@ -113,7 +114,7 @@ def save_and_optimize_jobs(new_jobs, file_path, current_dir):
     generate_dynamic_sitemap(current_dir, final_filtered_jobs)
 
 def fetch_from_jsearch():
-    print("🤖 Mining Engine Activated...")
+    print("🤖 Mining Engine Activated: Connecting via Native Urllib (Safe Mode)...")
     
     api_key = os.getenv("RAPID_API_KEY")
     if not api_key or len(api_key.strip()) < 10:
@@ -123,15 +124,19 @@ def fetch_from_jsearch():
     api_key = api_key.strip()
     jobs = []
     
-    # تعديل جوهري: تبسيط كلمة الفحص لتجنب مشاكل الـ Query الطويلة التي تسبب خطأ 400
-    query_term = "developer remote"
-    encoded_query = urllib.parse.quote(query_term)
+    # صياغة وتشفير معاملات البحث برمجياً وبشكل قياسي لمنع خطأ 400 تماماً
+    params = {
+        "query": "developer remote",
+        "page": "1",
+        "num_pages": "1"
+    }
+    encoded_params = urllib.parse.urlencode(params)
+    url = f"https://jsearch.p.rapidapi.com/search?{encoded_params}"
     
-    url = f"https://jsearch.p.rapidapi.com/search?query={encoded_query}&page=1&num_pages=1"
     headers = {
         "x-rapidapi-host": "jsearch.p.rapidapi.com", 
-        "x-rapidapi-key": api_key, 
-        "Content-Type": "application/json"
+        "x-rapidapi-key": api_key,
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     }
     
     try:
@@ -157,9 +162,9 @@ def fetch_from_jsearch():
                     "apply_link": j_data.get('job_apply_link', 'https://google.com/search?q=jobs'),
                     "date": posted_at
                 })
-        print(f"🎯 Successfully extracted {len(jobs)} vacancies.")
+        print(f"🎯 Successfully extracted {len(jobs)} FRESH vacancies via JSearch Engine.")
     except Exception as e:
-        print(f"⚠️ Sync failure: {e}")
+        print(f"⚠️ JSearch API Engine sync failure: {e}")
     return jobs
 
 def main_mining_process():
@@ -170,8 +175,8 @@ def main_mining_process():
     if all_fetched_jobs: 
         save_and_optimize_jobs(all_fetched_jobs, file_path, current_dir)
     else:
-        print("⚠️ Fetch returned no new results. Using safe internal stack update to ensure success...")
-        # إذا فشل الجلب سنمرر نسخة احتياطية لضمان عدم توقف السكربت، ولكن بما أن الـ Query تم إصلاحها سيعمل الجلب الأساسي بنجاح
+        print("⚠️ Fetch returned no new results. Preserving existing database entries...")
+        # إذا لم يتم جلب وظائف جديدة بسبب انتهاء الكوتا، نمرر مصفوفة فارغة للحفاظ على الوظائف المخزنة مسبقاً وتفادي الوظائف العشوائية
         save_and_optimize_jobs([], file_path, current_dir)
 
 if __name__ == "__main__":
