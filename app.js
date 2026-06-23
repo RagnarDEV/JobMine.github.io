@@ -28,7 +28,6 @@ async function fetchJobsData() {
             allJobs = [];
         }
 
-        // تطبيع ثم تصفية الوظائف الفارغة
         allJobs = allJobs
             .map(job => normalizeJob(job))
             .filter(job => job !== null && job.title && job.company);
@@ -52,16 +51,12 @@ async function fetchJobsData() {
 
 // 2. تطبيع البيانات — يدعم Fantastic API و JSearch API
 function normalizeJob(job) {
-    // ✅ العنوان — Fantastic: title | JSearch: job_title
-    const title = job.title || job.job_title || job.position || null;
-
-    // ✅ الشركة — Fantastic: organization | JSearch: employer_name
+    const title   = job.title || job.job_title || job.position || null;
     const company = job.organization || job.employer_name || job.company_name || job.company || null;
 
-    // تخطي الوظائف بدون عنوان أو شركة
     if (!title || !company) return null;
 
-    // ✅ الموقع — Fantastic: locations_derived | JSearch: job_city + job_country
+    // الموقع
     let location = 'Remote Worldwide';
     if (job.locations_derived && job.locations_derived.length > 0) {
         location = job.locations_derived[0];
@@ -77,7 +72,7 @@ function normalizeJob(job) {
         location = 'Remote Worldwide';
     }
 
-    // ✅ الراتب — Fantastic: ai_salary_* | JSearch: job_min_salary + job_max_salary
+    // الراتب
     let salary = null;
     if (job.ai_salary_min_value && job.ai_salary_max_value) {
         const cur  = job.ai_salary_currency || 'USD';
@@ -97,7 +92,7 @@ function normalizeJob(job) {
         salary = `${cur} ${Number(job.job_min_salary).toLocaleString()} - ${Number(job.job_max_salary).toLocaleString()}${unit}`;
     }
 
-    // ✅ نوع العمل — Fantastic: ai_work_arrangement | JSearch: job_is_remote
+    // نوع العمل
     const arrangement = job.ai_work_arrangement || '';
     const isRemote    = job.job_is_remote || false;
     let workType = 'Full-time';
@@ -106,68 +101,65 @@ function normalizeJob(job) {
     else if (arrangement === 'Hybrid')                workType = '🏢 Hybrid';
     else if (arrangement === 'On-site')               workType = '🏙️ On-site';
 
-    // ✅ التاريخ — Fantastic: date_posted | JSearch: job_posted_at_datetime_utc
-    const date = job.date_posted ||
-                 job.date_created ||
-                 job.job_posted_at_datetime_utc ||
-                 null;
+    // المهارات
+    let skills = [];
+    if (Array.isArray(job.ai_key_skills) && job.ai_key_skills.length > 0)
+        skills = job.ai_key_skills;
+    else if (Array.isArray(job.ai_keywords) && job.ai_keywords.length > 0)
+        skills = job.ai_keywords;
+    else if (Array.isArray(job.job_required_skills) && job.job_required_skills.length > 0)
+        skills = job.job_required_skills;
+    else if (job.job_highlights?.Qualifications)
+        skills = job.job_highlights.Qualifications;
 
-    // ✅ الرابط — Fantastic: url | JSearch: job_apply_link
-    const applyLink = job.url || job.job_apply_link || job.apply_link || '#';
-
-    // ✅ الشعار — Fantastic: organization_logo | JSearch: employer_logo
-    const logo = job.organization_logo || job.employer_logo || null;
-
-    // ✅ المهارات — Fantastic: ai_key_skills | JSearch: job_required_skills
-    const tags = normalizeTags(
-        job.ai_key_skills ||
-        job.ai_keywords ||
-        job.job_required_skills ||
-        (job.job_highlights && job.job_highlights.Qualifications) ||
-        []
-    );
-
-    // ✅ المتطلبات والمسؤوليات
-    const qualifications = job.ai_requirements_summary
-        ? [job.ai_requirements_summary]
-        : ((job.job_highlights && job.job_highlights.Qualifications) || []);
-
-    const responsibilities = job.ai_core_responsibilities
-        ? [job.ai_core_responsibilities]
-        : ((job.job_highlights && job.job_highlights.Responsibilities) || []);
-
-    // ✅ المزايا — Fantastic: ai_benefits | JSearch: job_highlights.Benefits
-    const benefits = job.ai_benefits ||
-                     (job.job_highlights && job.job_highlights.Benefits) ||
-                     [];
-
-    // ✅ نوع التوظيف
-    let employmentType = '';
-    if (Array.isArray(job.ai_employment_type)) {
-        employmentType = job.ai_employment_type.join(', ');
-    } else if (Array.isArray(job.job_employment_type)) {
-        employmentType = job.job_employment_type.join(', ');
-    } else if (typeof job.employment_type === 'string') {
-        employmentType = job.employment_type;
+    // المسؤوليات
+    let responsibilities = null;
+    if (job.ai_core_responsibilities) {
+        responsibilities = job.ai_core_responsibilities;
+    } else if (job.job_highlights?.Responsibilities?.length > 0) {
+        responsibilities = job.job_highlights.Responsibilities.join('\n\n');
+    } else if (job.job_description) {
+        responsibilities = job.job_description.substring(0, 600) + '...';
     }
 
+    // المتطلبات
+    let qualifications = null;
+    if (job.ai_requirements_summary) {
+        qualifications = job.ai_requirements_summary;
+    } else if (job.job_highlights?.Qualifications?.length > 0) {
+        qualifications = job.job_highlights.Qualifications.join('\n\n');
+    }
+
+    // نوع التوظيف
+    let employmentType = '';
+    if (Array.isArray(job.ai_employment_type))
+        employmentType = job.ai_employment_type.join(', ');
+    else if (Array.isArray(job.job_employment_type))
+        employmentType = job.job_employment_type.join(', ');
+    else if (typeof job.employment_type === 'string')
+        employmentType = job.employment_type;
+
     return {
-        id:               job.id || job.job_id || Math.random().toString(36).substr(2, 9),
-        title:            title,
-        company:          company,
-        company_logo:     logo,
-        location:         location,
-        salary:           salary,
-        date:             date,
+        id:               String(job.id || job.job_id || Math.random().toString(36).substr(2, 9)),
+        title,
+        company,
+        company_logo:     job.organization_logo || job.employer_logo || null,
+        location,
+        salary,
+        date:             job.date_posted || job.date_created || job.job_posted_at_datetime_utc || null,
         type:             workType,
         category:         normalizeCategory(title),
-        tags:             tags,
-        qualifications:   qualifications,
-        responsibilities: responsibilities,
-        apply_link:       applyLink,
+        skills:           skills.slice(0, 6),
+        tags:             skills.slice(0, 6),
+        responsibilities,
+        qualifications,
+        apply_link:       job.url || job.job_apply_link || job.apply_link || '#',
         experience_level: job.ai_experience_level || null,
-        benefits:         benefits,
+        working_hours:    job.ai_working_hours || null,
+        benefits:         job.ai_benefits || job.job_highlights?.Benefits || [],
         visa_sponsorship: job.ai_visa_sponsorship || false,
+        language:         job.ai_job_language || null,
+        source:           job.source || null,
         employment_type:  employmentType,
         industries:       job.ai_taxonomies_a || [],
         education:        job.ai_education || [],
@@ -201,9 +193,18 @@ function normalizeTags(tags) {
     return [];
 }
 
-// 3. لوحة الإحصائيات
+// 3. حفظ الوظيفة في sessionStorage عند الضغط
+function saveJobToStorage(jobData) {
+    try {
+        sessionStorage.setItem('currentJob', JSON.stringify(jobData));
+    } catch(e) {
+        console.warn('sessionStorage unavailable:', e);
+    }
+}
+
+// 4. لوحة الإحصائيات
 function updateStatsDashboard(jobs) {
-    const totalJobsEl     = document.getElementById('statTotalJobs');
+    const totalJobsEl      = document.getElementById('statTotalJobs');
     const totalCompaniesEl = document.getElementById('statTotalCompanies');
     if (totalJobsEl) totalJobsEl.innerText = jobs.length.toLocaleString() + '+';
     if (totalCompaniesEl) {
@@ -223,7 +224,7 @@ function sortJobsByDate(jobs) {
     });
 }
 
-// 4. الفلترة والفرز
+// 5. الفلترة والفرز
 function filterAndRenderJobs() {
     const searchInput    = document.getElementById('searchInput');
     const categoryFilter = document.getElementById('categoryFilter');
@@ -242,7 +243,7 @@ function filterAndRenderJobs() {
     });
 
     clearOldSchemas();
-    const sorted   = sortJobsByDate(filtered);
+    const sorted = sortJobsByDate(filtered);
     renderFeaturedSection(sorted.slice(0, 5));
     renderLatestSection(sorted.slice(5));
 }
@@ -250,8 +251,8 @@ function filterAndRenderJobs() {
 // SEO Schema
 function injectJobSchema(job) {
     let desc = `Career opportunity for ${job.title} at ${job.company}. Location: ${job.location}.`;
-    if (job.qualifications?.length)   desc += ` Requirements: ${job.qualifications.join(' ')}`;
-    if (job.responsibilities?.length) desc += ` Responsibilities: ${job.responsibilities.join(' ')}`;
+    if (job.qualifications) desc += ` Requirements: ${job.qualifications}`;
+    if (job.responsibilities) desc += ` Responsibilities: ${job.responsibilities}`;
 
     const schema = {
         "@context": "https://schema.org",
@@ -281,9 +282,9 @@ function clearOldSchemas() {
     document.querySelectorAll('.dynamic-job-schema').forEach(s => s.remove());
 }
 
-// 5. عرض المميزة
+// 6. عرض المميزة
 function renderFeaturedSection(jobs) {
-    const container  = document.getElementById('featuredJobsContainer');
+    const container   = document.getElementById('featuredJobsContainer');
     const loadMoreBtn = document.getElementById('loadMoreFeaturedBtn');
     if (!container) return;
     container.innerHTML = '';
@@ -299,9 +300,9 @@ function renderFeaturedSection(jobs) {
     if (loadMoreBtn) loadMoreBtn.style.display = displayedFeaturedCount >= jobs.length ? 'none' : 'block';
 }
 
-// 6. عرض الأحدث
+// 7. عرض الأحدث
 function renderLatestSection(jobs) {
-    const container  = document.getElementById('jobsContainer');
+    const container   = document.getElementById('jobsContainer');
     const loadMoreBtn = document.getElementById('loadMoreLatestBtn');
     if (!container) return;
     container.innerHTML = '';
@@ -321,7 +322,7 @@ function renderLatestSection(jobs) {
     if (loadMoreBtn) loadMoreBtn.style.display = displayedLatestCount >= jobs.length ? 'none' : 'block';
 }
 
-// 7. كرت الوظيفة
+// 8. كرت الوظيفة
 function createJobCard(job, isFeatured = false) {
     const card = document.createElement('div');
     card.className = `job-card ${isFeatured ? 'featured-job-style' : ''}`;
@@ -337,13 +338,19 @@ function createJobCard(job, isFeatured = false) {
     if (job.category === 'Product')     categoryIcon = '<i class="fa-solid fa-box-open"></i>';
 
     const tagsHTML = (job.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('');
+
+    // ✅ رابط الوظيفة + حفظ البيانات كاملة في sessionStorage
+    const jobDataStr = JSON.stringify(job).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '&quot;');
     const internalJobLink = `job.html?id=${encodeURIComponent(job.id)}&url=${encodeURIComponent(job.apply_link)}`;
 
+    // شارة New
     let newBadgeHTML = '';
     let timeAgoText  = job.type || 'Full-time';
 
     if (job.date) {
-        const diff = Math.floor((new Date().setHours(0,0,0,0) - new Date(job.date).setHours(0,0,0,0)) / 86400000);
+        const diff = Math.floor(
+            (new Date().setHours(0,0,0,0) - new Date(job.date).setHours(0,0,0,0)) / 86400000
+        );
         if (diff === 0) {
             timeAgoText  = 'Posted Today';
             newBadgeHTML = `<span class="new-badge" style="background:linear-gradient(135deg,#ff5722,#ff9800);color:#fff;font-size:0.72rem;font-weight:800;padding:3px 8px;border-radius:4px;text-transform:uppercase;letter-spacing:0.5px;animation:pulseBadge 1.8s infinite;box-shadow:0 2px 8px rgba(255,87,34,0.4);display:inline-block;">New</span>`;
@@ -354,6 +361,7 @@ function createJobCard(job, isFeatured = false) {
         }
     }
 
+    // شارة مستوى الخبرة
     const titleLower = (job.title || '').toLowerCase();
     let experienceBadgeHTML = '';
     if (titleLower.includes('senior') || titleLower.includes('lead') ||
@@ -363,6 +371,7 @@ function createJobCard(job, isFeatured = false) {
         experienceBadgeHTML = `<span style="background:rgba(46,160,67,0.15);color:#56d364;font-size:0.75rem;padding:2px 6px;border-radius:4px;font-weight:600;border:1px solid rgba(46,160,67,0.3);">Entry Level</span>`;
     }
 
+    // شارة الراتب المرتفع
     let highPayBadgeHTML = '';
     if (job.salary) {
         const nums = job.salary.replace(/,/g, '').match(/\d+/g);
@@ -371,43 +380,74 @@ function createJobCard(job, isFeatured = false) {
         }
     }
 
+    // شارة Visa
     const visaBadgeHTML = job.visa_sponsorship
         ? `<span style="background:rgba(46,160,67,0.15);color:#56d364;font-size:0.75rem;padding:2px 6px;border-radius:4px;font-weight:600;border:1px solid rgba(46,160,67,0.3);"><i class="fa-solid fa-passport"></i> Visa OK</span>`
         : '';
 
+    // شعار الشركة
     const logoHTML = job.company_logo
-        ? `<img src="${job.company_logo}" alt="${job.company}" style="width:36px;height:36px;border-radius:6px;object-fit:contain;background:#fff;padding:3px;" onerror="this.style.display='none'">`
-        : `<div class="job-icon-box" style="color:#ffc107;font-size:1.1rem;">${categoryIcon}</div>`;
+        ? `<img src="${job.company_logo}" alt="${job.company}" style="width:36px;height:36px;border-radius:6px;object-fit:contain;background:#fff;padding:3px;flex-shrink:0;" onerror="this.style.display='none'">`
+        : `<div class="job-icon-box" style="color:#ffc107;font-size:1.1rem;flex-shrink:0;">${categoryIcon}</div>`;
 
+    // ملخص التفاصيل في الكرت
     let highlightsHTML = '';
-    if ((job.responsibilities?.length > 0) || (job.qualifications?.length > 0)) {
+    if (job.responsibilities || job.qualifications) {
         highlightsHTML = `<div style="margin-top:12px;padding:10px;background:rgba(255,255,255,0.02);border-radius:6px;border:1px solid rgba(255,255,255,0.05);font-size:0.82rem;color:#c9d1d9;">`;
-        if (job.responsibilities?.length > 0) {
-            highlightsHTML += `<div style="margin-bottom:8px;"><strong style="color:#58a6ff;font-size:0.78rem;text-transform:uppercase;"><i class="fa-solid fa-list-check"></i> What You'll Do:</strong><p style="margin:4px 0 0 0;line-height:1.5;">${job.responsibilities[0]}</p></div>`;
+        if (job.responsibilities) {
+            const shortDesc = job.responsibilities.length > 150
+                ? job.responsibilities.substring(0, 150) + '...'
+                : job.responsibilities;
+            highlightsHTML += `
+                <div style="margin-bottom:8px;">
+                    <strong style="color:#58a6ff;font-size:0.78rem;text-transform:uppercase;">
+                        <i class="fa-solid fa-list-check"></i> What You'll Do:
+                    </strong>
+                    <p style="margin:4px 0 0 0;line-height:1.5;">${shortDesc}</p>
+                </div>`;
         }
-        if (job.qualifications?.length > 0) {
-            highlightsHTML += `<div><strong style="color:#ffc107;font-size:0.78rem;text-transform:uppercase;"><i class="fa-solid fa-award"></i> Requirements:</strong><p style="margin:4px 0 0 0;line-height:1.5;">${job.qualifications[0]}</p></div>`;
+        if (job.qualifications) {
+            const shortReq = job.qualifications.length > 150
+                ? job.qualifications.substring(0, 150) + '...'
+                : job.qualifications;
+            highlightsHTML += `
+                <div>
+                    <strong style="color:#ffc107;font-size:0.78rem;text-transform:uppercase;">
+                        <i class="fa-solid fa-award"></i> Requirements:
+                    </strong>
+                    <p style="margin:4px 0 0 0;line-height:1.5;">${shortReq}</p>
+                </div>`;
         }
         highlightsHTML += `</div>`;
     }
 
+    // المزايا
     let benefitsHTML = '';
-    if (job.benefits?.length > 0) {
+    if (job.benefits && job.benefits.length > 0) {
         const shown = job.benefits.slice(0, 3).join(' • ');
-        const extra = job.benefits.length > 3 ? ` <span style="color:#58a6ff;">+${job.benefits.length - 3} more</span>` : '';
-        benefitsHTML = `<div style="margin-top:8px;font-size:0.78rem;color:#8b949e;"><i class="fa-solid fa-gift" style="color:#ffc107;margin-right:4px;"></i>${shown}${extra}</div>`;
+        const extra = job.benefits.length > 3
+            ? ` <span style="color:#58a6ff;">+${job.benefits.length - 3} more</span>`
+            : '';
+        benefitsHTML = `
+            <div style="margin-top:8px;font-size:0.78rem;color:#8b949e;">
+                <i class="fa-solid fa-gift" style="color:#ffc107;margin-right:4px;"></i>${shown}${extra}
+            </div>`;
     }
 
+    // الصناعات
     let industriesHTML = '';
-    if (job.industries?.length > 0) {
-        industriesHTML = `<div style="margin-top:6px;font-size:0.76rem;color:#6e7681;"><i class="fa-solid fa-building" style="margin-right:4px;"></i>${job.industries.slice(0, 3).join(' · ')}</div>`;
+    if (job.industries && job.industries.length > 0) {
+        industriesHTML = `
+            <div style="margin-top:6px;font-size:0.76rem;color:#6e7681;">
+                <i class="fa-solid fa-building" style="margin-right:4px;"></i>${job.industries.slice(0, 3).join(' · ')}
+            </div>`;
     }
 
     card.innerHTML = `
         <div class="job-details">
             <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:8px;">
                 ${logoHTML}
-                <div style="flex:1;">
+                <div style="flex:1;min-width:0;">
                     <div class="job-title" style="font-weight:600;color:#ffffff;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
                         ${job.title} ${newBadgeHTML}
                     </div>
@@ -419,6 +459,7 @@ function createJobCard(job, isFeatured = false) {
                     </div>
                 </div>
             </div>
+
             <div class="job-meta" style="font-size:0.83rem;color:#8b949e;display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;">
                 <span><i class="fa-solid fa-location-dot"></i> ${job.location}</span>
                 <span><i class="fa-solid fa-clock"></i> ${timeAgoText}</span>
@@ -426,18 +467,25 @@ function createJobCard(job, isFeatured = false) {
                 <span><i class="fa-solid fa-briefcase"></i> ${job.type}</span>
                 ${job.experience_level ? `<span><i class="fa-solid fa-chart-bar"></i> ${job.experience_level} yrs exp</span>` : ''}
             </div>
+
             ${highlightsHTML}
             ${benefitsHTML}
             ${industriesHTML}
+
             <div class="job-tags" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;">
                 ${tagsHTML}
             </div>
         </div>
+
         <div style="margin-top:15px;text-align:right;">
-            <a href="${internalJobLink}" class="apply-btn" style="background-color:#ffc107;color:#0d1117;padding:8px 16px;border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;font-size:0.88rem;">
+            <a href="${internalJobLink}"
+               onclick="saveJobToStorage(${jobDataStr})"
+               class="apply-btn"
+               style="background-color:#ffc107;color:#0d1117;padding:8px 16px;border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;font-size:0.88rem;">
                 View Details <i class="fa-solid fa-arrow-right" style="font-size:0.75rem;margin-left:4px;"></i>
             </a>
         </div>
+
         <style>
             @keyframes pulseBadge {
                 0%   { transform:scale(1); opacity:0.9; }
@@ -449,19 +497,25 @@ function createJobCard(job, isFeatured = false) {
     return card;
 }
 
-// 8. Pagination
+// 9. Pagination
 function setupPaginationEvents() {
     const loadMoreLatestBtn   = document.getElementById('loadMoreLatestBtn');
     const loadMoreFeaturedBtn = document.getElementById('loadMoreFeaturedBtn');
     if (loadMoreLatestBtn) {
-        loadMoreLatestBtn.addEventListener('click', () => { displayedLatestCount += 20; filterAndRenderJobs(); });
+        loadMoreLatestBtn.addEventListener('click', () => {
+            displayedLatestCount += 20;
+            filterAndRenderJobs();
+        });
     }
     if (loadMoreFeaturedBtn) {
-        loadMoreFeaturedBtn.addEventListener('click', () => { displayedFeaturedCount += 20; filterAndRenderJobs(); });
+        loadMoreFeaturedBtn.addEventListener('click', () => {
+            displayedFeaturedCount += 20;
+            filterAndRenderJobs();
+        });
     }
 }
 
-// 9. البحث والفلترة
+// 10. البحث والفلترة
 function setupFilterListeners() {
     const searchInput    = document.getElementById('searchInput');
     const categoryFilter = document.getElementById('categoryFilter');
