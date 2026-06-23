@@ -4,32 +4,29 @@ import json
 import os
 from datetime import datetime
 
-def fetch_from_fantastic():
-    # 1. تحميل كافة الأسرار وتوزيعها على البيئة
-    secrets_raw = os.getenv("ALL_SECRETS")
-    if secrets_raw:
-        try:
-            secrets_dict = json.loads(secrets_raw)
-            for key, value in secrets_dict.items():
-                os.environ[key] = str(value)
-        except json.JSONDecodeError:
-            print("⚠️ خطأ في تنسيق JSON الخاص بالأسرار.")
+def map_category(tags):
+    tags_lower = [t.lower() for t in tags]
+    if any(k in ' '.join(tags_lower) for k in ['dev', 'engineer', 'code', 'python', 'react']): return 'Development'
+    if any(k in ' '.join(tags_lower) for k in ['design', 'ui', 'ux']): return 'Design'
+    return 'Other Remote Jobs'
 
-    # 2. الآن نقوم بجلب المفتاح المطلوب بعد أن أصبح متاحاً في البيئة
-    api_key = os.getenv("FANTASTIC_API_KEY", "").strip()
+def fetch_from_fantastic():
+    # جلب المفتاح مباشرة من البيئة
+    api_key = os.environ.get("FANTASTIC_API_KEY", "").strip()
+    
     if not api_key:
-        print("⚠️ مفتاح FANTASTIC_API_KEY غير موجود في الأسرار!")
+        print("⚠️ مفتاح FANTASTIC_API_KEY مفقود في البيئة!")
         return []
 
     print("🚀 محرك Fantastic Active قيد التشغيل...")
     
-    # استخدام الرابط المباشر وتجنب التعقيد في الترميز
+    # الرابط المباشر
     url = "https://active-jobs-db.p.rapidapi.com/active-ats?limit=50&title=Developer"
     
     headers = {
         "x-rapidapi-host": "active-jobs-db.p.rapidapi.com",
         "x-rapidapi-key": api_key,
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        "User-Agent": "Mozilla/5.0"
     }
     
     try:
@@ -43,6 +40,7 @@ def fetch_from_fantastic():
                 jobs.append({
                     "title": j.get('title', 'Remote Job'),
                     "company": j.get('company', 'Tech Co'),
+                    "category": map_category([j.get('title', '')]),
                     "apply_link": j.get('url', 'https://google.com'),
                     "date": datetime.now().strftime('%Y-%m-%d')
                 })
@@ -52,7 +50,5 @@ def fetch_from_fantastic():
         print(f"⚠️ فشل جلب البيانات: {e}")
         return []
 
-# دالة تشغيل السكربت الأساسية
 if __name__ == "__main__":
-    jobs = fetch_from_fantastic()
-    # هنا يمكنك إضافة كود حفظ الـ jobs في ملف json
+    fetch_from_fantastic()
