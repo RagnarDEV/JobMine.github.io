@@ -47,18 +47,24 @@ def generate_dynamic_sitemap(current_dir, jobs_list):
     sitemap_path = os.path.join(current_dir, 'sitemap.xml')
     today_date = datetime.now().strftime('%Y-%m-%d')
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+    
+    # الصفحة الرئيسية
     main_url = ET.SubElement(urlset, "url")
     ET.SubElement(main_url, "loc").text = base_url
     ET.SubElement(main_url, "lastmod").text = today_date
     ET.SubElement(main_url, "changefreq").text = "daily"
     ET.SubElement(main_url, "priority").text = "1.0"
+    
+    # الصفحات الثابتة (تم إصلاح الإنشاء هنا)
     static_pages = ["terms.html", "privacy.html", "disclaimer.html"]
     for page in static_pages:
-        page_url = ET.SubElement(page_url, "url")
+        page_url = ET.SubElement(urlset, "url")
         ET.SubElement(page_url, "loc").text = f"{base_url}{page}"
         ET.SubElement(page_url, "lastmod").text = today_date
         ET.SubElement(page_url, "changefreq").text = "weekly"
         ET.SubElement(page_url, "priority").text = "0.5"
+        
+    # صفحات الوظائف الديناميكية
     for job in jobs_list:
         job_id = job.get('id')
         if job_id:
@@ -67,6 +73,7 @@ def generate_dynamic_sitemap(current_dir, jobs_list):
             ET.SubElement(job_url, "lastmod").text = job.get('date', today_date)
             ET.SubElement(job_url, "changefreq").text = "weekly"
             ET.SubElement(job_url, "priority").text = "0.7"
+            
     tree = ET.ElementTree(urlset)
     try:
         with open(sitemap_path, "wb") as f:
