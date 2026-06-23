@@ -12,10 +12,10 @@ def main():
 
     print(f"🚀 محرك Fantastic Active قيد التشغيل...")
 
-    # ✅ encoding صحيح للبارامترات
     params = urllib.parse.urlencode({
         "limit": "50",
-        "title": "Developer"
+        "title": "Developer",
+        "time_frame": "24h"
     })
     
     url = f"https://active-jobs-db.p.rapidapi.com/active-ats?{params}"
@@ -23,13 +23,12 @@ def main():
     headers = {
         "x-rapidapi-host": "active-jobs-db.p.rapidapi.com",
         "x-rapidapi-key": api_key,
-        "Accept": "application/json"  # ✅ مهم جداً
+        "Accept": "application/json"
     }
     
     try:
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=15) as response:
-            # ✅ طباعة status للتأكد
             print(f"✅ Status: {response.status}")
             data = json.loads(response.read().decode())
             job_list = data if isinstance(data, list) else data.get('jobs', [])
@@ -40,9 +39,8 @@ def main():
             print(f"✅ تم جلب {len(job_list)} وظيفة.")
             
     except urllib.error.HTTPError as e:
-        # ✅ طباعة تفاصيل الخطأ كاملة
         print(f"❌ HTTP Error {e.code}: {e.reason}")
-        print(f"❌ Response body: {e.read().decode()}")  # هذا يكشف السبب الحقيقي
+        print(f"❌ Response body: {e.read().decode()}")
     except Exception as e:
         print(f"❌ فشل الاتصال: {e}")
 
