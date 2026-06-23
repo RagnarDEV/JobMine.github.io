@@ -5,10 +5,11 @@ import os
 from datetime import datetime, timezone
 
 # ============================================================
-SEARCH_TITLES = ["Developer", "Engineer", "Designer", "Product Manager", "DevOps"]
-TIME_FRAME    = "24h"
+SEARCH_TITLES   = ["Developer", "Engineer", "Designer", "Product Manager", "DevOps"]
+TIME_FRAME      = "24h"
 LIMIT_PER_QUERY = 50
-BASE_URL      = "https://www.jobmine.site.je"
+BASE_URL        = "https://www.jobmine.site.je"
+MAX_JOBS        = 1000
 # ============================================================
 
 
@@ -77,43 +78,61 @@ def fetch_from_jsearch(api_key):
 
 
 def get_job_key(job):
-    """مفتاح فريد لكل وظيفة"""
-    return (
-        str(job.get('id', '')) or
-        str(job.get('job_id', '')) or
-        job.get('url', '') or
-        job.get('job_apply_link', '')
-    )
+    """
+    ✅ مفتاح فريد موثوق — يتعامل مع الأرقام والنصوص
+    يجمع id + url لضمان التفرد حتى عند تعدد المصادر
+    """
+    job_id  = job.get('id') or job.get('job_id') or ''
+    job_url = job.get('url') or job.get('job_apply_link') or ''
+
+    # تحويل الـ id لنص والتأكد أنه ليس فارغاً
+    id_str  = str(job_id).strip() if job_id else ''
+    url_str = str(job_url).strip() if job_url else ''
+
+    # ✅ الأولوية للـ id إذا كان موجوداً وغير فارغ
+    if id_str and id_str not in ('0', 'None', 'null', ''):
+        return id_str
+
+    # ✅ fallback للـ url
+    if url_str and url_str not in ('None', 'null', ''):
+        return url_str
+
+    return None
 
 
 def remove_duplicates(jobs):
-    seen = set()
+    """إزالة المكررات من قائمة واحدة"""
+    seen   = set()
     unique = []
     for job in jobs:
         key = get_job_key(job)
-        if key and key not in seen:
-            seen.add(key)
+        if key is None:
+            # وظيفة بدون معرف — نضيفها دائماً (نادرة)
             unique.append(job)
-        elif not key:
+        elif key not in seen:
+            seen.add(key)
             unique.append(job)
     return unique
 
 
-def merge_with_existing(new_jobs, jobs_path, max_jobs=1000):
+def merge_with_existing(new_jobs, jobs_path, max_jobs=MAX_JOBS):
     """
-    دمج الوظائف الجديدة مع الموجودة في jobs.json
-    مع الاحتفاظ بأحدث 1000 وظيفة فقط
-    الجديدة تأتي أولاً، القديمة تُحذف من النهاية
+    ✅ دمج الوظائف الجديدة مع الموجودة:
+    - الجديدة تأتي أولاً
+    - القديمة تُحفظ كاملةً ما لم يتجاوز العدد max_jobs
+    - لا تُحذف أي وظيفة قديمة إلا عند الوصول للحد الأقصى
     """
     existing = []
     if os.path.exists(jobs_path):
         try:
             with open(jobs_path, 'r', encoding='utf-8') as f:
-                existing = json.load(f)
+                content = f.read().strip()
+                if content:
+                    existing = json.loads(content)
             print(f"  📂 jobs.json الحالي: {len(existing)} وظيفة")
-        except:
+        except Exception as e:
             existing = []
-            print("  📂 jobs.json فارغ أو تالف، سيتم إنشاؤه من جديد")
+            print(f"  ⚠️ خطأ في قراءة jobs.json: {e} — سيتم إنشاؤه من جديد")
 
     # بناء فهرس للوظائف الموجودة
     existing_keys = set()
@@ -122,34 +141,51 @@ def merge_with_existing(new_jobs, jobs_path, max_jobs=1000):
         if key:
             existing_keys.add(key)
 
-    # إضافة الجديدة فقط في المقدمة
+    print(f"  📊 مفاتيح موجودة: {len(existing_keys)}")
+
+    # إضافة الجديدة فقط (غير الموجودة)
     truly_new = []
+    skipped   = 0
     for job in new_jobs:
         key = get_job_key(job)
-        if not key or key not in existing_keys:
+        if key is None or key not in existing_keys:
             truly_new.append(job)
+            if key:
+                existing_keys.add(key)
+        else:
+            skipped += 1
 
     print(f"  🆕 وظائف جديدة فعلاً: {len(truly_new)}")
+    print(f"  ♻️  مكررات تم تخطيها: {skipped}")
 
-    # الجديدة في المقدمة + القديمة في النهاية
+    # ✅ الجديدة في المقدمة + القديمة كاملة
     merged = truly_new + existing
 
-    # الاحتفاظ بأحدث 1000 فقط
+    # ✅ الاحتفاظ بأحدث max_jobs فقط إذا تجاوزنا الحد
     if len(merged) > max_jobs:
-        merged = merged[:max_jobs]
-        print(f"  ✂️ تم الاقتصار على أحدث {max_jobs} وظيفة")
+        removed = len(merged) - max_jobs
+        merged  = merged[:max_jobs]
+        print(f"  ✂️ تم حذف {removed} وظيفة قديمة للحفاظ على الحد ({max_jobs})")
 
+    print(f"  📦 إجمالي بعد الدمج: {len(merged)} وظيفة")
     return merged
 
 
-def update_archive(new_jobs, archive_path, max_jobs=1000):
+def update_archive(new_jobs, archive_path, max_jobs=MAX_JOBS):
+    """
+    ✅ أرشيف مستقل — يحتفظ بكل الوظائف التي مرت
+    الاحتفاظ بآخر max_jobs وظيفة
+    """
     existing = []
     if os.path.exists(archive_path):
         try:
             with open(archive_path, 'r', encoding='utf-8') as f:
-                existing = json.load(f)
-        except:
+                content = f.read().strip()
+                if content:
+                    existing = json.loads(content)
+        except Exception as e:
             existing = []
+            print(f"  ⚠️ خطأ في قراءة الأرشيف: {e}")
 
     existing_keys = set()
     for job in existing:
@@ -160,23 +196,30 @@ def update_archive(new_jobs, archive_path, max_jobs=1000):
     added = 0
     for job in new_jobs:
         key = get_job_key(job)
-        if not key or key not in existing_keys:
+        if key is None or key not in existing_keys:
             existing.append(job)
             if key:
                 existing_keys.add(key)
             added += 1
 
-    # الاحتفاظ بآخر 1000 وظيفة في الأرشيف
-    existing = existing[-max_jobs:]
+    # الاحتفاظ بآخر max_jobs
+    if len(existing) > max_jobs:
+        existing = existing[-max_jobs:]
 
-    with open(archive_path, 'w', encoding='utf-8') as f:
-        json.dump(existing, f, indent=2, ensure_ascii=False)
+    try:
+        with open(archive_path, 'w', encoding='utf-8') as f:
+            json.dump(existing, f, indent=2, ensure_ascii=False)
+        print(f"  📦 الأرشيف: +{added} جديدة، إجمالي: {len(existing)}")
+    except Exception as e:
+        print(f"  ❌ خطأ في حفظ الأرشيف: {e}")
 
-    print(f"📦 الأرشيف: +{added} جديدة، إجمالي: {len(existing)}")
     return existing
 
 
 def update_sitemap(all_jobs, sitemap_path):
+    """
+    ✅ تحديث sitemap.xml بجميع الوظائف + الصفحات الثابتة
+    """
     now = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
     static_pages = [
@@ -192,6 +235,7 @@ def update_sitemap(all_jobs, sitemap_path):
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
     ]
 
+    # الصفحات الثابتة
     for page in static_pages:
         xml_lines.append(f"""  <url>
     <loc>{page['url']}</loc>
@@ -200,17 +244,24 @@ def update_sitemap(all_jobs, sitemap_path):
     <priority>{page['priority']}</priority>
   </url>""")
 
+    # صفحات الوظائف
     added_urls = set()
+    skipped    = 0
     for job in all_jobs:
-        job_id  = str(job.get('id', ''))
-        job_url = job.get('url', '') or job.get('job_apply_link', '')
-        if not job_id:
+        job_id  = job.get('id') or job.get('job_id') or ''
+        job_url = job.get('url') or job.get('job_apply_link') or ''
+
+        id_str = str(job_id).strip() if job_id else ''
+        if not id_str or id_str in ('0', 'None', 'null'):
+            skipped += 1
             continue
+
         page_url = (
             f"{BASE_URL}/job.html"
-            f"?id={urllib.parse.quote(job_id)}"
+            f"?id={urllib.parse.quote(id_str)}"
             f"&url={urllib.parse.quote(str(job_url))}"
         )
+
         if page_url not in added_urls:
             added_urls.add(page_url)
             xml_lines.append(f"""  <url>
@@ -222,16 +273,21 @@ def update_sitemap(all_jobs, sitemap_path):
 
     xml_lines.append('</urlset>')
 
-    with open(sitemap_path, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(xml_lines))
-
-    print(f"🗺️ sitemap.xml: {len(added_urls)} وظيفة + {len(static_pages)} صفحة ثابتة")
+    try:
+        with open(sitemap_path, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(xml_lines))
+        size = os.path.getsize(sitemap_path)
+        print(f"  🗺️ sitemap.xml: {len(added_urls)} وظيفة + {len(static_pages)} صفحة | حجم: {size:,} bytes")
+        if skipped:
+            print(f"  ⚠️ تم تخطي {skipped} وظيفة بدون id")
+    except Exception as e:
+        print(f"  ❌ خطأ في حفظ sitemap.xml: {e}")
 
 
 def main():
-    print("=" * 50)
+    print("=" * 55)
     print(f"🕐 بدء: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
-    print("=" * 50)
+    print("=" * 55)
 
     fantastic_key = os.environ.get("FANTASTIC_API_KEY", "").strip()
     rapid_key     = os.environ.get("RAPID_API_KEY", "").strip()
@@ -245,55 +301,66 @@ def main():
     archive_path = os.path.join(base_dir, 'archive', 'jobs_archive.json')
     sitemap_path = os.path.join(base_dir, 'sitemap.xml')
 
+    # إنشاء مجلد الأرشيف
     os.makedirs(os.path.dirname(archive_path), exist_ok=True)
 
+    # ── جلب الوظائف ──
     new_jobs = []
 
     if fantastic_key:
-        print("\n📡 [1/2] Fantastic (active-jobs-db)...")
+        print("\n📡 [1/2] Fantastic API (active-jobs-db)...")
         jobs = fetch_from_fantastic(fantastic_key)
         new_jobs.extend(jobs)
-        print(f"  → {len(jobs)} وظيفة")
+        print(f"  → Fantastic إجمالي: {len(jobs)} وظيفة")
     else:
-        print("⏭️ FANTASTIC_API_KEY غير موجود")
+        print("⏭️ FANTASTIC_API_KEY غير موجود، تم التخطي")
 
     if rapid_key:
-        print("\n📡 [2/2] JSearch (RAPID_API_KEY)...")
+        print("\n📡 [2/2] JSearch API (RAPID_API_KEY)...")
         jobs = fetch_from_jsearch(rapid_key)
         new_jobs.extend(jobs)
-        print(f"  → {len(jobs)} وظيفة")
+        print(f"  → JSearch إجمالي: {len(jobs)} وظيفة")
     else:
-        print("⏭️ RAPID_API_KEY غير موجود")
+        print("⏭️ RAPID_API_KEY غير موجود، تم التخطي")
 
     if not new_jobs:
-        print("\n❌ لم يتم جلب أي وظائف!")
+        print("\n❌ لم يتم جلب أي وظائف — لا تغييرات.")
         return
 
-    # إزالة مكررات الدفعة الجديدة
+    # ── إزالة مكررات الدفعة الجديدة ──
+    before = len(new_jobs)
     new_jobs = remove_duplicates(new_jobs)
-    print(f"\n📥 وظائف جديدة (بعد إزالة مكررات الدفعة): {len(new_jobs)}")
+    print(f"\n🔄 إزالة المكررات: {before} ← {len(new_jobs)} وظيفة")
 
-    # ✅ دمج مع jobs.json والاحتفاظ بأحدث 1000
-    print("\n🔀 دمج مع jobs.json...")
-    final_jobs = merge_with_existing(new_jobs, jobs_path, max_jobs=1000)
+    # ── دمج مع jobs.json ──
+    print("\n🔀 دمج مع jobs.json الحالي...")
+    final_jobs = merge_with_existing(new_jobs, jobs_path, max_jobs=MAX_JOBS)
 
-    # حفظ jobs.json
-    with open(jobs_path, 'w', encoding='utf-8') as f:
-        json.dump(final_jobs, f, indent=2, ensure_ascii=False)
-    print(f"💾 jobs.json: {len(final_jobs)} وظيفة محفوظة")
+    # ── حفظ jobs.json ──
+    try:
+        with open(jobs_path, 'w', encoding='utf-8') as f:
+            json.dump(final_jobs, f, indent=2, ensure_ascii=False)
+        size = os.path.getsize(jobs_path)
+        print(f"\n💾 jobs.json محفوظ: {len(final_jobs)} وظيفة | حجم: {size:,} bytes")
+    except Exception as e:
+        print(f"\n❌ خطأ في حفظ jobs.json: {e}")
+        return
 
-    # تحديث الأرشيف
+    # ── تحديث الأرشيف ──
     print("\n📦 تحديث الأرشيف...")
-    update_archive(new_jobs, archive_path, max_jobs=1000)
+    update_archive(new_jobs, archive_path, max_jobs=MAX_JOBS)
 
-    # تحديث sitemap
+    # ── تحديث sitemap.xml ──
     print("\n🗺️ تحديث sitemap.xml...")
     update_sitemap(final_jobs, sitemap_path)
 
-    print("\n" + "=" * 50)
+    # ── ملخص نهائي ──
+    print("\n" + "=" * 55)
     print(f"✅ اكتمل: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
-    print(f"📊 jobs.json: {len(final_jobs)} | sitemap: {len(final_jobs)} رابط")
-    print("=" * 50)
+    print(f"📊 jobs.json:   {len(final_jobs)} وظيفة")
+    print(f"🗺️ sitemap.xml: محدّث")
+    print(f"📦 الأرشيف:     محدّث")
+    print("=" * 55)
 
 
 if __name__ == "__main__":
