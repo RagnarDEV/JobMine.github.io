@@ -7,6 +7,16 @@ import shutil
 import sys
 from datetime import datetime
 
+# 🔐 كود ذكي لقراءة جميع أسرار GitHub تلقائياً وتحويلها لمتغيرات بيئة داخل السكربت
+secrets_raw = os.getenv("ALL_SECRETS")
+if secrets_raw:
+    try:
+        secrets_dict = json.loads(secrets_raw)
+        for key, value in secrets_dict.items():
+            os.environ[key] = str(value)
+    except Exception as e:
+        print(f"⚠️ Dynamic secrets parsing failed: {e}")
+
 def map_category(tags):
     tags_lower = [t.lower() for t in tags]
     
@@ -44,7 +54,7 @@ def generate_dynamic_sitemap(current_dir, jobs_list):
     ET.SubElement(main_url, "priority").text = "1.0"
     static_pages = ["terms.html", "privacy.html", "disclaimer.html"]
     for page in static_pages:
-        page_url = ET.SubElement(urlset, "url")
+        page_url = ET.SubElement(page_url, "url")
         ET.SubElement(page_url, "loc").text = f"{base_url}{page}"
         ET.SubElement(page_url, "lastmod").text = today_date
         ET.SubElement(page_url, "changefreq").text = "weekly"
@@ -123,6 +133,7 @@ def fetch_from_jsearch():
     print("🤖 Mining Engine Active: Fetching via JSearch...")
     api_key = os.getenv("RAPID_API_KEY")
     if not api_key or len(api_key.strip()) < 10:
+        print("⚠️ RAPID_API_KEY missing or invalid. Skipping JSearch.")
         return []
         
     api_key = api_key.strip()
@@ -181,7 +192,7 @@ def fetch_from_fantastic_jobs():
     print("🚀 Backup Mining Engine Active: Fetching via Active Jobs DB (Fantastic Jobs)...")
     api_key = os.getenv("FANTASTIC_API_KEY")
     if not api_key or len(api_key.strip()) < 10:
-        print("⚠️ FANTASTIC_API_KEY missing or invalid in GitHub Secrets. Skipping.")
+        print("⚠️ FANTASTIC_API_KEY missing or invalid. Skipping Active Jobs DB.")
         return []
         
     api_key = api_key.strip()
@@ -205,7 +216,6 @@ def fetch_from_fantastic_jobs():
         with urllib.request.urlopen(req, timeout=15) as response:
             res_data = json.loads(response.read().decode('utf-8'))
             
-            # محرك Active Jobs DB يعيد مصفوفة مباشرة من الوظائف
             job_entries = res_data if isinstance(res_data, list) else res_data.get('jobs', [])
             
             for j_data in job_entries:
@@ -216,7 +226,6 @@ def fetch_from_fantastic_jobs():
                 raw_date = j_data.get('postDate', datetime.now().strftime('%Y-%m-%d'))
                 posted_at = raw_date.split('T')[0] if 'T' in raw_date else raw_date
                 
-                # معالجة الوصف لاستخلاص نقاط مبسطة للموقع
                 description = j_data.get('description', '')
                 qualifications = []
                 if description:
@@ -245,7 +254,6 @@ def main_mining_process():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(current_dir, 'jobs.json')
     
-    # سحب البيانات من المحركين ودمجهما
     jsearch_jobs = fetch_from_jsearch()
     fantastic_jobs = fetch_from_fantastic_jobs()
     
