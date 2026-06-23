@@ -1,5 +1,556 @@
 [
   {
+    "job_id": "7SfJ4obqas28_jqiAAAAAA==",
+    "job_title": "Quantitative Developer - 100% Remote - (Only NY, TX & CA)",
+    "employer_name": "XFORIA Inc",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQguOz7jOiQtwVq9P9TE53WO8LhgKJyyrrb19Vv&s=0",
+    "employer_website": null,
+    "job_publisher": "Dice",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.dice.com/job-detail/80e1cf68-8ea0-49e7-acbb-f0dfd21d6584",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.dice.com/job-detail/80e1cf68-8ea0-49e7-acbb-f0dfd21d6584",
+        "is_direct": false,
+        "publisher": "Dice"
+      }
+    ],
+    "job_description": "Job Details:\n\nJob Title: Full Stack Quantitative Developer with Capital Marketing and Fixed Income Experience.\n\nLocation: NYC / Dallas, TX / Los Angeles, CA\n\nDuration: Contract to Hire\n\nRate: Market Rate\n\nJob Description:\n\nWe are hiring a Full Stack Quantitative Developer to design, build, and own end-to-end applications that support credit, private credit, structured products, and CLO businesses. This is a hands-on engineering role with quant DNA: you will write production code across the stack, model financial cash flows and risk, integrate market data and pricing services, and partner directly with client solutions group, portfolio managers, risk, operations, and investor relations.\n\nYou will work alongside the CIO and senior members of Business Technology to contribute to the modernization of the analytics and reporting platform - moving legacy applications to a responsive, cloud-aware architecture, replacing ad-hoc spreadsheets with auditable services, and building the data and tooling layer that supports the firm’s various lines of business.\n\nYou will also be expected to use AI coding assistants as a daily part of your workflow.\n\nEducation\n• Bachelor''s degree (or higher) from a top-tier university in computer science, mathematics, physics, financial engineering, or another quantitative discipline\n\nExperience\n• 5+ years of professional software engineering experience, including production ownership of customer-facing or business-critical systems\n• 2+ years working in capital markets, ideally at a hedge fund, asset manager, investment bank, or financial technology vendor - with direct exposure to fixed income, structured products, derivatives, private credit, or CLOs\n• Demonstrated success delivering full-stack applications end-to-end, from requirements through production deployment and support\n\nTechnical Skills — Core\n• Languages: strong proficiency in at least one of Python, C#/.NET, or TypeScript/JavaScript, and working competence in a second\n• Backend: REST APIs, asynchronous services, and microservice patterns. Python or NET/C# experience strongly preferred given existing systems\n• Frontend: modern JavaScript frameworks (React/Angular), responsive web design, HTML5/CSS, and cross-platform optimization for mobile\n• Data: expert SQL (window functions, query tuning, set-based thinking); experience with NoSQL/document stores.\n• Quant / numerical: comfortable with NumPy/pandas (or equivalent), basic statistics, fixed-income math (duration, convexity, OAS), and cash flow modeling\n• Tooling: Git (or TFS), CI/CD, DevOps, Confluence, unit and integration testing frameworks\n• Cloud: experience deploying and operating services on Azure or AWS is a plus\n• Reporting / BI: Tableau dashboard development or SSRS a plus\n\nDomain Knowledge\n• Solid understanding of fixed-income securities, bank loans, and credit instruments\n• Familiarity with private credit deal lifecycle: sourcing, underwriting, closing, ongoing monitoring, amendments, and valuation\n• Awareness of portfolio accounting concepts (Geneva exposure is a plus) and portfolio risk frameworks (Bloomberg Port, RiskMetrics or equivalent)\n\nGeneral Skills\n• Strong analytical and practical problem-solving skills; you reason from first principles and verify assumptions\n• Excellent written and verbal communication; able to explain technical work to PMs and senior executives\n• Self-starter with strong work ethic; comfortable juggling multiple workstreams under deadline pressure\n• Detail-oriented, with high standards for code quality, data accuracy, and operational discipline\n• Team player who collaborates well across technical and non-technical groups\n\nKey Responsibilities:\n• Build full-stack applications across our credit, private credit, and structured products platforms — backend services, APIs, data pipelines, and modern web front ends used by various business teams across the firm\n• Develop quantitative models and analytics for fixed-income and structured product valuation, cash flow projections, scenario analysis, and portfolio risk decomposition\n• Integrate third-party systems including Geneva (portfolio accounting), market data vendors, CRM platforms, and administrative platforms, design clean, well-tested adapters and reconciliation logic\n• Participate in the Migration of legacy .NET/C# applications and SSRS reports to modern, scalable architectures (TypeScript/React front ends, Python or .NET services, cloud-deployed) with responsive UX across desktop and mobile\n• Own data quality end-to-end - ingestion, normalization, validation, and lineage - for firmwide positions, partnering with the data management team on governance and controls\n• Build reporting and BI spanning Tableau dashboards, internal web tooling, investor reporting, and ad-hoc requests for portfolio composition and DDQ responses\n• Translate business needs into engineering — gather requirements directly from PMs, analysts, risk, IR, and operations; document functional and technical specs; write clear UAT plans and lead testing\n• Ship like an engineer - write tests, use source control (GIT/TFS), open clean PRs, manage tickets in DevOps, deploy through CI/CD, and monitor what you ship in production\n• Use AI coding assistants well - accelerate delivery, reduce boilerplate, and improve code quality, while applying the verification, security, and review standards described later in this document",
+    "job_is_remote": true,
+    "job_posted_at": "10 hours ago",
+    "job_posted_at_timestamp": 1782165600,
+    "job_posted_at_datetime_utc": "2026-06-22T22:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D7SfJ4obqas28_jqiAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "Hx-md64kMMBUNarEAAAAAA==",
+    "job_title": "Front-End Angular Developer II",
+    "employer_name": "Akkodis",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Hw-C6yyo-mhwbWG3p6ue-WYCRTjnZL9blppV&s=0",
+    "employer_website": "https://www.akkodis.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/front-end-angular-developer-ii-at-akkodis-4428959515",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/front-end-angular-developer-ii-at-akkodis-4428959515",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Akkodis is seeking a Front-End Angular Developer II for a Direct Hire job with a client located in Torrance, CA (Hybrid/Remote).\n\nPay Range: $120,000 to $140,000; The salary may be negotiable based on experience, education, geographic location, and other factors.\n\nSummary\n\nWe are seeking a Mid-Level Front-End Angular Developer to join our engineering team and help build modern, scalable, and user-friendly web applications. The ideal candidate has strong experience with Angular, TypeScript, HTML, and CSS, a solid understanding of front-end architecture and best practices, and the ability to collaborate effectively with designers, product managers, and back-end developers.\n\nResponsibilities\n• Design, develop, test, and maintain responsive web applications using Angular.\n• Translate UI/UX designs into clean, maintainable, and reusable code.\n• Build reusable components, services, and front-end libraries.\n• Integrate front-end applications with RESTful APIs and backend services.\n• Optimize applications for performance, scalability, accessibility, and cross-browser compatibility.\n• Participate in code reviews and contribute to coding standards and best practices.\n• Troubleshoot and resolve front-end defects and production issues.\n• Collaborate with product owners, UX designers, QA engineers, and backend developers throughout the software development lifecycle.\n• Write and maintain unit tests and end-to-end tests.\n• Contribute to technical design discussions and architectural decisions.\n\nRequired Qualifications\n• 3–6 years of professional front-end development experience.\n• 2+ years of hands-on experience developing applications with Angular (v16+ preferred).\n• Strong proficiency in: TypeScript, JavaScript (ES6+), HTML5, CSS3 / SCSS.\n• Experience consuming REST APIs and handling asynchronous data flows.\n• Experience with RxJS and Angular state management patterns.\n• Understanding of responsive design principles and accessibility standards.\n• Familiarity with Git and modern CI/CD workflows.\n• Strong debugging, problem-solving, and analytical skills.\n• Excellent communication and collaboration abilities.\n\nPreferred Qualifications\n• Experience with Angular Material or similar UI component libraries.\n• Familiarity with NgRx, Akita, or other state management solutions.\n• Knowledge of micro-frontend architectures.\n• Experience with cloud platforms such as AWS or Azure.\n• Understanding of web security best practices.\n• Experience working in Agile/Scrum environments.\n\nTechnical Skills\n• Front-End\n• Angular\n• TypeScript\n• JavaScript\n• HTML5\n• CSS3 / SCSS\n• RxJS\n• Angular Material\n\nDevelopment Tools\n• Git\n• Azure DevOps, GitHub, or GitLab\n• npm\n• Webpack / Vite\n• CI/CD Pipelines\n\nIf you are interested in this role, then please click APPLY NOW. For other opportunities available at Akkodis, or any questions, please contact Amit Kumar Singh at amit.singh@akkodisgroup.com .\n\nEqual Opportunity Employer/Veterans/Disabled\n• 401(k) with match\n• Medical insurance\n• Dental Insurance\n• Vision assistance\n• Paid Time Off\n\nThe Company will consider qualified applicants with arrest and conviction records in accordance with federal, state, and local laws and/or security clearance requirements, including, as applicable:\n\n· The California Fair Chance Act\n\n· Los Angeles City Fair Chance Ordinance\n\n· Los Angeles County Fair Chance Ordinance for Employers\n\n· San Francisco Fair Chance Ordinance",
+    "job_is_remote": true,
+    "job_posted_at": "17 hours ago",
+    "job_posted_at_timestamp": 1782140400,
+    "job_posted_at_datetime_utc": "2026-06-22T15:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off",
+      "dental_coverage",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Paid time off",
+      "Dental insurance",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DHx-md64kMMBUNarEAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "120K–140K a year",
+    "job_min_salary": 120000,
+    "job_max_salary": 140000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "EOPMMLedJLuXnRjCAAAAAA==",
+    "job_title": "On-Call Graphic Designer (Remote Role)",
+    "employer_name": "ICF",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzKFsWhzApTJ6Bn_IAy-rJgYgFygqCGAdeBKw&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Part-time",
+    "job_employment_types": [
+      "PARTTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/on-call-graphic-designer-remote-role-at-icf-4430878069",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/on-call-graphic-designer-remote-role-at-icf-4430878069",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Description\n\nJoin the Enterprise Growth Enablement & Proposals Team at ICF!\n\nWe are one team united around one mission: growing ICF. We accomplish this by creating systems that support effective business development (BD) activities, providing best-in-class proposal and BD services and inspiring our teammates to win.\n\nBy supporting growth, we further ICF’s mission to create a more prosperous and resilient world. We work side-by-side with experts devoted to climate resilience, public health, cybersecurity, energy efficiency, and other critical areas that require complex technical solutions from expert teams.\n\nWhat makes Enterprise Growth Enablement & Proposals unique?\n\nWe've built a collaborative, innovative, and transparent environment that values diverse perspectives. We constantly seek better ways to improve, embracing industry best practices and new ideas. Join us and bring your ideas to our mission.\n\nYour Role On The Team\n\nAs an On-Call Graphic Designer you will partner with the full-time members of the Enterprise Proposal Center (EPC) Design team on an as-needed basis to support ICF’s business pursuits. You will be responsible for creating innovative, engaging, brand-aligned print and digital deliverables, coordinating directly with Design team colleagues, proposal managers, proposal coordinators, technical leads, and other stakeholders throughout the proposal development process. In this role you will apply both professional business communications skills and visual communications expertise to meet and exceed the requirements necessary to produce winning work.\n\nThis is a part-time position. Hours will fluctuate weekly. Support will be expected primarily for nights, weekends, holidays and overflow work. Candidates must have reliable internet and availability to communicate during ICF business hours (9:00AM – 5:00PM EST).\n\nThis position is remote, and can work from anywhere in the United States.\n\nA strong portfolio of original graphic design work that is relevant to this role.\n\nYour Responsibilities\n\n• Create data visualization graphics, digital illustrations, photo collages, page layouts, presentations, and related creative deliverables in support of corporate proposal documents and special projects.\n• Interact regularly with technical and sales professionals to develop concepts and execute designs that support solutions and messaging strategy.\n• Uphold corporate identity brand standards.\n• Prepare and revise graphics quickly and accurately while meeting solicitation compliance requirements.\n• Demonstrate initiative and innovation appropriate to the assignment and timeframe.\n• Prepare graphics for both electronic and print delivery.\n• Disseminate and archive finished graphics as required.\n\nWhat You Will Bring With You\n\n• 3+ years of corporate in-house or design agency graphic design experience.\n• 3+ years of experience using Adobe Creative Suite, including Illustrator, InDesign, Photoshop, and Acrobat Pro.\n• 2+ years experience creating and designing decks in Microsoft PowerPoint.\n• 2+ years experience translating data into visually appealing graphics that support target audience directed messaging.\n• Proficiency with Microsoft 365.\n\nWhat We’d Like You To Bring With You\n\n• Bachelor’s Degree in Graphic Design, Visual Design, Marketing Design, or related creative field.\n• Understanding of branding concepts and ability to effectively support a brand through design.\n• Experience working in a hybrid or fully virtual environment using Microsoft Teams.\n• Experience working with proposal teams.\n• Experience working with technical data.\n• Experience working on Federal and/or State and Local government proposals.\n• Experience working on projects for diverse industries.\n• Experience working with the AI-enabled features of Adobe and Microsoft tools.\n\nProfessional Skills\n\n• Experience multi-tasking in a fast-paced, customer-service-oriented environment.\n• Proven ability to work quickly, accurately, and collaboratively to meet deadlines.\n• Demonstrated high level of attention to detail.\n• Strong written and oral communication skills.\n• Ability to maintain a positive attitude, even when under pressure.\n• Experience working effectively both independently and as part of a team.\n• Demonstrated ability to work with all levels of internal staff, as well as teaming partners.\n• Commitment to sound business ethics, including the protection of proprietary and confidential information.\n\nWorking at ICF\n\nICF is a global advisory and technology services provider, but we’re not your typical consultants. We combine unmatched expertise with cutting-edge technology to help clients solve their most complex challenges, navigate change, and shape the future.\n\nWe can only solve the world's toughest challenges by building a workplace that allows everyone to thrive. We are an equal opportunity employer. Together, our employees are empowered to share their expertise and collaborate with others to achieve personal and professional goals. For more information, please read our EEO policy.\n\nWe will consider for employment qualified applicants with arrest and conviction records.\n\nReasonable Accommodations are available, including, but not limited to, for disabled veterans, individuals with disabilities, and individuals with sincerely held religious beliefs, in all phases of the application and employment process. To request an accommodation, please email Candidateaccommodation@icf.com and we will be happy to assist. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations. \n\nRead more about workplace discrimination rights or our benefit offerings which are included in the Transparency in (Benefits) Coverage Act.\n\nCandidate AI Usage Policy\n\nAt ICF, we are committed to ensuring a fair interview process for all candidates based on their own skills and knowledge. As part of this commitment, the use of artificial intelligence (AI) tools to generate or assist with responses during interviews (whether in-person or virtual) is not permitted. This policy is in place to maintain the integrity and authenticity of the interview process. \n\nHowever, we understand that some candidates may require accommodation that involves the use of AI. If such an accommodation is needed, candidates are instructed to contact us in advance at candidateaccommodation@icf.com. We are dedicated to providing the necessary support to ensure that all candidates have an equal opportunity to succeed.  \n\nPay Range - There are multiple factors that are considered in determining final pay for a position, including, but not limited to, relevant work experience, skills, certifications and competencies that align to the specified role, geographic location, education and certifications as well as contract provisions regarding labor categories that are specific to the position.\n\nThe pay range for this position based on full-time employment is:\n\n$67,355.00 - $114,503.00\n\nVirginia Remote Office (VA99)",
+    "job_is_remote": true,
+    "job_posted_at": "4 hours ago",
+    "job_posted_at_timestamp": 1782187200,
+    "job_posted_at_datetime_utc": "2026-06-23T04:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DEOPMMLedJLuXnRjCAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "Al4A-jl_LdtErzT2AAAAAA==",
+    "job_title": "AI Designer",
+    "employer_name": "Raspberry AI",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdaV92f6LsVWd-VICj4AVmFO6SZfktIcqm8Be&s=0",
+    "employer_website": "https://www.raspberry.ai",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/ai-designer-at-raspberry-ai-4432027205",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/ai-designer-at-raspberry-ai-4432027205",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "About Raspberry AI\n\nRaspberry AI is a generative AI design platform built for fashion brands and retailers. We help design, merchandising, and product development teams move faster — from concept to market-ready assets — using industry-leading AI. Some of the world's top fashion brands rely on Raspberry AI to streamline their workflows and accelerate product development.\n\nWe closed $24 million in Series A from a16z, plus $5 million seed rounds from Khosla Ventures and Greycroft Ventures. Other investors include REVOLVE and Reformation founders, and the President of Saks Fifth Avenue. For more information, visit raspberry.ai.\n\nHow We Work\n\n• Be an owner: We take responsibility for outcomes, not just tasks. We don't wait for permission — we step up, move fast, and hold ourselves accountable to results.\n• Bias to solution: We're solutions-oriented at heart. We go beyond identifying problems to actively unblocking ourselves and others.\n• Customer obsession: Everything we build starts with the customer. We listen deeply, move quickly, and obsess over delivering tools that make their work faster and more creative.\n• Lowest level of detail: We're not afraid to get in the weeds. Great work comes from people who notice what others miss and ask deeper questions.\n• 1% better every day: Progress compounds. We stay curious, ask for feedback, and look for the small improvements that make tomorrow better than today.\n• AI first: We use AI across the entire company — from product to growth to operations — to move faster and produce higher-quality work.\n\nWhat we offer\n\n• Innovative culture: A generational opportunity to define the role of AI in one of the world's largest industries.\n• Growth paths: Opportunities to drive impact well beyond your immediate role as the company scales.\n• Learning & development: Annual discretionary stipend for professional development.\n• Annual company offsite: We bring the whole team together once a year.\n\nAbout the Role\n\nWe are building a team of AI Designers who will execute design work on behalf of Raspberry AI's customers. Customers — leading global fashion brands and retailers — bring us creative briefs, mood boards, sketches, and product requirements. You will use Raspberry AI's platform (and your fashion design fluency) to deliver production-ready visual assets that meet their brand standards. This is a hands-on execution role at the intersection of fashion design, AI tooling, and customer delivery.\n\nResponsibilities\n\n• Execute customer design briefs end-to-end using the Raspberry AI platform — flats, tech packs, colorways, prints, mood boards, and concept visuals\n• Translate customer creative direction into precise prompts, references, and platform inputs that produce on-brand output\n• Iterate quickly on customer feedback; manage multiple briefs in parallel without missing turnaround SLAs\n• Maintain quality control on every deliverable — accurate silhouettes, fabric rendering, brand-consistent details\n• Document repeatable workflows so the India team can scale output predictably as customer volume grows\n• Flag platform gaps, prompt patterns, and customer pain points to the product team so we improve the tool\n• Partner with US-based Customer Success / Solutions leads on brief intake, status updates, and final delivery\n\nQualifications\n\n• 3+ years of professional experience in fashion design, graphic design, or visual production (apparel, footwear, accessories, or print)\n• Strong portfolio demonstrating apparel/fashion design fluency — flats, prints, colorways, or technical illustration\n• Hands-on experience with generative AI tools (Midjourney, Stable Diffusion, Firefly, Runway, or similar) and an instinct for prompt iteration\n• Working knowledge of Adobe Creative Suite (Illustrator, Photoshop) and standard fashion design workflows\n• High attention to detail — you notice when a seam line is off, a print repeat is broken, or a color is half a shade wrong\n• Comfort working across time zones with US-based teams; clear written English communication\n• Self-managed, deadline-driven, and able to handle multiple parallel briefs without losing quality\n• Bonus: fashion industry experience (brand-side, agency, or design studio), tech pack experience, or print/textile design background",
+    "job_is_remote": true,
+    "job_posted_at": "13 hours ago",
+    "job_posted_at_timestamp": 1782154800,
+    "job_posted_at_datetime_utc": "2026-06-22T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DAl4A-jl_LdtErzT2AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "4J8E9RQwBm8I65G0AAAAAA==",
+    "job_title": "Part-Time Thumbnail Job Designer (⭐️ players wanted!)",
+    "employer_name": "Dragonfruit Media",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe4CQXK5sJBbs06yZw5n7g4U9-wEIAh0DNwuGA&s=0",
+    "employer_website": null,
+    "job_publisher": "Up2staff",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://up2staff.com/thumbnail-designer-players-at-dragonfruit-media",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://up2staff.com/thumbnail-designer-players-at-dragonfruit-media",
+        "is_direct": false,
+        "publisher": "Up2staff"
+      }
+    ],
+    "job_description": "Who we are and what we do:\n\n• Dragonfruit Media is an agency that helps some of the biggest businesses and creators maximize engagement, revenue, and impact on YouTube. We want to leverage the power of human storytelling to amplify marginalized voices, teach valuable insights, and tackle systemic problems. Some of the folks we’ve helped include Ryan Deiss, David Perell, Linktree, and Ali Abdaal.\n\nWhy we do it:\n\n• 🔥 Video is the fastest growing and most scalable medium for companies creators to utilize.\n\n• 💵 Businesses owning organic distribution channels (vs constantly buying media) will dominate the future of marketing.\n\n• 🌎 Stories transform lives, and if we can teach millions of people through our client’s videos we are making the world a better place.\n\nWhy this job is important:\n\n• We’re scaling much faster than we anticipated this quarter so we need exceptional people to help keep the 🚀 FLYING! We’re bringing on a thumbnail designer to create thumbnail images for YouTube from concept to completion.\n\nWho you’ll work with:\n\n• We’re a small team that prioritizes fun, autonomy, and memes (since we make content, we try to keep up with the youngun’s lingo, “no cap”).\n\n• We love to balance team meetings with OKR reviews and screaming bloody murder at each other in Among Us. So don’t be sus.\n\nWhere you’ll do it:\n\n• Anywhere in the world! Sit on the beaches of Maui or the mountains of Tibet.\n\n• If you ARE in SF or LA, we might be able to co-work!\n\nWhat we do:\n\n• Dragonfruit media aims to not only create the best content in the world. but content that makes the world a better place.\n\n• We want to leverage the power of human storytelling to amplify marginalized voices, teach valuable insights, and tackle systemic problems”\n\nWhy we do it:\n\n• 🔥 We believe that video is the fastest growing and most scalable medium for companies creators to utilize\n\n• 💵 We think that businesses owning organic distribution channels (vs constantly buying media) is the future of marketing\n\n• 🌎 We think stories transform lives, and if we can teach thousands of people through our client’s videos we are making the world a better place\n\nWho you are:\n\n• You have a knack for visual aesthetics, you may have even edited some videos yourself in the past!\n\n• Pride yourself on your people and communication skills; you could probably wipe your family on family poker night\n\n• OBSESSIVE about using data and feedback to improve your craft\n\n• Tech-savvy and are a quick learner with software (we need more slack GIFS!!!)\n\nJob Responsibilities:\n\n• Define the look, feel, and overall design language of all future thumbnails, using brand guidelines specific to each client\n\n• Ability to create 3-6 thumbnails per week\n\n• Maintain awareness of current and evolving trends in YT thumbnails\n\n• Offer suggestions for improvement of design process and branding\n\n• Track analytic and market trends\n\n• A/B testing on thumbnails to determine what’s working and what’s not\n\n• Contribute to headlines, descriptions, and tags on YouTube videos\n\nTO APPLY – FILL OUT THIS GOOGLE DOC",
+    "job_is_remote": true,
+    "job_posted_at": "10 hours ago",
+    "job_posted_at_timestamp": 1782165600,
+    "job_posted_at_datetime_utc": "2026-06-22T22:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D4J8E9RQwBm8I65G0AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "L_LXiWj2fvQx8uIlAAAAAA==",
+    "job_title": "Concept Designer",
+    "employer_name": "Technology Partners",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsU4rT4jLZUJ_lQmQFwXLTOQ8WYcjqbqHT3F-&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/concept-designer-at-technology-partners-4430565331",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/concept-designer-at-technology-partners-4430565331",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "• Location: Des Peres, MO\n• Type: Contract\n• Job #47005\n\nTechnology Partners is currently seeking a talented Visual Designer.\n\nDo you have experience creating high-quality visual designs, developing data visualizations, and advocating for human-centered design principles?\n\nLet us help you make your next big career move a reality!\n\nWhat You Will Be Doing\n\nYou will be a key member of our design team, responsible for producing compelling visual assets that support user-centric experiences and align with brand standards. You will partner with researchers, analysts, business leaders, and technology teams to develop digital prototypes, infographics, and design collateral for both digital and print mediums. Your role involves translating research insights into effective visual storytelling and managing enterprise-wide design projects. You will communicate concepts clearly to senior leadership and ensure design strategies support business objectives while delivering user value. This position is a 6-month contract with potential for extension.\n\nKey Responsibilities\n• Create high-quality visual designs, digital prototypes, and print collateral that enhance user experiences and meet brand standards.\n• Develop and present data visualizations, illustrations, infographics, and experience journey visuals to diverse stakeholders.\n• Advocate for human-centered design principles by integrating research insights into your design process.\n• Collaborate closely with researchers, analysts, and business leaders to align design work with strategic goals.\n• Effectively communicate ideas and concepts through visual storytelling to senior leaders and cross-functional teams.\n• Support enterprise-wide design initiatives by balancing user needs and business objectives.\n• Iterate on designs based on feedback and usability testing results to deliver optimal solutions.\n\nRequired Skills & Experience\n• 3-5+ years of experience in visual or digital design.\n• Proficiency in design tools such as Adobe Creative Suite (Photoshop, Illustrator, InDesign) and prototype tools like Figma or Adobe XD.\n• Strong portfolio demonstrating data visualization, digital prototypes, and impactful visual storytelling.\n• Excellent collaboration and communication skills with the ability to present ideas to senior leadership.\n• Knowledge of human-centered design principles and user research methodologies.\n• Ability to manage multiple projects and meet deadlines in a fast-paced environment.\n• Bachelor’s degree in Graphic Design, Visual Arts, Human-Computer Interaction, or related field.\n\nDesired Skills & Experience\n• Experience working on enterprise-wide design initiatives.\n• Familiarity with front-end development basics (HTML, CSS, JavaScript) is a plus.\n• Industry experience in technology, finance, or healthcare sectors.\n• Exposure to user research tools or usability testing platforms.\n\nPay: $47.91 – $68.73 /hr\n\nKeywords: visual designer, digital prototypes, data visualization, user experience, Adobe Creative Suite, Figma, enterprise design, human-centered design, infographics, storytelling\n\nWe are interested in every qualified candidate who is eligible to work in the United States. However, we are not able to provide sponsorship at this time or accept candidates who would require a corp-to-corp agreement.\n\nIf this position sounds like you, WE SHOULD TALK! Your better future is ready, and we want to put the right tools in your hands to get you there. Let's go! Looking for more opportunities with Technology Partners? Check out technologypartners.net/jobs!\n\nAll offers of employment at Technology Partners are contingent upon clear results of a thorough background check and drug screening that meet corresponding laws and regulations at the city, state and federal level.\n\nPay ranges are influenced by candidate qualifications, experience, and role specifics, with the actual rate determined considering skills, market conditions, and are subject to change by the employer; pay negotiations follow all state and federal legal guidelines.\n• Apply Now\n• See All Jobs",
+    "job_is_remote": true,
+    "job_posted_at": "19 hours ago",
+    "job_posted_at_timestamp": 1782133200,
+    "job_posted_at_datetime_utc": "2026-06-22T13:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DL_LXiWj2fvQx8uIlAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "DoTbvv3UfPltHRu9AAAAAA==",
+    "job_title": "Product/UX Designer",
+    "employer_name": "Arrowmac",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk0Vn2GgdlNJ25duFSiYs6dvmcpgqhbsB3HquG&s=0",
+    "employer_website": "https://www.arrowmac.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/product-ux-designer-at-arrowmac-4430566409",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/product-ux-designer-at-arrowmac-4430566409",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Are you a passionate product designer ready to make a meaningful impact at the intersection of technology and real estate? Join us as a Freelance Product Designer and lead innovative digital experiences that simplify property transactions, boost transparency, and streamline workflows—all from your remote workspace. Collaborate with a forward-thinking team to shape the future of PropTech.\n\nWhat You’ll Do:\n• Lead the full design process from research and wireframes to high-fidelity UI.\n• Work closely with product and engineering teams to translate business goals into impactful design solutions.\n• Conduct user interviews and usability tests to advocate for user needs.\n• Contribute to and refine our design system for consistency and accessibility.\n• Facilitate workshops, critiques, and reviews to foster design excellence.\n• Communicate clearly with internal teams and clients throughout project phases.\n\nRequired Skills:\n• 5+ years of product design experience with a strong portfolio.\n• Proven expertise in PropTech, Real Estate, or FinTech sectors.\n• Proficiency in Figma; experience with Sketch, Canva, or Adobe Creative Suite is a plus.\n• Familiarity with prototyping tools like Protopie or Framer.\n• Analytical mindset to interpret research and analytics.\n\nPlease send your updated resume and portfolio to: careers@arrowmac.com\n\nFor more information about Arrowmac and all of our jobs, please visit www.arrowmac.com",
+    "job_is_remote": true,
+    "job_posted_at": "18 hours ago",
+    "job_posted_at_timestamp": 1782136800,
+    "job_posted_at_datetime_utc": "2026-06-22T14:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DDoTbvv3UfPltHRu9AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "60–65 an hour",
+    "job_min_salary": 60,
+    "job_max_salary": 65,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "C_ROT2IHup0FGImbAAAAAA==",
+    "job_title": "Creative Designer & Brand Direction Lead",
+    "employer_name": "America & Beyond",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0cmQe6Kue1LhIDytO4IPbj-gk5iZw5cRugyyn&s=0",
+    "employer_website": "https://www.americaandbeyond.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/creative-designer-brand-direction-lead-at-america-beyond-4431783663",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/creative-designer-brand-direction-lead-at-america-beyond-4431783663",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Role Overview\n\nWe are looking for a creative person who can own the visual direction, campaign concepts, website creative ideas, emailer design direction, banner copies, and overall aesthetic presentation of the brand.\n\nThis role is not only about creating Canva graphics. The person should be able to think visually, understand premium fashion aesthetics, create clean layouts, suggest strong campaign ideas, write simple but effective banner copy, and guide the execution team with clear creative briefs.\n\nThe ideal candidate should have strong taste, good design sense, an understanding of fashion/lifestyle branding, and the ability to convert product launches, collections, and brand stories into visually appealing campaigns across website, email, and social media.\n\nKey Responsibilities\n\n• Email Marketing & Creative Direction\n• Own content and creative direction for all email campaigns\n• Curate product selection and campaign storytelling angles\n• Suggest email themes, banner copy, CTAs, layout direction, and product sections\n• Review and approve email copy/design direction before campaigns go live\n• Recommend improvements in messaging, storytelling, layout, and brand feel\n• Website Content & Brand Experience\n\nOwn website content/design direction, including:\n\n• Homepage messaging\n• Collection pages\n• Product storytelling\n• Promotional banners\n• Website announcements\n• Headings and copy\n• Landing page structure\n\nAlso responsible for checking website hygiene:\n\n• Broken links\n• Missing images\n• Incorrect content\n• Formatting issues\n• Copy errors\n• Outdated banners\n• Social Media & Instagram Stories\n• Plan, design, and manage Instagram story content\n• Create premium, on-brand story layouts\n• Plan posts/stories 1–2 weeks in advance\n• Ensure content is posted according to US audience timings\n• Maintain a premium and brand-consistent tone across social channels\n• Campaign Ideation\n• Conceptualize campaigns for new arrivals, bestsellers, resort edits, vacation edits, gifting, product launches, and sale campaigns\n• Create campaign names, moodboards, visual direction, copy angles, and product presentation ideas\n• Provide clear creative briefs to the execution team\n• Ensure campaigns are consistent across website, email, social, and ads\n• Content Review & Quality Control\n• Review and approve outgoing brand content\n• Ensure consistency in titles, bullet points, product descriptions, website copy, email copy, campaign messaging, and banner copy\n• Maintain a premium brand voice across all customer touchpoints\n• Catch errors before content goes live\n\nWhat We’re Looking For\n\nSomeone who thinks like a brand custodian, not just a writer or designer.\n\nThe right person should have:\n\n• Strong Canva design skills\n• Strong fashion/lifestyle aesthetic sense\n• Website layout understanding\n• Email campaign design understanding\n• Basic copywriting for banners, CTAs, headlines, and campaign messaging\n• Campaign ideation ability\n• Product storytelling sense\n• Instagram story design skills\n• Strong attention to detail\n• Ability to give clear creative direction to execution teams\n\nGood-to-Have Skills\n\n• Shopify understanding\n• Klaviyo/email platform understanding\n• Photoshop/Illustrator knowledge\n• Experience with fashion, lifestyle, beauty, resort, or premium consumer brands\n• Understanding of US customer preferences\n\nWork Setup\n\n• Hybrid role\n• 1–2 days per week in office, if possible, Gurgaon\n• Some flexibility required for US business-hour coordination or late meetings\n• Routine meetings not required unless there is a campaign, product launch, website update, or creative review\n• Tasks will be assigned with proper notice and timelines\n\nRole Focus\n\nThe main focus will be:\n\n• Creative direction\n• Canva design\n• Website content/design direction\n• Email creative direction\n• Instagram story design\n• Campaign concepts\n• Product storytelling\n• Brand consistency\n• Content quality control\n\nPowered by JazzHR\n\nEBXugEM0xm",
+    "job_is_remote": true,
+    "job_posted_at": "13 hours ago",
+    "job_posted_at_timestamp": 1782154800,
+    "job_posted_at_datetime_utc": "2026-06-22T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off"
+    ],
+    "job_benefits_strings": [
+      "Paid time off"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DC_ROT2IHup0FGImbAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "-JkGxtQWkfDTxapuAAAAAA==",
+    "job_title": "Brand Designer (AI + Packaging Focus)",
+    "employer_name": "Everyday Dose Inc.",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwRs_w_SdFljRFFbO2c6I7eA0OT9WrnCI4AB55&s=0",
+    "employer_website": "https://www.everydaydose.com",
+    "job_publisher": "Indeed",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.indeed.com/viewjob?jk=495b0d32cf28bce2",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.indeed.com/viewjob?jk=495b0d32cf28bce2",
+        "is_direct": false,
+        "publisher": "Indeed"
+      }
+    ],
+    "job_description": "We’re looking for a Brand Designer who can bring our visual identity to life across digital and physical touchpoints with a strong edge in AI-powered image creation. This role sits at the intersection of creativity, technology, and brand storytelling.\n\nYou’ll be responsible for designing high-quality brand assets, developing product imagery using AI tools, and executing packaging that stands out both on the shelf and online.\nWhat You’ll Do\n\n• Design and evolve brand visuals across web, social, email, and paid media\n\n• Create high-quality product imagery using AI tools (e.g., Midjourney, DALL·E, Photoshop AI, etc.)\n\n• Develop packaging concepts and production-ready files\n\n• Collaborate with brand and product development teams on campaigns and launches\n\n• Translate brand strategy into compelling visual systems\n\n• Maintain consistency across all brand touchpoints\n\n• Iterate quickly on creative based on performance and feedback\n\nWhy This Role Matters\nYou’ll play a key role in shaping how our brand shows up in the world- from the first impression online to the moment someone holds our product in their hands.\n\nRequirements\n\nMust-Have Skills\n\n• Strong proficiency in Adobe Illustrator and Figma (non-negotiable)\n\n• Experience with packaging design (retail CPG preferred)\n\n• Hands-on experience using AI tools for image generation and manipulation\n\n• Solid understanding of layout, typography, color, and composition\n\n• Ability to create both polished brand assets and fast-turn creative\n\n• Familiarity with Adobe Photoshop, and InDesign\n\nNice to Have\n\n• Experience in wellness or e-commerce brands\n\n• Experience working with printers and packaging production processes\n\n• Motion or 3D design skills\n\nWhat We’re Looking For\n\n• A strong portfolio showcasing brand work, packaging, and AI-generated visuals\n\n• Someone who blends taste with speed. You know when to polish and when to ship\n\n• A self-starter who can take direction but also bring original ideas to the table\n\n• Someone excited about pushing creative boundaries with AI\n\nBenefits\n\n•\n\nFlexible PTO\n\n• Competitive Salary\n\n• Monthly health stipend\n\n• 75% health insurance coverage\n\n• Free Everyday Dose",
+    "job_is_remote": true,
+    "job_posted_at": "14 hours ago",
+    "job_posted_at_timestamp": 1782151200,
+    "job_posted_at_datetime_utc": "2026-06-22T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "paid_time_off"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Paid time off"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D-JkGxtQWkfDTxapuAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "-9XlVIGLLnwh8neMAAAAAA==",
+    "job_title": "Graphic Designer Needed for Children's Brand Marketing Brochure (Print + Digital)",
+    "employer_name": "Upwork",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://upwork.com&size=128",
+    "employer_website": "https://www.upwork.com",
+    "job_publisher": "Upwork",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.upwork.com/freelance-jobs/apply/Graphic-Designer-Needed-for-Children-Brand-Marketing-Brochure-Print-Digital_~022069230126087552690/",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.upwork.com/freelance-jobs/apply/Graphic-Designer-Needed-for-Children-Brand-Marketing-Brochure-Print-Digital_~022069230126087552690/",
+        "is_direct": false,
+        "publisher": "Upwork"
+      }
+    ],
+    "job_description": "Job Title:\n\nGraphic Designer to Create Marketing Brochure for Children's Educational Brand\n\nProject Description:\n\nOur team needs an experienced graphic designer to create a professional marketing brochure promoting in-person classes for F.I. for Kids (Food Intelligence for Kids).\n\nF.I. for Kids is a new children's brand focused on helping kids build food intelligence and independence through fun, engaging classes, games, products, and experiences. We are preparing for our launch and need support designing a brochure that communicates our mission, class offerings, and benefits to parents, schools, healthcare organizations, and community partners. The ideal designer can create materials that feel fun and engaging for children while maintaining credibility and professionalism for parents, educators, and healthcare professionals.\n\nWe have completed our branding and will provide logos, mascot characters, brand guidelines, messaging, and content. We're looking for a designer who can transform these assets into a visually compelling, kid-friendly, and professional brochure that aligns with our brand.\n\nThe initial project will focus on designing a print and digital brochure, but there is potential for ongoing work creating additional marketing materials, trade show graphics, packaging, social media assets, and other brand collateral.\n\nIf you have experience designing brochures, educational materials, children's brands, healthcare marketing, or family-focused products, please get in touch and introduce yourself. Briefly explain how you would approach this project, share relevant portfolio examples, and include any questions you may have.\n\nPlease include in your proposal:\n\n- A link to your portfolio\n\n- Examples of brochure or marketing collateral projects\n\n- Any experience with children's brands, education, healthcare, toys, or family-focused businesses\n\n- Your estimated timeline for completion\n\n- Your preferred project fee or hourly rate\n\nBonus: Experience creating materials that appeal to both children and parents while maintaining a polished, professional appearance.",
+    "job_is_remote": true,
+    "job_posted_at": "7 hours ago",
+    "job_posted_at_timestamp": 1782176400,
+    "job_posted_at_datetime_utc": "2026-06-23T01:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D-9XlVIGLLnwh8neMAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "JltR5_DiT9xc9a1wAAAAAA==",
+    "job_title": "Junior Graphic Designer (Remote) - No Experience? No Problem!",
+    "employer_name": "The Elite Job",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://theelitejob.com&size=128",
+    "employer_website": "https://www.theelitejob.com",
+    "job_publisher": "The Elite Job",
+    "job_employment_type": "Full-time and Part-time",
+    "job_employment_types": [
+      "FULLTIME",
+      "PARTTIME"
+    ],
+    "job_apply_link": "https://www.theelitejob.com/job/15414/junior-graphic-designer-remote-no-experience-no-problem",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.theelitejob.com/job/15414/junior-graphic-designer-remote-no-experience-no-problem",
+        "is_direct": false,
+        "publisher": "The Elite Job"
+      }
+    ],
+    "job_description": "Job Summary\n\nAre you passionate about design and have a creative eye, but lack formal experience? At The Elite Job, we believe in potential over perfection. We are looking for an enthusiastic and motivated Junior Graphic Designer who is eager to learn, grow, and contribute fresh ideas to our design team. Whether you are a self-taught artist, a recent graduate, or looking for a career shift, this remote opportunity is perfect for individuals ready to kick-start their journey in the creative industry.\nKey Responsibilities\n• *\n\nAssist in creating visual content for social media, marketing campaigns, websites, presentations, and digital ads.\n• *\n\nCollaborate with senior designers and marketing teams to produce on-brand and compelling graphics.\n• *\n\nEdit images, adjust layouts, and design promotional materials using graphic design software.\n• *\n\nReceive and apply feedback to improve the visual output and develop design skills.\n• *\n\nSupport the team in brainstorming and executing visual storytelling strategies.\n• *\n\nMaintain file organization and ensure design consistency across all projects.\n• Required Skills and Qualifications\n• *\n\nBasic understanding of graphic design principles (color, typography, layout).\n• *\n\nFamiliarity with tools like Canva, Adobe Photoshop, or Figma.\n• *\n\nCreative mindset and attention to detail.\n• *\n\nStrong communication skills and willingness to accept feedback.\n• *\n\nA portfolio (even student work or personal projects) is a big plus.\n• Experience\n• *\n\nNo prior professional experience is required!\n• *\n\nSelf-initiated projects, coursework, internships, or personal portfolios will be considered.\n• Working Hours\n• *\n\nFlexible working hours based on your time zone and availability.\n• *\n\nMinimum commitment: 15â€“20 hours per week (for part-time).\n• *\n\nFull-time options available (30â€“40 hours/week).\n• Knowledge, Skills, and Abilities\n• *\n\nPassion for digital media and design trends.\n• *\n\nEagerness to learn and grow in a fast-paced environment.\n• *\n\nBasic knowledge of file formats, resolution, and design best practices.\n• *\n\nAbility to multitask and meet deadlines.\n• *\n\nOpen to constructive feedback and committed to continuous improvement.\n• Benefits\n• *\n\n100% remote work â€“ work from anywhere in the world.\n• *\n\nFlexible schedule to balance with studies or personal life.\n• *\n\nMentorship from experienced designers and marketing experts.\n• *\n\nOpportunity to build your professional design portfolio.\n• *\n\nAccess to free online courses and creative tools.\n• *\n\nPerformance-based bonuses and growth opportunities.\n• Why Join The Elite Job?\n\nAt The Elite Job, we empower creative thinkers from all walks of life. We do not just hire talentâ€”we nurture it. Whether you are just starting or switching careers, you will find a supportive environment that values learning, originality, and growth. Join us to be part of a collaborative team where your ideas matter and your passion drives the future of design.\nHow to Apply\n\nReady to start your creative journey?\nðŸ“© Send your CV and portfolio (if available) to us\nðŸ“… Applications are reviewed on a rolling basis â€“ early applicants are prioritized.\nðŸ“ Do not worry if your portfolio is smallâ€”your passion speaks louder than experience!",
+    "job_is_remote": true,
+    "job_posted_at": "9 hours ago",
+    "job_posted_at_timestamp": 1782169200,
+    "job_posted_at_datetime_utc": "2026-06-22T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DJltR5_DiT9xc9a1wAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "20–30 an hour",
+    "job_min_salary": 20,
+    "job_max_salary": 30,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "_5lufmGU22eQwfsbAAAAAA==",
+    "job_title": "Graphic Design Manager",
+    "employer_name": "The Restaurant Store",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS9nF0VzbuN1PSvaaJ3uKKH7FMHWbiypx7Wve4&s=0",
+    "employer_website": "https://www.therestaurantstore.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/graphic-design-manager-at-the-restaurant-store-4430550760",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/graphic-design-manager-at-the-restaurant-store-4430550760",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Job Summary\n\nThe Restaurant Store is seeking a dynamic and experienced Graphic Design Manager to lead a graphic design team, dedicated to elevating our The Restaurant Store brand. Be a part of a creative and innovative team, shaping the visual identity of The Restaurant Store. This role will involve collaboration with other Design teams responsible for print, marketing and web design as well as our Media (Video & Photography) teams.\n\nCandidates local to The Restaurant Store locations are preferred.\n\nResponsibilities\n\n• Contribute to brand strategy, including maintaining brand standards and identifying improvement areas.\n• Act as a liaison between the design department and other departments, promoting design solutions.\n• Clarify and streamline incoming design requests, ensuring clarity and actionability.\n• Manage and optimize the workflow to ensure alignment with branding objectives and design standards.\n• Estimate, prioritize, and delegate weekly tasks, ensuring efficient team operations.\n• Monitor team output, maintaining pace with demand and project timelines.\n• Track project progress, providing regular updates and ETA’s.\n• Conduct internal design reviews to uphold and enhance design quality.\n• Develop and implement processes to boost productivity and team well-being.\n• Expand the team, including talent prospecting and recruitment.\n• Maintain regular communication with team members, fostering a culture of open dialogue.\n• Lead and engage in critiques and brainstorming sessions.\n\nPhysical Requirements\n\n• Work is performed while sitting/standing and interfacing with a personal computer.\n• Requires the ability to communicate effectively using speech, vision, and hearing.\n• Requires the regular use of hands for simple grasping and fine manipulations.\n• Requires occasional bending, squatting, crawling, climbing, and reaching.\n• Requires the ability to occasionally lift, carry, push, or pull medium weights, up to 50lbs.\n\nRemote Work Qualifications\n\n• Access to a reliable and secure high-speed internet connection. Cable or fiber internet connections (at least 75mbps download/10mbps upload) are preferred, as satellite connections often cannot support the technologies used to perform day-to-day tasks.\n• Access to a home router and modem.\n• A dedicated home office space that is noise- and distraction-free. The space should have strong wireless connection or a wired Ethernet connection (wired connection is preferred, if possible).\n• A valid, physical address (apartment, suite, etc.). PO Boxes are not supported, as a physical address is required for you to receive your computer equipment.\n• The desire and ability to work and communicate with other team members via chat, webcam, etc.\n• Legal residents of one of the following states: (AK, AL, AR, AZ, CT, DE, FL, GA, IA, ID, IN, KS, KY, LA, MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NH, NJ, NM, NV, OH, OK, PA, SC, SD, TN, TX, UT, VA, VT, WI, WV, or WY). H-1B Visa Sponsorship Not Available, W2 only.\n\nExperience\n\n• Strong attention to detail and demonstrated leadership qualities.\n• Excellent critical thinking, problem-solving, and organizational skills.\n• Proficient in written and verbal communication.\n• A solid design background with a portfolio showcasing relevant skills.\n• Experience in managing and mentoring a design team.\n• Familiarity with the principles of design: typography, layout, balance, and proportions.\n• Ability to self-manage and effectively communicate with cross-functional teams.\n• Proven track record in elevating design quality and guiding design strategies to fruition.\n• Experience executing in both print and digital formats, from a brand design perspective.\n• Experience designing for in-store environments or retail a plus.\n\nEducation\n\nThis role does not require a degree. We value relevant skills and experience and alignment with our core values above all else.\n\nDesired Traits & Skills\n\n• Driven and independent, with a strong sense of ownership.\n• Dependable, consistently meeting deadlines and communicating any challenges.\n• A natural problem solver who asks the right questions to understand core issues.\n• Excellent communicator, ensuring decisions and updates are well-documented and shared.\n\nCompany Overview\n\nYour one-stop-shop for restaurant supplies and foodservice equipment. We aim to exceed our customers’ expectations by providing excellent hospitality, quality, and value.\n\nBenefits\n\n• Medical\n• Vision\n• Dental\n• PTO\n• Paid Maternity Leave\n• Paid Parental Leave\n• Life Insurance\n• Disability\n• Dependent Care FSA\n• 401(k) matching\n• Employee Assistance Program\n• Wellness Incentives\n• Company Discounts\n• AT&T & Verizon Discount\n• Bonus Opportunities\n• Accident Insurance\n• Critical Illness Insurance\n• Adoption Assistance\n\nAvailable at HQ Locations Only\n\n• On-Site Fitness Centers\n• Dog-friendly Offices",
+    "job_is_remote": true,
+    "job_posted_at": "18 hours ago",
+    "job_posted_at_timestamp": 1782136800,
+    "job_posted_at_datetime_utc": "2026-06-22T14:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off"
+    ],
+    "job_benefits_strings": [
+      "Paid time off"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D_5lufmGU22eQwfsbAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "QmbUTK_SRa9HrS07AAAAAA==",
     "job_title": "Software Engineer (Fully Remote)",
     "employer_name": "Axiom Cloud",
