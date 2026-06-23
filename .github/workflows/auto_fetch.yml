@@ -1,4 +1,4 @@
-Name: JobMine Automated Mining
+name: JobMine Automated Mining
 
 on:
   workflow_dispatch:
