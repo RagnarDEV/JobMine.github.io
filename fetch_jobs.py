@@ -3,19 +3,20 @@ import json
 import os
 from datetime import datetime
 
-def fetch_from_fantastic():
-    # جلب كافة الأسرار التي تم تمريرها من البيئة (Env)
-    # سنقوم بجمعها في قاموس واحد
-    secrets = {key: val for key, val in os.environ.items() if key.endswith('_API_KEY')}
+def main():
+    # جمع كافة الأسرار التي تنتهي بـ _API_KEY تلقائياً
+    api_keys = {k: v for k, v in os.environ.items() if k.endswith('_API_KEY')}
     
-    api_key = secrets.get("FANTASTIC_API_KEY", "").strip()
+    # تحديد المفتاح المطلوب للمحرك
+    api_key = api_keys.get("FANTASTIC_API_KEY", "").strip()
     
     if not api_key:
-        print("⚠️ مفتاح FANTASTIC_API_KEY غير موجود في الأسرار!")
-        return []
+        print("⚠️ خطأ: FANTASTIC_API_KEY غير موجود في إعدادات GitHub Secrets.")
+        return
 
-    print("🚀 محرك Fantastic Active (متعدد الأسرار) قيد التشغيل...")
+    print(f"🚀 جاري الاتصال بالمحرك باستخدام المفتاح: {api_key[:5]}...")
     
+    # الرابط والطلبات بدون أي تعقيد (صيغة RAW)
     url = "https://active-jobs-db.p.rapidapi.com/active-ats?limit=50&title=Developer"
     headers = {
         "x-rapidapi-host": "active-jobs-db.p.rapidapi.com",
@@ -28,10 +29,15 @@ def fetch_from_fantastic():
         with urllib.request.urlopen(req, timeout=15) as response:
             data = json.loads(response.read().decode())
             job_list = data if isinstance(data, list) else data.get('jobs', [])
-            return [{"title": j.get('title'), "company": j.get('company'), "apply_link": j.get('url')} for j in job_list]
+            
+            # حفظ النتائج
+            file_path = os.path.join(os.path.dirname(__file__), 'jobs.json')
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(job_list, f, indent=2)
+            print(f"✅ تم بنجاح جلب {len(job_list)} وظيفة وتحديث الملف.")
+            
     except Exception as e:
-        print(f"⚠️ خطأ: {e}")
-        return []
+        print(f"❌ فشل الاتصال: {e}")
 
 if __name__ == "__main__":
-    fetch_from_fantastic()
+    main()
