@@ -1,41 +1,48 @@
 import urllib.request
+import urllib.parse
 import json
 import os
-from datetime import datetime
 
 def main():
-    # جمع كافة الأسرار التي تنتهي بـ _API_KEY تلقائياً
-    api_keys = {k: v for k, v in os.environ.items() if k.endswith('_API_KEY')}
-    
-    # تحديد المفتاح المطلوب للمحرك
-    api_key = api_keys.get("FANTASTIC_API_KEY", "").strip()
+    api_key = os.environ.get("FANTASTIC_API_KEY", "").strip()
     
     if not api_key:
-        print("⚠️ خطأ: FANTASTIC_API_KEY غير موجود في إعدادات GitHub Secrets.")
+        print("⚠️ خطأ: FANTASTIC_API_KEY غير موجود.")
         return
 
-    print(f"🚀 جاري الاتصال بالمحرك باستخدام المفتاح: {api_key[:5]}...")
+    print(f"🚀 محرك Fantastic Active قيد التشغيل...")
+
+    # ✅ encoding صحيح للبارامترات
+    params = urllib.parse.urlencode({
+        "limit": "50",
+        "title": "Developer"
+    })
     
-    # الرابط والطلبات بدون أي تعقيد (صيغة RAW)
-    url = "https://active-jobs-db.p.rapidapi.com/active-ats?limit=50&title=Developer"
+    url = f"https://active-jobs-db.p.rapidapi.com/active-ats?{params}"
+    
     headers = {
         "x-rapidapi-host": "active-jobs-db.p.rapidapi.com",
         "x-rapidapi-key": api_key,
-        "User-Agent": "Mozilla/5.0"
+        "Accept": "application/json"  # ✅ مهم جداً
     }
     
     try:
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=15) as response:
+            # ✅ طباعة status للتأكد
+            print(f"✅ Status: {response.status}")
             data = json.loads(response.read().decode())
             job_list = data if isinstance(data, list) else data.get('jobs', [])
             
-            # حفظ النتائج
             file_path = os.path.join(os.path.dirname(__file__), 'jobs.json')
             with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(job_list, f, indent=2)
-            print(f"✅ تم بنجاح جلب {len(job_list)} وظيفة وتحديث الملف.")
+                json.dump(job_list, f, indent=2, ensure_ascii=False)
+            print(f"✅ تم جلب {len(job_list)} وظيفة.")
             
+    except urllib.error.HTTPError as e:
+        # ✅ طباعة تفاصيل الخطأ كاملة
+        print(f"❌ HTTP Error {e.code}: {e.reason}")
+        print(f"❌ Response body: {e.read().decode()}")  # هذا يكشف السبب الحقيقي
     except Exception as e:
         print(f"❌ فشل الاتصال: {e}")
 
