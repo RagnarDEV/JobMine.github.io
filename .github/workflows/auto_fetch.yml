@@ -1,4 +1,4 @@
-name: JobMine Automated Mining
+Name: JobMine Automated Mining
 
 on:
   workflow_dispatch:
@@ -19,7 +19,7 @@ jobs:
 
     - name: Run Fetch Script
       env:
-        RAPID_API_KEY: ${{ secrets.RAPID_API_KEY }}
+        ALL_SECRETS: ${{ toJSON(secrets) }}
       run: python fetch_jobs.py
 
     - name: Commit and Push
