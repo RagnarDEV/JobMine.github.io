@@ -1,5 +1,49 @@
 [
   {
+    "job_id": "J0muibIPqWhxWMOYAAAAAA==",
+    "job_title": "L2 Support Engineer, Alpha (Remote) - $60,000/year USD",
+    "employer_name": "Crossover",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb3sg1JrmsrnE0X9o0HDXfowyFMVPZgGCshf4T&s=0",
+    "employer_website": "https://www.crossover.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/l2-support-engineer-alpha-remote-%2460-000-year-usd-at-crossover-4431451047",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/l2-support-engineer-alpha-remote-%2460-000-year-usd-at-crossover-4431451047",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "A student tries to begin a lesson and the application fails to load. A guide's interface displays incorrect mastery data. L1 and automated AI have both attempted resolution without success. The ticket now escalates to you — and a child's instructional time depends on your ability to diagnose the actual issue.\n\nThe majority of your workday is spent on cases that resisted closure by others, spanning the multiple applications that comprise Alpha's educational platform. You replicate the malfunction in a setup that matches the student's or guide's environment, examine logs and documentation, leverage AI to accelerate progress, then validate its output meticulously, since an inaccurate response transmitted into a learning environment scales the problem rapidly. Expect to onboard to a different product nearly every week. This is the nature of the role, not a cautionary note.\n\nYou take full ownership of each issue from start to finish: replicate the behavior, identify the underlying cause, and resolve it with the fewest interactions needed to restore functionality for the student or guide. The diagnostic reasoning you document strengthens the next agent and subsequent AI process, ensuring your solution continues to deliver value well beyond the current ticket. With experience, you become the resource the team relies on for the most challenging education-product scenarios.\n\nIf you seek difficult, unclear problems, and genuinely believe the product matters because it supports a child's education, submit your application.\n\nWhat You Will Be Doing\n\n• Resolve complex, escalated support cases from students, parents, and guides that neither AI nor L1 could successfully close.\n• Replicate failures in an environment that accurately reflects the user's device, application version, and settings, utilizing logs and actual artifacts.\n• Investigate issues across Alpha's suite of learning applications (ticketing systems, Slack channels, knowledge repositories, logs) before routing to engineering.\n• Deploy AI tools (including ChatGPT or Claude) to expedite diagnostics, anchor them in verified documentation, and validate all generated output.\n• Engage clearly and professionally with non-technical users, collecting sufficient detail upfront to enable single-pass resolution.\n• Escalate issues to engineering with comprehensive diagnostic evidence when a genuine product defect is identified.\n• Record your diagnostic process so subsequent agents and AI workflows can leverage it.\n\nWhat You Won’t Be Doing\n\n• Relying on scripts or fixed decision trees for a single product.\n• Processing simple tickets. AI already resolves cases that require only knowledge-base lookups.\n• Escalating difficult issues to engineering without first replicating and isolating them.\n• Allowing AI to substitute for your judgment, or transmitting its output without verification.\n• Waiting for direction, or expecting others to remove obstacles for you.\n\nL2 Support Engineer Key Responsibilities\n\nDiagnose and resolve complex, ambiguous customer issues to root cause across Alpha's portfolio of education products.\n\nBasic Requirements\n\n• 2+ years in a hands-on technical role such as technical support, software engineering, QA, sysadmin, or DevOps. The job title does not need to be \"support.\"\n• Comfortable constructing and interpreting REST API calls and JSON, understanding HTTP status codes (such as 401 vs 404 and 429 vs 403), and operating in command-line environments and logs.\n• Practical experience using AI tools (such as ChatGPT or Claude) in your day-to-day technical work.\n• Professional fluency in English, both written and spoken.\n• Able to work a complete 40-hour week during US business hours (Eastern Time). This is a full US-daytime shift.\n• Based in North America, Central America, South America, Australia, New Zealand, the United Kingdom, Ireland, or the Philippines.\n\nNice-to-have Requirements\n\n• Experience supporting non-technical end users (in education, edtech, or consumer applications), not exclusively IT professionals.\n• Practical experience guiding AI tools and identifying their errors.\n• A history of troubleshooting across multiple unrelated products, rather than just one.\n• Developer-level proficiency: you can interpret code or trace an API call when the situation requires it.\n\nAbout Alpha\n\nWant to join a learning rebellion that’s transforming the traditional classroom?\n\nAlpha School is on a mission to reshape education with a bold approach that harnesses AI to accelerate learning and unleash student potential.\n\nThey don’t play by the old rules.\n\nAlpha is creating a new paradigm where students master core academics in just two hours a day, freeing up time for hands-on, passion-driven learning that truly prepares them for the real world.\n\nAlpha School is rewriting the rules of education.\n\nSounds too good to be true? It’s not.\n\nThere is so much to cover for this exciting role, and space here is limited. Hit the Apply button if you found this interesting and want to learn more. We look forward to meeting you!\n\nWorking with us\n\nThis is a full-time (40 hours per week), long-term position. The position is immediately available and requires entering into an independent contractor agreement with Crossover as a Contractor of Record. The compensation level for this role is $30 USD/hour, which equates to $60,000 USD/year assuming 40 hours per week and 50 weeks per year. The payment period is weekly. Consult www.crossover.com/help-and-faqs for more details on this topic.\n\nCrossover Job Code: LJ-5729-AR-COUNTRY-L2SupportEngin.005",
+    "job_is_remote": true,
+    "job_posted_at": "14 hours ago",
+    "job_posted_at_timestamp": 1782244800,
+    "job_posted_at_datetime_utc": "2026-06-23T20:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DJ0muibIPqWhxWMOYAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": 30,
+    "job_salary_string": "30 an hour",
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "9x-iIfrf6OX8TQ7EAAAAAA==",
     "job_title": "Applied ML Researcher - Fully Remote | Upto $90/hr",
     "employer_name": "Mercor",
