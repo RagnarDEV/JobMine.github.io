@@ -1,5 +1,457 @@
 [
   {
+    "job_id": "1ZfJ23aJUg5edgSEAAAAAA==",
+    "job_title": "Frontend / UI Developer",
+    "employer_name": "SMX Services & Consulting, Inc.",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgwGjHf329GM1njiH3mLYwIVM96ZU9-Hzwuvjf&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/frontend-ui-developer-at-smx-services-consulting-inc-4432422905",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/frontend-ui-developer-at-smx-services-consulting-inc-4432422905",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Objetivo del Rol en la PoC: Construir y perfeccionar el Dashboard de Filtro Humano (Human-in-the-Loop) que servirá como panel de control centralizado para los especialistas del banco (CDCS). El desarrollador debe traducir los esquemas de datos complejos (JSON) emitidos por el motor de IA y código en una interfaz visual segura, intuitiva y libre de fricciones operativas.\n\nHabilidades Técnicas y Conocimientos Requeridos:\n• Desarrollo Low-Code / Web Apps:\n• Dominio avanzado de plataformas empresariales Low-Code orientadas a la visualización de datos, específicamente Retool y/o Azure Web Apps.\n• Capacidad para construir paneles de control (Dashboards) dinámicos e interactivos en ciclos ágiles.\n• Integración y Manipulación de Datos Estructurados:\n• Habilidad experta para consumir, parsear y renderizar estructuras de datos anidadas en formato JSON (Gemelos Digitales) provenientes del backend (Pydantic / Agente 2).\n• Capacidad para mapear códigos de error normativos y lógicas algorítmicas hacia representaciones visuales comprensibles (ej. alertas estructuradas y mensajes prerredactados SWIFT MT734).\n• Diseño de Experiencia de Usuario (UX/UI):\n• Enfoque de diseño orientado a la mitigación de la fatiga visual y reducción de errores, implementando componentes como \"semáforos dinámicos de discrepancias\".\n• Diseño de flujos de trabajo (workflows) para toma de decisiones que presenten la trazabilidad legal (Audit Trail) de forma clara para el \"Jurado Final\".\n• Metodología Ágil e Iteración (Human-in-the-Loop):\n• Experiencia en el refinamiento constante de interfaces (UI) basado en el feedback en tiempo real de los usuarios finales (Especialistas CDCS).\n• Habilidad para colaborar en las sesiones de Upskilling ajustando componentes de la interfaz para garantizar una adopción orgánica.",
+    "job_is_remote": true,
+    "job_posted_at": "22 hours ago",
+    "job_posted_at_timestamp": 1782241200,
+    "job_posted_at_datetime_utc": "2026-06-23T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D1ZfJ23aJUg5edgSEAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "DDMOzhzo-flw8_-vAAAAAA==",
+    "job_title": "Software Developer Engineer in Test",
+    "employer_name": "BECU",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQweXQlgYWq_B5h2A2S3ldpe0HhrRMjRS_GpuZE&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/software-developer-engineer-in-test-at-becu-4432434976",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/software-developer-engineer-in-test-at-becu-4432434976",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Is it surprising to hear that a financial institution of 1.5 million members and over $30 billion in managed assets say that success comes from focusing on people, not profits?\n\nOur “people helping people” philosophy has guided us since 1935, driving our deep commitment to serving our members, communities, and each other. When you join our team, you become part of a purpose-driven organization where your work makes a real difference.\n\nWhile we’re proud of our history, we’re even more excited about our future. With business and technology transformation on the horizon, there’s never been a better time to be part of BECU.\n\nYou bring more than your expertise to your role, and that matters here. Your story, perspectives, and lived experiences help shape belonging at BECU and deepen how we connect with and support our employees, our members, and our communities.\n\nPAY RANGE\n\nThe Target Pay Range for this position is $106,600.00-$130,100.00 annually. The full Pay Range is $82,900.00 - $154,000.00 annually. At BECU, compensation decisions are determined using factors such as relevant job-related skills, experience, and education or training. Should an offer for employment be made, we will consider individual qualifications. In addition to your salary, compensation incentives are available for the hired applicant. Incentives are performance based and targets vary by role.\n\nBENEFITS – Because People Helping People Starts With Supporting You\n\n• 401(k) Company Match (up to 3%)\n• 4% annual contribution to your 401(k) by BECU\n• Medical, Dental and Vision (family contributions as well)\n• PTO Program + Exchange Program\n• Tuition Reimbursement Program\n• BECU Cares volunteer time off + donation match\n\nImpact You’ll Make\n\nAs a Software Developer Engineer in Test (SDET), you’ll play a critical role in ensuring the quality, stability, and reliability of BECU’s digital experiences. You’ll help shape how software is tested by embedding quality into every stage of development, enabling faster, more confident releases. Your work will directly influence key initiatives across Consumer Digital and Online Banking, reducing risk and improving member experiences. By driving automation, identifying defects early, and strengthening regression coverage, you’ll help ensure consistent delivery of high-quality solutions. This role offers the opportunity to take ownership, build long-term domain expertise, and make a measurable impact on enterprise-level systems.\n\nTo join our dynamic team, we require candidates to be residents of WA, OR, ID, AZ, TX, GA, SC, NC, CA or VA. If you’re located in Washington state and within a reasonable driving distance from Tukwila, we are requesting that you come into our HQ on Tuesdays & Wednesdays. For those candidates that live outside the commute distance of TFC and in any of our approved remote work locations, this role will be remote. Remote or onsite, we are committed to ensuring you are fully engaged and included in our collaborative environment.\n\nWhat You’ll Do\n\n• Test Strategy & Automation Development: You’ll design and build automated test cases (integration, load, and UI) using tools like C#, Python, or JavaScript/Typescript, ensuring quality is embedded into every stage of development.\n• Quality Engineering Ownership: You’ll develop test scenarios from requirements and integrate them into CI pipelines, helping ensure consistent, reliable software releases aligned with sprint goals.\n• Defect Analysis & Debugging: You’ll debug applications and services, perform root cause analysis, and proactively identify risks or patterns that could impact delivery or quality.\n• Continuous Improvement: You’ll assess code flow and system interactions, identifying opportunities to enhance testing strategies, improve automation coverage, and raise quality standards.\n• Cross-Functional Collaboration: You’ll partner closely with developers, QA, analysts, and product teams to ensure solutions are testable, scalable, and aligned with business needs.\n• Test Data & Environment Management: You’ll automate test data creation and support test environments to enable efficient and repeatable validation processes.\n\nThis isn’t just about ticking off tasks on a list. It's about making a significant, positive change in BECU’s journey, where your contributions are valued, and your growth is continually fostered.\n\nWhat You’ll Gain\n\n• Ownership of end-to-end quality engineering for high-impact digital banking initiatives\n• The opportunity to build deep expertise in CD/OLB domains and influence long-term quality strategy\n• A collaborative environment where you work closely with engineering, product, and business teams\n• Hands-on experience with modern automation frameworks, CI/CD pipelines, and enterprise-scale systems\n• The ability to drive measurable improvements in quality, delivery predictability, and testing efficiency\n• A culture that values accountability, innovation, and continuous learning\n• Exposure to critical projects where your contributions directly impact member experience and organizational success\n\nQualifications\n\nMinimum Qualifications:\n\n• Bachelor’s degree in Computer Science or related discipline or equivalent work experience required.\n• Minimum two years of experience designing test cases and writing automated tests in a team environment required.\n• Experience using testing and automation frameworks on multiple application platforms like Web and Mobile devices required.\n• Hands-on experience with programming and scripting languages such as C#, Python or JavaScript/Typescript and software development/QA in a Windows environment. Proficiency with test frameworks such as Nunit, MSTest, Xunit, jest, puppeteer, mocha, pytest, unittest, Specflow, Selenium, or Gherkin required.\n• Minimum one of experience with continuous integration systems and test case management tools.\n• Experience using git, including performing code reviews, pull requests, and following branching standards such as Git Flow or Trunk-Based Development required.\n\nDesired Qualifications\n\n• Demonstrated experience in unit testing, integration testing and performance testing.\n• Familiar with relational database structures, and ability to understand and write SQL queries.\n• Proficient verbal and written skills to effectively communicate.\n• Full time hours required.\n\nJOIN THE JOURNEY\n\nReady to make an indelible impact? Eager to be a part of a collaborative and innovative team where your ideas and contributions don’t just fill a role, but fuel the growth and success of BECU?\n\nEEO Statement\n\nBECU is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, veteran status, disability, sexual orientation, gender identity, or any other protected status.",
+    "job_is_remote": true,
+    "job_posted_at": "21 hours ago",
+    "job_posted_at_timestamp": 1782244800,
+    "job_posted_at_datetime_utc": "2026-06-23T20:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "paid_time_off",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Paid time off",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DDDMOzhzo-flw8_-vAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "_intB_i_6FeuqlK3AAAAAA==",
+    "job_title": "Sr Boomi Developer",
+    "employer_name": "O2 Technologies,Inc",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOfTwOzV1rfa04Wv22V_DqvMsv70uud8yy_cHt&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/sr-boomi-developer-at-o2-technologies-inc-4432462947",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/sr-boomi-developer-at-o2-technologies-inc-4432462947",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Description\n\nAbout the Role\n\nLocation: Remote (CDT)\n\nPosition Summary\n\nWe are seeking an experienced Senior Boomi Developer / Integration Architect to lead the design, development, and implementation of enterprise-grade integration solutions using the Boomi platform. The ideal candidate will possess strong expertise in integration architecture, API management, cloud and hybrid integrations, and ERP/eCommerce integrations, with the ability to provide technical leadership across complex project delivery.\n\nKey Responsibilities\n\nArchitecture & Design\n\nDesign and architect scalable, secure, and high-performing integration solutions using Boomi AtomSphere.\n\nDefine integration patterns, best practices, governance standards, and reusable frameworks.\n\nLead enterprise integration strategy for cloud, on-premises, and hybrid environments.\n\nPerform architecture reviews and provide technical recommendations for integration initiatives.\n\nDevelopment & Implementation\n\nDevelop and maintain Boomi integrations, APIs, EDI processes, and workflows.\n\nBuild integrations across ERP, eCommerce, logistics, 3PL, and third-party platforms.\n\nConfigure Boomi Atom, Molecule, API Management, Event Streams, and Master Data Hub components as needed.\n\nCreate reusable components, process libraries, and integration templates.\n\nTroubleshoot and resolve complex integration and performance issues.\n\nTechnical Leadership\n\nServe as the technical lead for project delivery and offshore development team.\n\nCollaborate with business stakeholders, architects, project managers, and application teams.\n\nTranslate business requirements into technical integration designs and specifications.\n\nGovernance & Operations\n\nEstablish integration standards, security controls, monitoring, and operational procedures.\n\nEnsure compliance with enterprise architecture, security, and data governance standards.\n\nSupport deployment activities, production releases, and post-implementation support.\n\nMonitor integration performance and implement optimization strategies.\n\nRequired Qualifications\n\nBachelor's degree in Computer Science, Information Systems, Engineering, or related field.\n\n8+ years of integration development experience.\n\n5+ years of hands-on Dell Boomi development experience.\n\nExpertise in REST APIs, SOAP Web Services, JSON, XML, XSD, and API security.\n\nExperience with SQL and relational databases.\n\nKnowledge of messaging and event-driven architectures.\n\nExperience with Agile and DevOps delivery methodologies.\n\nPreferred Qualifications\n\nDell Boomi Professional Developer Certification.\n\nDell Boomi Professional Architect Certification.\n\nExperience Integrating With\n\nNetSuite\n\nShopify\n\nFlexport\n\nWMS/TMS modules\n\nCloud platform experience (Azure, AWS, or GCP).\n\nTechnical Skills\n\nIntegration Platforms\n\nDell Boomi AtomSphere\n\nBoomi API Management\n\nBoomi Integration\n\nBoomi Master Data Hub\n\nBoomi Event Streams\n\nTechnologies\n\nREST/SOAP APIs\n\nJSON/XML\n\nSQL\n\nJavaScript/Groovy\n\nSFTP/FTP\n\nOAuth, JWT, SSL/TLS\n\nGit and CI/CD tools\n\nProblem Solving\n\nStakeholder Management\n\nCommunication and Presentation Skills\n\nMentoring and Team Development\n\nNice-to-Have Industry Experience\n\nRetail & eCommerce\n\nKey Responsibilities & Skills\n\n• Boomi Integration Architecture\n• Enterprise Integration Strategy (Cloud, On-Premises, Hybrid)\n• API Management & Design (REST/SOAP)\n• ERP & eCommerce Integration\n• Data Governance & Security Controls\n• Performance Optimization & Monitoring\n• Technical Leadership & Team Mentoring\n• Agile & DevOps Delivery\n• Stakeholder Management & Requirements Translation\n\nTechnical Skills\n\n• Dell Boomi (AtomSphere / API Management / Integration / Master Data Hub / Event Streams)\n• REST / SOAP APIs\n• JSON / XML / XSD\n• SQL (Relational Databases)\n• JavaScript / Groovy\n• SFTP / FTP\n• OAuth / JWT / SSL/TLS\n• Git / CI/CD\n• Cloud Platforms (Azure / AWS / GCP)\n\nEducation\n\nBachelor's Degree in Computer Science, Information Systems, Engineering, Software Engineering. Preferred: Master's in Computer Science, Master's in Information Systems, MBA, Master's in Software Engineering.\n\nIndustry Experience\n\n• Retail & eCommerce\n• Logistics & Supply Chain\n• Technology Services\n• Cloud Integration\n• ERP Systems\n\n#CareerOpportunities #JobVacancy #WorkWithUs",
+    "job_is_remote": true,
+    "job_posted_at": "18 hours ago",
+    "job_posted_at_timestamp": 1782255600,
+    "job_posted_at_datetime_utc": "2026-06-23T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D_intB_i_6FeuqlK3AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "dybLG5Y9wu5tqhPIAAAAAA==",
+    "job_title": "Staff Build Systems & Developer Platform Architect",
+    "employer_name": "ByLabs",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://bylabs.net&size=128",
+    "employer_website": "https://www.bylabs.net",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/staff-build-systems-developer-platform-architect-at-bylabs-4432533532",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/staff-build-systems-developer-platform-architect-at-bylabs-4432533532",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "About the Role\n\nYou will be a core builder of the Financial Cloud developer platform — implementing the CI/CD pipelines, GitOps automation, artifact management, dependency graph engine, and change impact analysis tooling that allow 50-100 versioned modules to be independently built, tested, composed, and deployed across dozens of global compliance sites. You'll work directly with the Platform Architect to turn architecture blueprints into production systems used daily by hundreds of engineers.\n\nKey Responsibilities\n• Build module-level CI/CD pipelines: from commit to versioned artifact (Docker image + K8s manifest) published to the artifact registry, with reproducible build enforcement (hermetic environments, pinned toolchains, deterministic outputs)\n• Implement build provenance automation: SLSA attestation generation, artifact signing, dependency chain verification integrated into every pipeline; Golden Signals validation in CI that blocks releases missing required metrics endpoints\n• Develop the dependency graph database: ingest static dependencies (code imports, API contracts, schema references) + runtime dependencies (service mesh traces), provide queryable graph for impact analysis\n• Build change impact analysis tools: given a PR, compute affected modules/sites/tests and surface results in the PR review UI; implement selective test orchestration that only runs dependency-graph-proven relevant tests\n• Implement the GitOps deployment engine: ArgoCD/Flux controllers managing site config repos, automated reconciliation, staging → canary → production promotion with Golden Signals monitoring and auto-rollback\n• Build site provisioning tooling: scaffolding tools that generate new site config repos with module version pinning + compliance parameters; self-service console for configuration-type sites\n• Develop the version management console: module version status, version drift visualization across all sites, batch upgrade workflows, automated changelog generation, compatibility checking before deployment\n• Implement the security patch force-push pipeline: automated SECURITY-REQUIRED PR creation across all site repos with SLA tracking and escalation triggers\n• Build the four-layer test orchestrator: automated test selection by module/country/scenario tags, parallel execution at scale, coverage gap detection that blocks deployments with actionable feedback\n\nMajor Requirements\n• 6+ years in backend / platform / infrastructure / developer tools engineering\n• Strong proficiency in Go (primary) or Java/Kotlin, with scripting in Python\n• Production experience with CI/CD pipeline development: GitHub Actions, Tekton, Jenkins, or custom pipeline orchestrators\n• Hands-on with GitOps tooling: ArgoCD, Flux, Kustomize — at scale (10+ clusters/environments)\n• Experience with Kubernetes: operators, custom controllers, CRDs, Helm chart development\n• Solid understanding of container registries and artifact management (Harbor, ECR, Artifactory)\n• Experience with build systems: Bazel, Gradle, or equivalent — reproducible builds, remote caching, build graph optimization\n• Background in dependency analysis tooling or graph databases (Neo4j, Dgraph, or custom implementations)\n• Preferred: Experience at AWS (CodePipeline, CodeBuild, Proton, Service Catalog) or GCP (Cloud Build, Artifact Registry, Cloud Deploy)\n• Preferred: Background at Stripe, Adyen, or Square in developer platform teams\n• Preferred: Experience building internal developer platforms (IDP) or platform-as-a-service for engineering organizations\n• Preferred: Familiarity with supply chain security tooling (Sigstore, in-toto, SBOM generation)",
+    "job_is_remote": true,
+    "job_posted_at": "11 hours ago",
+    "job_posted_at_timestamp": 1782280800,
+    "job_posted_at_datetime_utc": "2026-06-24T06:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DdybLG5Y9wu5tqhPIAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "kjJcjsCGiXzdAxSwAAAAAA==",
+    "job_title": "Senior Software/Data Engineer, Data Platforms & Monetization",
+    "employer_name": "Wowza",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRelBvlq-2VMngP1WXMQq2ykXlwqojQIr9rQKK_&s=0",
+    "employer_website": "https://www.wowza.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/senior-software-data-engineer-data-platforms-monetization-at-wowza-4432488792",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/senior-software-data-engineer-data-platforms-monetization-at-wowza-4432488792",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Cutting edge live streaming software company with a global presence seeks a passionate Senior Software/Data Engineer to join an already elite team as a remote full-time permanent employee to be responsible for the core data infrastructure that powers our entire product ecosystem — including the systems that process product usage, manage customer account data, and report into our billing and CRM platforms.\n\n• Ideal candidate will have 7 plus years hands-on experience with modern PHP and the Laravel framework\n• Usage metering and billing systems knowledge\n• Big data handling capabilities\n• Extensive experience with data engineering lifecycle (ingestion, lake formations, ETL)\n• Extensive experience with cloud infrastructure, particularly AWS (EC2, RDS, S3, Lambda, or similar)\n\nThis is a fantastic opportunity to join a growing, but stable company that cares deeply about our employees.",
+    "job_is_remote": true,
+    "job_posted_at": "17 hours ago",
+    "job_posted_at_timestamp": 1782259200,
+    "job_posted_at_datetime_utc": "2026-06-24T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DkjJcjsCGiXzdAxSwAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "125K–145K a year",
+    "job_min_salary": 125000,
+    "job_max_salary": 145000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "T65eqtlLj2jfAukCAAAAAA==",
+    "job_title": "Applications Engineer, Autonomy (open level)",
+    "employer_name": "Shield AI",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2gnKCoroxPb37a_KQiz_Xdt9cQ02pdH4itfXS&s=0",
+    "employer_website": "https://shield.ai",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/applications-engineer-autonomy-open-level-at-shield-ai-4432408686",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/applications-engineer-autonomy-open-level-at-shield-ai-4432408686",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Founded in 2015, Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software and V-BAT and X-BAT aircraft. With offices and facilities across the U.S., Europe, the Middle East, and Asia-Pacific, Shield AI’s technology actively supports operations worldwide. For more information, visit www.shield.ai . Follow Shield AI on LinkedIn , X , Instagram , and YouTube .\n\nOur Applications Engineers are highly technical, customer-facing problem solvers who play a critical role in deploying Shield AI’s Hivemind software in real-world environments. This role is travel-intensive, with frequent trips, often international, and sometimes lasting multiple weeks, to work directly alongside customers on-site.\n\nThis is primarily a Senior-level role, and we’re typically looking for candidates with several years of relevant industry experience. That said, we will consider exceptional mid-level engineers who demonstrate strong technical fundamentals, a hands-on mindset, and a track record of taking initiative in dynamic, customer-driven environments\n\nIn this role, you will work closely with customers to understand their requirements, provide technical expertise during deployment, and ensure successful integration of our AI and autonomy products. You’ll also collaborate internally with engineering teams, with opportunities to grow into technical leadership over time.\n\nYou Should Apply If:\n\n• You’re excited about a travel-heavy role and enjoy being on-site with customers, including international and multi-week engagements\n• You’re a strong technical contributor (or early in your career and eager to grow) who takes initiative and figures things out\n• You enjoy problem solving, building relationships, and working at the intersection of engineering and real-world deployment\n• You’re passionate about autonomy, robotics, or aerospace\n\nYou Should Not Apply If:\n\n• You prefer minimal travel or want to work primarily from a single location\n• You want to do 100% R&D and don’t enjoy customer interactions\n• You’ve never programmed in C, C++, or Rust\n\nWhat you'll do:\n\n• Deploy with customers on site globally (~50% travel) to support software integration and development activities.\n• Become an expert user of the Hivemind enterprise software stack and its various autonomy modules.\n• Provide technical support and training to customers.\n• Develop AI & Autonomy applications using the Shield AI enterprise software development kit\n• Assist the sales team in pre-sales activities, e.g., demos, conferences, immersions\n• Assist in post-sales deployment and integration of Shield AI enterprise software products.\n• Develop and maintain technical documentation and training materials.\n• Help customers debug software/API integration issues.\n• Collaborate with the product engineering team to address customer feedback and improve products.\n\nRequired qualifications:\n\n• Bachelor’s degree in Engineering, Computer Science, or a related field.\n• 5+ years of experience of industry experience\n• 2+ years of experience in an integration/applications engineering role\n• 2+ years of experience working in a startup environment.\n• Strong technical background in software engineering.\n• Strong proficiency in writing modern C++ code.\n• Intermediate proficiency in writing Python code.\n• Excellent problem-solving and analytical skills.\n• Strong communication and interpersonal skills.\n\nPreferred qualifications:\n\n• Experience in the defense aviation or robotics industry.\n• Experience building and running a small enterprise software applications/solutions engineering team.\n• Advanced technical degree, especially in robotics or autonomy related fields\n\nEngineer 2: $105,000-$158,000\n\nSenior: $125,000-$190,000\n\nStaff: $155,000-$235,000\n\nSenior Staff: $185.000-$275,000\n\n$105,000 - $275,000 a year\n\nFull-time regular employee offer package:\n\nPay within range listed + Bonus + Benefits + Equity\n\nTemporary employee offer package:\n\nPay within range listed above + temporary benefits package (applicable after 60 days of employment)\n\nSalary compensation is influenced by a wide array of factors including but not limited to skill set, level of experience, licenses and certifications, and specific work location. All offers are contingent on a cleared background and possible reference check. Military fellows and part-time employees are not eligible for benefits. Please speak to your talent acquisition representative for more information.\n\n###\n\nShield AI is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, marital status, disability, gender identity or Veteran status. If you have a disability or special need that requires accommodation, please let us know.\n\nWe may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+    "job_is_remote": true,
+    "job_posted_at": "24 hours ago",
+    "job_posted_at_timestamp": 1782172800,
+    "job_posted_at_datetime_utc": "2026-06-23T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DT65eqtlLj2jfAukCAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "zrR74zwjsMxvAlAbAAAAAA==",
+    "job_title": "Substation Engineer (physical design)",
+    "employer_name": "CDG Engineers, Inc.",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7qK_VGKFQifjtX3BnS9ScA51YXB3rycR3SNe5&s=0",
+    "employer_website": "https://www.cdgengineers.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/substation-engineer-physical-design-at-cdg-engineers-inc-4432513208",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/substation-engineer-physical-design-at-cdg-engineers-inc-4432513208",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Description\n\nAs a Substation Engineer at CDG Engineers, you will be responsible for designing and implementing critical electrical infrastructure projects. You will leverage your technical expertise to solve complex engineering challenges related to transmission and distribution systems. Your work will involve a wide range of tasks, including physical design for new substations and substation expansions. Your ability to innovate, learn new technologies, and collaborate effectively will be essential to your success in this role. The salary range for this role is $100K-$140K annually, commensurate with the skills, talent, capabilities, and experience each candidate brings to a role. This is a remote optional role; or can be hybrid if preferred at our St. Louis, MO headquarters office.\n\nRequirements For The Role\n\n• Bachelor's degree in Electrical Engineering\n• Experience designing substations ranging from 12kV through 500kV.\n• Working knowledge of substation layouts, equipment arrangements, grounding, lightning protection, and control house design.\n• Experience preparing and reviewing drawings, equipment plans, etc.\n• Proficiency with AutoCAD and/or MicroStation.\n• Knowledge of applicable industry standards, including:\n• NESC\n• IEEE\n• ANSI\n• Utility-specific design standards\n• Strong communication and coordination skills with multidisciplinary engineering teams.\n• Familiarity with protection and control design interfaces.\n\nPreferred Requirements\n\n• PE license (or ability to obtain)\n\nWhy CDG Engineers?\n\nCDG Engineers, Inc. is a full-service, multi-discipline professional services organization based in St Louis, MO, with capabilities in civil, structural, electrical, and mechanical engineering, as well as architecture. The firm provides planning, engineering, architectural design, and construction administration services across various industries and sectors.\n\nCDG Engineers is registered in multiple states across the U.S., offering complete in-house professional engineering and architectural services. The firm has a strong reputation for delivering practical and cost-effective solutions for a wide range of projects within the United States.\n\nCDG is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to sex, race, color, religion, national origin, age, marital status, political affiliation, sexual orientation, genetic information, gender identity, disability, protected veteran status, or any other characteristic protected by law.\n\nWork Authorization: CDG is not currently offering sponsorship for this role. This includes both temporary visa or permanent visa situations that exist now or in the future, such as: F-1, OPT, CPT, H1, H2, L1, etc.\n\nAgencies\n\nThis role is currently not open to agencies or third-party vendors at this time.",
+    "job_is_remote": true,
+    "job_posted_at": "16 hours ago",
+    "job_posted_at_timestamp": 1782262800,
+    "job_posted_at_datetime_utc": "2026-06-24T01:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DzrR74zwjsMxvAlAbAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "lU3V4w3UNXhzGmufAAAAAA==",
+    "job_title": "Remote Hybrid Brand & Marketing Graphic Designer (Agency), Remote Job",
+    "employer_name": "Starlight Marketing",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiKRPyeFMB9RIa6n_dUHEmCf26HZ4QwDB1B3Xs&s=0",
+    "employer_website": "https://starlightmarketing.llc",
+    "job_publisher": "Dynamite Jobs",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://dynamitejobs.com/company/starlightmarketing/remote-job/remote-hybrid-brand-marketing-graphic-designer-agency",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://dynamitejobs.com/company/starlightmarketing/remote-job/remote-hybrid-brand-marketing-graphic-designer-agency",
+        "is_direct": false,
+        "publisher": "Dynamite Jobs"
+      }
+    ],
+    "job_description": "The Role\nWe don't need a narrow specialist; we need an agile, visually elite generalist who loves variety. One day you will be drafting a corporate logo, the next you will be layout out a multi-page restaurant menu, and the next you might be mapping out a vehicle wrap blueprint. You will report directly to the founder, taking client briefs and translating them into pixel-perfect, on-brand assets.\nCore Responsibilities\n• Brand Systems: Design logos and comprehensive branding profiles from scratch, keeping typography, hierarchy, and color theory razor-sharp.\n\n• Digital & Print Collateral: Edit, format, and prepare flawless print-ready files using Adobe InDesign, Illustrator, and Photoshop (e.g., flyers, multi-page layout documents, business cards, menus, digital banner ads).\n\n• Social Production: Design engaging daily social media graphics and templates directly in Canva, ensuring ease of delivery for our content scheduling assistant. Comfortable conceptualizing and editing short-form video content (Reels/TikToks/Shorts).\n\n• The Unconventional Challenge: Enthusiastically step up to non-standard design briefs when they come through the agency—such as product packaging, vehicle wraps, and large-scale window/signage graphics. (No previous wrap experience required, but an enthusiastic, structural \"figure-it-out\" attitude is non-negotiable!).\n\nRequirements\n• 3–5+ years of design experience, ideally within a multi-client agency environment. An elite portfolio showing a balance of digital marketing assets and strong print typography/layout work.\n\n• Mastery of the Adobe Creative Suite (InDesign, Illustrator, Photoshop) AND advanced fluency in Canva. Strong organizational skills—you must be comfortable working out of project management systems (like ClickUp) and meeting strict client deadlines.\n\n• Reliable high-speed internet and availability to overlap with US business hours for asset reviews.",
+    "job_is_remote": true,
+    "job_posted_at": "14 hours ago",
+    "job_posted_at_timestamp": 1782270000,
+    "job_posted_at_datetime_utc": "2026-06-24T03:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DlU3V4w3UNXhzGmufAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "YZ96hRuvJtE4m4ciAAAAAA==",
+    "job_title": "Graphic Designer, Paid Media – Contractor",
+    "employer_name": "Suno",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR3b-W9PsQnzNsfVrRQ8ZQ4BrPN4EUnyvYwCeg&s=0",
+    "employer_website": "https://suno.com",
+    "job_publisher": "Remote Rocketship",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.remoterocketship.com/us/company/suno-ai/jobs/graphic-designer-paid-media-contractor-united-states-remote/",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.remoterocketship.com/us/company/suno-ai/jobs/graphic-designer-paid-media-contractor-united-states-remote/",
+        "is_direct": false,
+        "publisher": "Remote Rocketship"
+      }
+    ],
+    "job_description": "Job Description:\n• Translate Suno's brand identity and creative DNA into paid social creative that drives growth across paid channels (Facebook, Instagram, TikTok, YouTube, etc.)\n• Own the full branded creative pipeline – concepting, producing, and iterating on static and motion assets\n• Build and maintain a creative roadmap: what to make, what to test, what to push further, and what to move on from\n• Partner with the performance marketing team to use data and channel feedback as creative inputs, not just outputs\n• Use AI tools to extend creative output beyond what's manually possible – and help build the processes and guardrails that keep AI-assisted work on-brand and up to Suno's standards\n• Develop workflows and production processes that scale creative output without diluting brand quality\n• Help shape how the next generation of creators discovers Suno – the creative you make is often their first impression\n\nRequirements:\n• 4-6 years in performance creative, paid social design, or growth-focused creative at a consumer tech, DTC, or growth-stage company\n• Hybrid graphic and motion design skills: strong static design fundamentals and real motion/animation capability – this is not a pure graphic design role\n• Portfolio of paid social work (static and motion) that demonstrates both craft and a performance orientation\n• Expert-level proficiency in Figma, Adobe Photoshop, Adobe Illustrator, and After Effects\n• Fluency in what makes paid social creative work: hooks, formats, platform conventions, and what drives meaningful iteration\n• Ability to internalize a brand's visual identity and push it into new formats without losing what makes it distinctive\n• Nice-to-Haves: Hands-on experience with AI-assisted creative tools (generative image, video, or copy) as part of a real production workflow\n• Background in music, entertainment, or creator-focused consumer products\n• Experience managing or mentoring junior creative contributors\n\nBenefits:\n• Equal Opportunity Employer",
+    "job_is_remote": true,
+    "job_posted_at": "18 hours ago",
+    "job_posted_at_timestamp": 1782255600,
+    "job_posted_at_datetime_utc": "2026-06-23T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DYZ96hRuvJtE4m4ciAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "75–90 an hour",
+    "job_min_salary": 75,
+    "job_max_salary": 90,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "4H1s8jtpvvs9A4NPAAAAAA==",
+    "job_title": "CSS Supplier Services SME/ Designer",
+    "employer_name": "DS Technologies Inc",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6XtqqWZh2HBrIQ0qZy7iJ2WToisuR14idjwbL&s=0",
+    "employer_website": null,
+    "job_publisher": "DailyRemote",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://dailyremote.com/remote-job/css-supplier-services-sme-designer-5184874",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://dailyremote.com/remote-job/css-supplier-services-sme-designer-5184874",
+        "is_direct": false,
+        "publisher": "DailyRemote"
+      }
+    ],
+    "job_description": "About US: We are a company that provides innovative, transformative IT services and solutions. We are passionate about helping our clients achieve their goals and exceed their expectations. We strive to provide the best possible experience for our clients and employees. We are committed to continuous improvement and innovation, and we are always looking for ways to improve our services and solutions. We believe in working collaboratively with our clients and employees to achieve success.\n\nDS Technologies Inc is looking for CSS Supplier Services SME/ Designer role for one of our premier clients.\n\nJob Title: CSS Supplier Services SME/ Designer\n\nLocation : Remote\nPosition Type: Contract\n\nOnly W2\n\nJob Description:\n\n• Expert Knowledge: Provide specialized insights in CSS (Customer/1) on Supplier Services and can design the technical solution in coordination IT & Business teams.\n\n• Application Development: Design, code, test, and debug mainframe applications using COBOL, JCL, DB2, and CICS.\n\n• Performance Optimization: Conduct system analysis and performance tuning to enhance efficiency.\n\n• Data Security & Compliance: Ensure adherence to financial regulations and data security policies.\n\n• Troubleshooting & Support: Provide technical support, resolve system issues, and implement enhancements.\n\n• Knowledge Maintenance: Developing and maintaining an understanding of customer-specific business environments and service level agreements.\n\n• Documentation & Training: Maintain system documentation and assist in training to the developers.\n\nThis is a remote position.",
+    "job_is_remote": true,
+    "job_posted_at": "24 hours ago",
+    "job_posted_at_timestamp": 1782172800,
+    "job_posted_at_datetime_utc": "2026-06-23T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D4H1s8jtpvvs9A4NPAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "NueLuSVDF_TK7o36AAAAAA==",
     "job_title": "Remote Software Engineer",
     "employer_name": "Turing",
