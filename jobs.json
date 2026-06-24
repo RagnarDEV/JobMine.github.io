@@ -1,5 +1,230 @@
 [
   {
+    "job_id": "9x-iIfrf6OX8TQ7EAAAAAA==",
+    "job_title": "Applied ML Researcher - Fully Remote | Upto $90/hr",
+    "employer_name": "Mercor",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwrccS6mxsszb0btQNXK_vl3gDlE0caaCnfZo4&s=0",
+    "employer_website": "https://www.mercor.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Part-time",
+    "job_employment_types": [
+      "PARTTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/applied-ml-researcher-fully-remote-upto-%2490-hr-at-mercor-4431468576",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/applied-ml-researcher-fully-remote-upto-%2490-hr-at-mercor-4431468576",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "About The Job\n\nMercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark, General Catalyst, Peter Thiel, Adam D'Angelo, Larry Summers, and Jack Dorsey.\n\nPosition: Machine Learning Engineer Expert\n\nType: Contract\n\nCompensation: $90/hour\n\nLocation: Remote\n\nRole Responsibilities\n\n• Develop end-to-end machine learning solutions for challenging prediction and modeling problems.\n• Analyze datasets and define appropriate modeling approaches, validation strategies, and evaluation metrics.\n• Perform exploratory data analysis, feature engineering, and data preprocessing.\n• Train, tune, and evaluate machine learning models across tabular, text, image, and time-series datasets.\n• Review and validate the technical quality of machine learning projects and deliverables.\n• Identify opportunities to improve model performance through systematic experimentation and iteration.\n\nQualifications\n\nMust-Have\n\n• Master's degree or PhD in Computer Science, Machine Learning, Statistics, Mathematics, Electrical Engineering, or a related field from a top-tier university.\n• 2+ years of professional experience in machine learning, applied AI, data science, or a closely related field.\n• Strong proficiency in Python and modern machine learning frameworks (e.g., scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow).\n• Demonstrated experience building end-to-end machine learning solutions, including data preparation, model development, validation, and evaluation.\n• Strong understanding of model evaluation metrics, validation methodologies, and experimental design.\n• Experience with one or more of the following areas: tabular machine learning, natural language processing, computer vision, recommendation systems, ranking systems, time-series forecasting.\n• Ability to work independently on open-ended machine learning problems and deliver high-quality technical outputs.\n\nPreferred\n\n• PhD from a leading research university.\n• Experience at leading technology companies, AI labs, research institutions, or high-growth startups.\n• Participation in competitive machine learning or data science competitions.\n• Experience optimizing models against performance-based evaluation metrics.\n• Familiarity with advanced techniques such as ensembling, hyperparameter optimization, transfer learning, foundation model fine-tuning, or reinforcement learning.\n• Publications, patents, or significant open-source contributions in machine learning or AI.\n• Experience reviewing, mentoring, or evaluating the work of other machine learning practitioners.\n\nApplication Process (Takes 20–30 mins to complete)\n\n• Upload resume\n• AI interview based on your resume\n• Submit form\n\nResources & Support\n\n• For details about the interview process and platform information, please check: https://talent.docs.mercor.com/welcome\n• For any help or support, reach out to: support@mercor.com\n\nPS: Our team reviews applications daily. Please complete your AI interview and application steps to be considered for this opportunity.",
+    "job_is_remote": true,
+    "job_posted_at": "5 hours ago",
+    "job_posted_at_timestamp": 1782266400,
+    "job_posted_at_datetime_utc": "2026-06-24T02:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D9x-iIfrf6OX8TQ7EAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "1Co3sfuEJVXl8qlxAAAAAA==",
+    "job_title": "QA Engineer – Remote/Hybrid ($1,880 Weekly)",
+    "employer_name": "Learn beyond Consulting",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGcsGyR1vQyylc35w_8sAmIfIvXO98pI4r3fA&s=0",
+    "employer_website": "https://learnbeyondconsulting.com",
+    "job_publisher": "Indeed",
+    "job_employment_type": "Full-time and Contractor",
+    "job_employment_types": [
+      "FULLTIME",
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.indeed.com/viewjob?jk=c420021fea7fc8ad",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.indeed.com/viewjob?jk=c420021fea7fc8ad",
+        "is_direct": false,
+        "publisher": "Indeed"
+      }
+    ],
+    "job_description": "Compensation & Benefits\n\n• Pay Rate: Up to $47/hour\n\n• Estimated Weekly Gross: Up to $1,880/week\n\n• Contract Length: 13 Weeks\n\n• Schedule: Full-Time | Day Shift\n\n• 40 Hours Per Week\n\n• Opportunity for contract extension\n\n• Work on enterprise-level software products\n\n• Collaborative Agile development environment\n\nMandatory Qualifications\n\n• Minimum 5 years of Software QA experience\n\n• Strong experience with Manual and Automation Testing\n\n• Experience with BrowserStack Low Code Automation, Selenium, or Playwright\n\n• Hands-on experience with API Testing using Postman\n\n• Strong SQL/Azure SQL data validation experience\n\n• Experience with Azure DevOps and FreshService\n\n• Knowledge of Agile/Scrum methodology and SDLC\n\n• Experience with Python scripting\n\n• Experience with JMeter or other performance testing tools preferred\n\n• Excellent analytical, troubleshooting, and communication skills\n\nRoles & Responsibilities\n\n• Design, develop, and execute manual and automated test cases.\n\n• Perform functional, regression, integration, system, and end-to-end testing.\n\n• Build and maintain automated test scripts using BrowserStack Low Code Automation.\n\n• Identify, document, and track software defects using Azure DevOps and FreshService.\n\n• Perform API testing using Postman and validate backend services.\n\n• Execute SQL queries to verify application data and database integrity.\n\n• Conduct cross-browser, cross-platform, and mobile testing across web, iOS, and Android.\n\n• Collaborate with developers, product managers, and designers to validate new features and bug fixes.\n\n• Participate in Agile ceremonies including sprint planning, stand-ups, and release activities.\n\n• Support production deployments and ensure software quality before release.\n\n#QAEngineer #QualityAssurance #SoftwareTester #AutomationTesting #QA #remotejobs #ManualTesting #Selenium #Playwright #BrowserStack #Postman #AzureDevOps #Python #SQL #RemoteJobs #TechJobs #ContractJobs #HiringNow #ITJobs #SoftwareTesting #Agile #NowHiring #ALITE2026\n\nPay: $45.00 - $47.00 per hour\n\nBenefits:\n\n• Referral program\n\nWork Location: Remote",
+    "job_is_remote": true,
+    "job_posted_at": "14 hours ago",
+    "job_posted_at_timestamp": 1782234000,
+    "job_posted_at_datetime_utc": "2026-06-23T17:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D1Co3sfuEJVXl8qlxAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "45–47 an hour",
+    "job_min_salary": 45,
+    "job_max_salary": 47,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "8Zx_XgnRSAk2brH2AAAAAA==",
+    "job_title": "Lead Engineer - Fleet Management",
+    "employer_name": "GE Vernova",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqR839Tjvt4teDbm9nPfbxTWr09HwFVvJ_-_RI&s=0",
+    "employer_website": "https://www.gevernova.com",
+    "job_publisher": "The Muse",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.themuse.com/jobs/gevernova/lead-engineer-fleet-management-ee010b",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.themuse.com/jobs/gevernova/lead-engineer-fleet-management-ee010b",
+        "is_direct": false,
+        "publisher": "The Muse"
+      }
+    ],
+    "job_description": "Job Description SummaryJoin GE Vernova's Product Service Engineering team and play a pivotal role in the energy sector, where every day presents new challenges and opportunities to make a global impact. As Lead Engineer-specializing in Gas Turbine Hot Gas Path Systems-you'll be at the forefront, working directly with customers and cross-functional teams to resolve complex technical issues in real time. Your responsibilities will span from urgent daily troubleshooting to in-depth root cause analyses, each carrying significant, long-term implications for both GE Vernova and our global customer base.Job DescriptionRoles and ResponsibilitiesKey Customer Partner: Serve as the primary technical contact for customers, rapidly addressing urgent hot gas path challenges to ensure safe and reliable turbine operation-consistently exceeding customer expectations with accurate, quality-focused solutions.Real-Time Troubleshooting: Diagnose and resolve high-stakes technical problems under tight deadlines, delivering thorough and precise solutions while maintaining the highest standards of technical excellence.Collaborative Problem Solver: Partner with design, commercial, and field teams to drive root cause analyses and implement effective solutions that meet customer needs and GE Vernova's business objectives.Relationship Builder: Establish and maintain strong internal relationships to ensure customer requirements are fully understood and proactively addressed, fostering collaboration across teams.Supplier Interface: Work with internal and external suppliers to identify cost-effective solutions that meet customer requests while upholding GE Vernova's standards for quality and timely execution.Technical Communication Leader: Prepare and present clear technical information to customers and senior leadership, including User Conferences, Technical Information Letters (TILs/ETCs), and other written communications addressing technical issues, risks, and recommended resolutions.Continuous Improvement Champion: Lead Kaizen projects and participate in Lean Action Workouts to enhance service processes and drive quality, efficiency, and responsiveness improvements.Global Field Support: Travel to customer sites to provide hands-on support during outages, technical reviews, and critical inspections-executed with precision and within required timeframes.Product Innovation Contributor: Collaborate with design and development teams to introduce new products and technologies, contributing to reliable, efficient power generation with a focus on quality and timely delivery.Required QualificationsBachelor's Degree in Mechanical, Aerospace, Materials Science Engineering, or related engineering field of study from an accredited college or university.5+ years of experience in Design, Repair, Testing, Manufacturing, or OperationsEligibility RequirementsAbility to travel globally to customer gas turbine sites and offices to support root cause investigations, critical outage inspections, and customer communications (user conferences or technical meetings); typically < 5% travel.Ability and willingness to support off-hours occasionally to support customer issue resolution. Desired Characteristics7+ years' experience in design, repair, manufacturing, or maintenance of gas turbine hot gas path systems.Proven mentoring skills with a commitment to coaching and continuous improvement.Strong multitasking and project delivery abilities; effective in fast-paced environments.Demonstrated leadership and sound decision-making under pressure.Clear communicator, able to convey complex technical information across all organizational levels.Effective team player with a global mindset, comfortable working across cultures.Customer-focused with experience in customer-facing roles; anticipates and meets customer needs.Self-starter with strong initiative and cross-functional collaboration skills.Advocates for and implements process improvements.Excellent written and verbal communication skills.Skilled at building relationships, energizing teams, and connecting with others.Business-oriented, driving tasks to achieve objectives.Solid project management experience.Composed and decisive in challenging, safety-critical situationsGE Vernova offers a great work environment, professional development, challenging careers, and competitive compensation. GE Vernova is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national or ethnic origin, sex, sexual orientation, gender identity or expression, age, disability, protected veteran status or other characteristics protected by law.GE Vernova will only employ those who are legally authorized to work in the United States for this opening. Any offer of employment is conditioned upon the successful completion of a drug screen (as applicable).Relocation Assistance Provided: Yes#LI-Remote - This is a remote positionFor candidates applying to a U.S. based position, the pay range for this position is between $98,400.00 and $164,000.00. The Company pays a geographic differential of 110%, 120% or 130% of salary in certain areas. The specific pay offered may be influenced by a variety of factors, including the candidate's experience, education, and skill set.Bonus eligibility: discretionary annual bonus.This posting is expected to remain open for at least seven days after it was posted on June 22, 2026.Available benefits include medical, dental, vision, and prescription drug coverage; access to Health Coach from GE Vernova, a 24/7 nurse-based resource; and access to the Employee Assistance Program, providing 24/7 confidential assessment, counseling and referral services. Retirement benefits include the GE Vernova Retirement Savings Plan, a tax-advantaged 401(k) savings opportunity with company matching contributions and company retirement contributions, as well as access to Fidelity resources and financial planning consultants. Other benefits include tuition assistance, adoption assistance, paid parental leave, disability benefits, life insurance, 12 paid holidays, and permissive time off.GE Vernova Inc. or its affiliates (collectively or individually, \"GE Vernova\") sponsor certain employee benefit plans or programs GE Vernova reserves the right to terminate, amend, suspend, replace, or modify its benefit plans and programs at any time and for any reason, in its sole discretion. No individual has a vested right to any benefit under a GE Vernova welfare benefit plan or program. This document does not create a contract of employment with any individual.",
+    "job_is_remote": true,
+    "job_posted_at": "13 hours ago",
+    "job_posted_at_timestamp": 1782237600,
+    "job_posted_at_datetime_utc": "2026-06-23T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D8Zx_XgnRSAk2brH2AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "sCI1Rnxx16ahY4HwAAAAAA==",
+    "job_title": "Engineer III (Junior Engineer)",
+    "employer_name": "DS Technologies Inc",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6XtqqWZh2HBrIQ0qZy7iJ2WToisuR14idjwbL&s=0",
+    "employer_website": null,
+    "job_publisher": "DailyRemote",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://dailyremote.com/remote-job/engineer-iii-junior-engineer-5184875",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://dailyremote.com/remote-job/engineer-iii-junior-engineer-5184875",
+        "is_direct": false,
+        "publisher": "DailyRemote"
+      }
+    ],
+    "job_description": "About US: We are a company that provides innovative, transformative IT services and solutions. We are passionate about helping our clients achieve their goals and exceed their expectations. We strive to provide the best possible experience for our clients and employees. We are committed to continuous improvement and innovation, and we are always looking for ways to improve our services and solutions. We believe in working collaboratively with our clients and employees to achieve success.\n\nDS Technologies Inc is looking for Engineer III (Junior Engineer) role for one of our premier clients.\n\nJob Title: Engineer III (Junior Engineer)\nLocation: Remote\n\nPosition Type: Contract\nOnly W2\n\nRole Description\nThe Engineer III is a junior engineer focused on learning, implementation, and execution of well-defined tasks. This role works closely with Engineer II and Engineer II – Premium for technical guidance, design clarity, and delivery expectations.\nEngineer III is expected to grow foundational engineering skills, contribute high-quality code, and progressively take ownership of smaller features and components.\n\nCore Responsibilities\n\n• Development\n\n• Implement backend or frontend features based on provided designs and requirements\n\n• Write clean, maintainable code in Golang and/or React\n\n• Follow established coding, security, and deployment standards\n\n• Testing & Quality\n\n• Write unit and basic integration tests\n\n• Fix defects and participate in regression testing efforts\n\n• Validate changes against acceptance criteria\n\n• Tooling & Platforms\n\n• Use GitHub, CI/CD pipelines, Docker, and Kubernetes with guidance\n\n• Learn and apply platform standards and enforcement mechanisms\n\n• Observability & Operations\n\n• Add basic logging and metrics to services\n\n• Assist with troubleshooting and operational support\n\n• Participate in incident resolution as a learner/observer\n\n• Documentation & Growth\n\n• Document implemented features and changes\n\n• Participate in code reviews and design walkthroughs\n\n• Incorporate feedback and actively develop technical skills\n\nQualifications\n\n• 1–3 years of professional software engineering experience (or equivalent)\n\n• Familiarity with at least one core language or framework (Golang or React)\n\n• Basic understanding of Git, CI/CD, and containerized environments\n\n• Willingness to learn distributed systems and cloud-native concepts\n\n• Strong collaboration skills and openness to feedback\n\nThis is a remote position.",
+    "job_is_remote": true,
+    "job_posted_at": "13 hours ago",
+    "job_posted_at_timestamp": 1782237600,
+    "job_posted_at_datetime_utc": "2026-06-23T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DsCI1Rnxx16ahY4HwAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "Bi3dC4rhbjEWNJhzAAAAAA==",
+    "job_title": "Instrumentation and Control Engineer",
+    "employer_name": "LVI Associates",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0j1pEoUO28fkPtI74UQHiTFBtTu4IUjzT9Tv4&s=0",
+    "employer_website": "https://www.lviassociates.com",
+    "job_publisher": "LVI Associates",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.lviassociates.com/en-ch/job/instrumentation-and-control-engineer-pr596700_1782257890",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.lviassociates.com/en-ch/job/instrumentation-and-control-engineer-pr596700_1782257890",
+        "is_direct": false,
+        "publisher": "LVI Associates"
+      }
+    ],
+    "job_description": "nstrumentation & Controls Engineer (PLC / SCADA)What they're looking for:Experience in PLC and SCADA based control systems engineeringStrong background with Allen Bradley (RSLogix / Studio 5000)HMI or SCADA development experience with Ignition, AVEVA, or FactoryTalkExperience supporting projects through design, programming, and commissioningCore technical experience:PLC programming including structured code development, UDTs, and AOIsHMI and SCADA development including screen design, templates, and system configurationIntegration of historians, reporting tools, and control system architectureCommissioning support including IO checkout, loop testing, and system startupConfiguration of VFDs, instrumentation, and communication networksWhat you'll be doing:Develop and support PLC and HMI applications across multiple projectsLead or contribute across the full project lifecycle from design through commissioningSupport system startup, troubleshooting, and optimization in the fieldDevelop control narratives, functional test plans, and training documentationInterface directly with clients during project executionProvide mentorship and technical guidance to junior engineersTravel and work environment:35 to 45 percent travel requiredAll travel is local within the San Francisco Bay Area, no long haul or extended out of region assignmentsMix of office based engineering work and hands on field commissioning in industrial environments",
+    "job_is_remote": true,
+    "job_posted_at": "8 hours ago",
+    "job_posted_at_timestamp": 1782255600,
+    "job_posted_at_datetime_utc": "2026-06-23T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DBi3dC4rhbjEWNJhzAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "100K–155K a year",
+    "job_min_salary": 100000,
+    "job_max_salary": 155000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "e_u1fRGt4GJzUm9zAAAAAA==",
     "job_title": "Java Developer  - Remote 100% --$45/hr on W2",
     "employer_name": "Siri Infosolutions Inc",
