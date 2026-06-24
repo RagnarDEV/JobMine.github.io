@@ -49,14 +49,12 @@ async function fetchJobsData() {
     }
 }
 
-// 2. تطبيع البيانات — يدعم Fantastic API و JSearch API
+// 2. تطبيع البيانات
 function normalizeJob(job) {
     const title   = job.title || job.job_title || job.position || null;
     const company = job.organization || job.employer_name || job.company_name || job.company || null;
-
     if (!title || !company) return null;
 
-    // الموقع
     let location = 'Remote Worldwide';
     if (job.locations_derived && job.locations_derived.length > 0) {
         location = job.locations_derived[0];
@@ -72,7 +70,6 @@ function normalizeJob(job) {
         location = 'Remote Worldwide';
     }
 
-    // الراتب
     let salary = null;
     if (job.ai_salary_min_value && job.ai_salary_max_value) {
         const cur  = job.ai_salary_currency || 'USD';
@@ -92,7 +89,6 @@ function normalizeJob(job) {
         salary = `${cur} ${Number(job.job_min_salary).toLocaleString()} - ${Number(job.job_max_salary).toLocaleString()}${unit}`;
     }
 
-    // نوع العمل
     const arrangement = job.ai_work_arrangement || '';
     const isRemote    = job.job_is_remote || false;
     let workType = 'Full-time';
@@ -101,7 +97,6 @@ function normalizeJob(job) {
     else if (arrangement === 'Hybrid')                workType = '🏢 Hybrid';
     else if (arrangement === 'On-site')               workType = '🏙️ On-site';
 
-    // المهارات
     let skills = [];
     if (Array.isArray(job.ai_key_skills) && job.ai_key_skills.length > 0)
         skills = job.ai_key_skills;
@@ -112,7 +107,6 @@ function normalizeJob(job) {
     else if (job.job_highlights?.Qualifications)
         skills = job.job_highlights.Qualifications;
 
-    // المسؤوليات
     let responsibilities = null;
     if (job.ai_core_responsibilities) {
         responsibilities = job.ai_core_responsibilities;
@@ -122,7 +116,6 @@ function normalizeJob(job) {
         responsibilities = job.job_description.substring(0, 600) + '...';
     }
 
-    // المتطلبات
     let qualifications = null;
     if (job.ai_requirements_summary) {
         qualifications = job.ai_requirements_summary;
@@ -130,7 +123,6 @@ function normalizeJob(job) {
         qualifications = job.job_highlights.Qualifications.join('\n\n');
     }
 
-    // نوع التوظيف
     let employmentType = '';
     if (Array.isArray(job.ai_employment_type))
         employmentType = job.ai_employment_type.join(', ');
@@ -166,7 +158,6 @@ function normalizeJob(job) {
     };
 }
 
-// تطبيع الفئة
 function normalizeCategory(value) {
     const v = (value || '').toLowerCase();
     if (v.includes('develop') || v.includes('engineer') || v.includes('software') ||
@@ -186,19 +177,22 @@ function normalizeCategory(value) {
     return 'Other';
 }
 
-// تحويل التاغات
 function normalizeTags(tags) {
     if (Array.isArray(tags)) return tags.filter(t => typeof t === 'string').slice(0, 6);
     if (typeof tags === 'string') return tags.split(',').map(t => t.trim()).filter(Boolean).slice(0, 6);
     return [];
 }
 
-// 3. حفظ الوظيفة في sessionStorage عند الضغط
-function saveJobToStorage(jobData) {
-    try {
-        sessionStorage.setItem('currentJob', JSON.stringify(jobData));
-    } catch(e) {
-        console.warn('sessionStorage unavailable:', e);
+// ✅ حفظ الوظيفة بطريقة آمنة بدون JSON في onclick
+function handleJobClick(element) {
+    const jobId = element.getAttribute('data-job-id');
+    const job   = allJobs.find(j => String(j.id) === String(jobId));
+    if (job) {
+        try {
+            sessionStorage.setItem('currentJob', JSON.stringify(job));
+        } catch(e) {
+            console.warn('sessionStorage unavailable:', e);
+        }
     }
 }
 
@@ -214,7 +208,6 @@ function updateStatsDashboard(jobs) {
     document.title = `JobMine - ${jobs.length}+ Remote Jobs`;
 }
 
-// ترتيب بالتاريخ
 function sortJobsByDate(jobs) {
     return [...jobs].sort((a, b) => {
         if (!a.date && !b.date) return 0;
@@ -248,10 +241,9 @@ function filterAndRenderJobs() {
     renderLatestSection(sorted.slice(5));
 }
 
-// SEO Schema
 function injectJobSchema(job) {
     let desc = `Career opportunity for ${job.title} at ${job.company}. Location: ${job.location}.`;
-    if (job.qualifications) desc += ` Requirements: ${job.qualifications}`;
+    if (job.qualifications)   desc += ` Requirements: ${job.qualifications}`;
     if (job.responsibilities) desc += ` Responsibilities: ${job.responsibilities}`;
 
     const schema = {
@@ -339,11 +331,9 @@ function createJobCard(job, isFeatured = false) {
 
     const tagsHTML = (job.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('');
 
-    // ✅ رابط الوظيفة + حفظ البيانات كاملة في sessionStorage
-    const jobDataStr = JSON.stringify(job).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    // ✅ رابط آمن بدون JSON في onclick
     const internalJobLink = `job.html?id=${encodeURIComponent(job.id)}&url=${encodeURIComponent(job.apply_link)}`;
 
-    // شارة New
     let newBadgeHTML = '';
     let timeAgoText  = job.type || 'Full-time';
 
@@ -361,7 +351,6 @@ function createJobCard(job, isFeatured = false) {
         }
     }
 
-    // شارة مستوى الخبرة
     const titleLower = (job.title || '').toLowerCase();
     let experienceBadgeHTML = '';
     if (titleLower.includes('senior') || titleLower.includes('lead') ||
@@ -371,7 +360,6 @@ function createJobCard(job, isFeatured = false) {
         experienceBadgeHTML = `<span style="background:rgba(46,160,67,0.15);color:#56d364;font-size:0.75rem;padding:2px 6px;border-radius:4px;font-weight:600;border:1px solid rgba(46,160,67,0.3);">Entry Level</span>`;
     }
 
-    // شارة الراتب المرتفع
     let highPayBadgeHTML = '';
     if (job.salary) {
         const nums = job.salary.replace(/,/g, '').match(/\d+/g);
@@ -380,17 +368,14 @@ function createJobCard(job, isFeatured = false) {
         }
     }
 
-    // شارة Visa
     const visaBadgeHTML = job.visa_sponsorship
         ? `<span style="background:rgba(46,160,67,0.15);color:#56d364;font-size:0.75rem;padding:2px 6px;border-radius:4px;font-weight:600;border:1px solid rgba(46,160,67,0.3);"><i class="fa-solid fa-passport"></i> Visa OK</span>`
         : '';
 
-    // شعار الشركة
     const logoHTML = job.company_logo
         ? `<img src="${job.company_logo}" alt="${job.company}" style="width:36px;height:36px;border-radius:6px;object-fit:contain;background:#fff;padding:3px;flex-shrink:0;" onerror="this.style.display='none'">`
         : `<div class="job-icon-box" style="color:#ffc107;font-size:1.1rem;flex-shrink:0;">${categoryIcon}</div>`;
 
-    // ملخص التفاصيل في الكرت
     let highlightsHTML = '';
     if (job.responsibilities || job.qualifications) {
         highlightsHTML = `<div style="margin-top:12px;padding:10px;background:rgba(255,255,255,0.02);border-radius:6px;border:1px solid rgba(255,255,255,0.05);font-size:0.82rem;color:#c9d1d9;">`;
@@ -398,49 +383,27 @@ function createJobCard(job, isFeatured = false) {
             const shortDesc = job.responsibilities.length > 150
                 ? job.responsibilities.substring(0, 150) + '...'
                 : job.responsibilities;
-            highlightsHTML += `
-                <div style="margin-bottom:8px;">
-                    <strong style="color:#58a6ff;font-size:0.78rem;text-transform:uppercase;">
-                        <i class="fa-solid fa-list-check"></i> What You'll Do:
-                    </strong>
-                    <p style="margin:4px 0 0 0;line-height:1.5;">${shortDesc}</p>
-                </div>`;
+            highlightsHTML += `<div style="margin-bottom:8px;"><strong style="color:#58a6ff;font-size:0.78rem;text-transform:uppercase;"><i class="fa-solid fa-list-check"></i> What You'll Do:</strong><p style="margin:4px 0 0 0;line-height:1.5;">${shortDesc}</p></div>`;
         }
         if (job.qualifications) {
             const shortReq = job.qualifications.length > 150
                 ? job.qualifications.substring(0, 150) + '...'
                 : job.qualifications;
-            highlightsHTML += `
-                <div>
-                    <strong style="color:#ffc107;font-size:0.78rem;text-transform:uppercase;">
-                        <i class="fa-solid fa-award"></i> Requirements:
-                    </strong>
-                    <p style="margin:4px 0 0 0;line-height:1.5;">${shortReq}</p>
-                </div>`;
+            highlightsHTML += `<div><strong style="color:#ffc107;font-size:0.78rem;text-transform:uppercase;"><i class="fa-solid fa-award"></i> Requirements:</strong><p style="margin:4px 0 0 0;line-height:1.5;">${shortReq}</p></div>`;
         }
         highlightsHTML += `</div>`;
     }
 
-    // المزايا
     let benefitsHTML = '';
     if (job.benefits && job.benefits.length > 0) {
         const shown = job.benefits.slice(0, 3).join(' • ');
-        const extra = job.benefits.length > 3
-            ? ` <span style="color:#58a6ff;">+${job.benefits.length - 3} more</span>`
-            : '';
-        benefitsHTML = `
-            <div style="margin-top:8px;font-size:0.78rem;color:#8b949e;">
-                <i class="fa-solid fa-gift" style="color:#ffc107;margin-right:4px;"></i>${shown}${extra}
-            </div>`;
+        const extra = job.benefits.length > 3 ? ` <span style="color:#58a6ff;">+${job.benefits.length - 3} more</span>` : '';
+        benefitsHTML = `<div style="margin-top:8px;font-size:0.78rem;color:#8b949e;"><i class="fa-solid fa-gift" style="color:#ffc107;margin-right:4px;"></i>${shown}${extra}</div>`;
     }
 
-    // الصناعات
     let industriesHTML = '';
     if (job.industries && job.industries.length > 0) {
-        industriesHTML = `
-            <div style="margin-top:6px;font-size:0.76rem;color:#6e7681;">
-                <i class="fa-solid fa-building" style="margin-right:4px;"></i>${job.industries.slice(0, 3).join(' · ')}
-            </div>`;
+        industriesHTML = `<div style="margin-top:6px;font-size:0.76rem;color:#6e7681;"><i class="fa-solid fa-building" style="margin-right:4px;"></i>${job.industries.slice(0, 3).join(' · ')}</div>`;
     }
 
     card.innerHTML = `
@@ -459,7 +422,6 @@ function createJobCard(job, isFeatured = false) {
                     </div>
                 </div>
             </div>
-
             <div class="job-meta" style="font-size:0.83rem;color:#8b949e;display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;">
                 <span><i class="fa-solid fa-location-dot"></i> ${job.location}</span>
                 <span><i class="fa-solid fa-clock"></i> ${timeAgoText}</span>
@@ -467,25 +429,22 @@ function createJobCard(job, isFeatured = false) {
                 <span><i class="fa-solid fa-briefcase"></i> ${job.type}</span>
                 ${job.experience_level ? `<span><i class="fa-solid fa-chart-bar"></i> ${job.experience_level} yrs exp</span>` : ''}
             </div>
-
             ${highlightsHTML}
             ${benefitsHTML}
             ${industriesHTML}
-
             <div class="job-tags" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;">
                 ${tagsHTML}
             </div>
         </div>
-
         <div style="margin-top:15px;text-align:right;">
             <a href="${internalJobLink}"
-               onclick="saveJobToStorage(${jobDataStr})"
+               data-job-id="${job.id}"
+               onclick="handleJobClick(this)"
                class="apply-btn"
                style="background-color:#ffc107;color:#0d1117;padding:8px 16px;border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;font-size:0.88rem;">
                 View Details <i class="fa-solid fa-arrow-right" style="font-size:0.75rem;margin-left:4px;"></i>
             </a>
         </div>
-
         <style>
             @keyframes pulseBadge {
                 0%   { transform:scale(1); opacity:0.9; }
