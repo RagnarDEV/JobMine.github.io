@@ -1,5 +1,205 @@
 [
   {
+    "job_id": "t_C_XGvp-QywOkewAAAAAA==",
+    "job_title": "AI Product Designer",
+    "employer_name": "BCforward",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8T89yFeVJ2IiKg70diuzjlyT5dOGnwflXNAzD&s=0",
+    "employer_website": "https://www.bcforward.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/ai-product-designer-at-bcforward-4433021357",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/ai-product-designer-at-bcforward-4433021357",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "BCforward is currently seeking a highly motivated Product Designer III for a remote opportunity\n\nPosition Title: Product Designer III\n\nLocation: Remote (US) – Must be available during PST working hours\n\nAnticipated Start Date: ASAP\n\nPlease note this is the target date and it is subject to change. BCforward will send official notice ahead of a confirmed start date.\n\nExpected Duration: 07+ months, possible extension based on business needs\n\nJob Type: Onsite\n\nPay Range: $75/hr. - $80/hr.\n\nPlease note that actual compensation may vary within this range due to factors such as location, experience, and job responsibilities, and does not encompass additional non-standard compensation (e.g., benefits, paid time off, per diem, etc.).\n\nJob Summary:\n\nResearch Platform is part of the Central Product Platform (CPP) within the Decision Platform organization. The team's mission is to accelerate product success and innovation by enabling high-quality, efficient research insights. In this role, you will support tools used by UX Researchers, Data Scientists, and Product teams to make data-driven decisions and improve product experiences.\n\nThis position is a contract opportunity covering a senior designer on parental leave and offers the chance to lead design initiatives across several high-impact products. You will work on AI-powered research tools, executive-facing business applications, and emerging product experiences while collaborating closely with cross-functional teams including Product Management, Engineering, Research, and Content Design.\n\nKey Projects\n\nResearch Lab\n• AI-native research insights tool currently in alpha\n• Gather UX feedback and iterate designs\n• Drive the product toward production readiness\n\nBudget Management\n• Executive-facing survey budget management tool\n• Partner with engineering to iterate and drive product launch\n\nCompetitive Intelligence\n• Support a new product initiative from concept through execution\n\nViewpoints App\n• Consumer-facing application designed to capture insights from users around the world\n\nResponsibilities\n• Design and iterate on research tools across multiple concurrent workstreams\n• Partner closely with Engineering, Product Management, and Content Design teams\n• Drive design execution from concept through delivery\n• Navigate the intersection of research operations, AI, compliance, and user experience\n• Collaborate with teams across Experimentation Platform, Metrics Platform, and AI for Data Analytics\n• Translate ambiguous problems into clear, user-centered solutions\n• Collect user feedback and continuously improve experiences\n\nRequired Qualifications\n• 5–7+ years of Product Design experience\n• Strong portfolio demonstrating end-to-end product design work (required with submission)\n• Experience working with AI tools such as Claude Code, Cursor, Copilot, Vibe Coding, or similar AI-assisted workflows\n• Strong product thinking and problem-solving abilities\n• Ability to independently take projects from ambiguity to well-reasoned design solutions\n• Excellent cross-functional collaboration skills\n• Experience working closely with Product Managers and Engineers\n\nPreferred Qualifications\n• Experience designing data platforms, analytics tools, research tools, or compliance workflows\n• Strong Figma skills\n• Systems thinking and ability to design scalable workflows\n• Experience working in fast-paced environments with evolving requirements\n• Interest in AI trends and emerging technologies\n\nTop Skills\n• AI Product Design / Claude Code / AI-assisted workflows\n• Vibe Coding experience\n• Independent problem-solving and collaboration\n• Product thinking and end-to-end design ownership\n\nCandidate Requirements\n• Resume\n• Portfolio link (mandatory)\n• Availability to work PST hours\n\nBenefits\n\n:BCforward offers all eligible employees a comprehensive benefits package including, but not limited to major medical, HSA, dental, vision, employer-provided group life, voluntary life insurance, short-term disability, long-term disability, and 401k\n\n.About BCforward\n\n:Founded in 1998 on the idea that industry leaders needed a professional service, and workforce management expert, to fuel the development and execution of core business and technology strategies, BCforward is a Black-owned firm providing unique solutions supporting value capture and digital product delivery needs for organizations around the world. Headquartered in Indianapolis, IN with an Offshore Development Center in Hyderabad, India, BCforward’s 6,000 consultants support more than 225 clients globally\n\n.",
+    "job_is_remote": true,
+    "job_posted_at": "9 hours ago",
+    "job_posted_at_timestamp": 1782349200,
+    "job_posted_at_datetime_utc": "2026-06-25T01:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "paid_time_off",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Paid time off",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dt_C_XGvp-QywOkewAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "75–80 an hour",
+    "job_min_salary": 75,
+    "job_max_salary": 80,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "uyVJauRBMFYux_AgAAAAAA==",
+    "job_title": "Thumbnail Designer (Projects (Contractor))",
+    "employer_name": "Cloud9",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzsuLaAap1HwOJ00PA8k4fh4DsSCQSYt9wmt9&s=0",
+    "employer_website": "https://cloud9.gg",
+    "job_publisher": "Welcome To The Jungle",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.welcometothejungle.com/en/companies/cloud9/jobs/thumbnail-designer-projects-contractor_us_zcq6crae",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.welcometothejungle.com/en/companies/cloud9/jobs/thumbnail-designer-projects-contractor_us_zcq6crae",
+        "is_direct": false,
+        "publisher": "Welcome To The Jungle"
+      }
+    ],
+    "job_description": "• We are seeking a talented and creative Thumbnail Designer - Projects (Contractor) to support our Content and Social team\n• The Thumbnail Designer will create a variety of engaging, high-quality thumbnails for content such as podcasts, comms videos, and game highlights, while adhering to strict quality, deadlines, and performance standards\n• This is a project-based remote contractor position open to candidates around the world\n• Design high-quality thumbnails for video content, including podcasts, comms videos, and game highlights\n• Ensure that thumbnails align with brand guidelines and messaging\n• Maintain a quick turnaround on deliverables without sacrificing quality and best practices\n• Deliver thumbnails by deadline with the ability to take and incorporate feedback for revisions as needed\n• Coordinate across internal teams to ensure alignment and adherence to messaging and deliverables\nBenefits\n• Community: Work and play alongside a winning team of esports professionals with a growth mindset\n• Events: In-person and virtual employee engagement events. Come have fun with us in your new C9 swag!\n• Learning & Development: Cloud9 offers development opportunities to help you grow your professional skills\n• Flexible PTO: Unlimited PTO plan in addition to Holidays\n• Healthcare: Comprehensive benefit package includes medical, dental, vision care, FSA, and HSA\n• Retirement: Matching 401K plan",
+    "job_is_remote": true,
+    "job_posted_at": "10 hours ago",
+    "job_posted_at_timestamp": 1782345600,
+    "job_posted_at_datetime_utc": "2026-06-25T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off",
+      "dental_coverage",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Paid time off",
+      "Dental insurance",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DuyVJauRBMFYux_AgAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "75K–150K a year",
+    "job_min_salary": 75000,
+    "job_max_salary": 150000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "vzP50fsZSg8wL_DPAAAAAA==",
+    "job_title": "Manager, Product Design - Newsroom",
+    "employer_name": "Turner Services Inc.",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://warnerbros.wd5.myworkdayjobs.com&size=128",
+    "employer_website": null,
+    "job_publisher": "Workday",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://warnerbros.wd5.myworkdayjobs.com/en-US/global/job/Manager--Product-Design---Newsroom_R000105776-1",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://warnerbros.wd5.myworkdayjobs.com/en-US/global/job/Manager--Product-Design---Newsroom_R000105776-1",
+        "is_direct": false,
+        "publisher": "Workday"
+      }
+    ],
+    "job_description": "Welcome to Warner Bros. Discovery… the stuff dreams are made of. Who We Are… When we say, “the stuff dreams are made of,” we’re not just referring to the world of wizards, dragons and superheroes, or even to the wonders of Planet Earth. Behind WBD’s vast portfolio of iconic content and beloved brands, are the storytellers bringing our characters to life, the creators bringing them to your living rooms and the dreamers creating what’s next… From brilliant creatives, to technology trailblazers, across the globe, WBD offers career defining opportunities, thoughtfully curated benefits, and the tools to explore and grow into your best selves. Here you are supported, here you are celebrated, here you can thrive. Your New Role… Newsroom platforms and tooling power CNN’s editorial, innovation, and performance capabilities, accelerating our ability to create world-class digital and broadcast experiences. We are investing heavily in improving user experience and leveraging AI capabilities in new and existing core newsroom products to empower broadcast and digital journalists, editors, directors, producers, and other content creators — and drive efficiency, unlock innovation, and enable smarter, faster decision-making across the organization. Product Design Manager, Newsroom is an experienced design leader who enjoys collaborating with designers, product, engineering, research, editorial, data, marketing, content strategy and business leadership to build efficient user workflows and intuitive storytelling tools. This is an incredible opportunity to join the CNN Product Design Team and to envision and design industry-leading editorial experiences for creating news content consumed by millions of audiences across the globe. Your Role Accountabilities… Be an integral part of the product design team, working with cross-functional team leaders on creating the next generation of CNN’s editorial experiences for broadcast and digital news production, from small iterative improvements to long term vision. Drive the product design strategy for the future of newsroom products, while advocating for its users with a strong sense of empathy, business goals, and industry at scale Be both strategic and creative, with the ability to prioritize and deliver via hands-on execution and influence. Establish a high performing team structure, including people management, professional development, and mentorship responsibilities for individual team members. Empower and manage designers, fostering a cohesive, committed, passionate, productive, and positive environment within a growing team. Create opportunities for ideation, team building, and collaborative design thinking across the team through workshops, onsites, design sprints, and other team activities. Be highly communicative and responsive both within your team and across the company while managing a large volume of active workstreams. Steer the holistic view of your product suite across integration (user and technical) points to provide a superior seamless product experience and strong change management support. Create end-to-end customer journeys that inform new product features and promote new businesses. Employ user research, and analytics data to develop a deep understanding of how users engage, what matters to them and identify pain points. Contribute to the product design priorities to inform strategic roadmap, translating business needs into creative and user experience opportunities. Create information architecture diagrams, experience journeys, user flows, wireframes, design mockups and interactive, AI-powered prototypes, and alignment documentation to effectively conceptualize and communicate design solutions and vision. Champion our design principles, design systems and product roadmap, and serve our editorial teams’ needs. Play a role in shaping the future of CNN's publishing platform by collaborating with stakeholders and team members to brainstorm, envision, and validate new features and functionalities. Qualifications & Experience… 8+ years as a product designer, with at least 2 recent years in content/media management systems and/or internal tooling or enterprise productivity tooling work. 2+ years of management experience. Excellent written and verbal communication abilities and facilitation skills. Proven track record of empowering and managing a diverse team of designers, with a focus on helping them grow and succeed. A mastery of Figma and some AI prototyping expertise using Cursor, Claude Code, Figma Make, or similar tools. Proficiency in utilizing, creating and modifying design system components to create scalable, delightful user experiences. Experience working within large-scale or enterprise organizations, requiring patience and proactive communication along each step of the design process. Bonus points for experience in news/media. A demonstrated ability to manage complex design challenges and a strong record of fostering cross-functional collaboration and stakeholder alignment. Mastery of and ability to guide others on best practices of user experience design, including usability principles, user research methodology, testing techniques (A/B, Multi-Variant), design theory, and interaction design. Bachelor's degree in design, human-computer interaction (HCI), or equivalent professional experience Willingness to take smart risks, champion new ideas, roll up your sleeves, and get things done. How We Get Things Done… This last bit is probably the most important! Here at WBD, our guiding principles are the core values by which we operate and are central to how we get things done. You can find them at www.wbd.com/guiding-principles/ along with some insights from the team on what they mean and how they show up in their day to day. We hope they resonate with you and look forward to discussing them during your interview. Championing Inclusion at WBD Warner Bros. Discovery embraces the opportunity to build a workforce that reflects a wide array of perspectives, backgrounds and experiences. Being an equal opportunity employer means that we take seriously our responsibility to consider qualified candidates on the basis of merit, without regard to race, color, religion, national origin, gender, sexual orientation, gender identity or expression, age, mental or physical disability, and genetic information, marital status, citizenship status, military status, protected veteran status or any other category protected by law. If you’re a qualified candidate with a disability and you require adjustments or accommodations during the job application and/or recruitment process, please visit our accessibility page for instructions to submit your request. In compliance with local law, we are disclosing the compensation, or a range thereof, for roles in locations where legally required. Actual salaries will vary based on several factors, including but not limited to external market data, internal equity, location, skill set, experience, and/or performance. Base pay is just one component of Warner Bros. Discovery’s total compensation package for employees. Pay Range: $119,000.00 - $221,000.00 salary per year. Other rewards may include annual bonuses, short- and long-term incentives, and program-specific awards. In addition, Warner Bros. Discovery provides a variety of benefits to employees, including health insurance coverage, an employee wellness program, life and disability insurance, a retirement savings plan, paid holidays and sick time and vacation. Warner Bros. Discovery, a premier global media and entertainment company, offers audiences the world's most differentiated and complete portfolio of content, brands and franchises across television, film, streaming and gaming. The new company combines WarnerMedia's premium entertainment, sports and news assets with Discovery's leading non-fiction and international entertainment and sports businesses.",
+    "job_is_remote": true,
+    "job_posted_at": "11 hours ago",
+    "job_posted_at_timestamp": 1782342000,
+    "job_posted_at_datetime_utc": "2026-06-24T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "paid_time_off",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Paid time off",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DvzP50fsZSg8wL_DPAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "-Jye7DfDomMVq1EYAAAAAA==",
+    "job_title": "Sr. Product Designer II - Design Systems",
+    "employer_name": "Instacart",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://company.instacart.com&size=128",
+    "employer_website": "https://company.instacart.com",
+    "job_publisher": "Instacart Careers",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.instacart.careers/job?gh_jid=8026684",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.instacart.careers/job?gh_jid=8026684",
+        "is_direct": false,
+        "publisher": "Instacart Careers"
+      }
+    ],
+    "job_description": "We're transforming the grocery industry\n\nAt Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.\n\nInstacart is a Flex First team\n\nThere’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work.\n\nOverview\n\nInstacart’s Design Systems & Foundations team builds the shared components, tokens, and guidance that power customer, shopper, retailer, and internal tools at scale. We’re looking for a design-first, technically fluent product designer to lead the evolution of our design system as a product—raising quality, usability, scalability, and adoption across multiple product surfaces.\n\nIn this role, you’ll partner closely with engineering and design technologists to ensure design-to-code fidelity, integrate guidance directly inside design and development workflows, and shape a durable “source of truth” that can power automation, guardrails, and AI-assisted workflows. You’ll collaborate with an 8-person foundations team and cross-functional partners to unlock velocity and consistency for product teams serving millions of customers.\n\nAbout the Job\n\n• Own and drive the design system roadmap—prioritizing by product needs, system health, and adoption friction—while aligning stakeholders on a clear, forward-looking vision.\n\n• Define and evolve system UX: components, patterns, interaction states, responsive behavior, motion, and accessibility defaults that scale across products and platforms.\n\n• Lead token strategy end to end (primitive and semantic), including theming, density, and extensibility, and partner with engineering to maintain consistent component APIs.\n\n• Establish strong governance and lifecycle management: contribution standards, quality bars, review processes, versioning, deprecations, and clear migration plans to reduce system drift.\n\n• Create implementation-aware specs with edge cases, constraints, usage guidance, and acceptance criteria; collaborate in component-based workflows (e.g., Figma libraries, Storybook) to ensure design-to-code fidelity.\n\n• Build design enablement in context—linting rules, templates, and plugin experiences—supported by a structured knowledge model (rules, constraints, examples) that powers automation and AI-assisted support.\n\n• Use AI tools intentionally to streamline audits, consistency checks, migrations, and spec generation; contribute to AI-assisted workflows that help teams adopt changes safely.\n\n• Measure adoption and impact, identify workflow friction, and execute enablement programs that reduce rework, raise consistency, and accelerate safe system evolution.\n\nAbout You\n\nMinimum Qualifications\n\n• 6+ years of experience in product design (or equivalent), including shipping and maintaining a design system adopted by multiple product teams.\n\n• Portfolio showcasing design systems mastery (components, patterns, tokens, governance) and cross-platform consistency; portfolio link required.\n\n• Technical fluency collaborating in component-based workflows (e.g., Figma component libraries and Storybook or equivalent) with a strong understanding of how implementation constraints shape UX.\n\n• Hands-on experience with token pipelines and tooling (e.g., CSS variables, semantic token architectures) and writing implementation-aware specs with acceptance criteria.\n\n• Proven accessibility competency applied to systems (e.g., WCAG 2.1 AA) with accessible defaults and patterns.\n\n• Demonstrated use of AI/automation to improve delivery speed and quality for design systems (e.g., audits, migration planning, consistency checks, spec generation).\n\n• Experience driving system adoption through metrics, deprecation/migration programs, and cross-functional enablement.\n\n• Bachelor’s degree in Design, HCI, or a related field, or equivalent practical experience.\n\nPreferred Qualifications\n\n• Experience with AI-assisted coding and design environments (e.g., Cursor, Claude Code) and building Figma plugins or linting/guardrail tooling.\n\n• Track record implementing scalable theming, density, and semantic token strategies across multiple products or platforms.\n\n• Experience facilitating design sprints, co-creation workshops, or component governance reviews with cross-functional stakeholders.\n\n• Data fluency leveraging telemetry, adoption metrics, and experiments to inform system roadmap and deprecation strategies.\n\n• Familiarity with versioned monorepos or multi-package design system releases, including change management and migration planning.\n\n#LI-Remote\nInstacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here.\n\nOffers may vary based on many factors, such as candidate experience and skills required for the role. Additionally, this role is eligible for a new hire equity grant as well as annual refresh grants. Please read more about our benefits offerings here.\n\nFor US based candidates, the base pay ranges for a successful candidate are listed below.\n\nCA, NY, CT, NJ\n$203,000—$214,000 USD\n\nWA\n$194,000—$205,000 USD\n\nOR, DE, ME, MA, MD, NH, RI, VT, DC, PA, VA, CO, TX, IL, HI\n$185,000—$195,500 USD\n\nAll other states\n$169,000—$178,500 USD",
+    "job_is_remote": true,
+    "job_posted_at": "16 hours ago",
+    "job_posted_at_timestamp": 1782324000,
+    "job_posted_at_datetime_utc": "2026-06-24T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D-Jye7DfDomMVq1EYAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "203K–214K a year",
+    "job_min_salary": 203000,
+    "job_max_salary": 214000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "9EGpVa0Bl4BDCly3AAAAAA==",
     "job_title": "Kong Developer",
     "employer_name": "Syntricate Technologies",
