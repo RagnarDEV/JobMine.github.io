@@ -1,5 +1,597 @@
 [
   {
+    "job_id": "8EmsKP_RBb9XQmNyAAAAAA==",
+    "job_title": "Software Developer  DotNET CSharp",
+    "employer_name": "EITACIES Inc.",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKK38a6-pQ-7KhEWoZByJLL4yMRchkHYAabvPP&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/software-developer-dotnet-csharp-at-eitacies-inc-4433841231",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/software-developer-dotnet-csharp-at-eitacies-inc-4433841231",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Software Developer (.NET/C#)\n\nLos Angeles, CA\n\nWe are looking for an experienced Software Developer to support a Transportation Modernization initiative for a large public-sector client. The role involves enhancing enterprise transportation applications, migrating legacy systems, integrating multiple data sources, and supporting production applications.\n\nResponsibilities\n\n• Design, develop, and maintain enterprise .NET applications\n• Support migration of legacy transportation systems\n• Build and maintain ASP.NET MVC applications\n• Develop and optimize SQL queries and stored procedures\n• Perform ETL and data integration activities\n• Troubleshoot production issues\n• Support SSRS reporting and SSIS packages\n• Integrate data from multiple systems\n• Participate in application enhancements and bug fixes\n• Prepare technical documentation\n\nRequired Skills\n\n• 5+ years of C#, 5+ years ASP.NET MVC, 5+ years .NET Core\n• SQL Server, Oracle Database, PostgreSQL\n• Snowflake, SSRS, SSIS\n• Visual Studio, REST APIs, Postman\n\nNice to Have\n\n• Transportation applications\n• Student Information Systems\n• ArcGIS\n• ETL/Data Migration\n\nEducation\n\nBachelor's degree in Computer Science or related field.\n\nThis is a remote position.",
+    "job_is_remote": true,
+    "job_posted_at": "10 hours ago",
+    "job_posted_at_timestamp": 1782471600,
+    "job_posted_at_datetime_utc": "2026-06-26T11:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D8EmsKP_RBb9XQmNyAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "45–50 an hour",
+    "job_min_salary": 45,
+    "job_max_salary": 50,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "dEhkZlN2HFAlbAwaAAAAAA==",
+    "job_title": "Applied AI Engineer, Remote Job",
+    "employer_name": "Cadence",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cadence.com&size=128",
+    "employer_website": "https://www.cadence.com",
+    "job_publisher": "Dynamite Jobs",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://dynamitejobs.com/company/cadence/remote-job/applied-ai-engineer",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://dynamitejobs.com/company/cadence/remote-job/applied-ai-engineer",
+        "is_direct": false,
+        "publisher": "Dynamite Jobs"
+      }
+    ],
+    "job_description": "🚀 The Role\nWe’re hiring an Applied AI Engineer to design and ship production agents that synthesize real-time clinical data, surface proactive care recommendations, and take action on behalf of clinicians.\nYou’ll take agent architectures from prototype to production in a domain where reliability directly affects patient outcomes. This means owning the full lifecycle of AI-powered clinical workflows: retrieval, reasoning, tool use, evaluation, and safety guardrails. If you’ve built agentic systems at scale and want your work to matter beyond engagement metrics, this role is for you.\n📋 What You’ll Do\n• Design, build, and deploy clinical AI agents that reason over patient context, invoke tools, and generate care recommendations\n\n• Own reliability, observability, and cost efficiency of LLM-powered workflows at scale\n\n• Build and optimize RAG pipelines over clinical knowledge bases, treatment protocols, and real-time patient data\n\n• Develop evaluation frameworks: offline benchmarks, safety tests, regression suites, and LLM-as-judge pipelines wired into CI/CD\n\n• Design multi-step agent orchestration: planning, memory, tool use, error recovery, and human-in-the-loop escalation paths\n\n• Collaborate with clinical, product, and engineering teams to translate patient care needs into AI system design\n\n• Stay at the forefront of AI and engineering best practices, continuously raising the bar on quality, performance, and architecture\n\n✅ What You Need\n• Bachelor’s or Master’s degree in Computer Science, Engineering, or related field (or equivalent work experience)\n\n• 3+ years of software engineering experience, with 2+ years building AI/ML-powered systems in production\n\n• Experience in high-growth, fast-paced environments with end-to-end ownership from design through production\n\n• Hands-on experience with LLM APIs (OpenAI, Anthropic, open-source models), including prompt engineering, tool use/function calling, and structured outputs\n\n• Experience building RAG systems (embeddings, vector stores, retrieval optimization, grounding)\n\n• Familiarity with agent frameworks or orchestration patterns (tool calling, planners, multi-agent coordination) preferred\n\n• Fine-tuning experience (SFT, RLHF, LoRA) on domain-specific tasks preferred\n\n• Healthcare or regulated-industry experience (HIPAA, SOC 2, clinical data handling) preferred\n\n💰 Compensation\n• Base salary: $135,000 – $165,000 (depending on experience, skills, seniority, and business needs)\n\n• Eligible for equity as part of total compensation package\n\n• Actual compensation may vary by location\n\n🎁 Benefits & Perks\n• Competitive pay & equity*\n\n• Fully remote\n\n• Comprehensive health coverage (medical, dental, vision)\n\n• Paid time off\n\n• 401(k) plan + matching\n\n• Paid parental leave\n\n• Home office stipend\n\n\\*Benefit offerings may vary depending on job profile, level, and worker type\n🌟 Equal Opportunity\nCadence is committed to equal opportunity and fairness regardless of race, color, religion, sex, gender identity, sexual orientation, nation of origin, ancestry, age, physical or mental disability, citizenship, medical condition, marital or domestic partner status, family status, military or veteran status, or any other basis protected by law.",
+    "job_is_remote": true,
+    "job_posted_at": "8 hours ago",
+    "job_posted_at_timestamp": 1782478800,
+    "job_posted_at_datetime_utc": "2026-06-26T13:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DdEhkZlN2HFAlbAwaAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "pHg4LjwoSrpjLuOLAAAAAA==",
+    "job_title": "Full Stack Software Developer (Android focus)",
+    "employer_name": "Randstad USA",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_ah5pWH3U2cgW0AHYLvgIs-EvJ3FvqMp0Kk0&s=0",
+    "employer_website": "https://www.randstadusa.com",
+    "job_publisher": "Randstad USA",
+    "job_employment_type": "Full-time and Contractor",
+    "job_employment_types": [
+      "FULLTIME",
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.randstadusa.com/jobs/4/1337682/full-stack-software-developer-android-focus_framingham/",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.randstadusa.com/jobs/4/1337682/full-stack-software-developer-android-focus_framingham/",
+        "is_direct": false,
+        "publisher": "Randstad USA"
+      }
+    ],
+    "job_description": "job summary:\nOur client is seeking a passionate and driven Full Stack Software Developer to join our NAD Industrial Engineering team. In this role, you will collaborate with cross-functional teams to engineer innovative, highly visible tools that feed into our proprietary Staples Vision Application platform. This position offers a fully remote schedule with an opportunity to make long-term contributions, featuring strong potential for contract extensions or conversion.\n\nlocation: Telecommute\njob type: Contract\nsalary: $54.83 - 59.83 per hour\nwork hours: 9am to 5pm\neducation: Bachelors\n\nresponsibilities:\nKEY RESPONSIBILITIES\n• Design, build, and scale robust Android applications alongside integrated web features.\n• Formulate and implement clean database solutions focusing deeply on MySQL architectures.\n• Provide key technical guidance and problem-solving support to surrounding engineering team members.\n• Travel 5-15% countrywide per year to support regional project deployments and cross-team collaboration.\n\nqualifications:\nREQUIRED QUALIFICATIONS\n\nBachelor's degree in Computer Science, Engineering, or a related field with a minimum of 5 years of professional software engineering experience.\n\nProven proficiency in native Android engineering utilizing Kotlin, Java, MVVM, and Android Studio.\n\nStrong background building and calling JSON, GSON, and REST-based APIs alongside version control (Git).\n\nExceptional communication and soft skills with an innate ability to work independently in a fast-paced environment.\n\nPREFERRED QUALIFICATIONS\n\nDomain experience within Supply Chain operations.\n\nHands-on exposure to Django, Vue.js, or web-sockets architecture.\n\nUnderstanding of cloud-native ecosystems including Kubernetes and Azure DevOps.\n\nEqual Opportunity Employer: Race, Color, Religion, Sex, Sexual Orientation, Gender Identity, National Origin, Age, Genetic Information, Disability, Protected Veteran Status, or any other legally protected group status.\n\nAt Randstad Digital, we welcome people of all abilities and want to ensure that our hiring and interview process meets the needs of all applicants. If you require a reasonable accommodation to make your application or interview experience a great one, please contact HRsupport@randstadusa.com.\n\nPay offered to a successful candidate will be based on several factors including the candidate's education, work experience, work location, specific job duties, certifications, etc. In addition, Randstad Digital offers a comprehensive benefits package, including: medical, prescription, dental, vision, AD&D, and life insurance offerings, short-term disability, and a 401K plan (all benefits are based on eligibility).\n\nThis posting is open for thirty (30) days.\n\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.",
+    "job_is_remote": true,
+    "job_posted_at": "21 hours ago",
+    "job_posted_at_timestamp": 1782432000,
+    "job_posted_at_datetime_utc": "2026-06-26T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DpHg4LjwoSrpjLuOLAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "54.83–59.83 an hour",
+    "job_min_salary": 54.83,
+    "job_max_salary": 59.83,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "7Or4o_mJVfM0SMyAAAAAAA==",
+    "job_title": "Remote Ruby on Rails Software Developer-Europe",
+    "employer_name": "Wolf Recruiter",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrY5W5qFkmpH9NvKUca6TjTWOZSR1oPlp_sLUn&s=0",
+    "employer_website": null,
+    "job_publisher": "Jobgether",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://jobgether.com/offer/6a3e54d02da8cde35c74f278-remote-ruby-on-rails-software-developer-europe",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://jobgether.com/offer/6a3e54d02da8cde35c74f278-remote-ruby-on-rails-software-developer-europe",
+        "is_direct": false,
+        "publisher": "Jobgether"
+      }
+    ],
+    "job_description": "This a Full Remote job, the offer is available from: Europe\nThis is a remote position.\n\nWould you like to start working for an established US-based education technology company? If you are a Ruby on Rails Software Engineer and would like to work 100% remote long-term, we've got something special for you!\n\nOur client is the leading education technology solutions provider committed to helping partners create and distribute learning experiences worldwide.\n\nThanks to lots of integrations with publishers and schools, this company is best known for partnering with more than 1,000 publishers and resellers to deliver extraordinary learning experiences to millions of active users globally.\n\nWere looking for a Mid-level Ruby on Rails Software Engineer to join the team 100% remotely.\n\nMust-Have's:\n\n• 3+ years of experience with Ruby on Rails web/API development\n• Solid written and spoken English to engage with colleagues from the US\n• Russian or Ukranian spoken, reading and writting\n• English spoken, reading and writting\n\nNice To Have's:\n\nKnowledge of modern web development technologies: PHP, JavaScript, full-stack development, web services (REST)\n\nActive Sourcing Locations:\n\n• Poland, Czech Republic, Slovakia, Hungary\n• Balkan countries (Romania, Bulgaria, Serbia)\n• Portugal, Spain\n\nBenefits\n\nGreat Company To Work For:\n\n• Cutting edge, open-source tech stacks and large-scale, global applications that have a massive positive impact on students, classrooms, and institutions of higher learning\n• Stable job for American company (The company exists since the early 2000s. Many of the team members work here for 5+ years)\n• Agile / Scrum environment\n• Abilities for self-development (various technologies and tools, corporate subscription to the Udemy learning platform)\n• Good vacation policy\n• A dynamic, continually growing company and culture where your contributions make a real difference and new ideas are always welcome.\n• Significant ownership and responsibility for the systems you develop\n• Fast, agile development within a smart, highly collaborative, and dedicated team\n\nGreat Team:\n\n• Friendly and supportive team that uses RoR\n• Tech lead manages 3-7 engineers\n• Several SW engineers work in the company for over 5+ years!\n\nContract Terms:\n\n• 100% remote job\n• Working time after 12pm Kyiv time to ensure overlap with the US-based team\n• B2B - Freelance contract (Permanent/Full-time/with un-limited duration)/invoice based with Regular monthly payments\n• Desired start date as soon as possible\n\nSalary package: $3,500 - 4,700+ per month negotiable\nThis offer from \"Wolf Recruiter\" has been enriched by Jobgether.com and got a 77% flex score.",
+    "job_is_remote": true,
+    "job_posted_at": "11 hours ago",
+    "job_posted_at_timestamp": 1782468000,
+    "job_posted_at_datetime_utc": "2026-06-26T10:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off"
+    ],
+    "job_benefits_strings": [
+      "Paid time off"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D7Or4o_mJVfM0SMyAAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "eQ3o2DtYgKg4bWLpAAAAAA==",
+    "job_title": "[Remote] SAP CPI Developer",
+    "employer_name": "Bright Vision Technologies",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0wMwycm2YSj8w9TAtkFZrxQBMTEaa0Qrxjuz&s=0",
+    "employer_website": null,
+    "job_publisher": "Jobright",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://jobright.ai/jobs/info/6a3da7eed261407de980180c?visit=sap-concur-integration-developer-jobs-in-united-states",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://jobright.ai/jobs/info/6a3da7eed261407de980180c?visit=sap-concur-integration-developer-jobs-in-united-states",
+        "is_direct": false,
+        "publisher": "Jobright"
+      }
+    ],
+    "job_description": "Note: The job is a remote job and is open to candidates in USA. Bright Vision Technologies is a forward-thinking software development company dedicated to building innovative solutions that help businesses automate and optimize their operations. We are seeking an experienced SAP CPI Developer to design, build, and operate enterprise integration scenarios that connect SAP S/4HANA and other SAP applications with a wide variety of non-SAP, third-party, and cloud-based systems.\n\nResponsibilities\n• Design and develop end-to-end integration scenarios in SAP Integration Suite / CPI, including synchronous and asynchronous flows, complex mappings, and orchestration logic\n• Build, configure, and maintain integration content using iFlows, content modifiers, splitters, routers, exception subprocesses, and adapter-specific configurations\n• Develop custom Groovy and Java scripts within CPI to implement complex transformation, validation, and routing requirements\n• Configure and operate a wide range of adapters (HTTP, SOAP, IDoc, OData, JMS, AS2, SFTP, REST, Salesforce, Ariba) to integrate SAP with cloud, on-premises, and partner systems\n• Implement secure communication channels, including OAuth2, mTLS, certificate-based authentication, and secure parameter management within CPI\n• Design integration patterns aligned with SAP’s reference architecture, including event-driven, API-led, and middleware-mediated patterns\n• Build robust error-handling, retry, and alerting mechanisms with strong observability into message flow and processing\n• Migrate legacy SAP PI/PO interfaces to SAP Integration Suite, including assessment, redesign, and parallel run strategies\n• Configure and manage SAP API Management policies, throttling, security, and developer-portal experiences\n• Support performance tuning of high-volume integration scenarios, including pooling, parallel processing, and tenant capacity management\n• Document interface specifications, integration designs, and operational procedures, and lead knowledge transfer to support and operations teams\n• Collaborate with functional consultants and external integration partners to align technical designs with business processes\n• Provide hypercare and post-go-live support, including root-cause analysis and structured incident response\n\nSkills\n• Bachelor's degree in Computer Science, Engineering, or a related technical discipline\n• Five or more years of SAP integration experience, with at least three years on SAP Integration Suite / CPI\n• Strong hands-on experience with iFlow development, Groovy/Java scripting, and a wide range of CPI adapters\n• Solid understanding of integration patterns and middleware concepts\n• Experience with SAP API Management and event-driven architectures\n• Working knowledge of SAP PI/PO and prior experience migrating PI/PO interfaces to CPI is highly desirable\n• Familiarity with security standards including OAuth2, SAML, and certificate-based authentication\n• Strong troubleshooting and documentation skills\n• Experience working in S/4HANA, ECC, SuccessFactors, Ariba, or Concur integration scenarios\n• Excellent communication and stakeholder management skills\n• SAP-certified Integration Suite or CPI developer credentials\n• Hands-on experience with SAP Event Mesh and SAP Advanced Event Mesh\n• Exposure to SAP BTP development and CAP framework\n• Familiarity with non-SAP integration platforms (MuleSoft, Boomi)\n• Experience with DevOps and CI/CD for SAP Integration Suite content transports\n\nBenefits\n• Competitive base salary commensurate with experience, plus benefits.\n• 100% remote position (Continental United States).\n• Full-time, direct W2 employment with Bright Vision Technologies (no C2C, no 1099, no third-party).\n• Support for H1B transfers for qualified candidates.\n• Long-term, multi-year engagement aligned to the Bright Vision SOW delivery roadmap.\n\nCompany Overview\n• Bright Vision Technologies is an information technology company that offers software development, AI, and cybersecurity services. It was founded in 2020, and is headquartered in Bridgewater, New Jersey, USA, with a workforce of 51-200 employees. Its website is https://bvteck.com.",
+    "job_is_remote": true,
+    "job_posted_at": "19 hours ago",
+    "job_posted_at_timestamp": 1782439200,
+    "job_posted_at_datetime_utc": "2026-06-26T02:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DeQ3o2DtYgKg4bWLpAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "100K–150K a year",
+    "job_min_salary": 100000,
+    "job_max_salary": 150000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "1-Isyq0WPvynCmMQAAAAAA==",
+    "job_title": "Software Engineer- Data Engineering (Staff/ Sr Staff)",
+    "employer_name": "Equilibrium Energy",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOHwV5RHGoy4VuoG_R-LjjXcsA75iW0L2rELJ&s=0",
+    "employer_website": "https://www.equilibriumenergy.com",
+    "job_publisher": "Jobgether",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://jobgether.com/offer/6a3e9b142da8cde35c75f061-software-engineer--data-engineering-staff-sr-staff",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://jobgether.com/offer/6a3e9b142da8cde35c75f061-software-engineer--data-engineering-staff-sr-staff",
+        "is_direct": false,
+        "publisher": "Jobgether"
+      }
+    ],
+    "job_description": "This a Full Remote job, the offer is available from: Europe\nAbout our Company\n\nEquilibrium Energy is a team of technologists, power market experts, and AI pioneers reimagining how the world’s most critical industry operates. We’re building a first-of-its-kind AI operating system for the power sector, uniting cutting-edge science with real-world purpose to enable a cleaner, more resilient energy future. At EQ, you’ll join a tight-knit group of brilliant, curious, and adventurous people who bring the same energy to collaboration as they do to innovation.\n\nEquilibrium Energy is a well-funded, Series B clean energy startup backed by some of the most prominent institutional investors in climate. New colleagues will share our vision that a next-generation energy company must be built from the ground up on deep industry expertise combined with an unwavering commitment to modern digital approaches. We’re looking for collaborative, talented, passionate and resourceful folks to join our team and help us lay the foundation for our important mission and ambitious plan.\n\nWhat we are looking for\n\nEquilibrium Energy is building the platform that will power the clean energy transition. As a Staff/ Sr Staff Software Engineer- Data Engineering, you will play a critical role in shaping our long-term data architecture. You’ll lead the design and implementation of high-impact data initiatives that support energy trading, forecasting, and AI development.\n\nThis is a hands-on role that blends platform engineering, advanced data processing, and cross-functional collaboration. You’ll help scale our systems to enable near real-time decision-making and empower traders, data scientists, and operators to move faster with confidence.\n\nWhat you will do\n\n• Design and implement the long-term data architecture using modern technologies and frameworks.\n\n• Build and maintain scalable ETL/ELT pipelines in Python, SQL, and dbt—ingesting data via APIs, web scraping, and streaming sources.\n\n• Develop and operate data pipelines using orchestration frameworks such as Temporal and Dagster.\n\n• Design data models and schemas for our cloud warehouse (Databricks) and relational databases; contribute to the development of our ML feature store.\n\n• Optimize workflows for performance and cost efficiency.\n\n• Drive large, cross-functional data initiatives from planning to execution.\n\n• Partner with AI and engineering teams to ensure high-quality datasets for machine learning and analytics.\n\n• Collaborate with product managers, scientists, and engineers to gather requirements and deliver robust data products.\n\n• Mentor other engineers in best practices for data ingestion, architecture, and scalable pipeline design.\n\n• Support the software testing cycle, debug code, and resolve issues found during QA or user acceptance testing.\n\nThe minimum qualifications you’ll need\n\n• Bachelor’s degree in Computer Science, Data Science, Engineering, or a related technical field.\n\n• 7+ years of progressive experience in data or software engineering.\n\n• Advanced programming skills in Python and SQL.\n\n• Experience building globally distributed data systems and real-time pipelines.\n\n• Hands-on with orchestration/stream processing tools like Temporal, Dagster, Airflow, Spark, or Kafka.\n\n• Strong knowledge of relational and NoSQL databases (e.g., Postgres, MySQL, MongoDB, ElasticSearch, Cassandra).\n\n• Familiarity with data warehousing and cloud computing (Databricks and AWS preferred).\n\n• Experience mentoring engineers and providing architectural direction.\n\n• Strong analytical skills, with the ability to work with unstructured or ambiguous datasets.\n\n• Commitment to data quality, testing, and observability.\n\n• Experience with both OLTP and OLAP data processing systems\n\nNice to have additional skills\n\n• Experience with energy market data or weather data sources (e.g., NWS, NOAA, Yes Energy).\n\n• Experience using dbt for transformations and data quality checks.\n\n• Collaborating with data science teams to build and productionize ML pipelines.\n\n• Familiarity with DataOps practices and CI/CD for data workflows.\n\n• Knowledge of real-time data technologies, graph databases, or unstructured data processing.\n\n• Understanding of power systems, grid operations, or financial aspects of energy trading.\n\nNot sure this is the right role for you?\n\nWe are a high growth company with accelerating hiring needs so there’s a great chance we’ll be able to create a custom role for you, now or in the future. All roles, titles and compensation packages are tailored to the applicant, so apply anyways and tell us in your cover letter about your dream role.\n\nWhat we offer\n\nEquilibrium is composed of deeply knowledgeable industry experts across all our functions, with decades of experience in energy-specific commercial structuring, power systems engineering, machine learning, computational research, operations research, distributed and compute-intensive infrastructure, and modern software & ML engineering. Our experience in the space means we’ve previously built versions of nearly every technical component of our platform. We are now designing them better, and combining them in a holistic and novel way, to achieve global scale and climate impact. We pride ourselves on our deeply empathetic & collaborative culture, honest and direct but respectful communication, and our balanced, flexible, and remote-first work environment.\n\nEmployee benefits include:\n\n• Competitive base salary and a comprehensive medical, dental, vision, and 401k package\n\n• Opportunity to own a significant piece of the company via a meaningful equity grant\n\n• Unlimited vacation and flexible work schedule\n\n• Accelerated professional growth and development opportunities through direct collaboration and mentorship from leading industry expert colleagues across energy and tech\n\nEquilibrium Energy is a diverse and inclusive, equal opportunity employer that does not discriminate on the basis of race, gender, nationality, sexual orientation, veteran status, disability, age, or other legally protected status.\n\nThis offer from \"Equilibrium Energy\" has been enriched by Jobgether.com and got a 77% flex score.",
+    "job_is_remote": true,
+    "job_posted_at": "6 hours ago",
+    "job_posted_at_timestamp": 1782486000,
+    "job_posted_at_datetime_utc": "2026-06-26T15:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "paid_time_off",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Paid time off",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D1-Isyq0WPvynCmMQAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "yIbPYfKGurz_AGYqAAAAAA==",
+    "job_title": "REMOTE Cybersecurity Engineer ( W2 direct hire, no C2C )",
+    "employer_name": "System One Holdings, LLC",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIYYOeh3l8CH31NRmE6XB2zDx5ru0EUmjz7sfX&s=0",
+    "employer_website": "https://www.systemone.com",
+    "job_publisher": "Ladders",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.theladders.com/job/remote-cybersecurity-engineer-w2-direct-hire-no-c2c-system-one-holdings-llc-virtual-travel_87468946",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.theladders.com/job/remote-cybersecurity-engineer-w2-direct-hire-no-c2c-system-one-holdings-llc-virtual-travel_87468946",
+        "is_direct": false,
+        "publisher": "Ladders"
+      }
+    ],
+    "job_description": "*** This is a direct hire role\n• ** NO C2C candidates, NO 3rd parties\n• ** Must-have domain experience: ideally, experience on projects for HUD (the US Department of Housing and Urban Development) or similar state or municipal agencies involved in public housing programs. Alternatively, experience on projects for civilian US federal agencies (outside the defense, intelligence, and national security sectors) or similar state agencies, or experience in highly regulated industries such as insurance, banking, or healthcare.\n\nFor immediate consideration, please connect with me on LinkedIn at https://www.linkedin.com/in/dpotapenko and then email your resume, current location, availability, and compensation expectations directly to [redacted] - make sure to include the exact job title and job location in your email message.\n\nREMOTE Cybersecurity Engineer :\n\n- This role is responsible for securing enterprise infrastructure, responding to cyber threats, administering Microsoft 365 security, and helping ensure compliance with applicable regulatory requirements.\n- Implement, and maintain enterprise security controls across cloud and on-premises environments.\n- Manage security compliance and assist in security policy creation\n- Monitor and respond to security alerts, incidents, phishing attempts, malware, and suspicious activity.\n- Perform vulnerability assessments, remediation tracking, and security hardening.\n- Manage endpoint protection systems, email security, MFA, Conditional Access, and identity security controls.\n- Configure and maintain SIEM, logging, and monitoring platforms.\n- Conduct threat hunting and proactive security reviews.\n- Microsoft 365 and Cloud Security : Administer Microsoft 365 security tools including Microsoft Defender , Entra ID (Azure AD) , Conditional Access, Intune, Purview, Exchange Online Protection\n- Implement DLP, retention, and email security policies.\n- Secure remote access, mobile devices, and hybrid cloud infrastructure.\n- Secure Firewalls, VPNs, wireless networks, switches, and servers.\n- Review Firewall rules and network segmentation.\n- Support backup, disaster recovery, and business continuity initiatives.\n- Assist with patch management and secure configuration baselines.\n- Provide escalation support for security-related help desk issues.\n- Lead response efforts during security incidents and outages.\n- Conduct user security awareness training and phishing simulations.\n\nRequired Qualifications :\n\n- Must-have domain experience: Ideally, experience on projects for HUD (the US Department of Housing and Urban Development) or similar state or municipal agencies involved in public housing programs. Alternatively, experience on projects for civilian US federal agencies (outside the defense, intelligence, and national security sectors) or similar state agencies, or experience in highly regulated industries such as insurance, banking, or healthcare.\n\n- Experience implementing security controls and solutions from scratch - not just maintaining or monitoring established systems - with a working knowledge of security best practices and the ability to determine what to implement and how to execute it effectively.\n\n- At least 5+ years of hands-on IT security / cybersecurity engineering experience.\n\n- Strong experience with Microsoft 365 security technologies specifically.\n\n- Experience with: Firewalls and VPN technologies, Endpoint Detection & Response (EDR), Email security platforms, Vulnerability management tools, Windows Server and Hybrid Active Directory, Knowledge of cybersecurity frameworks and compliance standards.\n\nPreferred Qualifications :\n\n- Certifications such as: CISSP, Security+ , SC-200, SC-300, AZ-500, CEH\n\nFor immediate consideration, please connect with me on LinkedIn at https://www.linkedin.com/in/dpotapenko and then email your resume, current location, availability, and compensation expectations directly to denis.potapenko@systemone.com - make sure to include the exact job title and job location in your email message.\n\n.\n\n#LI-DP1\n\n#M1\n\nRef: #404-IT Pittsburgh",
+    "job_is_remote": true,
+    "job_posted_at": "6 hours ago",
+    "job_posted_at_timestamp": 1782486000,
+    "job_posted_at_datetime_utc": "2026-06-26T15:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DyIbPYfKGurz_AGYqAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "100K–130K a year",
+    "job_min_salary": 100000,
+    "job_max_salary": 130000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "e5ERIISqBw-_87YCAAAAAA==",
+    "job_title": "Software Engineer — Remote Contract",
+    "employer_name": "Merci Technologies - Talent",
+    "employer_logo": null,
+    "employer_website": null,
+    "job_publisher": "Indeed",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.indeed.com/viewjob?jk=8abf8fdc57dd4b25",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.indeed.com/viewjob?jk=8abf8fdc57dd4b25",
+        "is_direct": false,
+        "publisher": "Indeed"
+      }
+    ],
+    "job_description": "About the Role\n\nMerci Technologies is seeking a skilled Software Engineer with a focus on AI Training to support a remote contract engagement with one of our enterprise clients. In this role, you will contribute to the development and refinement of machine learning models by building robust data pipelines, designing annotation workflows, and collaborating with AI research teams to improve model performance at scale.\n\nResponsibilities\n\n• Design, build, and maintain data pipelines that support AI model training and evaluation workflows\n\n• Develop tooling and automation to streamline data collection, labeling, and preprocessing processes\n\n• Collaborate with ML researchers and data scientists to understand model requirements and translate them into engineering solutions\n\n• Implement quality control mechanisms to ensure training data accuracy, consistency, and integrity\n\n• Build and maintain internal platforms and APIs that support annotation and human feedback workflows (RLHF)\n\n• Monitor and optimize pipeline performance, scalability, and reliability in production environments\n\n• Contribute to documentation, code reviews, and engineering best practices across the team\n\nRequired Qualifications\n\n• 3–5 years of software engineering experience with exposure to AI, ML, or data engineering environments\n\n• Proficiency in Python and at least one additional language (Go, Java, or TypeScript)\n\n• Experience building and maintaining data pipelines using tools such as Apache Airflow, Spark, or equivalent\n\n• Familiarity with machine learning concepts, model training workflows, and evaluation methodologies\n\n• Experience working with large datasets, data annotation platforms, or labeling tools\n\n• Strong understanding of REST APIs, microservices, and cloud infrastructure (AWS, GCP, or Azure)\n\n• Excellent problem-solving skills and ability to work independently in a remote environment\n\n• Must be legally authorized to work in the United States without employer sponsorship\n\nPreferred Qualifications\n\n• Experience with Reinforcement Learning from Human Feedback (RLHF) or similar human-in-the-loop training methodologies\n\n• Familiarity with LLM training infrastructure and model evaluation frameworks\n\n• Experience with vector databases, embeddings, or retrieval-augmented generation (RAG) pipelines\n\n• Prior experience at an AI-focused company or research lab\n\n• Strong written communication skills for async remote collaboration",
+    "job_is_remote": true,
+    "job_posted_at": "15 hours ago",
+    "job_posted_at_timestamp": 1782453600,
+    "job_posted_at_datetime_utc": "2026-06-26T06:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3De5ERIISqBw-_87YCAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "sa04251LDpm4krhxAAAAAA==",
+    "job_title": "Freelance Presentation Designer",
+    "employer_name": "Mindrift",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxeZvZwq2dtQ5Wdz3sczVJUFSMCTkTWNxS6Y9&s=0",
+    "employer_website": "https://mindrift.ai",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Part-time",
+    "job_employment_types": [
+      "PARTTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/freelance-presentation-designer-at-mindrift-4433858259",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/freelance-presentation-designer-at-mindrift-4433858259",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Please submit your resume in English and indicate your level of English.\n\nMindrift is looking for a highly skilled Presentation Designer to join the Tendem project (**https://tendem.ai/**) and drive specialized storytelling workflows within our hybrid AI + human system.\n\nIn this role, you'll collaborate with Tendem Agents that handle repetitive tasks, while you provide the critical thinking, domain expertise, and formatting skills necessary to deliver beautifully designed, high-stakes presentations.\n\nThis part-time remote opportunity is ideal for creative professionals with hands-on experience in visual communications, information design, and storytelling.\n\nWhat We Do\n\nThe Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe.\n\nAbout The Role\n\nThis is a freelance role for a Tendem project. As a Presentation Designer, you will focus on storytelling and visual hierarchy. We need a specialist who knows how to communicate complex information beautifully, turning raw data and narratives into compelling, highly persuasive slides and one-pagers. You will utilize various tools such as PowerPoint, Keynote, alongside Adobe Creative Suite or Figma.\n\nKey Responsibilities\n\n• Design high-stakes pitch decks and professional one-pagers tailored for specific audiences.\n• Translate complex data into clear visual storytelling with a strong focus on minimalism and precise information hierarchy.\n• Elevate presentations using custom fonts, elegant animations, and perfect visual consistency.\n• Enforce a polished, persuasive, and premium corporate-meets-creative style across all deliverables.\n• Execute formatting quality standards through meticulous validation of visual alignment, pacing, and brand adherence before final delivery.\n\nHow To Get Started\n\nApply, pass qualification(s), and start contributing to projects aligned with your expertise — on your own schedule.\n\nRequirements\n\n• At least 2 years of relevant experience in graphic design, presentation design, visual storytelling, or data visualization is desirable\n• Bachelor's or Master's Degree in Graphic Design, Fine Arts, Visual Communications, or related creative fields is a plus\n• Presentation software: Expertise in PowerPoint, Keynote, etc., for building complex, dynamic, and perfectly animated decks.\n• Design tools: Deep proficiency with Adobe Creative Suite (Illustrator, Photoshop) or Figma to create custom graphics and layouts.\n• Data & information design: Ability to translate complex data and multi-level hierarchical structures into clear, minimalist visual storytelling.\n• Typography & animation: Advanced skills in working with custom fonts and smooth, elegant animations for premium deliverables\n• English proficiency: Upper-intermediate (B2) or above (required)\n\nAdditional Requirements\n\n• Hands-on experience creating high-end, premium corporate-meets-creative style layouts.\n• Strong attention to detail and absolute commitment to visual perfectness.\n• Self-directed work ethic with the ability to troubleshoot design challenges independently.\n• Your CV must include a link to your portfolio featuring high-end presentations, pitch decks, and data visualization. Applications without a portfolio link, or without relevant presentation cases, will not be considered\n\nProject time expectations\n\nFor this project, tasks are estimated to require around 10-20 hours per week during active phases, based on project requirements. This is an estimate, not a guaranteed workload, and applies only while the project is active.\n\nCompensation\n\nOn this project, contributors can earn up to $50 per hour equivalent, depending on their level and pace of contribution.\n\nCompensation varies across projects depending on scope, complexity, and required expertise. Please note that other projects on the platform may offer different earning levels based on their requirements.",
+    "job_is_remote": true,
+    "job_posted_at": "8 hours ago",
+    "job_posted_at_timestamp": 1782478800,
+    "job_posted_at_datetime_utc": "2026-06-26T13:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dsa04251LDpm4krhxAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "sAH5zc5ph-d06R3VAAAAAA==",
+    "job_title": "Kid’s Products Design Lead (Remote)",
+    "employer_name": "confidential",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ixdf.org&size=128",
+    "employer_website": null,
+    "job_publisher": "IxDF",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://ixdf.org/jobs/kid-s-products-design-lead-remote-remote",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://ixdf.org/jobs/kid-s-products-design-lead-remote-remote",
+        "is_direct": false,
+        "publisher": "IxDF"
+      }
+    ],
+    "job_description": "Job Description\n\n[REDACTED] is a global leader in online English education for children aged 4–12, serving 100000+ students across 50+ countries.\n\nWe're now looking for a Kid's Products Design Lead to define and drive the creative quality of our children's learning experience across multiple products.\n\nThis is a high-impact leadership role for someone who can combine creative vision, team leadership, operational excellence, and innovation. You will lead a multidisciplinary team of animators, sound designers, artists and designers responsible for creating engaging lesson content art, self-learning products and creative assets for our kids area features.\n\nYou'll play a central role in shaping a cohesive, distinctive, and scalable visual identity across our product ecosystem, ensuring our interfaces and ked-facing designs align with our brand and create a consistent, high-quality experience for children.\n\nWe're also looking for someone with strong practical knowledge of AI-powered creative tools who can champion their adoption across the team, helping us work smarter, move faster, and deliver outstanding assets with speed and consistency.\n\nWhat you'll do\n\n• Lead, inspire, and develop a high-performing team of animators, sound designers, UX/UI designers and artists\n\n• Set the creative direction for lesson content art and kids area features based on user needs and best practices\n\n• Drive the unification of design across multiple products to strengthen brand consistency\n\n• Build clear standards, workflows, and quality benchmarks for asset production\n\n• Champion the use of AI tools for asset creation to improve efficiency, scalability, and turnaround times\n\n• Explore and embed new creative technologies that enhance team output without compromising quality\n\n• Partner closely with Product and Content teams to bring ideas to life\n\n• Provide clear feedback and creative leadership to ensure a consistently high bar for output\n\n• Balance creativity, quality, speed, and business priorities in a fast-moving environment\n\n• Help shape the future of the kid-facing design function through strong planning, structure, and team development\n\nRoles & Responsibilities\n\n• Creative vision\n\n• Team leadership\n\n• Operational excellence\n\n• Practical knowledge of AI-powered creative tools\n\nRequirements\n\n• Lead, inspire, and develop a high-performing team of animators, sound designers, UX/UI designers and artists\n\n• Set the creative direction for lesson content art and kids area features based on user needs and best practices\n\n• Drive the unification of design across multiple products to strengthen brand consistency\n\n• Champion the use of AI tools for asset creation to improve efficiency, scalability, and turnaround times",
+    "job_is_remote": true,
+    "job_posted_at": "13 hours ago",
+    "job_posted_at_timestamp": 1782460800,
+    "job_posted_at_datetime_utc": "2026-06-26T08:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DsAH5zc5ph-d06R3VAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "rBfYzp-Cso8IeuNSAAAAAA==",
+    "job_title": "User Experience & Interface Designer",
+    "employer_name": "Standard Forge",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ987b2UQjcAv9kwRwiqhIVANCtIrI397V3tZiO&s=0",
+    "employer_website": "https://www.standardforge.com",
+    "job_publisher": "Glassdoor",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.glassdoor.com/job-listing/user-experience-interface-designer-standard-forge-JV_IC1126818_KO0,34_KE35,49.htm?jl=1005633956434",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.glassdoor.com/job-listing/user-experience-interface-designer-standard-forge-JV_IC1126818_KO0,34_KE35,49.htm?jl=1005633956434",
+        "is_direct": false,
+        "publisher": "Glassdoor"
+      }
+    ],
+    "job_description": "User Experience & Interface Designer\n\nAt Standard Forge, we believe great digital experiences earn trust, reduce friction, and create measurable value.\n\nWe partner with organizations to design websites and digital platforms that balance usability, accessibility, business objectives, and visual quality. We’re looking to build relationships with thoughtful designers who care as much about outcomes as aesthetics.\n\nAbout This Collaboration\n\nWe're building a network of UX / UI specialists who may contribute to future client engagements on a project-by-project basis.\n\nThis is not an employee position or guaranteed work opportunity. We're interested in connecting with experienced professionals who enjoy solving complex problems, communicating clearly, and helping shape experiences that people actually want to use.\n• Project-based collaboration\n• Flexible engagement structures\n• Independent and team-based delivery opportunities\n• Remote-friendly participation\n• Opportunity to contribute across industries and project types\n\nAreas of Contribution:\n• Design intuitive user experiences across websites and digital platforms\n• Translate business goals and user needs into clear interaction patterns\n• Create wireframes, mockups, prototypes, and visual concepts\n• Help shape information architecture and user journeys\n• Contribute to accessibility, usability, and conversion improvements\n• Collaborate with platform specialists and stakeholders to bring concepts to life\n• Present and communicate design decisions with confidence and clarity\n• Support iterative improvement through feedback and testing\n\nHelpful Experience:\n• Professional UX, UI, product, or digital design experience\n• Portfolio demonstrating process and outcomes; not just visuals\n• Experience creating responsive experiences across desktop and mobile\n• Understanding of accessibility and inclusive design principles\n• Experience with prototyping and design systems\n• Ability to simplify complex ideas into intuitive experiences\n• Comfort collaborating with developers and business stakeholders\n• Strong written and verbal communication\n\nIdeal Fit:\n• Strong portfolio with case studies or examples\n• Thoughtful approach to problem solving\n• Ability to work independently and manage priorities\n• Comfort receiving and incorporating feedback\n• Interest in long-term collaboration opportunities\n\nWe care more about how you think, communicate, and solve problems than years of experience or specific credentials.\n\nIf this sounds like a fit, complete the form on this page and tell us how you prefer to collaborate.",
+    "job_is_remote": true,
+    "job_posted_at": "21 hours ago",
+    "job_posted_at_timestamp": 1782432000,
+    "job_posted_at_datetime_utc": "2026-06-26T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DrBfYzp-Cso8IeuNSAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "oqECyfmnPHZfCYm9AAAAAA==",
+    "job_title": "Analog and/or Mixed Signal Integrated Circuit Designer",
+    "employer_name": "ExpHire",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9SBJNPWoVfkbm22sjPYEFPz0ErFC-bJjFxl4s&s=0",
+    "employer_website": "https://exphire.com",
+    "job_publisher": "Jobgether",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://jobgether.com/offer/6a3e62f32da8cde35c75454a-analog-and-or-mixed-signal-integrated-circuit-designer",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://jobgether.com/offer/6a3e62f32da8cde35c75454a-analog-and-or-mixed-signal-integrated-circuit-designer",
+        "is_direct": false,
+        "publisher": "Jobgether"
+      }
+    ],
+    "job_description": "This a Full Remote job, the offer is available from: Oregon (USA)\nExpHire is looking for one of our clients, an outstanding Analog and/or Mixed Signal Integrated Circuit Designer (PhD and/or 3 years of relevant work experience is required).\n\nDo you want to work in a dynamic and challenging environment for one of the hottest Italian recently VC founded startups? If you are an integrated circuit designer expert, together with this startup and team, you can achieve out of the ordinary results.\n\nOur client is a leading startup active in the Visible/SWIR image sensors industry. After receiving their Seed VC funding they are rapidly growing to become one of the leaders and innovators in Europe. They are growing their full remote team, and building an extraordinary culture. The founders have an academic background and they are very easy going and excited to build their core team. These are some of the company benefits: flexible working hours, remote work, quarterly working trips to beautiful Rome where you will be able to mingle with your colleagues and work in the prototyping and testing of your work in their Lab (2-3 weeks, with all trip expenses paid).\n\nThis startup pays above average salaries and can extend stock options to the most talented team members (when Series A is raised), in exchange it requires professionalism, proactivity, teamwork and attention to details.\n\nResponsibilities\n\nThe Analog and/or Mixed Signal Integrated Circuit Designer position reports directly to the CTO and is expected to perform the following activities:\n\n- Design of analog/mixed signal integrated circuit for image sensor pixel, integrating their proprietary technology\n\n- Design PCBs\n\n- Test electronic chips and boards\n\n- Participate in the prototyping phase (2-3 weeks each quarter on-site in the Rome lab, all expenses are paid)\n\n- Document the work produced in a clear and diligent manner\n\n- Work and communicate effectively with the CTO and the other founders\n\n- Find innovative solutions to problems and share them with the rest of the team\n\nQualifications\n\nThe ideal candidate has the following experience and characteristics:\n\n• 2+ years work experience with Integrated circuit design and/or\n• Experience with integrated design of analog and mixed-signal IC with Mentor/Cadence/Synopsis\n• Proficiency with the design of readout electronics and image sensor interfaces (ROIC)\n• Ability to test electronic chips and boards\n• Basic experience with (Python/MatLab) or Firmware development\n• Knowledge at B2 level and/or above of the English language (the common language used in the company is English)\n• Skills of precision and attention to detail\n• Proactive attitude and ability to collaborate efficiently in a remote work environment (no divas only real team players)\n\nWhat We Offer\n\nThe chosen candidate will get:\n\n- A base salary above market levels up to 60 thousand Euros\n\n- The possibility to get stock options of a rapidly growing startup (when Series A is raised)\n\n- Full remote smart working and flexible working hours\n\n- The ability to set System-wide vision for the development of mixed-signal ASICs and see the results of your work, have a real impact!\n\nThere is also the possibility to become a team manager and build your team in the next 2/3 years, if you are interested in this career path.\n\nSelection Process\n\n• CV screening (receive feedback by 10/04/2023)\n• Technical interview with ExpHire Expert (an IC designer like you!)\n• In depth review and discussion of one of your past projects\n• Interview with CTO/Founders\n• Online behavioral test\n• A trip to the Lab in Rome to meet the founders (all paid)\n• Job offer!\n\nApply now.\nThis offer from \"ExpHire\" has been enriched by Jobgether.com and got a 72% flex score.",
+    "job_is_remote": true,
+    "job_posted_at": "10 hours ago",
+    "job_posted_at_timestamp": 1782471600,
+    "job_posted_at_datetime_utc": "2026-06-26T11:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DoqECyfmnPHZfCYm9AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "gUHJzv2rsgHh1w7jAAAAAA==",
+    "job_title": "Graphic Designer, Paid Media (Contractor)",
+    "employer_name": "confidential",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ixdf.org&size=128",
+    "employer_website": null,
+    "job_publisher": "IxDF",
+    "job_employment_type": "Part-time and Contractor",
+    "job_employment_types": [
+      "PARTTIME",
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://ixdf.org/jobs/graphic-designer-paid-media-contractor-remote",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://ixdf.org/jobs/graphic-designer-paid-media-contractor-remote",
+        "is_direct": false,
+        "publisher": "IxDF"
+      }
+    ],
+    "job_description": "Job Description\n\nAbout [REDACTED]\n\nWe're building the world's first creative entertainment platform, where the entire world can feel the joy and fulfilment of making music. Music is for everyone: Our users include everyone from grandmothers creating songs for their loved ones, to Grammy winners using [REDACTED] Studio, our power tool, to make the most popular hits in the world.\n\nBuilding the future of entertainment requires ambition. The pace is fast, the problems are hard, and the work demands ownership and intensity. For the right people, it's incredibly rewarding: a chance to shape a new medium, work with a small team that cares deeply about quality, make music, drink too much coffee, and build something that millions of people use to express themselves in ways that were never before possible.\n\n[REDACTED] is the fastest growing consumer entertainment company and the leader in AI music. We are backed by leading investors including Bond Capital, Menlo Ventures, Lightspeed Venture Partners, IVP, Forerunner, Union Square Ventures, Alkeon, Quiet, Matrix Partners, Schroders Capital and, NVentures (venture arm of NVIDIA).\n\nFounded in 2023 by Harvard alumni with a shared passion for music, [REDACTED] has quickly grown to 200 employees while empowering more than 100 million people to create original songs. In 2026, we raised a $400 million Series D at a $5.4 billion valuation to continue building innovative products that amplify creativity and imagination.\n\nAbout the Role\n\n[REDACTED] is growing fast, and paid social creative is a major driver of that growth. The right person for this role takes [REDACTED]'s brand identity and pushes it into performance creative that earns attention and converts – work that drives growth and brings the excitement of using [REDACTED] to everyone who sees it.\n\nThis is a hybrid graphic and motion design role on the performance marketing team. You'll own the branded paid social creative pipeline: conceiving, producing, and iterating on work across static and motion formats. You'll work closely with the performance marketing team, treating data and channel insights as creative inputs rather than afterthoughts. Over time, you'll help build the workflows and systems that let us scale without losing what makes [REDACTED]'s creative distinctive. As the team grows, there's a path to managing other creative contributors.\n\nCheck out the song we made about it: [REDACTED]\n\nWhat You'll Do\n\n• Translate [REDACTED]'s brand identity and creative DNA into paid social creative that drives growth across paid channels (Facebook, Instagram, TikTok, YouTube, etc.)\n\n• Own the full branded creative pipeline – concepting, producing, and iterating on static and motion assets\n\n• Build and maintain a creative roadmap: what to make, what to test, what to push further, and what to move on from\n\n• Partner with the performance marketing team to use data and channel feedback as creative inputs, not just outputs\n\n• Use AI tools to extend creative output beyond what's manually possible – and help build the processes and guardrails that keep AI-assisted work on-brand and up to [REDACTED]'s standards\n\n• Develop workflows and production processes that scale creative output without diluting brand quality\n\n• Help shape how the next generation of creators discovers [REDACTED] – the creative you make is often their first impression\n\nWhat You'll Need\n\nMust-Haves\n\n• 4-6 years in performance creative, paid social design, or growth-focused creative at a consumer tech, DTC, or growth-stage company\n\n• Hybrid graphic and motion design skills: strong static design fundamentals and real motion/animation capability – this is not a pure graphic design role\n\n• Portfolio of paid social work (static and motion) that demonstrates both craft and a performance orientation\n\n• Expert-level proficiency in Figma, Adobe Photoshop, Adobe Illustrator, and After Effects\n\n• Fluency in what makes paid social creative work: hooks, formats, platform conventions, and what drives meaningful iteration\n\n• Ability to internalize a brand's visual identity and push it into new formats without losing what makes it distinctive\n\nNice-to-Haves\n\n• Hands-on experience with AI-assisted creative tools (generative image, video, or copy) as part of a real production workflow\n\n• Background in music, entertainment, or creator-focused consumer products\n\n• Experience managing or mentoring junior creative contributors\n\nCompensation\n\n$75 - $90 per hour\n\nAdditional Notes\n\n20-40 hours per week\n\n[REDACTED] is proud to be an Equal Opportunity Employer. We consider qualified applicants without regard to race, color, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, marital or family status, disability, genetic information, veteran status, or any other legally protected basis under provincial, federal, state, and local laws, regulations, or ordinances. We will also consider qualified applicants with criminal histories in a manner consistent with the requirements of state and local laws, including the Massachusetts Fair Chance in Employment Act, NYC Fair Chance Act, LA City Fair Chance Ordinance, and San Francisco Fair Chance Ordinance.\n\nRoles & Responsibilities\n\n• 4-6 years in performance creative, paid social design, or growth-focused creative at a consumer tech, DTC, or growth-stage company\n\n• Hybrid graphic and motion design skills: strong static design fundamentals and real motion/animation capability\n\n• Expert-level proficiency in Figma, Adobe Photoshop, Adobe Illustrator, and After Effects\n\n• Portfolio of paid social work (static and motion) that demonstrates both craft and a performance orientation\n\nRequirements\n\n• Translate [REDACTED]'s brand identity and creative DNA into paid social creative that drives growth across paid channels\n\n• Own the full branded creative pipeline – concepting, producing, and iterating on static and motion assets\n\n• Partner with the performance marketing team to use data and channel feedback as creative inputs\n\n• Develop workflows and production processes that scale creative output without diluting brand quality",
+    "job_is_remote": true,
+    "job_posted_at": "12 hours ago",
+    "job_posted_at_timestamp": 1782464400,
+    "job_posted_at_datetime_utc": "2026-06-26T09:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DgUHJzv2rsgHh1w7jAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "75–90 an hour",
+    "job_min_salary": 75,
+    "job_max_salary": 90,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "BGkmStobgJfEHdEYAAAAAA==",
     "job_title": "Fullstack Developer - Remote",
     "employer_name": "Experis",
