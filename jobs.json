@@ -1,5 +1,281 @@
 [
   {
+    "job_id": "y4gooSkz5b8MQ-V9AAAAAA==",
+    "job_title": "Full Stack Typescript Developer",
+    "employer_name": "Ten Mile Square Technologies, LLC.",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1ZgCqghtVoqtwq4seykdh3F_2oW7mOWIte7j&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/full-stack-typescript-developer-at-ten-mile-square-technologies-llc-4431097801",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/full-stack-typescript-developer-at-ten-mile-square-technologies-llc-4431097801",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Ten Mile Square Technologies is a high-end technology consulting firm based in the Northern Virginia area. Our customers routinely call upon us to solve some of the largest scale and hardest problems in computer science and software development. If you have a solid grounding in software engineering, continuous delivery, and computer science, and are looking for a career opportunity to grow and leverage those skills to the fullest while working on cutting edge technologies – Ten Mile Square is the place to be!\n\nOverview\n\nJob Description\n\nTen Mile Square is looking for a talented full-stack TypeScript software engineer who is passionate about technology to join our growing team of product, technology, and software professionals. The initial assignment for the new position is to develop a new loan origination system for a financial services enterprise. The successful candidate will work with highly experienced team leads and have an opportunity to learn new technologies, while refining fundamental skills.\n\nSalary (Base + Standard Bonus at plan): $149,500 ($130K + $19.5K).\n\nJob Responsibilities\n\n• Design and build a loan origination system using Node, Apollo GraphQL, React, Camunda, and a suite of AWS components including but not limited to EKS, Lambda, S3, MSK, and Aurora.\n• Perform hands-on development of both back-end and front-end components and functionality.\n• Work with tech leads and the product team to help determine functional requirements for the system.\n• Provide and ensure technical documentation is clear, accurate, and accessible to the technology team.\n• Contribute as member of an Agile team and promote Agile practices\n• Proactively collaborate with the Ten Mile team on development and knowledge sharing\n• Represent yourself and Ten Mile Square with integrity, expertise, and value\n• Maintain the confidentiality of our clients on an ongoing basis\n\nQualifications\n\n• Minimum 4 years of software development experience\n• High proficiency with TypeScript and Node\n• Proficient and knowledgeable with GraphQL (Apollo/Federated GraphQL preferred)\n• Proficient developing and deploying on AWS\n• Working knowledge of SQL\n• Working knowledge of React\n• Working knowledge of Jenkins and Github Actions\n• Full application stack development experience: front-end (React) to persistence\n• Full software lifecycle participation: requirements to post-implementation\n• Linux command line\n\nMore importantly:\n\n• Be curious and passionate about what you do\n• Demonstrated ability to learn new technologies and concepts quickly\n• Detail-oriented\n• High integrity and quality of work ethic\n• Self-motivated to proactively identify and solve problems\n• Excellent communication skills – within team and with clients\n\nAdditional Information\n\nEXCEPTIONAL PEOPLE DESERVE EXCEPTIONAL BENEFITS\n\nTen Mile Square Technologies benefits package currently includes:\n\n• 100% company paid medical, dental, and vision insurance (including family)\n• 100% company paid individual short- and long- term disability\n• 100% company paid vision insurance\n• 3% company contribution to 401(k)\n• 15 days paid time off per year + 1 day/year up to 20 days\n• 10 training days per year\n• 8 company holidays + 2 personal days\n• Individual performance-based quarterly cash incentive\n• Combined individual and company based annual cash incentive\n• Public transit reimbursement\n\nAdditional Details:\n\n• Job Type: Full-time, not C2C\n• Job Location: Remote, US based only\n• Working hours: U.S. Eastern Time\n• Occasional short-duration travel may be required for project/team in-person sessions\n• Visa Sponsorship: None available",
+    "job_is_remote": true,
+    "job_posted_at": "5 hours ago",
+    "job_posted_at_timestamp": 1782738000,
+    "job_posted_at_datetime_utc": "2026-06-29T13:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "dental_coverage",
+      "paid_time_off"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Dental insurance",
+      "Paid time off"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dy4gooSkz5b8MQ-V9AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "ffbiElksfKHJndFpAAAAAA==",
+    "job_title": "Urgently Hiring: Software Engineer | Tackle.io | $104k Â– $143k",
+    "employer_name": "2.halvolink",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://2.halvolink.liveblog365.com&size=128",
+    "employer_website": "https://2.halvolink.liveblog365.com",
+    "job_publisher": "2.Halvolink",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://2.halvolink.liveblog365.com/job/810065",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://2.halvolink.liveblog365.com/job/810065",
+        "is_direct": false,
+        "publisher": "2.Halvolink"
+      }
+    ],
+    "job_description": "reputed company in a culture of innovation and teamwork. We're hiring a Software Engineer | Tackle.io | $104k Â– $143k | Remote (US)! We offer a flexible, hybrid Remote arrangement for this position. This position requires a strong and diverse skillset in relevant areas to drive success. A salary of a competitive salary is offered, reflecting your skills and experience. Â Â Title Software Engineer (Mid-Level) Location USA Type Remote Workplace remote Category Software Engineering Job Description As a Software Engineer at Tackle, you will be a part of a well-funded, fully remote, growth-stage company helping shape the way that software is bought and sold in the Cloud Marketplaces (AWS, GCP, Azure). We are built on the foundation that a 100% remote team can be the healthiest, happiest and most productive; from the beginning we have been intentionally building a phenomenal culture that ensures everyone feels connected no matter where they are working from. Our platform has enabled some of the software industryÂ’s most successful names to get listed, start selling, and scale their Cloud Marketplace operations. TackleÂ’s Engineering team is growing, and we are looking for talented engineers to craft solid and reliable software at a sustainable pace. Tacklers have a bias to action, and we act without ego; in reputed company interactions we know it is critical to respect, value and support each other. We succeed and fail as a team, with a reputed company of pursuing success instead of avoiding failure. Wellness is a critical pillar of the company and we live this value in a variety of ways, with empathetic servant leadership at every level and flexible working hours to ensure a healthy work-life harmony. Developer experience at Tackle is rewarding; we work with modern toolchains and pipelines, where code is deployed to production multiple times per day. In this role you will build multi-tiered applications that are resilient and performant, allowing our customers to easily [sell/scale/partner] to reputed company success in the Marketplaces. Working on a development team at Tackle, expect to grow and evolve as an engineer by building and executing on a detailed growth plan tailored to your interests and aspirations. In This Role You Will Â• Be a part of an autonomous team of 5-7 engineers, a dedicated Product Manager and UX support to build, enhance and maintain existing areas of the Tackle platform. Â• Solve technical problems of moderate scope and complexity. Â• Write code that is focused on scalability, testability, supportability and maintainability. Â• Own your code start to finish, take pride in what you build. Â• Actively and enthusiastically participate in thorough code reviews and troubleshooting reputed company issues. Â• Mentor less reputed company software engineers and learn from those who are more reputed company to set reputed company for the reputed company of Tacklers. Â• Be curious Â– strive to understand how your contributions tie into the larger picture of your team, your product and Tackle as a whole. Â• Welcome different perspectives Â– be open and inclusive in every interaction. You Should Have Â• 2+ years of professional experience building modern, scalable and high-performing backend services in Go. Â• Experience with NoSQL databases (DynamoDB, reputed company or reputed company) for data storage and data modeling. Â• Experience with relational databases such as reputed company. Â• Professional working experience deploying applications and managed services reputed company AWS. Â• Experience with infrastructure as code with tools such as AWS CDK, Terraform, or similar frameworks. Â• Professional experience building RESTful APIs Â• Strong fundamentals in type-driven development practices. Â• Desire to hold yourself and the team to high standards while evaluating technical trade-offs and delivering balanced solutions. Â• Are self-motivated with strong organizational skills. Â• Have a positive and solution-oriented reputed company. Â• Curious reputed company that wants to understand the whole system and how their component fits into the bigger picture. Â• Will reputed company in a fully remote organization where flexible schedules require asynchronous communication. Â• Communicate clearly and effectively in both verbal and written form. You Will Stand Out Â• Used reputed company or serverless technologies. Â• Deployed and released code with a commercial or open reputed company CI/CD pipeline tool. Â• Have experience working with automated testing frameworks. Â• Have a robust public portfolio in reputed company. Â• Previously worked in a remote-first company. Â• Have experience working in a rapidly scaling organization. $104,000 Â– $143,000 a year The salary information shown is a general guideline only. Any offer extended to a candidate will be based upon multiple factors including local currency, knowledge, skillset, experience and internal equity. Apply Job! Â Simple Application Process Ready to join us? The first reputed company is easy. Click apply now and we'll be in touch soon! Apply To This Job",
+    "job_is_remote": true,
+    "job_posted_at": "18 hours ago",
+    "job_posted_at_timestamp": 1782691200,
+    "job_posted_at_datetime_utc": "2026-06-29T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DffbiElksfKHJndFpAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "n2Ns629GHYH-IMZkAAAAAA==",
+    "job_title": "Junior Cloud Engineer (Entry-Level / Associate)",
+    "employer_name": "JR Distribuição",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ5XP_iZPsYojiARKflFfURjkkefFJSRkHsf59&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/junior-cloud-engineer-entry-level-associate-at-jr-distribui%C3%A7%C3%A3o-4431038762",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/junior-cloud-engineer-entry-level-associate-at-jr-distribui%C3%A7%C3%A3o-4431038762",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Junior Cloud Engineer (Entry-Level / Associate)\n\nLocation: United States\n\nEmployment Type: Full-Time\n\nJob Summary\n\nWe are seeking a motivated and technically skilled Junior Cloud Engineer to support the design, deployment, maintenance, and optimization of cloud-based infrastructure and services. This entry-level role is ideal for candidates looking to build a career in cloud computing while working alongside experienced engineers to support scalable, secure, and reliable cloud environments.\nKey Responsibilities\n• Assist in deploying, configuring, and maintaining cloud infrastructure and services.\n• Monitor cloud environments to ensure availability, performance, and security.\n• Support cloud migration, implementation, and optimization projects.\n• Troubleshoot infrastructure, networking, and application-related issues.\n• Assist with cloud resource provisioning and configuration management.\n• Implement security best practices and support compliance requirements.\n• Collaborate with development, operations, and IT teams to support cloud initiatives.\n• Maintain technical documentation, procedures, and system configurations.\n• Support backup, disaster recovery, and business continuity processes.\n• Stay current with emerging cloud technologies and industry best practices.\nRequired Qualifications\n• Bachelor's degree in Computer Science, Information Technology, Software Engineering, or a related field.\n• 0–2 years of experience in cloud computing, IT infrastructure, system administration, or a related technical role.\n• Basic understanding of cloud platforms such as AWS, Microsoft Azure, or Google Cloud Platform (GCP).\n• Knowledge of operating systems including Windows and Linux.\n• Familiarity with networking concepts such as TCP/IP, DNS, VPN, and firewalls.\n• Understanding of virtualization and cloud computing fundamentals.\n• Strong analytical and problem-solving skills.\n• Excellent communication and teamwork abilities.\nPreferred Qualifications\n• Hands-on experience with AWS, Azure, or GCP through internships, projects, or certifications.\n• Familiarity with Infrastructure as Code (IaC) tools such as Terraform or CloudFormation.\n• Basic knowledge of scripting languages such as Python, PowerShell, or Bash.\n• Understanding of containers and orchestration technologies such as Docker and Kubernetes.\n• AWS Certified Cloud Practitioner, Azure Fundamentals, Google Associate Cloud Engineer, or similar certifications are a plus.",
+    "job_is_remote": true,
+    "job_posted_at": "20 hours ago",
+    "job_posted_at_timestamp": 1782684000,
+    "job_posted_at_datetime_utc": "2026-06-28T22:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dn2Ns629GHYH-IMZkAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "quCMf5jbuUDFgHRKAAAAAA==",
+    "job_title": "Senior Controls Engineer",
+    "employer_name": "ProActive",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://proactive.inc&size=128",
+    "employer_website": "https://proactive.inc",
+    "job_publisher": "Proactive Global",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.proactiveglobal.com/job-search/3372/senior-controls-engineer/automation/cincinnati/job",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.proactiveglobal.com/job-search/3372/senior-controls-engineer/automation/cincinnati/job",
+        "is_direct": false,
+        "publisher": "Proactive Global"
+      }
+    ],
+    "job_description": "Senior Controls Engineer\n\nLocation: Remote (USA)\nHeadquarters: Cincinnati, Ohio\nTravel: Approximately 40%\n\nKey Responsibilities\n• Lead controls engineering activities on large automation projects\n• Develop functional specifications and define system operation requirements\n• Design and program PLC-based control systems\n• Create and configure HMI applications\n• Review electrical drawings and communication architecture designs\n• Integrate controls with conveyors, drives, scanners, scales, and other automation equipment\n• Interface with WCS and WES software systems\n• Perform system testing, commissioning, and startup activities\n• Provide customer training and technical support during project handover\n• Mentor junior engineers and support their development\n• Manage project schedules, priorities, and technical deliverables\n• Participate in customer meetings, design reviews, and project planning activities\n• Support continuous improvement and development of engineering standards\n\nTechnical Requirements\n\nCandidates should have strong experience with:\n• Allen-Bradley PLCs and Studio 5000 / RSLogix\n• PLC programming and industrial control systems\n• HMI development\n• Ethernet/IP and industrial communication networks\n• Variable Frequency Drives (VFDs)\n• Safety PLCs and machine safety systems\n• Electrical troubleshooting\n• Reading electrical schematics and controls drawings\n• Integration of automated equipment and material handling systems\n\nExperience with AutoCAD or AutoCAD Electrical is beneficial.\n\nWhat They're Looking For\n• Bachelors Degree in Electrical Engineering, Electrical Engineering Technology, Computer Engineering, Computer Science, or similar\n• 7+ years of industrial controls engineering experience\n• Experience leading projects and mentoring engineers\n• Strong customer-facing communication skills\n• Ability to manage multiple projects simultaneously\n• Self-motivated individual capable of working independently\n• Material handling, warehouse automation, or conveyor controls experience is highly desirable\n\nTravel & Working Environment\n• Remote position with travel to customer sites across North America\n• Approximately 40% travel required\n• Involvement in commissioning, testing, and startup activities\n• Occasional evening, weekend, or holiday work during critical project phases\n\nWhy Consider this company?\n• Opportunity to work on complex warehouse automation and material handling projects\n• Full project lifecycle involvement from design through commissioning\n• High level of customer interaction and technical ownership\n• Strong engineering culture with opportunities to mentor and lead\n• Remote working flexibility with a Cincinnati-based headquarters\n\nProactive Global is committed to equality in the workplace and is an equal opportunity employer.\nProactive Global is acting as an Employment Business in relation to this vacancy.",
+    "job_is_remote": true,
+    "job_posted_at": "9 hours ago",
+    "job_posted_at_timestamp": 1782723600,
+    "job_posted_at_datetime_utc": "2026-06-29T09:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DquCMf5jbuUDFgHRKAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "120K–140K a year",
+    "job_min_salary": 120000,
+    "job_max_salary": 140000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "jg_5eqrrP4dwjikqAAAAAA==",
+    "job_title": "Propulsion Systems Engineer",
+    "employer_name": "ICONMA",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJKJOkkAuYfk_SZfEPhF1VfC9HgmnyPMUXZp4C&s=0",
+    "employer_website": null,
+    "job_publisher": "Lensa",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://lensa.com/job-v1/iconma/remote/propulsion-systems-engineer/0848d996fc38da770fdebaa55025a06f",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://lensa.com/job-v1/iconma/remote/propulsion-systems-engineer/0848d996fc38da770fdebaa55025a06f",
+        "is_direct": false,
+        "publisher": "Lensa"
+      }
+    ],
+    "job_description": "Our Client, an EV Manufacturing company, is looking for a Propulsion Systems Engineer for their Tustin, CA/Hybrid location.\n\nResponsibilities:\n\n• Conduct propulsion system simulations for battery packs, including discharge, durability, and charging behavior analysis.\n• Track simulation results and identify next-step actions to inform testing and design decisions.\n• Profile and manage simulation workload, ensuring smooth handover to future permanent hires for ongoing programs.\n• Collaborate with cross-functional teams to integrate simulation results with engineering analysis, validation, and design activities.\n• Maintain accurate documentation of simulation parameters, results, and recommended actions.\n• Support continuous improvement of simulation workflows and modeling accuracy.\n• Ensure simulations adhere to project timelines and engineering standards.\n\nRequirements: • Bachelor's or Master's degree in Mechanical, Electrical, or Systems Engineering, or a related field.\n• 2+ years of experience in battery, EV propulsion, or energy storage system simulation.\n• Proficiency in simulation tools relevant to battery performance, durability, and charging (MATLAB/Simulink, Python, or equivalent).\n• Strong analytical skills and ability to interpret complex data to inform engineering decisions.\n• Excellent documentation and communication skills for cross-functional collaboration.\n• Preferred Skills\n• Experience with battery pack modeling or similar EV propulsion systems.\n• Familiarity with multi-program simulation coordination and workload management.\n• Knowledge of battery cell, module, and pack electrical/thermal behavior.\n• Experience in developing workflows for DCFC, discharge profiling, or durability simulations.\n• Ability to support handover and knowledge transfer to new team members or permanent hires.\n\nWhy Should You Apply? • Health Benefits\n• Referral Program\n• Excellent growth and advancement opportunities",
+    "job_is_remote": true,
+    "job_posted_at": "10 hours ago",
+    "job_posted_at_timestamp": 1782720000,
+    "job_posted_at_datetime_utc": "2026-06-29T08:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Djg_5eqrrP4dwjikqAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "iD6F9T0qOavpsPC_AAAAAA==",
+    "job_title": "Principal Thermal and  Multiphysics Engineer",
+    "employer_name": "TE Connectivity",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt4auzYuV7k_RkzQVgRay6GHWGrvrOjQmHwVyS&s=0",
+    "employer_website": null,
+    "job_publisher": "FlexJobs",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.flexjobs.com/gjw/te_connectivity/principal-thermal-and-multiphysics-engineer/publicjobs?id=1ea09e27-87c2-4109-897b-32b4e6b78104",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.flexjobs.com/gjw/te_connectivity/principal-thermal-and-multiphysics-engineer/publicjobs?id=1ea09e27-87c2-4109-897b-32b4e6b78104",
+        "is_direct": false,
+        "publisher": "FlexJobs"
+      }
+    ],
+    "job_description": "Title: Principal Thermal & Multiphysics Engineer\n\nLocation: United States\n\nJob Description:\n\nAt TE, you will unleash your potential working with people from diverse backgrounds and industries to create a safer, sustainable and more connected world.\n\nJob Description:\nJob Overview\n\nAs a Principal Thermal & Multiphysics Engineer in the Mechanical Center of Excellence team, you will lead advanced thermal research, thermal predictive analysis and validation efforts for cutting-edge interconnect systems used in AI data centers, high-performance computing, and next-generation communication infrastructure\n\nYour role involves supporting development of novel thermal structures, executing Multiphysics thermal simulations, validating materials, and collaborating cross-functionally to enhance product performance, reliability, and manufacturability. You will operate with a high degree of autonomy and technical depth to define and drive innovation across mechanical platforms—from early-stage PoCs through NPI handoff\n\nThis role is highly cross-functional, requiring collaboration with structural, electrical, signal integrity, system architecture, manufacturing, and supplier development teams.\n\nBU Overview\n\nConsumer, network, and data center applications change at an exponential pace and the Data & Devices (D&D) business unit at TE Connectivity is at the heart of a continuously expanding connected life. Accordingly, we provide responsive, iterative, and fundamentally agile capabilities and conceive, design, and manufacture to support today's demands. Our customers are building the devices and the infrastructure that is redefining what information technology means. Our products push markets and meet the ever-changing needs of the evolving, more connected, data-driven world. We are enhancing how we do business, focusing on the most important things and staying agile and responsive to the needs of a faster, more connected world.\n\n \n\nThe Mechanical Center of Excellence (ME COE) plays a critical role in shaping the future of thermomechanical design, reliability engineering, and platform-based product development. By integrating advanced mechanical research, simulation, and manufacturability expertise, ME COE empowers faster, more scalable, and more robust innovation across TE’s high-speed connectivity and AI infrastructure portfolios.\nMain Responsibilities\n\n1. Strategy & Architecture\n• Lead end-to-end multiphysics simulation strategy and method development for thermal performance of complex electro-mechanical systems (connectors, high-speed I/O, enclosures, power-dense assemblies\n• Support thermal architecture development, defining heat transfer strategies across conduction, convection, and radiation to meet system-level performance targets.\n• Influence product and technology strategy, contributing to roadmaps in data centers, high-speed interconnects, and power delivery systems.\n\n2. Simulation method development & Support on Design Execution for next gen thermal technologies\n• Translate system-level thermal challenges into physics-based models using FEA/CFD to solve electro-thermal, thermo-mechanical, and fluid-thermal problems under real-world conditions.\n• Drive thermal design optimization for high-power-density systems, balancing temperature, pressure drop, signal integrity, and manufacturability.\n• Support material and interface strategies (TIMs, high-conductivity alloys, advanced polymers/composites) to ensure performance and reliability under thermal cycling, aging, and environmental stress.\n• Establish thermal design standards and best practices, including thermal resistance networks, contact/interface heat transfer, airflow and liquid cooling integration, and thermal distortion/tolerance stack-up effects.\n• Standardize methodologies and scalable models to enable reusable simulation frameworks, digital twins, and cross-platform design libraries.\n• Support innovation in next-generation cooling solutions, including liquid cooling, co-packaged optics integration, high-current connector thermal management, and AI-driven optimization.\n\n3. Cross-Functional Integration\n• Collaborate with electrical (SI/PI), mechanical, and manufacturing teams to co-optimize system performance, packaging density, and thermal solutions.\n\n4. Validation, & Governance\n• Lead thermal model validation and correlation through lab testing (IR thermography, thermocouples, wind tunnel), model calibration, and development of design margins and derating guidelines.\n• Support design governance and technical reviews (DFMEA, PFMEA), ensuring robust multiphysics considerations in product decisions.\n\n5. Leadership & External Engagement\n• Mentor engineers and build domain expertise in thermal sciences, multiphysics simulation, and physics-based design.\n• Represent the organization externally with customers, industry forums, and standards bodies on advanced thermal challenges.\nWhat your background should look like\n\nRequired Skills/Experience:\n• Bachelor’s degree in Mechanical Engineering or Physics with 12+ years of experience, or Master's with 10+ years of experience, or PhD with 6+ years of experience, or equivalent amount of experience in mechanical product development in connector, electronics, or high-reliability hardware industries.\n• Hands-on experience with mechanical design and modeling using tools such as Creo, SolidWorks, or NX.\n• Expertise in simulation tools such as ANSYS, Abaqus, or FloTHERM for thermal/structural analysis.\n• Proven experience in DFM, DFA, and transition of mechanical designs to high-volume manufacturing.\n• Deep understanding of materials science, including polymers, metals, and thermal materials.\n• Experience conducting reliability testing: thermal cycling, vibration, drop/shock, and HALT/HASS.\n• Strong problem-solving and analytical skills with a focus on root cause analysis and continuous improvement.\n• Excellent communication skills to engage with global engineering, operations, and customer teams\n\nNice to have Skills/Experience:\n• Ph.D. in Engineering or equivalent.\n• Experience with micro-mechanics, co-packaged optics, or liquid cooling solutions.\n• Familiarity with data analytics, Six Sigma methodologies, or AI-driven simulation optimization.\n• Experience working on system-level hardware such as AI servers, switches, or RF modules.\n• Patent filings or published research in mechanical design, thermal management, or materials.\n• Experience managing cross-functional or global engineering projects\n\n#LI-REMOTE\nCompetencies\n\nSET : Strategy, Execution, Talent (for managers)\n\nCOMPENSATION\n• Competitive base salary commensurate with experience: $154,100 – $231,100 (subject to change dependent on physical location)\n• Posted salary ranges are made in good faith. TE Connectivity reserves the right to adjust ranges depending on the experience/qualification of the selected candidate as well as internal and external equity.\n• Total Compensation = Base Salary + Incentive(s) + Benefits\n\nJob Locations:\n\nUnited States\n\nPosting City: #\n\nJob Country: United States\n\nTravel Required: 10% to 25%\n\nRequisition ID: 144191\n\nWorkplace Type: Remote\n\nExternal Careers Page: Engineering & Technology",
+    "job_is_remote": true,
+    "job_posted_at": "8 hours ago",
+    "job_posted_at_timestamp": 1782727200,
+    "job_posted_at_datetime_utc": "2026-06-29T10:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DiD6F9T0qOavpsPC_AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "154K–231K a year",
+    "job_min_salary": 154000,
+    "job_max_salary": 231000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "haab5Fq-QBs1EvmLAAAAAA==",
     "job_title": "Senior Full Stack Engineer (Javascript, AWS and NodeJS exp.) - W2 Role",
     "employer_name": "Kellton",
