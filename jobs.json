@@ -1,5 +1,417 @@
 [
   {
+    "job_id": "SzvxgulERIcwnbjCAAAAAA==",
+    "job_title": "SAP HANA Engineer",
+    "employer_name": "Bright Vision Technologies",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndn5_AdH1AKanxNlVDq7xGeGTx-s9zQ0Alo1r&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/sap-hana-engineer-at-bright-vision-technologies-4434756390",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/sap-hana-engineer-at-bright-vision-technologies-4434756390",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Bright Vision Technologies is a forward-thinking software development company dedicated to building innovative solutions that help businesses automate and optimize their operations. We leverage cutting-edge technologies to create scalable, secure, and user-friendly applications.\n\nAs we continue to grow, we’re looking for a skilled SAP HANA Engineer to join our dynamic team and contribute to our mission of transforming business processes through technology.\n\nThis is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential.\n\nSAP HANA Engineer\n\nJob Title: SAP HANA Engineer\n\nLocation: 100% Remote (Continental United States)\n\nPosition Type: In-house Bright Vision Technologies SOW engagement (no third-party client or vendor)\n\nExperience: 5+ years\n\nSalary: 100k - 150k\n\nSponsorship: No new H1B sponsorship available. H1B transfers welcomed for qualified candidates.\n\nEmployment Type: Full-time, direct W2 with Bright Vision Technologies (no C2C, no 1099, no third-party)\n\nEngagement: Long-term, multi-year, aligned to the Bright Vision SOW delivery roadmap\n\nCompensation: Competitive base salary commensurate with experience, plus benefits.\n\nEmployment Terms & Visa Policy\n\nThis is a 100% remote, full-time, direct W2 position with Bright Vision Technologies.\n\nThis role is part of Bright Vision Technologies’ in-house Statement of Work (SOW) engagement. The client, end customer, and employer for this position is Bright Vision Technologies — there is no third-party client, vendor, or implementation partner involved.\n\nWe do not engage in C2C, 1099, or third-party arrangements for this role.\n\nBUT STRICTLY NO C2C/1099/3RD PARTY COMPANIES. ALL OUR ROLES ARE W2 AND NO 3RD PARTY BROKERING PLEASE.\n\nCandidates must be willing to work directly as a full-time W2 employee of Bright Vision Technologies and contribute to our in-house SOW deliverables.\n\nNo new H1B sponsorship is available for this role.\n\nHowever, candidates who are currently on a valid H1B visa and require a transfer are welcome to apply. We will support H1B transfers for qualified candidates.\n\nFor every role, a technical coding assessment is mandatory. Please apply only if you are confident in your technical abilities and hands-on experience.\n\nJob Summary\n\nWe are seeking an experienced SAP HANA Engineer to design, build, and optimize HANA-native data models and analytical objects supporting S/4HANA, BW/4HANA, and standalone HANA platforms. In this role you will translate complex business and analytics requirements into performant HANA models, and you will be the go-to expert for diagnosing and resolving HANA performance issues across the SAP landscape. The ideal candidate will combine deep expertise in HANA-native modeling — including calculation views, CDS views, AMDPs, and SQLScript — with strong performance-tuning skills and a clear understanding of HANA internals.\n\nKey Responsibilities\n\n• Design and develop performant calculation views, CDS views, AMDPs, and SQLScript procedures for analytical and transactional workloads\n• Translate business and analytics requirements into well-structured HANA data models that balance flexibility, performance, and maintainability\n• Optimize complex queries, joins, and aggregations through careful use of partitioning, pruning, and parallelization features of HANA\n• Lead HANA performance reviews and audits, using tools such as HANA Studio Plan Visualizer, ST04, ST05, and DBACOCKPIT to identify bottlenecks\n• Implement appropriate security models for HANA, including analytic privileges, roles, and row-level security\n• Design and operate HANA replication scenarios using SLT, smart data integration, and smart data access\n• Support data tiering using HANA Native Storage Extension and dynamic tiering where appropriate\n• Build and maintain HANA-native applications and procedures consumed by Fiori, BW, and BTP services\n• Lead capacity planning and sizing for HANA systems, taking into account both current and projected workloads\n• Collaborate closely with Basis, ABAP, and analytics teams to ensure HANA models are integrated cleanly with the broader landscape\n• Maintain comprehensive, current technical documentation — including architecture diagrams, design decisions, configuration references, runbooks, and operational procedures — so that the system remains supportable, auditable, and easy to onboard new engineers onto over time\n• Mentor junior developers on HANA-native development and performance best practices\n\nRequired Qualifications\n\n• Bachelor’s degree in Computer Science, Engineering, or a related technical discipline\n• Five or more years of SAP HANA development experience\n• Strong hands-on expertise with calculation views, CDS views, AMDPs, and SQLScript\n• Solid understanding of HANA architecture, including in-memory storage, columnar processing, and parallel execution\n• Hands-on experience with HANA performance tuning tools and methodologies\n• Experience with HANA replication tools (SLT, SDI, SDA)\n• Working knowledge of HANA security models, including analytic privileges and roles\n• Familiarity with S/4HANA embedded analytics or BW/4HANA modeling\n• Strong SQL skills\n• Excellent troubleshooting, communication, and documentation skills\n\nPreferred Qualifications\n\n• SAP-certified HANA modeling or development credentials\n• Experience with HANA Native Storage Extension or dynamic tiering\n• Exposure to HANA Cloud and SAP Datasphere\n• Familiarity with BTP-based analytics tooling such as SAC\n• Hands-on experience with large-scale HANA migrations and upgrades\n\nHow To Apply\n\nWould you like to know more about this opportunity?\n\nFor immediate consideration, please send your resume to harry@bvteck.com or contact us at (908) 676-4399. Learn more about Bright Vision Technologies at www.bvteck.com.\n\nWe recognize that our people are our strength, and the diverse talents they bring to our global workforce are directly linked to our success. We are an equal opportunity employer and place a high value on diversity and inclusion at our company.\n\nWe do not discriminate on the basis of any protected attribute, including race, religion, color, national origin, gender, sexual orientation, gender identity, gender expression, age, marital or veteran status, pregnancy or disability, or any other basis protected under applicable law. We also make reasonable accommodations for applicants’ and employees’ religious practices and beliefs, as well as mental health or physical disability needs.\n\nBright Vision Technologies is an Equal Opportunity Employer, including Disability/Veterans.\n\nPosition offered by “No Fee Agency.”\n\nEqual Employment Opportunity (EEO) Statement\n\nBright Vision Technologies (BV Teck) is committed to equal employment opportunity (EEO) for all employees and applicants without regard to race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, veteran status, or any other protected status as defined by applicable federal, state, or local laws. This commitment extends to all aspects of employment, including recruitment, hiring, training, compensation, promotion, transfer, leaves of absence, termination, layoffs, and recall.\n\nBV Teck expressly prohibits any form of workplace harassment or discrimination. Any improper interference with employees' ability to perform their job duties may result in disciplinary action up to and including termination of employment.\n\nPowered by JazzHR\n\nrZS2fzNlRd",
+    "job_is_remote": true,
+    "job_posted_at": "15 hours ago",
+    "job_posted_at_timestamp": 1782759600,
+    "job_posted_at_datetime_utc": "2026-06-29T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DSzvxgulERIcwnbjCAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "c_pT6CCNYtse2L3gAAAAAA==",
+    "job_title": "Full-stack Engineer / Agentic Coding Tools",
+    "employer_name": "Toptal",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpTIGcJy0DbEpDgZpEJ3M0jYhaQ9yMosX5Wl28&s=0",
+    "employer_website": "https://www.toptal.com",
+    "job_publisher": "We Work Remotely",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://weworkremotely.com/remote-jobs/toptal-full-stack-engineer-agentic-coding-tools",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://weworkremotely.com/remote-jobs/toptal-full-stack-engineer-agentic-coding-tools",
+        "is_direct": false,
+        "publisher": "We Work Remotely"
+      }
+    ],
+    "job_description": "Job Description\n\r\n\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nSummary:\nWe are looking for a Full-stack Engineer with strong experience using agentic coding tools to accelerate software delivery. This role is ideal for engineers who are highly productive with tools such as Claude Code and understand how to structure workflows using hooks, subagents, skills, prompts, and automation.\n\r\n\n\r\nGeneral Information:\nThe engineer will work across frontend, backend, and developer workflows, using agentic coding tools as part of day-to-day development. The ideal candidate is a strong full-stack engineer first, with deep practical experience applying AI coding assistants to build, refactor, test, and maintain production software.\n\r\n\n\r\nTasks and deliverables:\nBuild and maintain full-stack applications across frontend, backend, APIs, and data layers.\nUse agentic coding tools to improve implementation speed, code quality, testing, and documentation.\nSet up and manage workflows using Claude Code or similar tools.\nCreate and use hooks, subagents, skills, custom instructions, and reusable coding workflows.\nRefactor existing codebases with the support of AI coding agents.\nWrite tests, review generated code, and ensure production-quality engineering standards.\nCollaborate with teams to define best practices for AI-assisted software development.\n\r\n\n\r\nRequired Experience:\nStrong full-stack engineering experience with modern frontend and backend technologies.\nHands-on experience using Claude Code or similar agentic coding tools in real development work.\nExperience with hooks, subagents, skills, custom prompts, and structured agent workflows.\nAbility to guide AI coding tools effectively while maintaining ownership of code quality.\nStrong understanding of testing, debugging, code review, architecture, and maintainability.\nExperience working with existing codebases and using AI tools for refactoring and feature delivery.\nAbility to move quickly while applying sound engineering judgment.\n\r\n\n\r\nEngagement highlights:\nBroad full-stack role with a focus on modern AI-assisted development workflows.\nOpportunity to shape practical engineering patterns around agentic coding tools.\nBest suited for engineers who combine strong software fundamentals with advanced AI coding fluency.",
+    "job_is_remote": true,
+    "job_posted_at": "14 hours ago",
+    "job_posted_at_timestamp": 1782763200,
+    "job_posted_at_datetime_utc": "2026-06-29T20:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dc_pT6CCNYtse2L3gAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "E_d7mQcthmbiuTQUAAAAAA==",
+    "job_title": "Temporary Independent Contractor Data Engineer",
+    "employer_name": "American College of Chest Physicians",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGM5ji-HNUdnY4xQ-jQtUzD2hwZsp1nKIYD9Au&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/temporary-independent-contractor-data-engineer-at-american-college-of-chest-physicians-4434767101",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/temporary-independent-contractor-data-engineer-at-american-college-of-chest-physicians-4434767101",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Position Details:\n\nCHEST is seeking a Temporary Independent Contractor Data Engineer. The expected work hours for this position are approximately 30-35 hours per week.We would also consider candidates whose schedules only allow 20 hours or less per week. This contract is expected to last approximately 10 months, and would be fully remote.\n\nPrimary Purpose\n\n:The Temporary Independent Contractor Data Engineer (DE) is primarily responsible for maintaining, monitoring, troubleshooting, and enhancing production data pipelines and database systems. This role requires hands-on experience supporting live SSIS packages, SQL Server processes, and Snowflake workloads in production environments. The Temporary Independent Contractor Data Engineer will work closely with the Data Architect and Data Analytics team, acting as a data SME with a strong focus on CRM Support, cross-functional project work, and routine job monitoring\n\n.\n\nEssential Functions/Responsibilitie\n• Maintain data ingestion processes to Snowflake and MS SQL Server from a wide variety of data sources using Python, ELT tools, SSIS, and automation scripts.\n• Design and develop Snowflake and MS SQL Server database objects and procedural code to support various custom and third-party applications, including stored procedures, functions, and triggers.\n• Maintain and develop test and production environments that support CHEST’s CRM platform.\n• Optimize and tune SQL queries in both Snowflake and MS SQL databases by normalizing and denormalizing data as needed, while monitoring performance.\n• Monitor the day-to-day reliability of data ingestion and backup processes on production systems.\n• Collaborate with application developers and data analysts to provide data services and support for existing and new applications while maintaining data integrity.\n• Engineer large, complex data sets that meet business requirements while maintaining an optimal data pipeline.\n• Work with stakeholders including the Product, Data and Web Development and Design teams to assist with data-related technical issues and support their data infrastructure needs.\n• Support and troubleshoot application issues and document solutions.\n• Identify, design, and implement process improvements.\n• Perform deployment activities to pre-production and production systems.\n• Ensure quality and stability of the databases, while implementing efficiencies to reduce application and database support costs.\n• Work with the data analysts to build the production frameworks to orchestrate data pipelines, and automate workflow management in Snowflake, MS SQL, and other platforms as required.\n• Perform problem-solving of application issues and production errors, including high level critical production issues that require immediate attention.\n\nRequired Qualifications and Competenc\n• 3 + years working with Snowflake, MS SQL Server\n• 3+ years of practical experience with SQL and database maintenance, including stored procedures and SSIS packages\n• Understanding of data modeling concepts (e.g., star schema, normalization) and ETL/ELT design practices\n• Git fundamentals, Agile development, and CI/CD practices\n• Demonstrated experience working with CRM systems and data integrations\n• Demonstrated experience working with scripting languages (Python preferred)\n• Degree in Computer Science, Software Engineering, Information Technology, Mathematics, or a related field required\n\nCompensation: The pay range for this position is $60-$65 per hour. CHEST considers factors such as, but not limited to, the scope and responsibilities of the position, key skills, and market and organizational considerations when setting the hourly pay for our temporary independent contractor positions.",
+    "job_is_remote": true,
+    "job_posted_at": "15 hours ago",
+    "job_posted_at_timestamp": 1782759600,
+    "job_posted_at_datetime_utc": "2026-06-29T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DE_d7mQcthmbiuTQUAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "tz-_O9WBDFk-B9xgAAAAAA==",
+    "job_title": "VMware Engineer",
+    "employer_name": "Bright Vision Technologies",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndn5_AdH1AKanxNlVDq7xGeGTx-s9zQ0Alo1r&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/vmware-engineer-at-bright-vision-technologies-4434744798",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/vmware-engineer-at-bright-vision-technologies-4434744798",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Bright Vision Technologies is a forward-thinking software development company dedicated to building innovative solutions that help businesses automate and optimize their operations. We leverage cutting-edge technologies to create scalable, secure, and user-friendly applications.\n\nAs we continue to grow, we’re looking for a skilled VMware Engineer to join our dynamic team and contribute to our mission of transforming business processes through technology.\n\nThis is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential.\n\nVMware Engineer\n\nJob Title: VMware Engineer\n\nLocation: 100% Remote (Continental United States)\n\nPosition Type: In-house Bright Vision Technologies SOW engagement (no third-party client or vendor)\n\nExperience: 5+ years\n\nSalary: 100k - 150k\n\nSponsorship: No new H1B sponsorship available. H1B transfers welcomed for qualified candidates.\n\nEmployment Type: Full-time, direct W2 with Bright Vision Technologies (no C2C, no 1099, no third-party)\n\nEngagement: Long-term, multi-year, aligned to the Bright Vision SOW delivery roadmap\n\nCompensation: Competitive base salary commensurate with experience, plus benefits.\n\nEmployment Terms & Visa Policy\n\nThis is a 100% remote, full-time, direct W2 position with Bright Vision Technologies.\n\nThis role is part of Bright Vision Technologies’ in-house Statement of Work (SOW) engagement. The client, end customer, and employer for this position is Bright Vision Technologies — there is no third-party client, vendor, or implementation partner involved.\n\nWe do not engage in C2C, 1099, or third-party arrangements for this role.\n\nBUT STRICTLY NO C2C/1099/3RD PARTY COMPANIES. ALL OUR ROLES ARE W2 AND NO 3RD PARTY BROKERING PLEASE.\n\nCandidates must be willing to work directly as a full-time W2 employee of Bright Vision Technologies and contribute to our in-house SOW deliverables.\n\nNo new H1B sponsorship is available for this role.\n\nHowever, candidates who are currently on a valid H1B visa and require a transfer are welcome to apply. We will support H1B transfers for qualified candidates.\n\nFor every role, a technical coding assessment is mandatory. Please apply only if you are confident in your technical abilities and hands-on experience.\n\nJob Summary\n\nWe are looking for a VMware Engineer to design, deploy, and operate VMware-based virtualization, software-defined networking, and software-defined storage platforms across on-premises and hybrid cloud environments. The role covers vSphere, vSAN, NSX, Aria, and Tanzu, with a focus on automation, capacity management, and the practical realities of operating a large VMware estate alongside modern cloud-native workloads. The ideal candidate has operated VMware platforms at enterprise scale, navigates the evolving VMware product landscape pragmatically, and brings strong automation and operations discipline.\n\nKey Responsibilities\n\n• Design and operate VMware vSphere, vSAN, and NSX environments across data centers and hybrid cloud deployments\n• Build and maintain Tanzu Kubernetes Grid environments for containerized workloads\n• Implement vRealize / Aria Automation for self-service VM provisioning, lifecycle management, and policy enforcement\n• Operate NSX-T for software-defined networking, including micro-segmentation and load balancing\n• Manage vSAN clusters, storage policies, and storage performance for diverse workload classes\n• Implement disaster recovery and business continuity using Site Recovery Manager and replication\n• Build automation for VMware infrastructure using PowerCLI, Terraform, Ansible, and vRO\n• Design capacity management strategies including right-sizing, reservation, and workload placement\n• Operate VMware Cloud Foundation (VCF) deployments where applicable, applying lifecycle management, workload domain design, and integration patterns appropriate to the broader hybrid cloud strategy\n• Implement and operate VMware integrations with cloud providers (VMware Cloud on AWS, AVS, GCVE)\n• Build observability for VMware infrastructure including performance, capacity, and compliance\n• Lead VMware upgrades, lifecycle management cycles, and security patching across the virtualization estate, planning carefully sequenced rollouts that minimize disruption to dependent workloads\n• Troubleshoot complex VMware issues spanning compute, network, and storage layers\n• Stay current with VMware product evolution following the Broadcom transition\n\nRequired Qualifications\n\n• Bachelor’s degree in Computer Science, Information Systems, or a related field\n• Five or more years of hands-on VMware platform engineering experience\n• Deep expertise in vSphere, vCenter, and ESXi\n• Hands-on experience with vSAN and storage policy management\n• Experience with NSX-T or NSX-V networking\n• Strong PowerCLI scripting skills and experience with automation tooling\n• Familiarity with Tanzu Kubernetes Grid or VMware container platforms\n• Strong understanding of disaster recovery patterns and SRM\n• Strong troubleshooting skills across compute, network, and storage layers\n• Excellent communication and collaboration skills\n\nPreferred Qualifications\n\n• VMware Certified Professional (VCP) or VCAP credentials\n• Experience with VMware Cloud on AWS, AVS, or GCVE\n• Familiarity with VMware Cloud Foundation (VCF)\n• Experience with Aria Operations / vRealize Operations\n• Exposure to migration programs out of VMware to alternative virtualization platforms\n\nHow To Apply\n\nWould you like to know more about this opportunity?\n\nFor immediate consideration, please send your resume to harry@bvteck.com or contact us at (908) 676-4399. Learn more about Bright Vision Technologies at www.bvteck.com.\n\nWe recognize that our people are our strength, and the diverse talents they bring to our global workforce are directly linked to our success. We are an equal opportunity employer and place a high value on diversity and inclusion at our company.\n\nWe do not discriminate on the basis of any protected attribute, including race, religion, color, national origin, gender, sexual orientation, gender identity, gender expression, age, marital or veteran status, pregnancy or disability, or any other basis protected under applicable law. We also make reasonable accommodations for applicants’ and employees’ religious practices and beliefs, as well as mental health or physical disability needs.\n\nBright Vision Technologies is an Equal Opportunity Employer, including Disability/Veterans.\n\nPosition offered by “No Fee Agency.”\n\nEqual Employment Opportunity (EEO) Statement\n\nBright Vision Technologies (BV Teck) is committed to equal employment opportunity (EEO) for all employees and applicants without regard to race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, veteran status, or any other protected status as defined by applicable federal, state, or local laws. This commitment extends to all aspects of employment, including recruitment, hiring, training, compensation, promotion, transfer, leaves of absence, termination, layoffs, and recall.\n\nBV Teck expressly prohibits any form of workplace harassment or discrimination. Any improper interference with employees' ability to perform their job duties may result in disciplinary action up to and including termination of employment.\n\nPowered by JazzHR\n\neKL5xGoABl",
+    "job_is_remote": true,
+    "job_posted_at": "15 hours ago",
+    "job_posted_at_timestamp": 1782759600,
+    "job_posted_at_datetime_utc": "2026-06-29T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dtz-_O9WBDFk-B9xgAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "zo67lAhdTv2miR3kAAAAAA==",
+    "job_title": "Proposal Graphic Designer-work at home",
+    "employer_name": "CVS Health",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiSTlEmD9D5obCaLsMo71oeeTDfWy9JpoQcZNu&s=0",
+    "employer_website": "https://www.cvshealth.com",
+    "job_publisher": "DailyRemote",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://dailyremote.com/remote-job/proposal-graphic-designer-work-at-home-5219844",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://dailyremote.com/remote-job/proposal-graphic-designer-work-at-home-5219844",
+        "is_direct": false,
+        "publisher": "DailyRemote"
+      }
+    ],
+    "job_description": "We’re building a world of health around every individual — shaping a more connected, convenient and compassionate health experience. At CVS Health®, you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold ourselves accountable and prioritize safety and quality in everything we do. Join us and be part of something bigger – helping to simplify health care one person, one family and one community at a time.\n\nPosition Summary:\n\nThis is a remote position that can sit anywhere in the United States.\n\nAetna’s Medicaid Proposal Graphic Designer supports the business by recommending appropriate actions, strategies and/or alternatives to meet business needs. The Graphic Designer will transform written proposal content into persuasive graphics that align with Aetna’s brand standards. The Graphic Designer has responsibility for leading/managing all graphic development aspects of Aetna Better Health proposals. The Graphic Designer ensures the end state of the proposal project meets business objective(s), is fully compliant with RFP requirements, and that all deliverables and due dates are met.\n\nThe Graphic Designer will engage in a highly collaborative process often requiring the management of relationships across the segments or multiple functional areas.\n\nThe right candidate for this role will demonstrate the following aptitudes:\n\n- Understand the fundamental principles of graphic design and can adhere to strict brand requirements, applying it consistently\n\n- Facilitate ideation of graphics with content developers and SMEs to translate narrative into compelling, audience-focused graphics\n\n- Excellent attention to detail\n\n- Ability to multi-task, work efficiently, and within an organized manner\n\n- Curious, self-motivated problem solver who actively seeks to expand knowledge base\n\n- Relationship building with fellow colleagues from the executive suite to individual contributors\n\n- Effective communication approach that informs and aligns team members around a common vision\n\n- Will professionally handle constructive criticism\n\n- Willingness to work nights and weekends during active proposal development timeframes as necessary to meet deadlines\n\nRequired Qualifications:\n\n- 5+ years of experience creating compelling, audience-aware visuals\n\n- Intermediate to advanced knowledge of Microsoft Office, including Word, PowerPoint and Excel\n\n- Intermediate to advanced knowledge of Adobe Creative Suite (InDesign, Illustrator, Photoshop)\n\n- Proven facilitation skills\n\n- Strong time management, planning, and coordination skills\n\n- Ability to work independently to produce high quality results that meet needs of internal and external customer expectations under tight timeframes\n\n- Strong team collaboration skills, including SMEs and other contributors, writing team, and production team\n\n- Ability to adapt to rapidly changing priorities through the identification and execution on creative solutions\n\n- Ability to communicate effectively with all levels of management\n\n- Able to work evenings and weekends as proposal schedule requires\n\nSome travel may be required\n• **Qualified applicants please submit resume & design portfolio/examples of your design work.\n\nPreferred Qualifications:\n\n- Experience developing graphics-focused competitive analyses\n\n- Developing executive presentation decks\n\n- Managed care operations experience\n\nEducation:\n\nBachelor’s degree or equivalent experience\n\nPay Range\n\nThe typical pay range for this role is:\n\n$75,400.00 - $182,549.00\n\nThis pay range represents the base hourly rate or base annual full-time salary for all positions in the job grade within which this position falls. The actual base salary offer will depend on a variety of factors including experience, education, geography and other relevant factors. This position is eligible for a CVS Health bonus, commission or short-term incentive program in addition to the base pay range listed above. This position also includes an award target in the company’s equity award program.\n\nOur people fuel our future. Our teams reflect the customers, patients, members and communities we serve and we are committed to fostering a workplace where every colleague feels valued and that they belong.\n\nGreat benefits for great people\n\nWe take pride in offering a comprehensive and competitive mix of pay and benefits that reflects our commitment to our colleagues and their families.\n\nThis full‑time position is eligible for a comprehensive benefits package designed to support the physical, emotional, and financial well‑being of colleagues and their families. The benefits for this position include medical, dental, and vision coverage, paid time off, retirement savings options, wellness programs, and other resources, based on eligibility.\n\nAdditional details about available benefits are provided during the application process and on Benefits Moments.\n\nWe anticipate the application window for this opening will close on: 07/12/2026\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with all federal, state and local laws.",
+    "job_is_remote": true,
+    "job_posted_at": "15 hours ago",
+    "job_posted_at_timestamp": 1782759600,
+    "job_posted_at_datetime_utc": "2026-06-29T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dzo67lAhdTv2miR3kAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "6fW0R-Fn0XU7SgF9AAAAAA==",
+    "job_title": "Independent Contractor – Graphic Designer (Remote, 1099)",
+    "employer_name": "Himalayan Pet Supply",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXotmfGafFTbGFeHBMpFOYnjOhP78f6e53ojh&s=0",
+    "employer_website": "https://www.himalayan.pet",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/independent-contractor-%E2%80%93-graphic-designer-remote-1099-at-himalayan-pet-supply-4434923160",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/independent-contractor-%E2%80%93-graphic-designer-remote-1099-at-himalayan-pet-supply-4434923160",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Location: Remote\n\nPosition Type: Independent Contractor (1099)\n\nHours: Approximately 20–30 hours per week\n\nCompensation: $90/hour\n\nBring Our Brand to Life\n\nAt Himalayan Pet Supply, we are proud to be the makers of The Original® Himalayan Dog Chew®—a company built on innovation, purpose, and a passion for improving the lives of pets and people.\n\nOur growing global brand creates high-quality chews and treats while supporting meaningful social impact through partnerships that expand economic opportunity and access to education for women and girls in Nepal. We strive to be an employer of choice by fostering a collaborative, values-driven workplace where employees can grow, contribute, and make a real difference.\n\nWe are seeking a talented Graphic Designer to join us as an independent contractor (1099). This remote opportunity is ideal for a creative professional who thrives in a fast-paced environment, enjoys working across multiple projects, and has a strong eye for branding, packaging, and marketing design.\n\nWhat You'll Do\n\n• Design packaging, labels, brochures, flyers, advertisements, trade show materials, signage, promotional pieces, and other branded collateral\n• Create digital assets for websites, email marketing, and social media\n• Develop concepts from initial sketches through final production-ready artwork\n• Design and update logos, brand elements, and marketing materials\n• Create product displays, retail merchandising concepts, and trade show graphics\n• Collaborate with marketing, sales, and cross-functional teams to bring creative ideas to life\n• Prepare production-ready files and work directly with print and manufacturing vendors\n• Review and approve proofs to ensure brand consistency and quality\n• Photograph products, events, and company activities for marketing use\n• Stay current with design trends and identify opportunities to elevate our brands\n• Manage multiple projects while meeting deadlines and maintaining exceptional attention to detail\n\nWhat We're Looking For\n\n• Strong portfolio showcasing branding, packaging, print, and digital design\n• Advanced proficiency in Adobe Creative Suite (Illustrator, Photoshop, InDesign) and Microsoft Office\n• Excellent visual design, typography, and layout skills\n• Strong communication and collaboration abilities\n• Highly organized with excellent project management skills\n• Ability to work independently while managing multiple priorities\n• Experience working with printers, packaging vendors, or consumer product brands is a plus\n• Product photography or photography editing experience is preferred\n\nWhy Join Us?\n\n• Fully remote, flexible work arrangement\n• Competitive contractor compensation at $90/hour\n• Opportunity to help shape a nationally recognized pet brand\n• Creative, collaborative team with meaningful work that impacts pets and communities around the world\n• Variety of projects spanning branding, packaging, retail, digital marketing, and product launches\n\nTo Apply\n\nPlease submit your resume, portfolio, and a brief introduction highlighting your relevant experience and creative approach.\n\nPowered by JazzHR\n\nu0IQ2e9Qys",
+    "job_is_remote": true,
+    "job_posted_at": "9 hours ago",
+    "job_posted_at_timestamp": 1782781200,
+    "job_posted_at_datetime_utc": "2026-06-30T01:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D6fW0R-Fn0XU7SgF9AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "gBEGcXUxy_jTN-PNAAAAAA==",
+    "job_title": "Senior Brand & Visual Communications Designer (Contract/Temporary)",
+    "employer_name": "Fisher Associates",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://fisherassoc.com&size=128",
+    "employer_website": "https://fisherassoc.com",
+    "job_publisher": "DailyRemote",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://dailyremote.com/remote-job/senior-brand-visual-communications-designer-contract-temporary-5219949",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://dailyremote.com/remote-job/senior-brand-visual-communications-designer-contract-temporary-5219949",
+        "is_direct": false,
+        "publisher": "DailyRemote"
+      }
+    ],
+    "job_description": "Description\n\nRochester serves as the center of Fisher Associates' operations, where major client pursuits, thought leadership initiatives, digital marketing efforts, and brand strategy activities come together to support growth across multiple markets and disciplines.\n\nIn this role, you'll partner closely with marketing professionals, practice leaders, client managers, technical experts, and executive leadership to elevate Fisher's visual presence across proposals, digital channels, conferences, thought leadership, and brand communications.\n\nThis opportunity is ideal for a highly creative visual communicator who enjoys transforming complex ideas into compelling stories, influencing brand perception, and helping teams win work through exceptional design and visual strategy.\n\nWhat You'll Do\n• Lead and elevate the firm's visual brand presence across proposals, marketing materials, website content, social media, conferences, photography, video, and thought leadership assets.\n• Develop visual strategies and creative solutions for major pursuits, including graphics, infographics, diagrams, layouts, and presentation materials.\n• Create compelling visual assets that communicate complex technical and business concepts clearly and effectively.\n• Transform thought leadership content into polished reports, white papers, presentations, articles, digital campaigns, and social media content.\n• Ensure consistency, quality, and brand excellence across all internal and external communications.\n• Develop and maintain branded templates, graphics systems, and visual standards.\n• Manage the firm's library of photography, graphics, project imagery, icons, diagrams, and proposal support materials.\n• Coordinate project, staff, and event photography efforts and oversee image selection and asset management.\n• Support development of video content, motion graphics, and multimedia assets.\n• Enhance website imagery, LinkedIn content, digital campaigns, and other online brand channels.\n• Collaborate with proposal and marketing teams to improve readability, user experience, and visual effectiveness of client-facing materials.\n• Support proposal production during peak pursuit periods.\n• Drive innovation in visual storytelling, branding, creative workflows, and emerging design technologies.\n\nRequirements\n\nWhat We're Looking For\n• Bachelor's degree in Graphic Design, Visual Communications, Marketing, Fine Arts, or a related field.\n• 10 to 15+ years of professional graphic design, brand communications, or visual marketing experience.\n• Strong portfolio demonstrating expertise in branding, visual storytelling, digital communications, proposal graphics, and marketing collateral.\n• Exceptional design, layout, typography, and visual communication skills.\n• Experience translating complex information into clear and compelling visual narratives.\n• Strong organizational and project management skills with the ability to manage multiple priorities and deadlines.\n• Excellent communication and collaboration skills.\n• Expert proficiency in Adobe Creative Suite including InDesign, Illustrator, Premiere, Photoshop, and Acrobat.\n• Strong experience with PowerPoint presentation design and Microsoft Office applications.\n• Experience developing infographics, diagrams, data visualizations, and branded communication materials.\n• Proficiency with photography, photo editing, and digital asset management.\n• Experience managing website visual content and social media creative assets.\n\nPreferred Qualifications\n• Experience developing visual communications within professional services, AEC, consulting, engineering, architecture, construction, or related industries.\n• Familiarity with video editing, motion graphics, and multimedia production tools.\n• Knowledge of digital marketing platforms, content management systems, and analytics tools.\n• Experience leveraging AI-enabled creative and design tools.\n\nWhy Join Fisher\n• Shape meaningful infrastructure, environmental, and community outcomes through work that has visible local and regional impact.\n• Grow in a collaborative culture where accessible leaders welcome ideas, feedback, ownership, and professional development.\n• Build your career through mentorship, technical learning, leadership opportunities, and exposure to multidisciplinary project teams.\n• Thrive in a flexible, team-driven environment that values quality, accountability, work-life balance, and long-term success.\n\nCompensation\n\nPay range: $42-$47/hour\n\nLocation Flexibility\n\nThis role is aligned to the Rochester, NY market due to its close connection to Fisher's corporate leadership, marketing operations, and business development activities. Fisher may also consider strong candidates located near Buffalo, NY; Albany, NY; Syracuse, NY; Binghamton, NY; Ithaca, NY; Canonsburg, PA; Sugar Land, TX; or other Fisher office locations based on project needs, team collaboration requirements, and business priorities.\n\nThis position is open to remote candidates; however, remote work arrangements are evaluated on a case-by-case basis and are dependent on the candidate’s experience level, demonstrated qualifications, and ability to perform the essential functions of the role independently.\n\nEqual Employment Opportunity\n\nFisher Associates is committed to fostering a diverse and inclusive workplace where all individuals are respected, valued, and empowered to thrive. We do not discriminate on the basis of any protected status under federal, state, or local law.",
+    "job_is_remote": true,
+    "job_posted_at": "14 hours ago",
+    "job_posted_at_timestamp": 1782763200,
+    "job_posted_at_datetime_utc": "2026-06-29T20:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DgBEGcXUxy_jTN-PNAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "-E2ovLmOAg__EZ-_AAAAAA==",
+    "job_title": "Digital Design Student Internship",
+    "employer_name": "DeafandHoH.com, LLC",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypq_VhI7eP9-mc0FGo2PIb6q8U3BwbUDkGpTD&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Part-time",
+    "job_employment_types": [
+      "PARTTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/digital-design-student-internship-at-deafandhoh-com-llc-4434308082",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/digital-design-student-internship-at-deafandhoh-com-llc-4434308082",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Internship Overview:\n\nDeafandHoH.com is hiring 1 person for an ongoing digital design internship position.\n\nQualifications:\n\nLooking for someone who is creative and passionate, has outstanding verbal and written communication skills, and can work unsupervised. Social media, html editing, Photoshop, and Wordpress skills are a definite plus.\n\nDuties: (all duties will be related to hearing loss)\n• Build html directory pages for audiologists and schools\n• Prepare Wordpress demo template designs to show audiologists\n• Update and maintain Wordpress templates sites for potential clients\n• Other web design and graphic design related duties as needed\n\nCompensation: This is an unpaid internship.\n• APPLICANTS MUST BE A U.S. RESIDENT TO BE CONSIDERED.",
+    "job_is_remote": true,
+    "job_posted_at": "8 hours ago",
+    "job_posted_at_timestamp": 1782784800,
+    "job_posted_at_datetime_utc": "2026-06-30T02:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D-E2ovLmOAg__EZ-_AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "7Cp7BltXiHcPbpTMAAAAAA==",
+    "job_title": "Lead Brand Designer",
+    "employer_name": "Checkr",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzYlC4ZEuaLeKzUJ3FMfmlWWQJ0nA9t69w-ft&s=0",
+    "employer_website": "https://checkr.com",
+    "job_publisher": "Y Combinator",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.ycombinator.com/companies/checkr/jobs/RAVYsaH-lead-brand-designer",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.ycombinator.com/companies/checkr/jobs/RAVYsaH-lead-brand-designer",
+        "is_direct": false,
+        "publisher": "Y Combinator"
+      }
+    ],
+    "job_description": "About Checkr\n\nCheckr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, Amazon, and Anthropic.\n\nWe’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company.\n\nAbout the role\n\nCheckr's Brand Studio is the creative engine behind how the company shows up across every channel and touchpoint. As part of a small, high-craft team supporting a broader marketing organization, the Lead Brand Designer owns visual storytelling across multiple mediums, from campaign creative to templates and systems that scale across teams. This role is for someone who pairs creative mastery with a systems mindset, makes decisions informed by customer insight, and can hold the quality bar high across a lot of moving pieces at once.\n\nWhat you'll do\n\n•\nBrand systems and standards: Build templates and reusable assets that other teams can confidently work from, and develop and enforce brand standards across the organization\n\n•\nArt direction: Set visual direction across projects, directing photography, establishing tone, and giving feedback that elevates the work\n\n•\nTools and AI-assisted workflow: Work fluently in Figma and Adobe Creative Cloud, and AI-assisted tools to accelerate production without compromising craft\n\n•\nContractor and freelance direction: Direct and QC the work of contractors and freelancers to ensure quality and brand alignment\n\n•\nCreative production and craft: Produce outstanding creative across multiple mediums and channels, applying expert visual communication, typography, layout, and storytelling, with a sharp eye for detail and brand consistency\n\n•\nCross-functional partnership: Partner with marketing to shape how brand shows up across programs and channels, and present design rationale clearly to everyone from peers to senior executives\n\n•\nPrioritization and ownership: Hold quality high across multiple projects, move with urgency, and take ownership of getting to the right answer even when the brief needs work\n\nWhat you bring\n\n• 7+ years of in-house or agency experience on tech or B2B brands\n\n• A strong point of view, high craft standards, and the confidence to present and defend your work to senior leadership\n\n• An outstanding portfolio showing mastery of typography, layout, storytelling, and art direction\n\n• Fluency in Figma and Adobe Creative Cloud, plus experience using AI-assisted tools to accelerate production\n\n• A systems-minded approach to building templates and reusable assets other teams can rely on\n\n• Experience developing brand standards and directing contractor or freelance creative work\n\n• Comfort in fast-moving environments where the brief isn't always perfect\n\n• An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes\n\nPay Transparency Disclosure\n\nWe use geographic cost of labor as an input to develop ranges for our roles and as such, each location where we hire may have a different range. If this role is remote, we have listed the top to the bottom of the possible range, but we will specify the target range for an exact location when you are selected for a recruiting discussion. For more information on our compensation philosophy, seeour website.\n\nOn-target Earnings OR Base Salary range (San Francisco, CA)\n\n$167,000—$196,000 USD\n\nWhat We Offer\n\n• A fast-paced and collaborative environment\n\n• Learning and development allowance\n\n• Competitive cash and equity compensation, and opportunity for advancement\n\n• 100% medical, dental, and vision coverage\n\n• Up to $25K reimbursement for fertility, adoption, and parental planning services\n\n• Flexible PTO policy\n\n• Monthly wellness stipend\n\nAt Checkr, we believe an in office work environment strengthens collaboration, drives innovation, and encourages connection. Our hub locations are Denver, CO; San Francisco, CA; Nashville, TN; and Santiago, Chile. Individuals are expected to work from the office 3+ days a week. In-office perks are provided, such as lunch five times a week, a commuter stipend, and an abundance of snacks and beverages. A relocation stipend may be available for those willing to relocate to a Checkr hub location.\n\nEqual Employment Opportunities at Checkr\n\nCheckr is committed to building the best product and company, which requires hiring talented and qualified individuals with a diverse set of perspectives and lived experiences. Checkr believes in hiring people of all backgrounds, including those whose histories are impacted by the justice system in accordance with local, state, and/or federal laws, including the San Francisco’s Fair Chance Ordinance.\n\nApplicant Privacy Policy\n\nIf you are a California resident or are located in Alberta or British Columbia, our Applicant Privacy Policy applies to our collection and processing of your personal information when you apply for a role with us or otherwise participate in our recruitment process.\n\n*Legitimate Checkr emails will always include our official domain name after the @ symbol (e.g., [[email removed]](mailto:[email removed]) or [[email removed]](mailto:[email removed])).",
+    "job_is_remote": true,
+    "job_posted_at": "16 hours ago",
+    "job_posted_at_timestamp": 1782756000,
+    "job_posted_at_datetime_utc": "2026-06-29T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "dental_coverage",
+      "paid_time_off",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Dental insurance",
+      "Paid time off",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D7Cp7BltXiHcPbpTMAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "438e5RAhOeidcVDRAAAAAA==",
     "job_title": "Senior Full Stack Engineer (Javascript, AWS and NodeJS exp.)",
     "employer_name": "Kellton",
