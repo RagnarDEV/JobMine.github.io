@@ -1,5 +1,333 @@
 [
   {
+    "job_id": "438e5RAhOeidcVDRAAAAAA==",
+    "job_title": "Senior Full Stack Engineer (Javascript, AWS and NodeJS exp.)",
+    "employer_name": "Kellton",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg7kcoStQOlKOpvAqKS_XGST1kGnt5MerQQ1W4&s=0",
+    "employer_website": "https://www.kellton.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/senior-full-stack-engineer-javascript-aws-and-nodejs-exp-at-kellton-4431501822",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/senior-full-stack-engineer-javascript-aws-and-nodejs-exp-at-kellton-4431501822",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Position: Senior Full Stack Engineer (Javascript, AWS and NodeJS exp)\n\nLocation: 100% Remote\n\nDuration: Long term contract\n\nWorking within the Information Technology division and across the operations and key business units, the Senior Full Stack Engineer will analyze procedures, and design and implement solutions to design, deliver, and maintain high-quality software that is scalable, secure, and reusable. The Senior Full Stack Engineer will design, develop and implement solutions, based on a set of standards and processes which establish consistency across the team and enterprise, reduce risk, and promote efficiencies in support of the organization’s goals and objectives.\n\nThe ideal candidate will have designed, developed and implemented serverless software solutions in support of data quality and automation. The candidate will also possess technical skills and experience in the data management domain that will help their ability to design and develop elegant and efficient data processes and systems.\n\nRequired Skills:\n\n• Strong and evolving competence in several programming languages and technologies, working knowledge of multiple tool sets, technologies and implementation environments\n\n• Strong practical experience in Javascript/Typescript, React, NodeJS, next.js, APIs and scripting experience in a Cloud based environment\n\n• Possess technical skills and experience in the virtual infrastructure domain, specifically Amazon Web Services and AWS serverless technologies (Lambdas, DynamoDB, S3, CloudWatch, etc.)\n\n• Design and development experience in building and monitoring microservices\n\n• Working experience and discipline in Agile, CI/CD, DevOps best practices\n\n• Demonstrated experience in developing full stack solutions using NodeJS\n\n• Fundamentals in OO and computer science foundation principles.\n\n• Knowledge of software development lifecycle and modern software engineering principles and practices\n\n• Strong problem-solving skills and ability to work collaboratively with team members\n\nPreferred Skills:\n\n• Experience working on Agile teams with the scrum team member attitude – willingness to support the Team to be successful in any area necessary\n\n• High analytical skills and knack to design, develop, build, refactor scalable, reuseable applications and monitor high frequency data services.\n\n• Ability to use: KMS, SQS SNS, OpenSearch, Route 53, VPC\n\n• Fluency with CI/CD toolsets such as: CloudFormation, gitHub, Ansible\n\n• Experience with relational databases and NoSQL databases\n\n• Experience building infrastructure as code using AWS CloudFormation or similar scripting techniques\n\n• Appetite to learn new things, both business process and technology\n\n• Some knowledge in data science, GenAI, and/or machine learning\n\nEducation/Certifications:\n\n• Bachelor’s degree and/or other advanced degree(s)\n\n• Relevant AWS or other professional certifications",
+    "job_is_remote": true,
+    "job_posted_at": "18 hours ago",
+    "job_posted_at_timestamp": 1782738000,
+    "job_posted_at_datetime_utc": "2026-06-29T13:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D438e5RAhOeidcVDRAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "vjcx0YKkWr67SAyKAAAAAA==",
+    "job_title": "Remote Frontend Developer Jobs – Online Opportunity",
+    "employer_name": "JobHub",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://opensourcejobhub.com&size=128",
+    "employer_website": "https://opensourcejobhub.com",
+    "job_publisher": "JobHub",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://jobhub.jl.liveblog365.com/remote-jobs/remote-frontend-developer-jobs-online-opportunity-4",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://jobhub.jl.liveblog365.com/remote-jobs/remote-frontend-developer-jobs-online-opportunity-4",
+        "is_direct": false,
+        "publisher": "JobHub"
+      }
+    ],
+    "job_description": "Job Summary CodeSprint Labs is seeking a talented and motivated Remote Frontend Developer to join our dynamic, innovative team. As a frontend developer, you will be responsible for designing, implementing, and optimizing user-facing features for web applications, ensuring a seamless and visually appealing experience for our users. This role offers a fully remote work opportunity, allowing you to collaborate with a diverse team of experts from anywhere while contributing to exciting projects in a fast-paced, technology-driven environment. Key Responsibilities • Develop responsive, scalable, and user-friendly web interfaces using modern frontend frameworks such as React, Vue, or Angular. • Collaborate with backend developers, designers, and product managers to implement innovative solutions that meet business and technical requirements. • Optimize applications for maximum speed, performance, and accessibility across devices and browsers. • Participate in code reviews, providing constructive feedback and maintaining code quality standards. • Troubleshoot, debug, and resolve frontend issues to ensure a smooth user experience. • Stay up-to-date with emerging frontend technologies, best practices, and industry trends. • Contribute to project documentation and assist in planning and estimating development tasks. Required Skills and Qualifications • Proven experience in frontend development using HTML5, CSS3, JavaScript, and modern frameworks (React/Vue/Angular). • Strong understanding of UI/UX principles and responsive web design. • Experience with version control systems such as Git. • Familiarity with RESTful APIs and integrating frontend applications with backend services. • Knowledge of cross-browser compatibility, web performance optimization, and accessibility standards. • Excellent problem-solving skills and attention to detail. • Strong communication skills and ability to collaborate effectively in a remote team environment. Experience • Minimum 2 years of experience in frontend development or a related role. • Prior experience working on remote or distributed teams is a plus. • Exposure to Agile/Scrum methodologies is preferred. Working Hours • Flexible working hours with an expectation to overlap partially with [company’s core hours – e.g., 9 AM to 5 PM GMT] for team collaboration. • Fully remote position – work from anywhere with a stable internet connection. Knowledge, Skills, and Abilities • Strong analytical and logical thinking skills. • Ability to translate design mockups into high-quality code efficiently. • Ability to manage multiple tasks and meet deadlines in a dynamic environment. • Self-motivated, proactive, and able to work independently with minimal supervision. • Passion for technology and continuous learning. Benefits • Competitive salary and performance-based incentives. • Flexible remote work environment with no geographic restrictions. • Opportunities for professional growth and skill development. • Access to cutting-edge tools and technologies. • Collaborative and supportive team culture. • Paid time off and public holidays as per company policy. Why Join CodeSprint Labs • Work on innovative projects with leading-edge technologies. • Join a fast-growing, forward-thinking company that values creativity and initiative. • Gain exposure to global clients and diverse projects. • Enjoy the flexibility and work-life balance of a fully remote role. How to Apply Interested candidates are invited to submit their resume, portfolio (if applicable), and a brief cover letter outlining their experience and interest in the role. Please apply via our careers page or email your application to us. Apply To this Job",
+    "job_is_remote": true,
+    "job_posted_at": "8 hours ago",
+    "job_posted_at_timestamp": 1782774000,
+    "job_posted_at_datetime_utc": "2026-06-29T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dvjcx0YKkWr67SAyKAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "ve2rYmZ0BNYKctxqAAAAAA==",
+    "job_title": "Hadoop Big Data Developer",
+    "employer_name": "Bright Vision Technologies",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndn5_AdH1AKanxNlVDq7xGeGTx-s9zQ0Alo1r&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/hadoop-big-data-developer-at-bright-vision-technologies-4434762022",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/hadoop-big-data-developer-at-bright-vision-technologies-4434762022",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Bright Vision Technologies is a forward-thinking software development company dedicated to building innovative solutions that help businesses automate and optimize their operations. We leverage cutting-edge technologies to create scalable, secure, and user-friendly applications.\n\nAs we continue to grow, we’re looking for a skilled Hadoop Big Data Developer to join our dynamic team and contribute to our mission of transforming business processes through technology.\n\nThis is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential.\n\nHadoop Big Data Developer\n\nJob Title: Hadoop Big Data Developer\n\nLocation: 100% Remote (Continental United States)\n\nPosition Type: In-house Bright Vision Technologies SOW engagement (no third-party client or vendor)\n\nExperience: 5+ years\n\nSalary: 100k - 150k\n\nSponsorship: No new H1B sponsorship available. H1B transfers welcomed for qualified candidates.\n\nEmployment Type: Full-time, direct W2 with Bright Vision Technologies (no C2C, no 1099, no third-party)\n\nEngagement: Long-term, multi-year, aligned to the Bright Vision SOW delivery roadmap\n\nCompensation: Competitive base salary commensurate with experience, plus benefits.\n\nEmployment Terms & Visa Policy\n\nThis is a 100% remote, full-time, direct W2 position with Bright Vision Technologies.\n\nThis role is part of Bright Vision Technologies’ in-house Statement of Work (SOW) engagement. The client, end customer, and employer for this position is Bright Vision Technologies — there is no third-party client, vendor, or implementation partner involved.\n\nWe do not engage in C2C, 1099, or third-party arrangements for this role.\n\nBUT STRICTLY NO C2C/1099/3RD PARTY COMPANIES. ALL OUR ROLES ARE W2 AND NO 3RD PARTY BROKERING PLEASE.\n\nCandidates must be willing to work directly as a full-time W2 employee of Bright Vision Technologies and contribute to our in-house SOW deliverables.\n\nNo new H1B sponsorship is available for this role.\n\nHowever, candidates who are currently on a valid H1B visa and require a transfer are welcome to apply. We will support H1B transfers for qualified candidates.\n\nFor every role, a technical coding assessment is mandatory. Please apply only if you are confident in your technical abilities and hands-on experience.\n\nJob Summary\n\nWe are seeking an experienced Hadoop Big Data Developer to design, build, and operate large-scale data processing pipelines and analytics platforms on Hadoop and related big-data ecosystems. In this role you will be responsible for ingesting, transforming, and analyzing massive volumes of structured and unstructured data to support enterprise analytics, machine learning, and reporting workloads. The ideal candidate will combine deep technical expertise across the Hadoop ecosystem with strong software engineering fundamentals and a clear understanding of how to deliver reliable, performant, and cost-effective data platforms in production environments.\n\nKey Responsibilities\n\n• Design, develop, and operate end-to-end big-data pipelines on Hadoop, ingesting data from a diverse mix of relational, file-based, streaming, and API-driven sources\n• Build robust ETL/ELT workflows using Apache Spark, Hive, Pig, and Sqoop, with strong attention to data quality, idempotency, error handling, and recoverability\n• Develop high-throughput streaming data pipelines using Kafka, Spark Streaming, or Flink, and integrate them with downstream analytical and operational systems\n• Optimize Spark and MapReduce jobs through careful tuning of partitioning, memory, serialization, and skew handling to meet demanding SLAs at minimal cost\n• Design and maintain data models and storage layouts on HDFS, Hive, HBase, and modern lakehouse formats (Parquet, ORC, Delta, Iceberg, Hudi) to balance flexibility and performance\n• Implement data governance, lineage, and quality controls in collaboration with data governance and security teams\n• Build robust monitoring, alerting, and logging strategies for big-data pipelines, including job-level SLAs and proactive failure detection\n• Partner with data scientists and analysts to deliver curated, reliable, and well-documented datasets that accelerate their work\n• Automate pipeline orchestration using Airflow, Oozie, or similar workflow engines, with clean dependency management and clear ownership boundaries\n• Continuously evaluate and adopt new technologies in the big-data and cloud ecosystem (EMR, Databricks, Snowflake, BigQuery) where they offer meaningful improvements\n• Lead performance reviews and architecture audits of existing pipelines, proposing concrete refactoring and optimization initiatives\n• Document data architectures, schemas, pipeline behaviors, and operational runbooks in a way that makes the platform supportable as the team scales\n• Mentor junior engineers and contribute to the team’s engineering standards and best practices\n\nRequired Qualifications\n\n• Bachelor’s degree in Computer Science, Engineering, or a related technical discipline\n• Five or more years of professional experience designing and operating big-data pipelines on Hadoop\n• Strong hands-on expertise with Apache Spark (Scala, Python, or Java) in production environments\n• Solid experience with Hive, HDFS, Sqoop, HBase, and the broader Hadoop ecosystem\n• Hands-on experience with streaming data platforms such as Kafka, Spark Streaming, or Flink\n• Strong SQL skills and experience working with both relational and NoSQL data stores\n• Experience with workflow orchestration tools such as Airflow or Oozie\n• Solid understanding of distributed systems concepts, including partitioning, replication, and fault tolerance\n• Strong scripting skills in Python or Shell\n• Excellent troubleshooting, debugging, and documentation skills\n\nPreferred Qualifications\n\n• Experience operating Hadoop on cloud platforms such as AWS EMR, Azure HDInsight, or Databricks\n• Familiarity with modern lakehouse formats (Delta, Iceberg, Hudi)\n• Exposure to data governance tooling such as Apache Atlas or Collibra\n• Experience with Kubernetes-based data platforms (Spark-on-K8s, Trino)\n• Hands-on experience with CI/CD and infrastructure-as-code in data engineering workflows\n\nHow To Apply\n\nWould you like to know more about this opportunity?\n\nFor immediate consideration, please send your resume to harry@bvteck.com or contact us at (908) 676-4399. Learn more about Bright Vision Technologies at www.bvteck.com.\n\nWe recognize that our people are our strength, and the diverse talents they bring to our global workforce are directly linked to our success. We are an equal opportunity employer and place a high value on diversity and inclusion at our company.\n\nWe do not discriminate on the basis of any protected attribute, including race, religion, color, national origin, gender, sexual orientation, gender identity, gender expression, age, marital or veteran status, pregnancy or disability, or any other basis protected under applicable law. We also make reasonable accommodations for applicants’ and employees’ religious practices and beliefs, as well as mental health or physical disability needs.\n\nBright Vision Technologies is an Equal Opportunity Employer, including Disability/Veterans.\n\nPosition offered by “No Fee Agency.”\n\nEqual Employment Opportunity (EEO) Statement\n\nBright Vision Technologies (BV Teck) is committed to equal employment opportunity (EEO) for all employees and applicants without regard to race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, veteran status, or any other protected status as defined by applicable federal, state, or local laws. This commitment extends to all aspects of employment, including recruitment, hiring, training, compensation, promotion, transfer, leaves of absence, termination, layoffs, and recall.\n\nBV Teck expressly prohibits any form of workplace harassment or discrimination. Any improper interference with employees' ability to perform their job duties may result in disciplinary action up to and including termination of employment.\n\nPowered by JazzHR\n\nQF30HHxcMd",
+    "job_is_remote": true,
+    "job_posted_at": "12 hours ago",
+    "job_posted_at_timestamp": 1782759600,
+    "job_posted_at_datetime_utc": "2026-06-29T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dve2rYmZ0BNYKctxqAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "AqTt4JYcGxRm496wAAAAAA==",
+    "job_title": "Automation Test Engineer (Entry-Level / Associate)",
+    "employer_name": "PromptEDGE",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP7ReyomZOgREwqAhcecRHwvUROGxECaQ2bplh&s=0",
+    "employer_website": "https://www.promptedgetechnologies.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Part-time",
+    "job_employment_types": [
+      "PARTTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/automation-test-engineer-entry-level-associate-at-promptedge-4434737264",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/automation-test-engineer-entry-level-associate-at-promptedge-4434737264",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Automation Test Engineer (Entry-Level / Associate) – Role Description & Qualifications\n\nWe are seeking a motivated and detail-oriented Automation Test Engineer (Entry-Level / Associate) to join our Quality Assurance team. The ideal candidate should have a strong interest in software testing, automation technologies, and software quality, with a willingness to learn and grow in a collaborative development environment.\n\nThe Automation Test Engineer will assist in designing, developing, and maintaining automated test scripts while supporting manual testing activities to ensure software applications meet functional, performance, and quality standards. This role provides an excellent opportunity for recent graduates and early-career professionals to build expertise in software testing and test automation.\nKey Responsibilities\n• Develop, execute, and maintain automated test scripts for web, mobile, and desktop applications.\n• Assist in designing test plans, test cases, and test scenarios based on business and technical requirements.\n• Perform manual testing, including functional, regression, integration, smoke, and user acceptance testing (UAT).\n• Identify, document, and track software defects using issue management tools.\n• Verify bug fixes and conduct regression testing before software releases.\n• Support API, database, and cross-browser testing activities.\n• Collaborate with software developers, QA engineers, business analysts, and product teams.\n• Participate in Agile/Scrum meetings, sprint planning, and testing reviews.\n• Contribute to the improvement of automation frameworks and testing processes.\n• Maintain testing documentation, execution reports, and quality metrics.\n• Learn and adopt industry best practices in software quality assurance and automation testing.\n• Support CI/CD testing and software release activities.\nRequired Skills & Competencies\n• Basic understanding of software testing principles and quality assurance methodologies.\n• Knowledge of programming or scripting languages such as Java, Python, JavaScript, C#, or similar.\n• Familiarity with software development life cycle (SDLC) and Agile methodologies.\n• Basic understanding of automation testing concepts and tools.\n• Knowledge of SQL and basic database querying.\n• Strong analytical and problem-solving skills.\n• Excellent attention to detail and commitment to software quality.\n• Good verbal and written communication skills.\n• Ability to work independently and collaboratively within a team.\n• Strong willingness to learn new technologies and testing tools.\nPreferred Qualifications\n• Bachelor's degree in Computer Science, Software Engineering, Information Technology, Information Systems, or a related field.\n• Internship, academic project, or entry-level experience in software testing, QA, software development, or automation is an advantage.\n• Familiarity with automation tools such as Selenium, Cypress, Playwright, Appium, or similar frameworks.\n• Experience with Postman, REST APIs, Git, Jenkins, Jira, Azure DevOps, or TestRail is beneficial.\n• Basic knowledge of CI/CD pipelines, Docker, or cloud platforms is a plus.\n• ISTQB Foundation Certification or similar QA certifications are considered an advantage.\nWhat We Offer\n• Competitive salary and comprehensive benefits package.\n• Structured onboarding and mentorship from experienced QA professionals.\n• Professional development and certification support.\n• Hands-on experience with modern automation frameworks and testing technologies.\n• Collaborative, Agile, and innovation-driven work environment.\n• Clear career progression into Automation Engineer, QA Engineer, or Software Development Engineer in Test (SDET) roles.\n\nThe ideal Automation Test Engineer (Entry-Level / Associate) is curious, analytical, and quality-focused, capable of supporting software testing initiatives while developing expertise in automation technologies, quality assurance best practices, and modern software engineering processes.\n•",
+    "job_is_remote": true,
+    "job_posted_at": "13 hours ago",
+    "job_posted_at_timestamp": 1782756000,
+    "job_posted_at_datetime_utc": "2026-06-29T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DAqTt4JYcGxRm496wAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "wzFseNuf18IN-sM4AAAAAA==",
+    "job_title": "React Lead",
+    "employer_name": "Visionary Innovative Technology Solutions LLC",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIBAvArwdRL-FX9wjj0VqVviH4xg0lz71rNWWi&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/react-lead-at-visionary-innovative-technology-solutions-llc-4431536084",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/react-lead-at-visionary-innovative-technology-solutions-llc-4431536084",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Core Technical Skills\n• MFE Patterns: Advanced experience with Webpack 5 Module Federation, single-spa, or custom shell orchestrators.\n• Monorepos: Proficiency managing large-scale workspaces using Nx or Turborepo.\n• React Ecosystem: Mastery of React 18+, TypeScript, and modern state management (Zustand, Redux Toolkit).\n• CI/CD & DevOps: Hands-on experience building independent deployment pipelines for individual micro-apps.",
+    "job_is_remote": true,
+    "job_posted_at": "13 hours ago",
+    "job_posted_at_timestamp": 1782756000,
+    "job_posted_at_datetime_utc": "2026-06-29T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DwzFseNuf18IN-sM4AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "SBjQcyA3SAF3tnN5AAAAAA==",
+    "job_title": "IoT Engineer (Industrial IoT)",
+    "employer_name": "Bright Vision Technologies",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndn5_AdH1AKanxNlVDq7xGeGTx-s9zQ0Alo1r&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/iot-engineer-industrial-iot-at-bright-vision-technologies-4434749585",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/iot-engineer-industrial-iot-at-bright-vision-technologies-4434749585",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Bright Vision Technologies is a forward-thinking software development company dedicated to building innovative solutions that help businesses automate and optimize their operations. We leverage cutting-edge technologies to create scalable, secure, and user-friendly applications.\n\nAs we continue to grow, we’re looking for a skilled IIoT Engineer (Industrial IoT) to join our dynamic team and contribute to our mission of transforming business processes through technology.\n\nThis is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential.\n\nIoT Engineer (Industrial IOT)\n\nJob Title: IoT Engineer (Industrial IOT)\n\nLocation: 100% Remote (Continental United States)\n\nPosition Type: In-house Bright Vision Technologies SOW engagement (no third-party client or vendor)\n\nExperience: 5+ years\n\nSalary: 100k - 150k\n\nSponsorship: No new H1B sponsorship available. H1B transfers welcomed for qualified candidates.\n\nEmployment Type: Full-time, direct W2 with Bright Vision Technologies (no C2C, no 1099, no third-party)\n\nEngagement: Long-term, multi-year, aligned to the Bright Vision SOW delivery roadmap\n\nCompensation: Competitive base salary commensurate with experience, plus benefits.\n\nEmployment Terms & Visa Policy\n\nThis is a 100% remote, full-time, direct W2 position with Bright Vision Technologies.\n\nThis role is part of Bright Vision Technologies’ in-house Statement of Work (SOW) engagement. The client, end customer, and employer for this position is Bright Vision Technologies — there is no third-party client, vendor, or implementation partner involved.\n\nWe do not engage in C2C, 1099, or third-party arrangements for this role.\n\nBUT STRICTLY NO C2C/1099/3RD PARTY COMPANIES. ALL OUR ROLES ARE W2 AND NO 3RD PARTY BROKERING PLEASE.\n\nCandidates must be willing to work directly as a full-time W2 employee of Bright Vision Technologies and contribute to our in-house SOW deliverables.\n\nNo new H1B sponsorship is available for this role.\n\nHowever, candidates who are currently on a valid H1B visa and require a transfer are welcome to apply. We will support H1B transfers for qualified candidates.\n\nFor every role, a technical coding assessment is mandatory. Please apply only if you are confident in your technical abilities and hands-on experience.\n\nJob Summary\n\nWe are seeking an experienced IoT Engineer (Industrial IOT) to design and build connected, data-driven industrial systems spanning the factory floor to enterprise cloud platforms. In this role you will architect end-to-end IIoT solutions, including edge data acquisition, secure connectivity, cloud ingestion, real-time analytics, and operational dashboards. The ideal candidate will combine strong software engineering skills with practical experience in industrial protocols, edge computing, and cloud IoT platforms. In this role you will work closely with cross-functional partners — product, design, engineering, operations, and business stakeholders — to translate ambiguous requirements into well-engineered solutions, and will be expected to raise the bar through code review, design review, and mentorship of more junior engineers. The successful candidate brings strong engineering discipline, a clear communication style, and a track record of shipping meaningful work that holds up well in production.\n\nKey Responsibilities\n\n• Architect end-to-end IIoT solutions spanning edge devices, gateways, connectivity, and cloud platforms\n• Design data acquisition pipelines from PLCs, SCADA, and sensors using protocols such as OPC UA, Modbus, MQTT, and Sparkplug B\n• Build edge computing applications using AWS IoT Greengrass, Azure IoT Edge, or similar platforms\n• Implement secure connectivity using mTLS, certificate management, and zero-trust patterns\n• Build cloud ingestion and processing pipelines using AWS IoT Core, Azure IoT Hub, Kafka, or similar\n• Develop real-time analytics, anomaly detection, and predictive maintenance models that turn raw telemetry from industrial assets into actionable signals for operators and reliability engineers\n• Build operational dashboards and alerts for plant managers and operators\n• Integrate IIoT data streams with MES, ERP, CMMS, and historian systems, designing reliable bidirectional flows that maintain consistency between operational technology and enterprise systems of record\n• Implement strong device management, including provisioning, OTA updates, and certificate rotation\n• Collaborate closely with OT, process engineering, and reliability teams, gathering requirements, aligning on technical approach, and ensuring that delivered solutions meet both functional needs and broader engineering and operational standards\n• Ensure compliance with relevant industrial cybersecurity standards (IEC 62443, NIST)\n• Maintain comprehensive, current technical documentation — including architecture diagrams, design decisions, configuration references, runbooks, and operational procedures — so that the system remains supportable, auditable, and easy to onboard new engineers onto over time\n• Mentor and coach junior and mid-level engineers through code review, design review, pair programming, and structured knowledge sharing, helping the broader team grow in technical maturity and confidence over time\n• Continuously evaluate emerging IIoT technologies and platforms, assessing maturity, fit for purpose, and total cost of ownership, and make grounded recommendations on which to adopt, pilot, or defer based on real engineering needs\n\nRequired Qualifications\n\n• Bachelor’s degree in Computer Science, Engineering, or a related technical discipline\n• Five or more years of IIoT or industrial software engineering experience\n• Strong programming skills in Python, C++, or Go\n• Hands-on experience with industrial protocols (OPC UA, Modbus, MQTT, Sparkplug B)\n• Experience with at least one major cloud IoT platform (AWS, Azure, GCP)\n• Hands-on experience with edge runtimes (Greengrass, IoT Edge)\n• Solid understanding of OT/IT integration patterns\n• Experience with streaming and real-time analytics platforms\n• Familiarity with industrial cybersecurity standards\n• Excellent troubleshooting, communication, and documentation skills\n\nPreferred Qualifications\n\n• Experience with digital-twin platforms\n• Hands-on experience with predictive maintenance ML models\n• Exposure to time-series databases (InfluxDB, TimescaleDB)\n• Familiarity with Unified Namespace (UNS) patterns\n• Industrial certifications (ISA, IEC 62443)\n\nHow To Apply\n\nWould you like to know more about this opportunity?\n\nFor immediate consideration, please send your resume to harry@bvteck.com or contact us at (908) 676-4399. Learn more about Bright Vision Technologies at www.bvteck.com.\n\nWe recognize that our people are our strength, and the diverse talents they bring to our global workforce are directly linked to our success. We are an equal opportunity employer and place a high value on diversity and inclusion at our company.\n\nWe do not discriminate on the basis of any protected attribute, including race, religion, color, national origin, gender, sexual orientation, gender identity, gender expression, age, marital or veteran status, pregnancy or disability, or any other basis protected under applicable law. We also make reasonable accommodations for applicants’ and employees’ religious practices and beliefs, as well as mental health or physical disability needs.\n\nBright Vision Technologies is an Equal Opportunity Employer, including Disability/Veterans.\n\nPosition offered by “No Fee Agency.”\n\nEqual Employment Opportunity (EEO) Statement\n\nBright Vision Technologies (BV Teck) is committed to equal employment opportunity (EEO) for all employees and applicants without regard to race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, veteran status, or any other protected status as defined by applicable federal, state, or local laws. This commitment extends to all aspects of employment, including recruitment, hiring, training, compensation, promotion, transfer, leaves of absence, termination, layoffs, and recall.\n\nBV Teck expressly prohibits any form of workplace harassment or discrimination. Any improper interference with employees' ability to perform their job duties may result in disciplinary action up to and including termination of employment.\n\nPowered by JazzHR\n\nZ9rUaGnR1G",
+    "job_is_remote": true,
+    "job_posted_at": "12 hours ago",
+    "job_posted_at_timestamp": 1782759600,
+    "job_posted_at_datetime_utc": "2026-06-29T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DSBjQcyA3SAF3tnN5AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "dzc5OCU8-jaJJha_AAAAAA==",
+    "job_title": "Platform Data Developer",
+    "employer_name": "Kforce Inc",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpksUopQeRzD6QffVp6ASKVDGGSFDkyQzyBAV8&s=0",
+    "employer_website": "https://www.kforce.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/platform-data-developer-at-kforce-inc-4434794648",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/platform-data-developer-at-kforce-inc-4434794648",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Responsibilities\n\nKforce has a client that is seeking a Platform Data Developer in Orlando, FL. Summary: The Platform Data Developer is responsible for supporting the design, development, implementation, and ongoing enhancement of the Project and Portfolio Management (PPM) platform. This role serves as a key link between business process requirements and technical solution delivery across SharePoint, Microsoft 365, Power Platform, reporting tools, and approved enterprise data sources. The individual in this role will develop and maintain the data structures, workflows, dashboards, integrations, and AI-enabled capabilities required to support a reliable, scalable, and user-friendly operational workspace for Complex Projects. Key Responsibilities:\n\n• Design, configure, and maintain SharePoint-based data structures including lists, libraries, metadata, views, permissions, and related site architecture to support the PPM operating model\n• Develop and support Power Automate workflows for intake, approvals, reminders, milestone tracking, document completeness checks, and other repeatable PMO processes\n• Build and maintain Power BI dashboards, data models, and reporting views that provide visibility into project status, milestones, risks, commercial controls, and portfolio health\n• Develop Power Apps, forms, or low-code applications where needed to simplify data capture, improve usability, and reduce manual effort for PMs and support teams\n• Support integration of the PPM platform with enterprise data sources such as SAP, Salesforce, Snowflake, OnePM, and other approved systems, in coordination with system owners and IT\n• Configure and validate AI-related capabilities such as SharePoint agents, Copilot-assisted experiences, metadata enrichment, and governed content structures that improve search and summarization quality\n\nRequirements\n\n• Bachelor's degree in Information Systems, Computer Science, Data Analytics, Business Technology, or a related field, or equivalent experience\n• Hands-on experience developing solutions in SharePoint Online and Microsoft 365, including lists, libraries, permissions, site configuration, and content governance\n• Experience with Microsoft Power Platform, particularly Power Automate, Power BI, and Power Apps, including workflow design, data modeling, and dashboard/report development\n• Experience translating business requirements into technical solutions, including requirements gathering, solution design, testing, and documentation\n• Working knowledge of enterprise integrations, APIs, SQL or related data tools, and reporting architecture is strongly preferred\n• Strong communication skills with the ability to work directly with PMO, project managers, commercial stakeholders, and technical support teams\n• Ability to work with structured and semi-structured data, perform data transformation, and support reporting solutions across multiple business systems\n• Ability to work independently in a small, evolving program environment and build practical solutions that balance governance, usability, and speed to value\n\nThe pay range is the lowest to highest compensation we reasonably in good faith believe we would pay at posting for this role. We may ultimately pay more or less than this range. Employee pay is based on factors like relevant education, qualifications, certifications, experience, skills, seniority, location, performance, union contract and business needs. This range may be modified in the future.\n\nWe offer comprehensive benefits including medical/dental/vision insurance, HSA, FSA, 401(k), and life, disability & ADD insurance to eligible employees. Salaried personnel receive paid time off. Hourly employees are not eligible for paid time off unless required by law. Hourly employees on a Service Contract Act project are eligible for paid sick leave.\n\nNote: Pay is not considered compensation until it is earned, vested and determinable. The amount and availability of any compensation remains in Kforce's sole discretion unless and until paid and may be modified in its discretion consistent with the law.\n\nThis job is not eligible for bonuses, incentives or commissions.\n\nKforce is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, gender identity, national origin, age, protected veteran status, or disability status.\n\nBy clicking “Apply Today” you agree to receive calls, AI-generated calls, text messages or emails from Kforce and its affiliates, and service providers. Note that if you choose to communicate with Kforce via text messaging the frequency may vary, and message and data rates may apply. Carriers are not liable for delayed or undelivered messages. You will always have the right to cease communicating via text by using key words such as STOP.",
+    "job_is_remote": true,
+    "job_posted_at": "9 hours ago",
+    "job_posted_at_timestamp": 1782770400,
+    "job_posted_at_datetime_utc": "2026-06-29T22:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "paid_time_off",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Paid time off",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Ddzc5OCU8-jaJJha_AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "65–68 an hour",
+    "job_min_salary": 65,
+    "job_max_salary": 68,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "LdfjPBVKlPo5K32oAAAAAA==",
     "job_title": "Full-Stack Engineer, Provisioning Apps",
     "employer_name": "Transform9",
