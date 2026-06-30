@@ -1,5 +1,281 @@
 [
   {
+    "job_id": "KpWFoTxaBMDUl6lqAAAAAA==",
+    "job_title": "Remote Senior JavaScript/React Engineer",
+    "employer_name": "Turing",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8MIRTbURw2wdAT5uRdblABEzJYT-SeENfUo8&s=0",
+    "employer_website": "https://www.turing.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/remote-senior-javascript-react-engineer-at-turing-4434923554",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/remote-senior-javascript-react-engineer-at-turing-4434923554",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "About Us:\n\nBased in San Francisco, California, Turing is the world’s leading research accelerator for frontier AI labs and a trusted partner for global enterprises deploying advanced AI systems. Turing supports customers in two ways: first, by accelerating frontier research with high-quality data, advanced training pipelines, plus top AI researchers who specialize in software engineering, logical reasoning, STEM, multilinguality, multimodality, and agents; and second, by applying that expertise to help enterprises transform AI from proof of concept into proprietary intelligence with systems that perform reliably, deliver measurable impact, and drive lasting results on the P&L.\n\nIdeal Background:\n\nThis role is ideal for engineers who have shipped high-impact products at fast-moving companies like Stripe, Airbnb, Cloudflare, Datadog, Coinbase, or similar high-growth engineering environments. We especially welcome graduates from leading programs such as Harvard, Columbia, Princeton, Yale, University of Pennsylvania, and comparable institutions — though exceptional experience and skill always take precedence over pedigree.\n\nProject Overview:\n\nAs a Software Engineering evaluator, you will create cutting-edge datasets for training, benchmarking, and advancing large language models, collaborating closely with researchers. This includes curating code examples, providing precise solutions, and making corrections — with a primary focus on Python across backend services, data pipelines, and ML infrastructure, alongside JavaScript (including ReactJS), C/C++, Java, Rust, and Go. You will evaluate and refine AI-generated code for efficiency, scalability, and reliability, and work with cross-functional teams to enhance enterprise-level AI-driven coding solutions.\n\nWhat Does a Typical Day Look Like?\n• Work on AI model training initiatives by curating code examples, building solutions, and correcting code — primarily in Python, with additional work in JavaScript (including ReactJS), C/C++, Java, Rust, and Go.\n• Evaluate and refine AI-generated code to ensure that it is efficient, scalable, and reliable.\n• Collaborate with cross-functional teams to enhance AI-driven coding solutions against industry performance benchmarks.\n• Build agents and automated verification tools in Python that can verify the quality of code and identify error patterns.\n• Hypothesize on steps in the software engineering cycle (prototyping, architecture design, API design, production implementation, launch, experiments, monitoring, operational maintenance) and evaluate model capabilities on them.\n• Design verification mechanisms that can automatically verify a solution to a software engineering task.\n\nRequired Skills:\n• Several years of software engineering experience (3 years or more)\n• Strong expertise in Python with deep knowledge of frameworks, tooling, and best practices for building production-grade software.\n• Experience building full-stack applications and deploying scalable software using modern languages and tools.\n• Deep understanding of software architecture, design, development, debugging, and code quality/review assessment.\n• Excellent oral and written communication skills for clear, structured evaluation rationales.\n\nEngagement Details:\n• Commitment: flexible engagement, minimum 10 hrs/week, up to 40 hrs/week\n• Type: Contractor (no medical/paid leave)\n• Duration: 1 month (potential extensions based on performance and fit)\n\nLocation: Candidates must be based in the United States\n• The application process takes 15–30 minutes.\n• Completion of an AI video interview is required.\n\nNote: As part of assessments you will go through an AI video interview.\n\nAfter applying, you will receive an email with a login link. Please use that link to access the portal and complete your profile.\n\nKnow amazing talent? Refer them at turing.com/referrals, and earn money from your network.",
+    "job_is_remote": true,
+    "job_posted_at": "15 hours ago",
+    "job_posted_at_timestamp": 1782784800,
+    "job_posted_at_datetime_utc": "2026-06-30T02:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DKpWFoTxaBMDUl6lqAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "mZ1LDtGYrxjpoPLzAAAAAA==",
+    "job_title": "Python Developer - Fully Remote | Upto $50/hr",
+    "employer_name": "Mercor",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwrccS6mxsszb0btQNXK_vl3gDlE0caaCnfZo4&s=0",
+    "employer_website": "https://www.mercor.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Part-time",
+    "job_employment_types": [
+      "PARTTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/python-developer-fully-remote-upto-%2450-hr-at-mercor-4431937135",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/python-developer-fully-remote-upto-%2450-hr-at-mercor-4431937135",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "About The Job\n\nMercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark, General Catalyst, Peter Thiel, Adam D'Angelo, Larry Summers, and Jack Dorsey.\n\nPosition: Software Engineer Expert\n\nType: Contract\n\nCompensation: $40–$50/hour\n\nLocation: Remote\n\nRole Responsibilities\n\n• Build MCP servers in Python using FastMCP.\n• Integrate web or desktop applications into RL Studio.\n• Work with APIs, Docker, Linux environments, and service configuration.\n• Implement populate/snapshot hooks for app state management.\n• Test apps locally and debug build, runtime, and permission issues.\n• Ensure apps meet platform validation and deployment requirements.\n\nQualifications\n\nMust-Have\n\n• Strong Python skills.\n• Experience with APIs, backend systems, and debugging.\n• Familiarity with Docker, Linux, and local testing workflows.\n• Ability to work with configuration files and deployment pipelines.\n• Problem-solving skills and attention to technical detail.\n\nPreferred\n\n• Experience with FastMCP or similar frameworks.\n• Experience integrating third-party apps or developer tools.\n• Familiarity with web apps, databases, and containerized environments.\n\nApplication Process (Takes 20–30 mins to complete)\n\n• Upload resume\n• AI interview based on your resume\n• Submit form\n\nResources & Support\n\n• For details about the interview process and platform information, please check: https://talent.docs.mercor.com/welcome\n• For any help or support, reach out to: support@mercor.com\n\nPS: Our team reviews applications daily. Please complete your AI interview and application steps to be considered for this opportunity.",
+    "job_is_remote": true,
+    "job_posted_at": "6 hours ago",
+    "job_posted_at_timestamp": 1782817200,
+    "job_posted_at_datetime_utc": "2026-06-30T11:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DmZ1LDtGYrxjpoPLzAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "IIRJ3WQ1gyDemDHNAAAAAA==",
+    "job_title": "[Hiring] Senior Software Engineer, Internally Deployed Products @ClickUp",
+    "employer_name": "ClickUp",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8WuPe0B8h_gHBaEzkqMcFPw4S4pO9iq3Thpa1&s=0",
+    "employer_website": "https://clickup.com",
+    "job_publisher": "Remote Jobs",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://remotive.com/remote/jobs/software-development/senior-software-engineer-internally-deployed-products-5080868",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://remotive.com/remote/jobs/software-development/senior-software-engineer-internally-deployed-products-5080868",
+        "is_direct": false,
+        "publisher": "Remote Jobs"
+      }
+    ],
+    "job_description": "Role Description\n\nAs the Senior Software Engineer on this team you will own the technical delivery of our MCP server platform, agent orchestration layer, and internal tooling — shipping production systems used daily by hundreds of ClickUp employees, and scaling your own throughput by treating AI tools as first-class engineering collaborators.\n\nWhat You'll Own\n\n•\n\nMCP Server Platform\n\n•\nDesign, build, and operate Model Context Protocol servers that expose CRM, ticketing, analytics, and communication data to AI agents across the GTM stack.\n\n•\nImplement Okta PKCE authentication flows and RBAC policy enforcement so agents access only the data they're authorized to touch.\n\n•\nMaintain deployment infrastructure on AWS (Bedrock, Lambda, ECS, API Gateway) and contribute to GCP workloads where applicable.\n\n•\nOwn observability: structured logging, distributed tracing, latency SLOs, and on-call runbooks for every production server.\n\n•\n\nAgent Orchestration & AI-Native Products\n\n•\nBuild and maintain multi-step autonomous agents that execute end-to-end GTM workflows — lead qualification, deal room assembly, onboarding automation, support triage, and more.\n\n•\nArchitect prompt engineering frameworks, tool-call schemas, and agent evaluation harnesses that make AI behavior predictable and auditable.\n\n•\nIntegrate with LLM providers (Anthropic, OpenAI, AWS Bedrock AgentCore) and maintain version-pinned, cost-tracked model configurations.\n\n•\nDeliver AI-powered internal applications (web apps, CLI tools, Slack integrations) that non-technical GTM stakeholders use without friction.\n\n•\n\nGTM Platform Engineering\n\n•\nOwn full-stack feature delivery across TypeScript/Node.js backends and React/TypeScript frontends for internal tooling.\n\n•\nWrite Python automation scripts, ETL pipelines, and data transformation layers that feed GTM analytics and AI context.\n\n•\nCollaborate with Systems Engineering and GTM Engineering teams on cross-cutting API standards, data contracts, and integration patterns.\n\n•\nConduct code reviews, establish engineering standards, and actively mentor junior engineers toward higher leverage.\n\n•\n\nAI-Native Development Practice\n\n•\nUse AI coding assistants (Claude, Cursor, GitHub Copilot) as primary engineering accelerators — not supplements — to ship at a pace that punches above a single engineer's weight.\n\n•\nDocument AI usage patterns, prompt templates, and agentic workflows so the team's collective throughput compounds.\n\n•\nStay current on MCP protocol evolution, agent frameworks (LangGraph, CrewAI, custom), and emerging LLM capabilities; bring back what matters.\n\nQualifications\n\n•\n5+ years of professional software engineering experience with production systems.\n\n•\nExpert-level TypeScript and Node.js — idiomatic, typed, testable server-side code.\n\n•\nStrong Python — automation scripts, data pipelines, and scripting for AI/ML tooling.\n\n•\nMeaningful AWS deployment experience: Lambda, Bedrock, ECS/Fargate, API Gateway, IAM, Secrets Manager, CloudWatch.\n\n•\nDemonstrated experience integrating with LLM APIs (OpenAI, Anthropic, AWS Bedrock, or equivalent) and shipping AI-powered features to real users.\n\n•\nSolid foundation in REST API design, OAuth 2.0 / OIDC authentication, and secure credential management.\n\n•\nExperience with CI/CD pipelines, infrastructure-as-code (Terraform, CDK, or SAM), and cloud cost awareness.\n\n•\nClear written communication: design docs, ADRs, and runbooks that others actually read.\n\n•\nTrack record of using AI tools (LLM assistants, copilots, agentic workflows) as a genuine productivity multiplier — not a gimmick.\n\nRequirements\n\n•\nHands-on experience with MCP (Model Context Protocol) — building servers, defining tool schemas, or operating multi-server agent environments.\n\n•\nGCP experience (Cloud Run, BigQuery, Cloud Functions) to complement AWS work.\n\n•\nSalesforce, HubSpot, or other CRM API integration work — understanding GTM data models is a significant advantage.\n\n•\nReact or Next.js front-end capability to ship internal dashboards and tooling without hand-offs.\n\n•\nFamiliarity with agent orchestration frameworks: LangGraph, AutoGen, CrewAI, or custom orchestration patterns.\n\n•\nExperience in a GTM Systems, RevOps, or Sales Engineering context.\n\n•\nOkta / identity provider integration work (PKCE flows, SCIM, token management).\n\nHow We Operate\n\n•\n\nOwnership\n\n— You own the full lifecycle of what you build: design, delivery, observability, and iteration. We don't have a separate ops hand-off.\n\n•\n\nVelocity\n\n— We ship to production in days, not quarters. AI tools are how we maintain that pace without sacrificing quality.\n\n•\n\nAtomicity\n\n— Every deliverable is a discrete, composable unit — an MCP server, an agent, an API. Nothing we build requires everything else to work.\n\nWho Thrives Here\n\nThis role is a strong fit if you are genuinely excited to work at the intersection of AI infrastructure and internal product — not just as a user of AI, but as someone building the layer that makes AI useful for an entire go-to-market organization. You are comfortable with ambiguity, you default to shipping, and you see every piece of internal tooling as a product that deserves operational discipline.\n\nThis role is not a fit if you need heavily defined requirements before starting work, prefer long planning cycles to iterative delivery, or view AI tools as optional extras rather than core to how you operate.\n\nUnsure if you meet all the qualifications of this job description but are deeply excited about the role? We hire based on ambition, grit, and a passion for improving the way people work. If you think ClickUp is the company for you, we encourage you to apply!\n\nEqual Opportunity Employer\n\nClickUp is an Equal Opportunity Employer, and qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, or national origin.\n\nPrivacy Notice\n\nClickUp collects and processes personal data in accordance with applicable data protection laws. You can find further details by viewing our Global Candidate Privacy Notice.\n\nVisa Sponsorship\n\nPlease note we are unable to sponsor or take over sponsorship of an employment visa for roles outside of engineering and product at this time. Sponsorship for engineering and product roles is not guaranteed, but is instead based on the business needs for that specific role at that time. Please reach out to the recruiter with any questions.\n\nFraud Alert\n\nClickUp Talent Acquisition will only initiate contact via an @clickup.com email or through our official careers portal on clickup.com. We will never request fees, payments, or sensitive personal information. Please disregard any offers received outside these channels and report them to support@clickup.com.\n\nAI Processing Notice\n\nClickUp may use artificial intelligence and machine learning technologies to help review and screen candidates' employment applications against role-related criteria. These tools support, but do not replace, human decision‑making. If you have questions or need an accommodation in the recruitment process, please contact us at AskPeople@ClickUp.com.",
+    "job_is_remote": true,
+    "job_posted_at": "21 hours ago",
+    "job_posted_at_timestamp": 1782763200,
+    "job_posted_at_datetime_utc": "2026-06-29T20:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DIIRJ3WQ1gyDemDHNAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "mKUl4kLYLY7vmODGAAAAAA==",
+    "job_title": "Staff AI Engineer - East Coast, Fully Remote",
+    "employer_name": "Onset Group",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLkdY-MTLDxFmSBjgO1ve7ppaR4GDff0_K_8sG&s=0",
+    "employer_website": "https://theonset.com.au",
+    "job_publisher": "Indeed",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.indeed.com/viewjob?jk=cbb23345ff39313a",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.indeed.com/viewjob?jk=cbb23345ff39313a",
+        "is_direct": false,
+        "publisher": "Indeed"
+      }
+    ],
+    "job_description": "Work Location: Remote (East Coast only)\n\nA geospatial intelligence company is building the next generation of AI systems that extract meaningful answers from high-resolution aerial imagery, and they need a Staff AI Engineer who can bridge cutting-edge research and production reality. You'll own the architecture and delivery of agentic AI systems that sit at the intersection of large language models, retrieval pipelines, and computer vision workflows. No data infrastructure headaches. No ticket-checking. Just hard, important engineering.\n\nOne role, one mission. The company's AI team is producing frontier science on aerial imagery - representation learning, reinforcement learning, and decision systems - and they need an engineer who can take that science and make it ship. You'll design and build the orchestration layers, agentic frameworks, and production ML infrastructure that turn research-stage models into reliable, scalable products. That means tool-use pipelines, retrieval-augmented generation, memory and planning architectures, verification loops, and the embedding and vector search systems that underpin next-generation geospatial products. You'll work closely with data scientists and the India-based engineering team on daily handover, and you'll be expected to own decisions, not wait for them.\n\nYou'll own your problems end to end - designing systems, evaluating their behaviour, identifying failure modes, and translating solutions into real product impact. You'll provide technical leadership to distributed team members and drive engineering standards across the team.\n\nThe ideal candidate holds a PhD or MS in Computer Science, Electrical Engineering, Applied Mathematics, or a related technical field, with strong foundations in production ML systems and software engineering. You have shipped agentic or LLM-based systems into production and understand where they break. Experience with retrieval-augmented generation, vector search, and embedding pipelines is important. Familiarity with computer vision or geospatial data is a genuine advantage. Above all, you build things that work - you don't prototype and hand off.\n\nThe role is fully remote, with the US East Coast preferred. An early start is required - 7:00 AM ET, at least 3-4 days a week - to sync cross-functionally with the India team, though there's flexibility around personal or the usual morning commitments after the handover. You must hold a green card or existing US work authorisation, as no sponsorship is available.\n\nCompensation is $200,000 - $220,000 base, plus a 10% annual bonus pro-rated on company performance.\n\nThe benefits package includes:\n\n• Medical\n\n• Dental and vision\n\n• 401(k) - 50% match up to 4% of contributions\n\n• Life insurance\n\n• Short- and long-term disability\n\n• Paid parental leave - six weeks\n\n• Employee Assistance Program\n\nThe hiring firm's interview process runs from initial resume screening to a video interview, a 30-45-minute seminar where you present your own work, some panel interviews, and a final with the hiring lead - typically 3-4 weeks end to end.\n\nApply now to be considered.\n\nBenefits:\n\n• 401(k)\n\n• Dental insurance\n\n• Employee assistance program\n\n• Flexible schedule\n\n• Parental leave\n\n• Retirement plan\n\nPay: $200,000.00 - $220,000.00 per year\n\nBenefits:\n\n• 401(k)\n\n• Dental insurance\n\n• Employee assistance program\n\n• Flexible schedule\n\n• Health insurance\n\n• Parental leave\n\n• Retirement plan\n\n• Vision insurance\n\nWork Location: Remote",
+    "job_is_remote": true,
+    "job_posted_at": "18 hours ago",
+    "job_posted_at_timestamp": 1782774000,
+    "job_posted_at_datetime_utc": "2026-06-29T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "dental_coverage",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Dental insurance",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DmKUl4kLYLY7vmODGAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "200K–220K a year",
+    "job_min_salary": 200000,
+    "job_max_salary": 220000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "eYW8V-cohVOtXsPZAAAAAA==",
+    "job_title": "Senior Designer, Packaging & Retail",
+    "employer_name": "Beam",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaBkKecmF-aRqkHOarifWmBe7QXGvIYBKdpKoJ&s=0",
+    "employer_website": "https://beam.org",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/senior-designer-packaging-retail-at-beam-4435116108",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/senior-designer-packaging-retail-at-beam-4435116108",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Beam is one of the fastest-growing wellness brands in the U.S., with products that support better sleep, gut health, hormonal health, kids nutrition, focus, recovery, and everyday wellness. As we continue to expand across retail, ecommerce, and new product categories, we're looking for a Senior Packaging Designer to help scale and maintain our growing portfolio.\n\nIn this role, you’ll own the day-to-day design needs across Beam’s packaging portfolio and retail presence, supporting everything from formula updates and compliance packaging revisions to retail launches, in-store merchandising, signage, out-of-home, events, and sales materials. You’ll help ensure Beam shows up consistently and thoughtfully across every retail touchpoint, whether it’s on shelf, at an event, or in market.\n\nThis role is ideal for someone who loves the intersection of design, systems, and execution. You’ll work closely across channels and external partners to ensure all packaging, print, and retail assets are accurate, on-brand, and production-ready.\n\nWhat You’ll Do\n\n• Own packaging adaptations across existing and new formats, dielines, pack sizes, and retail configurations.\n• Own the design execution of Beam’s retail ecosystem, including in-store displays, shelf assets, signage, out-of-home, event materials, sell sheets, retail mockups, and merchandising requests.\n• Support both print and digital requests tied to retail launches, customer meetings, events, and sales opportunities.\n• Prepare, review, and finalize production-ready files while ensuring accuracy across artwork, copy, claims, and printer specifications.\n• Maintain packaging systems, retail asset templates, file organization, and documentation to support a rapidly growing product portfolio.\n• Ensure Beam shows up consistently across every retail touchpoint, from pack to shelf to event to out-of-home.\n\nWhat You Are\n\n• 3–6+ years of design experience, preferably within CPG, food & beverage, supplements, wellness, or consumer health brands.\n• Strong understanding of packaging production, printing processes, prepress requirements, and dieline management.\n• Strong understanding of retail production across out-of-home, signage, displays, print specs, vendor handoff, and final file delivery.\n• Experience managing high volumes of packaging revisions across multiple SKUs and product lines.\n• Proficiency in Adobe Creative Suite, particularly Illustrator, InDesign, and Photoshop.\n• Exceptional attention to detail and ability to manage multiple projects simultaneously.\n• Strong organizational and project management skills with a systems-oriented mindset.\n• Ability to work cross-functionally and communicate effectively with both creative and operational stakeholders.\n• Experience supporting retail packaging and merchandising initiatives is a plus.\n• Experience implementing large-scale packaging refreshes or rebrands is a plus.\n\nLocation & Benefits: Boston, MA or New York, NY (Hybrid: 2-3 days/week in office) or Remote in the U.S.\n\nWe Offer\n\n✔ Fully covered medical benefits + dependent contributions\n\n✔ Unlimited PTO\n\n✔ 401k with up to 4% match\n\n✔ Wellness stipend for health & fitness\n\n✔ Commuter benefits\n\nThese are the Values that Guide our Decisions in the Business:\n\nPeople First\n\nWe take care of ourselves, our teammates and our customers equally\n\nConstant Improvement\n\nSmall daily improvements and a commitment to innovation and growth in our personal lives, as well as throughout the business\n\nTransparent and Open Communication\n\nSay it straight or it comes out crooked- respectful and direct communication always\n\nEgo is the Enemy\n\nAlways stay humble, hungry, and curious\n\nThink Like an Owner\n\nHow are my actions or this moment going to affect the big picture?\n\nRisk Taking\n\nMake informed bets and emotionally move on from the ones that don’t work\n\nCreativity and Rapid Iteration\n\nThink big, fail fast and inexpensively",
+    "job_is_remote": true,
+    "job_posted_at": "5 hours ago",
+    "job_posted_at_timestamp": 1782820800,
+    "job_posted_at_datetime_utc": "2026-06-30T12:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Paid time off",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DeYW8V-cohVOtXsPZAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "trdZhY6kXy74mPdcAAAAAA==",
+    "job_title": "UX Designer – Enterprise Platform",
+    "employer_name": "Tech Holding",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25XbYOV__PBI27B8KvSUR6rhfp_RfAEttfgmn&s=0",
+    "employer_website": "https://techholding.co",
+    "job_publisher": "Remote Rocketship",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.remoterocketship.com/us/company/techholding-co/jobs/ux-designer-enterprise-platform-united-states-remote/",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.remoterocketship.com/us/company/techholding-co/jobs/ux-designer-enterprise-platform-united-states-remote/",
+        "is_direct": false,
+        "publisher": "Remote Rocketship"
+      }
+    ],
+    "job_description": "Job Description:\n• Lead the UX discovery process, heuristic analysis of the current system, planner shadowing, and qualitative research to understand how expert users actually work.\n• Develop user personas, journey maps, and information architecture grounded in the realities of avails, rights, and conflict-check workflows.\n• Design and iterate on wireframes, interaction patterns, and clickable Figma prototypes that the team can put in front of real users before a line of production code is written.\n• Solve genuinely hard interaction problems: dense data tables, bulk operations across thousands of records, condition shaping at scale, version comparison, and surfacing complex rules logic in a way that's understandable.\n• Partner closely with engineering to ensure designs are technically feasible and implemented with fidelity, including building toward a reusable design system.\n• Define and run usability testing, task success rate, time on task, error rate — and use those findings to drive iteration, not opinion.\n• Ensure accessibility compliance (WCAG) is built in from the start.\n• Balance the power and flexibility expert users expect with the structure, consistency, and guardrails a purpose-built platform should provide.\n\nRequirements:\n• 5+ years of UX design experience, with a strong portfolio of complex internal tools, enterprise software, data-heavy applications, or workflow systems, not primarily marketing sites or consumer apps.\n• Demonstrated ability to design for expert/power users and information-dense interfaces, where efficiency and clarity matter more than visual flourish.\n• Deep fluency in Figma, wireframing, prototyping, and maintaining design systems.\n• Strong grasp of interaction design, information architecture, and usability principles for complex systems.\n• Experience running user research and usability testing, and translating findings into design decisions.\n• Ability to collaborate directly with both business stakeholders and engineers, and to defend design decisions with reasoning and evidence.\n• A pragmatic, iterative mindset, comfortable shipping a prototype, getting feedback, and refining quickly.\n\nBenefits:\n• Health insurance\n• 401(k) matching\n• Flexible work hours\n• Paid time off\n• Remote work options",
+    "job_is_remote": true,
+    "job_posted_at": "18 hours ago",
+    "job_posted_at_timestamp": 1782774000,
+    "job_posted_at_datetime_utc": "2026-06-29T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DtrdZhY6kXy74mPdcAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "XC1AgPq-5LFw88ihAAAAAA==",
     "job_title": "Database Software Engineer",
     "employer_name": "RisingWave",
