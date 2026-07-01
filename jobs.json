@@ -1,5 +1,786 @@
 [
   {
+    "job_id": "aIHzE4G2YkVxynlkAAAAAA==",
+    "job_title": "Portal UI Developer (.NET C#/Oracle)",
+    "employer_name": "Gainwell Technologies",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAt8yh9vqGtFjvX5EUsvG8TMKXwutS0CkMKHN6&s=0",
+    "employer_website": "https://www.gainwelltechnologies.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/portal-ui-developer-net-c%23-oracle-at-gainwell-technologies-4431969894",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/portal-ui-developer-net-c%23-oracle-at-gainwell-technologies-4431969894",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Be part of a team that unleashes the power of leading-edge technologies to help improve the health and well-being of those most vulnerable in our country and communities. Working at Gainwell carries its rewards. You’ll have an incredible opportunity to grow your career in a company that values work flexibility, learning, and career development. You’ll add to your technical credentials and certifications while enjoying a generous, flexible vacation policy and educational assistance. We also have comprehensive leadership and technical development academies to help build your skills and capabilities.\n\nSummary\n\nAs a Portal UI Developer (.NET C#/Oracle) at Gainwell, you can contribute your skills as we harness the power of technology to help our clients improve the health and well-being of the members they serve — a community’s most vulnerable. Connect your passion with purpose, teaming with people who thrive on finding innovative solutions to some of healthcare’s biggest challenges. Here are the details on this position.\n\nYour role in our mission\n\nTake a close look at some of the details that contribute to Gainwell’s industry-leading tools and technologies in this challenging position.\n\n• Code, test, debug, implement and document moderately complex programs\n• Analyze, design and write specs and reqs from which we develop and code programs\n• Evaluate existing systems and programs; assist project the manager in assigning tasks and work closely with a team\n• Liaise with clients and management to provide technical consulting on complex programming projects, validate program requirements and resolve issues that arise\n• Develop test plans and participate in QA activities such as coding reviews\n• Participate as a member of a development team and lead a small sub-team of developers as needed\n• Design system components and delegate responsibilities to team members\n\nWhat We're Looking For\n\n• 3+ years of experience in applications development, Portal UI development and programming using .NET, C# and Oracle.\n• 3+ years of applications development and support experience with all phases of the Software Development Life\n• Cycle, and Portal development.\n• Experience with the following:\n•\n• Basic ASP.NET\n• SQL\n• HTML\n• JavaScript\n• jQuery\n• Web API\n• LINQ queries\n\nWhat You Should Expect In This Role\n\n• Fully remote opportunity with the option to work anywhere within the 48-contiguous United States\n• Opportunities to travel through your work (0-10%)\n• Willingness to work a flexible schedule to accommodate business needs and travel as required\n• Some oncall is required\n• Would require working during the central timezone\n• Video cameras must be used during all interviews, as well as during the initial week of orientation\n\nThe deadline to submit applications for this posting is July 7, 2026\n\nThe pay range for this position is $60,000 - $80,000 per year, however, the base pay offered may vary depending on geographic region, internal equity, job-related knowledge, skills, and experience among other factors. Put your passion to work at Gainwell. You’ll have the opportunity to grow your career in a company that values work flexibility, learning, and career development. All salaried, full-time candidates are eligible for our generous, flexible vacation policy, a 401(k) employer match, comprehensive health benefits, and educational assistance. We also have a variety of leadership and technical development academies to help build your skills and capabilities.\n\nWe believe nothing is impossible when you bring together people who care deeply about making healthcare work better for everyone. Build your career with Gainwell, an industry leader. You’ll be joining a company where collaboration, innovation, and inclusion fuel our growth. Learn more about Gainwell at our company website and visit our Careers site for all available job role openings.\n\nGainwell Technologies is an Equal Opportunity Employer, where all qualified applicants will receive consideration for employment without regard to race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical condition), age, sexual orientation, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. Gainwell Technologies defines “wages” and “wage rates” to include “all forms of pay, including, but not limited to, salary, overtime pay, bonuses, stock, stock options, profit sharing and bonus plans, life insurance, vacation and holiday pay, cleaning or gasoline allowances, hotel accommodations, reimbursement for travel expenses, and benefits.",
+    "job_is_remote": true,
+    "job_posted_at": "5 hours ago",
+    "job_posted_at_timestamp": 1782853200,
+    "job_posted_at_datetime_utc": "2026-06-30T21:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Paid time off",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DaIHzE4G2YkVxynlkAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "XcQS-trm86rkFoh7AAAAAA==",
+    "job_title": "Project - Experienced web developer to integrate a complete online booking and checkout system into an existing website for a social media content creation business.",
+    "employer_name": "LAPECOM",
+    "employer_logo": null,
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/project-experienced-web-developer-to-integrate-a-complete-online-booking-and-checkout-system-into-an-existing-website-for-a-social-media-content-creation-business-at-lapecom-4434374187",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/project-experienced-web-developer-to-integrate-a-complete-online-booking-and-checkout-system-into-an-existing-website-for-a-social-media-content-creation-business-at-lapecom-4434374187",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Looking for an experienced web developer to integrate a complete online booking and checkout system into an existing website for a social media content creation business.\n\nCustomer Booking Workflow\n\nThe customer should be able to:\n\n- Select from a number of service packages\n\n- Customize the package by:\n\nAdding additional coverage hours\n\nSelecting add-on hours and services, if any\n\nViewing the updated price in real time\n\n- Select the date of their event and check availability\n\n- Enter the event location\n\n- Enter: Business or personal event\n\nIf Business - business name and address, first and last name, email, and phone number of the person in charge\n\nIf personal - First and last name, address, email, and phone number\n\n- Enter any special requests or event details\n\n- Schedule a pre-event 30-minute consultation by selecting an available date and time\n\n- Review their booking\n\n- Pay securely online\n\n- Receive an automatic confirmation email with all booking details\n\n- Admin Features\n\nThe administrator should be able to:\n\n- Create and edit service packages\n\n- Set package pricing\n\n- Configure add-on services\n\n- Configure pricing for additional hours\n\n- Manage consultation availability\n\n- View and manage bookings\n\n- Receive email notifications for new bookings\n\n- Export booking information if needed\n\nPayment\n\nThe system should support secure online payment.\n\nTechnical Requirements:\n\n- Integrate with our existing website (please specify the best approach based on your experience)\n\n- Mobile-friendly\n\n- Fast loading\n\n- Secure\n\n- Easy for non-technical staff to manage",
+    "job_is_remote": true,
+    "job_posted_at": "5 hours ago",
+    "job_posted_at_timestamp": 1782853200,
+    "job_posted_at_datetime_utc": "2026-06-30T21:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DXcQS-trm86rkFoh7AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "j0uM2o9bqe5O8cXsAAAAAA==",
+    "job_title": "Part-Time Full-Stack Developer | MVP feature development",
+    "employer_name": "LabABLE",
+    "employer_logo": null,
+    "employer_website": null,
+    "job_publisher": "Indeed",
+    "job_employment_type": "Part-time",
+    "job_employment_types": [
+      "PARTTIME"
+    ],
+    "job_apply_link": "https://www.indeed.com/viewjob?jk=2ea6389e2a3ef2f8",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.indeed.com/viewjob?jk=2ea6389e2a3ef2f8",
+        "is_direct": false,
+        "publisher": "Indeed"
+      }
+    ],
+    "job_description": "Company: LabABLE (www.labable.ai)\n\nLocation: Fully Remote\n\nType: Part-Time / MVP feature development\n\nTime Commitment: 2–4 hours per week\n\nAbout LabABLE\n\nLabABLE is building an AI-native laboratory operations platform and open marketplace for modern labs. Our platform helps labs move beyond spreadsheets, manual logs, fragmented workflows, and rigid legacy LIMS by providing an open platform for workflow automation, sample tracking, QC alerts, audit logs, dashboards, data parsing, integrations, shared workflows, and future AI-assisted lab tools. Think Github + Zapier for LabOps.\n\nWe are not an idea-only startup. LabABLE has an MVP built, active pilot work, waitlist signups, multiple LOIs/MOUs, and pilot/design partner conversations with labs, universities, and integration partners. We have been part of Launch.co Founder University and are currently in the Plug & Play ecosystem.\n\nOur team brings serious domain and technical experience across medicine, healthcare operations, laboratory workflows, AI, data architecture, cybersecurity, LIMS, QA/QC, and scientific commercialization. The founding team includes a physician-co-founder, a software/operational co-founder, a CTO with 15+ years in data/BI/analytics and cybersecurity, an AI/data science leader, and scientific/commercial advisors with lab, healthcare, and LIMS backgrounds.\n\nAbout the Role\n\nWe are looking for a part-time full-stack developer who wants to help build a meaningful health tech and lab operations open platform while keeping their current full-time role. This is ideal for someone who wants startup upside, can contribute a few focused hours per week, and is comfortable working in a fast-moving early-stage environment.\n\nYou will help improve and extend the LabABLE MVP, support pilot-related development, and build features tied to real lab use cases. This may include workflow automation, equipment/protocol modules and management, sample tracking, dashboards, file uploads, data parsing, audit logs, role-based access, integrations, and open marketplace/community features.\n\nMuch of our platform is already built out and additional development will go towards adding additional features and specific functionality to the platform.\n\nWe are looking for a builder with the right skill set who fits the team well, sees the vision, can grow with the team and company, and can transition to full-time as we scale, where we can offer appropriate market-rate salary compensation and additional equity incentives. There will be constant support from the founding team including the Co-Founders, CTO, CAIO, CCO, and advisors.\n\nTechnical Stack\n\nYou should have experience with some or most of the following:\n\n• Next.js / React / TypeScript\n\n• Tailwind CSS and modern component libraries such as shadcn/ui\n\n• Node.js and API development\n\n• MongoDB and/or PostgreSQL/Supabase\n\n• Authentication, protected routes, and role-based access control\n\n• Google Cloud Platform\n\n• REST APIs, webhooks, integrations, and data adapters\n\n• File upload and parsing workflows for CSV, Excel, JSON, PDF, or similar formats\n\n• Audit logging, secure data handling, and basic cloud security practices\n\nResponsibilities\n\n• Contribute 3–4 focused hours per week to MVP and pilot development\n\n• Build and refine full-stack features across frontend, backend, APIs, and database layers\n\n• Support pilot workflows for labs, universities, and design partners\n\n• Improve platform reliability, usability, and performance\n\n• Help build structured modules for workflows, sample tracking, equipment logs, protocols, dashboards, and data parsing\n\n• Collaborate with founders, technical leadership, and domain experts\n\n• Help document technical decisions, feature updates, and implementation notes\n\nPreferred Background\n\n• Plus if you have experience in health tech, lab software, LIMS, biotech, clinical diagnostics, research software, regulated data environments, or related fields.\n\n• Familiarity with HIPAA, audit logs, data integrity, compliance workflows, or role-based permissions is a plus but not mandatory.\n\n• Experience building SaaS products, marketplaces, workflow tools, dashboards, or integration-heavy platforms\n\n• Comfort working with early-stage startups where priorities move quickly\n\nCompensation\n\nThis is an early-stage, part-time startup role with meaningful equity upside and milestone-based cash payments. Cash compensation is limited at this stage and tied to agreed development milestones. You do not need to leave your current job. This role is designed for someone who wants to contribute a few hours per week, build with an experienced team, and participate in the upside as LabABLE grows. We understand working in startups is risky, and we are cognizant of everyone’s full time jobs. We will work around the team's schedules as needed and provide the necessary support.\n\nWhy Join\n\nLabABLE is building infrastructure for the future of science. Labs are critical to diagnostics, biotech, public health, and research, but many still rely on outdated tools and manual processes. We are creating a platform that helps labs operate more efficiently while also building an open ecosystem where scientists, labs, consultants, developers, and partners can share reusable workflows, tools, templates, and integrations.\n\nIf you are a strong full-stack developer interested in health tech, AI, lab automation, and startup equity upside, we would love to hear from you.\n\nTo apply, please send your resume, GitHub/portfolio if available, LinkedIn profile, and a brief note on why you are interested in LabABLE.\n\nPay: $1,000.00 - $100,000.00 per year\n\nBenefits:\n\n• Flexible schedule\n\n• Work from home\n\nWork Location: Remote",
+    "job_is_remote": true,
+    "job_posted_at": "22 hours ago",
+    "job_posted_at_timestamp": 1782792000,
+    "job_posted_at_datetime_utc": "2026-06-30T04:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dj0uM2o9bqe5O8cXsAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "pBi5qjp-3k42fAUjAAAAAA==",
+    "job_title": "Job Title: Golang Developer (Backend / Full Stack)",
+    "employer_name": "Chabez Tech LLC",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH_huhCIQVqSTFiG93sL0QnWuuDWRwlOyUhOMm&s=0",
+    "employer_website": null,
+    "job_publisher": "Dice",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.dice.com/job-detail/46bcb2f4-a807-423b-960d-5cec3ce4cb5f",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.dice.com/job-detail/46bcb2f4-a807-423b-960d-5cec3ce4cb5f",
+        "is_direct": false,
+        "publisher": "Dice"
+      }
+    ],
+    "job_description": "Job Title: Golang Developer (Backend / Full Stack)\nLocation: Remote (EST/CST Time Zones)\nClient: Compass / Brillio\nExperience: 5+ Years (8+ preferred)\nVisa:OPTTN USC\nRole Summary:\nSeeking a strong Golang Developer with backend expertise to design, develop, and maintain scalable applications and microservices. Full Stack experience with React is a plus.\n\nRequired Skills:\n\nStrong experience in Golang (Go) development\nBackend development, APIs, and microservices\nExperience with Kafka, PostgreSQL, and Kubernetes (K8s)\nCloud-native application development experience\nStrong problem-solving and system design skills\n\nNice to Have:\n\nReact / Java experience\nExperience with Chromosphere, NetSuite, Oracle, or Stripe integrations\nFull Stack development experience",
+    "job_is_remote": true,
+    "job_posted_at": "6 hours ago",
+    "job_posted_at_timestamp": 1782849600,
+    "job_posted_at_datetime_utc": "2026-06-30T20:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DpBi5qjp-3k42fAUjAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "xAN7Pj9T4d0veJP1AAAAAA==",
+    "job_title": "Senior Engineer- Frontend",
+    "employer_name": "Censys",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTff7R6Z5Dot3MSMpRJ3GFecNKhObBV-qYYKBaT&s=0",
+    "employer_website": "https://censys.com",
+    "job_publisher": "DailyRemote",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://dailyremote.com/remote-job/senior-engineer-frontend-5226019",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://dailyremote.com/remote-job/senior-engineer-frontend-5226019",
+        "is_direct": false,
+        "publisher": "DailyRemote"
+      }
+    ],
+    "job_description": "Company Background\n\nCensys’ mission is to be the one place to understand everything on the internet. Frustrated by the lack of trustworthy Internet intelligence, we set out to create the industry’s most comprehensive, accurate, and up-to-date map of the Internet. Today, Censys delivers real-time Internet intelligence and actionable threat insights to global governments, over 50% of the Fortune 500, and leading threat intelligence providers worldwide.\n\nLocation:\n\nThis position is remote within the United States or Canada.\n\nRole Summary\n\nWe're hiring a Senior Engineer I to own significant portions of the frontend of the Censys Platform on the Core Services team. You'll be driving epic-scale work across account and integration management, user settings and controls, as well as the new product surfaces that bring Censys intelligence to life for analysts and security professionals worldwide. Working in close partnership with Design and Product to set direction, you’ll make architectural decisions, and ship high-quality experiences that enterprise customers depend on daily. Our stack is Remix and React with a rich TypeScript ecosystem, and we hold a high bar for testing discipline, accessibility, and long-term maintainability.\n\nWhat You'll Do\n\n• Drive large frontend projects for enterprise account management, third party integrations, and the larger Censys Platform.\n\n• Surface new data types and product capabilities through well-architected, accessible UI\n\n• Partner closely with Design as a peer, translating their intent faithfully, while working to maintain quality and performance.\n\n• Work with Product to clarify requirements, negotiate scope, and keep epics moving forward\n\n• Provide an example of frontend quality for the team: testing standards, accessibility requirements, and component architecture decisions\n\n• Mentor engineers on frontend best practices and help shape how the team approaches frontend work at scale\n\nWhat You'll Bring\n\n• 5+ years of software engineering experience with strong depth in React and TypeScript\n\n• Proven ability to drive epic-level frontend work end-to-end\n\n• Strong testing discipline: unit, integration, and end-to-end coverage\n\n• Solid accessibility fundamentals: WCAG standards, semantic HTML, keyboard navigation, and screen reader compatibility\n\n• System-level thinking for frontend: component architecture, state management, data-fetching patterns, and performance tradeoffs\n\n• Collaborative approach to working with Design and Product on future projects\n\n• Strong opinions loosely held\n\nWhat Sets You Apart\n\n• Experience building or contributing to a shared component library or design system\n\n• Familiarity with backend APIs — you can read service contracts, have an informed conversation with backend engineers, and understand what's feasible\n\n• Experience with Remix or other server-rendered React frameworks\n\n• Security domain experience or genuine interest in the security intelligence space\n\n• Data visualization or complex table/grid UI work at scale\n\nFor high cost of living areas (San Francisco Bay, New York City, and Seattle), the expected salary range for this position is $174,000 USD - $206,000 USD, plus bonus eligibility and equity.\n\nFor all other locations, the expected salary range for this position is $151,000 USD - $191,000 USD, plus bonus eligibility and equity.\n\nJob level and actual compensation will be decided based on factors including, but not limited to, individual qualifications objectively assessed during the interview process (including skills and prior relevant experience, potential impact, and scope of role), market demands, and specific work location. The listed range is a guideline, and the range for this role may be modified. For roles that are available to be filled remotely, the pay range is localized according to employee work location by a factor of between 83% and 100% of range. Please discuss your specific work location with your recruiter for more information.\n\nCensys offers a competitive benefits package to employees, including equity, health, dental & vision coverage, retirement with company contribution, parental leave, mental health & wellness benefits, flexible PTO, and a professional development stipend. Censys also offers sales incentive pay for most sales roles and an annual bonus plan for eligible non-sales roles. Censys’s compensation and benefits are subject to change and may be modified in the future. Please see our careers page for more details.\n\nWe will work to ensure individuals with disabilities are provided reasonable accommodation to apply for a role, participate in the interview process, perform essential job functions, and receive other benefits and privileges of employment. If you require accommodation, please reach out to your recruiter. These modifications enable an individual with a disability to have an equal opportunity not only to get a job, but successfully perform their job tasks to the same extent as people without disabilities.\n\nTo ensure the integrity of our hiring process and facilitate a more personal connection, we require all candidates to keep their cameras on during video interviews. Additionally, if hired, we would love to bring you to our HQ in Ann Arbor for in-person onboarding.\n\nBy applying for this job, the candidate acknowledges and agrees that any personal data contained in their application or supporting materials will be processed in accordance with our Censys Privacy Policy.\n\nOur roots are in Ann Arbor, Michigan and our innovation is fueled by the team’s global perspectives. For this role, we are open to remote employees across the continental US. We value diversity and are committed to creating an inclusive environment for all employees. Censys is an equal opportunity employer.\n\nNote to external recruiters/agencies: We are not currently engaging with third-party agencies for this role and will not accept unsolicited outreach. We kindly ask that you do not submit resumes or candidate profiles to our team.\n\n#LI-Remote\n\nCalifornia Privacy Rights Notice\n\nPursuant to the California Consumer Privacy Act (CCPA), we are providing you with notice that we collect personal information from job applicants for business purposes, including evaluating your candidacy for employment, conducting interviews, and, if applicable, completing the hiring process. The categories of information we may collect include identifiers (such as name and contact information), professional or employment-related information (such as work history, education, and references), and other information you provide in your application. We do not sell or share your personal information. For more information on how we use and protect your personal information, and your rights under the CCPA, please refer to our Privacy Policy.",
+    "job_is_remote": true,
+    "job_posted_at": "8 hours ago",
+    "job_posted_at_timestamp": 1782842400,
+    "job_posted_at_datetime_utc": "2026-06-30T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DxAN7Pj9T4d0veJP1AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "F7IxlXgfBQHQ8Wf5AAAAAA==",
+    "job_title": "Software Engineer - Unity (Remote)",
+    "employer_name": "Lingraphica",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2tJyliPxwA1S0JCw4rqx_WyrAWlFpDqkky2o3&s=0",
+    "employer_website": "https://lingraphica.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/software-engineer-unity-remote-at-lingraphica-4431960803",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/software-engineer-unity-remote-at-lingraphica-4431960803",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Lingraphica is a mission-driven organization that provides speech-generating devices to help improve communication, speech, and quality of life for people with communication impairments. Lingraphica is a leader in augmentative and alternative communication (AAC) technology, helping people with aphasia and other speech and language impairments communicate and engage more fully in daily life. Through a combination of innovative devices, software, and services, Lingraphica is focused on improving communication outcomes and supporting individuals, families, and care teams. We look for candidates who enjoy working in a fast-paced, goal-oriented environment, and who share our commitment to helping individuals on their communication journey.\n\nJob Description\n\nOverview: A Software Engineer at Lingraphica develops and maintains software that powers speech-generating devices and related services for people with communication challenges. Working within a cross-functional Innovation team, this role partners with product, design, and engineering to deliver high-quality, user-centered solutions that improve communication outcomes. This position contributes across the full software lifecycle, from development through production support.\n\nResponsibilities:\n\n• Designs, develops, tests, and maintains software for speech-generating devices and applications\n• Collaborates with cross-functional partners to deliver user-centered solutions\n• Writes clean, efficient, and well-documented code\n• Participates in code reviews, debugging, and troubleshooting across the technology stack\n• Contributes to automated and manual testing to ensure product quality\n• Supports production systems through bug fixes and performance improvements\n• Participates in Agile team ceremonies and continuous improvement efforts\n• Enhances internal tools, infrastructure, and engineering processes (e.g., CI/CD, documentation)\n\nQualifications\n\nRequired Qualifications:\n\n• Bachelor’s degree in Computer Science, Engineering, or related field, or equivalent experience\n• 3+ years of professional software engineering experience\n• Proficiency with Unity and C#\n• Experience developing and consuming REST APIs (Node.js or similar)\n• Familiarity with version control systems such as Git and GitHub\n• Experience working in the Agile or Scrum environments\n• Ability and willingness to travel within the U.S. up to 2 times per year for team and company meetings\n\nPreferred Qualifications:\n\n• Experience with cloud platforms (e.g., AWS, Vercel)\n• Experience with React Native for mobile app development\n• Familiarity with Generative AI, LLMs and AI APIs\n• Experience with Python, PostgreSQL, Firebase, or similar technologies\n• Knowledge of testing frameworks, CI/CD pipelines, and automated testing practices\n• Exposure to machine learning concepts or development\n• Experience with Atlassian tools (Jira, Confluence)\n• Understanding of relational and NoSQL database design\n\nAdditional Information\n\nWork Environment & Physical Demands \n\nThe incumbent works remotely from their home and is expected to maintain a safe, productive work environment with secure internet access.  The ability to operate a computer with or without reasonable accommodation is required.   \n\nTravel \n\nTravel (by air) is required for the annual company meeting and team off-site, within the continental United States, approximately twice per year.\n\nAccommodations \n\nTo perform this job successfully, an individual must be able to perform each essential duty and physical demand satisfactorily. The requirements listed above are representative of the knowledge, skills, and/or abilities and physical demands required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. \n\nLingraphica and Pay Transparency\n\nAt Lingraphica, we are committed to fair and equitable compensation practices. The starting salary range for this position is $84,000 and $97,400 per year. Placement in the starting pay is based on factors such as experience, skills, education, and internal equity. We regularly review our compensation structures to ensure they align with industry standards, promote fairness, and support career growth. In addition to competitive base pay, we offer a comprehensive benefits package and a commitment to fostering an inclusive and supportive workplace. We encourage open conversations about compensation and are dedicated to maintaining transparency throughout the hiring process.\n\nTo learn more about Lingraphica, visit: www.lingraphica.com! To learn more about our benefits offerings, click here!\n\nThis Organization Participates in E-Verify and will provide the federal government with your Form I-9 information to confirm that you are authorized to work in the U.S.\n\nEste empleador participa en E-Verify y proporcionará al gobierno federal la información de su Formulario I-9 para confirmar que usted está autorizado para trabajar en los EE. UU.",
+    "job_is_remote": true,
+    "job_posted_at": "7 hours ago",
+    "job_posted_at_timestamp": 1782846000,
+    "job_posted_at_datetime_utc": "2026-06-30T19:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DF7IxlXgfBQHQ8Wf5AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "Kek0d0b7kBiL8Ig5AAAAAA==",
+    "job_title": "Senior Software Engineer – Java & Python",
+    "employer_name": "Quantori",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbLg3DIZTVeDHoOjDxP8f3GG_IOBfyhIh3dCcT&s=0",
+    "employer_website": "https://quantori.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/senior-software-engineer-%E2%80%93-java-python-at-quantori-4435131798",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/senior-software-engineer-%E2%80%93-java-python-at-quantori-4435131798",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "We are seeking a skilled and motivated Software Engineer to join our technical team on a contractual basis. This role involves backend development, systems and instrument integration, testing and deployment of new product feature releases, and providing general technical support as needed.\n\nLocation:\n\nThe role requires being on-site in South San Francisco (SSF) three days per week, so it follows a hybrid work arrangement. There may also be some overlap required with Pacific Time working hours.\n\nResponsibilities:\n• Collaborate with the technical team to design, develop, and implement new features and systems integrations\n• Ensure high performance and responsiveness of applications by writing efficient, reusable, and reliable code\n• Participate in the testing and deployment of new product releases to ensure quality and performance standards are met\n• Provide technical support and troubleshooting assistance to resolve issues as they arise\n• Work with cross-functional teams to identify and address technical challenges\n\nWhat we expect:\n• Strong experience with Java and Python for backend development\n• Experience with Docker for containerization and Kubernetes for deployment\n• SQL experience for database management\n• Experience with Git-based version control systems (GitLab, GitHub, or similar)\n• Strong problem-solving skills and attention to detail\n• Ability to work effectively both independently and collaboratively within a team\n• Demonstrated ability to engage with scientific stakeholders, ideally within chemistry or related scientific domains, to understand challenges and inform technical strategy\n\nNice to have:\n• Previous experience in a similar role within a fast-paced environment\n• Experience working with AWS environments\n• Excellent communication and collaboration skills\n• Experience with automation systems or software used in chemical synthesis workflows\n• Familiarity with TypeScript and front-end development\n• A proactive approach to learning new technologies and continuously improving technical skills\n\nWe offer:\n• Competitive compensation\n• Remote work\n• Flexible working hours\n• A team with excellent tech expertise",
+    "job_is_remote": true,
+    "job_posted_at": "11 hours ago",
+    "job_posted_at_timestamp": 1782831600,
+    "job_posted_at_datetime_utc": "2026-06-30T15:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DKek0d0b7kBiL8Ig5AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "U00zHIi6n1CNFznYAAAAAA==",
+    "job_title": "SCCM Administrator",
+    "employer_name": "MSR Technology Group",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ7KvZ0scm_UWUxHTEaiy5qAbQXIBAuN5XiBOR&s=0",
+    "employer_website": "https://www.msrtechnologies.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/sccm-administrator-at-msr-technology-group-4434334948",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/sccm-administrator-at-msr-technology-group-4434334948",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "We are seeking an experienced UEM Intune/SCCM Engineer to support a large-scale migration project. This role involves designing and implementing Microsoft Intune-based solutions, packaging and deploying applications, and transitioning infrastructure to modern management. This is a 9-month contract with a strong likelihood of extension, supporting a project with a performance period through 2027.\n\nKey Responsibilitie\n• sDesign and implement Microsoft Intune-based solutions that align with user needs, security requirements, and enterprise standards\n• .Package, deploy, and maintain applications using Intune, with a focus on automation and user experience\n• .Create and manage Intune policies for application deployment, device compliance, and security configurations\n• .Write and run scripts within Intune for application packaging, policy writing, and creating configuration items\n• .Read and understand SCCM Task Sequence States or Status Messages for troubleshooting and analysis\n• .Design and deploy Windows 10 and 11 provisioning workflows using Intune, Autopilot, and dynamic provisioning\n• .Collaborate with infrastructure teams to transition Group Policy Objects (GPOs) to modern Intune equivalents\n• .Develop and maintain comprehensive documentation for Intune configurations and processes\n\n.\nRequired Qualificatio\n\nnsEducation: A Bachelor’s degree in a technical or managerial discipline is required. Specific experience, education, and training may be considered in lieu of a degre\n\ne.\nExperience: Several years of prior relevant experience is required. Candidates must have experience migrating users and desktops to Microsoft Intune and working directly with customers and stakeholde\n\nrs.\nTechnical Ski\n• lls:Proficiency with Intune, including writing and running scripts, application packaging, writing policies, and creating configuration it\n• ems.**MUST have knowledge of Win32 tools** this will be tested during the inter\n• viewExperience with SCCM, including application packaging and interpreting task sequence status messa\n• ges.Experience writing and troubleshooting PowerShell scri\n\npts.\nClearance & Certifica\n• tion:An active DoD Secret clearance is required. They CAN maintain a Top S\n• ecretA current IAT Level II (or higher) certification, such as Security+ or CISSP, is requ\n\nired.",
+    "job_is_remote": true,
+    "job_posted_at": "8 hours ago",
+    "job_posted_at_timestamp": 1782842400,
+    "job_posted_at_datetime_utc": "2026-06-30T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DU00zHIi6n1CNFznYAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "60–70 an hour",
+    "job_min_salary": 60,
+    "job_max_salary": 70,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "F6i81nPBMUtknAaVAAAAAA==",
+    "job_title": "QA Engineer / VMware / Enterprise",
+    "employer_name": "Motion Recruitment",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiwmUGhIt0lyU9IyPbiAZpfFgiu0WT5u8SpFHM&s=0",
+    "employer_website": "https://motionrecruitment.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/qa-engineer-vmware-enterprise-at-motion-recruitment-4434928668",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/qa-engineer-vmware-enterprise-at-motion-recruitment-4434928668",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "A growing enterprise software organization is expanding its Quality Assurance team to support multiple flagship products used in large-scale Windows and virtualized environments. This is a full-time, fully remote role focused on hands-on manual testing across desktop, infrastructure, and cloud based systems.\n\nQuality Assurance is a core function here, not an afterthought. The QA team is scaling intentionally to keep pace with development and remove testing bottlenecks. This role offers the chance to work on a completely redesigned user interface, test real world enterprise deployments, and help shape how QA evolves as the organization prepares for future automation initiatives. Strong work life balance, collaborative engineers, and real ownership over test quality make this a standout opportunity.\n\nRequired Skills & Experience\n\n• 4+ years of experience in a hands on QA or Software Testing role\n• Strong experience testing Windows based applications\n• Ability to create clear, repeatable, and deterministic test cases\n• Experience executing smoke, regression, and exploratory testing\n• Familiarity with defect tracking tools such as Jira\n• Strong troubleshooting and analytical skills\n• Excellent communication and collaboration abilities\n\nDesired Skills & Experience\n\n• Exposure to virtualization technologies (VMware vSphere / ESXi, VDI environments)\n• Experience testing in cloud environments (AWS and/or Azure)\n• Basic Linux familiarity (testing and environment awareness)\n• Prior experience supporting UAT or working closely with end users\n• Interest in test case management tools and process improvement\n\nWhat You Will Be Doing\n\nTech Breakdown\n\n• 45% Windows Applications & Environments\n• 25% Virtualization (VMware / VDI)\n• 20% Cloud Infrastructure (AWS / Azure)\n• 10% Linux-based systems\n\nDaily Responsibilities\n\n• 70% Hands-On Manual Testing\n• 15% Test Case Creation & Maintenance\n• 15% Collaboration with Developers & QA Team\n\nThe Offer\n\n• Competitive base salary\n• Bonus eligible\n\nBenefits Include:\n\n• Medical, Dental, and Vision Insurance\n• Paid Vacation and Holidays\n• Long-term growth opportunities within QA\n\nApplicants must be currently authorized to work in the United States on a full-time basis now and in the future.\n\nPosted By: Shannon Kelly",
+    "job_is_remote": true,
+    "job_posted_at": "22 hours ago",
+    "job_posted_at_timestamp": 1782792000,
+    "job_posted_at_datetime_utc": "2026-06-30T04:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off",
+      "health_insurance",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Paid time off",
+      "Health insurance",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DF6i81nPBMUtknAaVAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "90K–110K a year",
+    "job_min_salary": 90000,
+    "job_max_salary": 110000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "YtKYO2OKELtthLIGAAAAAA==",
+    "job_title": "Power Platform Junior Engineer (Automation & AI Solutions)",
+    "employer_name": "Landshark Recruiting",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7RZO12V8nmzbTzz10GrEDz0YqVtlJ1o4Gdo_q&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/power-platform-junior-engineer-automation-ai-solutions-at-landshark-recruiting-4431970725",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/power-platform-junior-engineer-automation-ai-solutions-at-landshark-recruiting-4431970725",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Power Platform Junior Engineer (Automation & AI Solutions)\n\nFully Remote | $70,000–$100,000\n\nLooking to break into the rapidly growing world of AI and automation?\n\nWe're hiring an AI Automation Specialist to help design, implement, and support AI-powered business solutions for clients. This is an excellent opportunity for someone early in their career who has a strong technical foundation and wants hands-on experience with AI, automation, Microsoft Copilot, Azure AI, and modern business technologies.\n\nYou'll work alongside senior engineers and consultants to deliver automation projects, support AI deployments, and help organizations improve efficiency through emerging technologies.\n\nWhat You'll Do\n• Provide first-level support and troubleshooting for AI and automation solutions\n• Assist with implementing and supporting AI and automation projects\n• Help scope and deploy small-scale automation initiatives\n• Work with Microsoft Copilot Studio, Power Platform, Azure AI, SharePoint, and other AI technologies\n• Analyze business processes and identify opportunities for automation and efficiency improvements\n• Collaborate with clients and internal teams to gather requirements and implement technical solutions\n• Support integrations with third-party AI platforms and automation tools\n• Maintain technical documentation and knowledge base articles\n• Stay current on emerging AI technologies and recommend innovative solutions\n\nWhat We're Looking For\n• Up to 2 years of experience in IT, systems analysis, AI, automation, or a related technical role (MSP experience is a plus)\n• Basic understanding of AI technologies, automation platforms, and machine learning concepts\n• Experience or exposure to Microsoft Power Platform, Power Automate, Azure AI, Copilot, or similar technologies\n• Familiarity with cloud platforms such as Azure or AWS\n• Strong analytical and problem-solving skills\n• Excellent communication skills with the ability to explain technical concepts to non-technical users\n• Eagerness to learn emerging AI technologies and grow within a collaborative team\n\nNice to Have\n• Exposure to OpenAI APIs or generative AI tools\n• Experience with business process mapping or systems analysis\n• Microsoft certifications or relevant technical coursework\n• Previous MSP experience\n\nSalary and Benefits:\n• Salary $70,000-$100,000\n• Covered Health, Vision, Dental Insurance\n• 401k automatic match\n• Annual profit sharing\n• Regular advancement opportunities",
+    "job_is_remote": true,
+    "job_posted_at": "6 hours ago",
+    "job_posted_at_timestamp": 1782849600,
+    "job_posted_at_datetime_utc": "2026-06-30T20:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DYtKYO2OKELtthLIGAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "70K–100K a year",
+    "job_min_salary": 70000,
+    "job_max_salary": 100000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "mPhA3nn_RnXs5GZnAAAAAA==",
+    "job_title": "Mechanical Engineer II, Model Based Engineering (Remote)",
+    "employer_name": "Collins Aerospace",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStO4pZ-ua3kRMHFkTXrAYdqpLAQg_KUjFgMiPw&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/mechanical-engineer-ii-model-based-engineering-remote-at-collins-aerospace-4434986144",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/mechanical-engineer-ii-model-based-engineering-remote-at-collins-aerospace-4434986144",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Date Posted:\n\n2026-06-29\n\nCountry:\n\nUnited States of America\n\nLocation:\n\nUS-OH-REMOTE\n\nPosition Role Type:\n\nRemote\n\nU.S. Citizen, U.S. Person, or Immigration Status Requirements:\n\nU.S. citizenship is required, as only U.S. citizens are authorized to access certain necessary systems.\n\nSecurity Clearance Type:\n\nNone/Not Required\n\nSecurity Clearance Status:\n\nNot Required\n\nAt RTX, the world's largest aerospace and defense company, 185,000 great minds are united by purpose and inspired to make a difference solving the world’s most complex problems. With our three market leading businesses, world-class operations and investments in research and development, we offer capabilities and opportunity no one else can. Together, we push the boundaries of known science and find new ways to connect and protect our world.\n\nCollins Aerospace is a leader in technologically advanced, intelligent solutions that help redefine the aerospace and defense industry. With a comprehensive portfolio and deep technical expertise, we help customers meet the demands of the global market. Join us and help shape the future of aerospace and defense.\n\nCollins Aerospace is seeking an experienced Engineer to support Model-Based Engineering initiatives across LS. This role will be responsible for contributing to strategy and driving progress with Model-Based Engineering initiatives including digital requirements management, simulation lifecycle management, model-based definition for manufacturing & inspection (MBDMI), and other model-based design activities.\n\nWhat You Will Do:\n\n• Develops and maintains detailed understanding of the W&B products including their design, manufacturing, and performance in the field.\n• Contributes to roadmaps and overall Model-Based Engineering strategy.\n• Responsible for driving the development of design methods and tools.\n• Partners with the Design Engineering team to support the transition to model-based design.\n• Responsible for identifying process gaps, developing plans to close, and leading the effort or handing off to the right owners to execute.\n• Partners with manufacturing and quality to advance model-based design for manufacturing and inspection.\n• Leverages CORE processes and tools to identify opportunities for CI where possible.\n• Responsible for benchmarking tools, developing project plans, leveraging available resources to execute to plan.\n• Collaborates with the Digital Thread and Digital Solutions teams to support the broader DPLC roadmap as it pertains to digital twins and model-based design.\n• Partners with Collins Global Engineering Centers and Best Cost Engineering organizations to leverage resources/knowledge to support all aspects of the business.\n• Up to 25% travel as needed.\n\nQualifications You Must Have:\n\n• Typically requires a degree in Science, Technology, Engineering or Mathematics (STEM) and minimum 2 years of prior relevant experience or an Advanced Degree in a related field.\n• Experience working with engineering software for CAD and PLM.\n\nQualifications We Prefer:\n\n• Experience in support of aerospace products or wheels & brakes.\n• Experience in support of machining, manufacturing, or inspection.\n\nWhat We Offer:\n\nBenefits:\n\nSome of our competitive benefits package includes: \n\n• Medical, dental, and vision insurance\n• Three weeks of vacation for newly hired employees\n• Generous 401(k) plan that includes employer matching funds and separate employer retirement contribution, including a Lifetime Income Strategy option\n• Tuition reimbursement program\n• Student Loan Repayment Program\n• Life insurance and disability coverage\n• Optional coverages you can buy pet insurance, home and auto insurance, additional life and accident insurance, critical illness insurance, group legal, ID theft protection\n• Birth, adoption, parental leave benefits\n• Ovia Health, fertility, and family planning\n• Adoption Assistance         \n• Autism Benefit\n• Employee Assistance Plan, including up to 10 free counseling sessions\n• Healthy You Incentives, wellness rewards program\n• Doctor on Demand, virtual doctor visits\n• Bright Horizons, child and elder care services\n• Teladoc Medical Experts, second opinion program\n•  And more! \n\nLearn More & Apply Now!\n\nCollins Aerospace makes modern flight possible. Of course, that wouldn’t be possible without the capabilities and technologies of our organization, as well as our engineers – a highly skilled, accomplished network that spans more than 180 sites, 24 countries and 6 Strategic Business Units (SBUs).\n\nOur industry-leading experts are setting the standards for the aerospace industry and paving the way for the future. But as new challenges present themselves, we need fresh, creative and motivated minds to overcome these hurdles, help us break barriers and achieve new levels of innovation. Do you have what it takes to join a global organization that doesn’t shy away from big opportunities? If so, we invite you to join our ranks and create the next generation of aerospace technologies.\n\nTogether, we will nurture an engineering culture that values intellectual curiosity, risk takers and integrity. A place where we will challenge ourselves, our teams, and the status quo and where we will work to find a way – the right way – to achieve what others can only dream of.\n\nRemote: Employees who are working in Remote roles will work primarily offsite (from home). An employee may be expected to travel to the site location as needed.\n\n• Position is remote; however, if you live within a reasonable commute of a Collins site with other colleagues you interact with, your manager will discuss whether there is a degree of onsite presence associated with this role.\n\nAt Collins, the paths we pave together lead to limitless possibility. And the bonds we form – with our customers and with each other -- propel us all higher, again and again.\n\nApply now and be part of the team that’s redefining aerospace, every day.\n\nAs part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote.\n\nThe salary range for this role is 68,900 USD - 131,100 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate’s work experience, location, education/training, and key skills.\n\nHired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement.\n\nHired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company’s performance.\n\nThis role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply.\n\nRTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window.\n\nRTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans’ Readjustment Assistance Act.\n\nPrivacy Policy and Terms:\n\nClick on this link to read the Policy and Terms",
+    "job_is_remote": true,
+    "job_posted_at": "17 hours ago",
+    "job_posted_at_timestamp": 1782810000,
+    "job_posted_at_datetime_utc": "2026-06-30T09:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "dental_coverage",
+      "paid_time_off",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Dental insurance",
+      "Paid time off",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DmPhA3nn_RnXs5GZnAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "Pa78qCDyYOtjmcilAAAAAA==",
+    "job_title": "Independent Contractor – Graphic Designer (Remote, 1099)",
+    "employer_name": "Himalayan Dog Chew, LLC",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnDbuDOryZ5ciDeOr5vB5C0bYqu2hD5WLkMhGE&s=0",
+    "employer_website": "https://himalayandogchewllc.applytojob.com",
+    "job_publisher": "DailyRemote",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://dailyremote.com/remote-job/independent-contractor-graphic-designer-remote-1099-5224065",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://dailyremote.com/remote-job/independent-contractor-graphic-designer-remote-1099-5224065",
+        "is_direct": false,
+        "publisher": "DailyRemote"
+      }
+    ],
+    "job_description": "Independent Contractor – Graphic Designer (Remote, 1099)\nLocation: Remote\nPosition Type: Independent Contractor (1099)\nHours: Approximately 20–30 hours per week\nCompensation: $90/hourBring Our Brand to Life\nAt Himalayan Pet Supply, we are proud to be the makers of The Original® Himalayan Dog Chew®—a company built on innovation, purpose, and a passion for improving the lives of pets and people.\n\nOur growing global brand creates high-quality chews and treats while supporting meaningful social impact through partnerships that expand economic opportunity and access to education for women and girls in Nepal. We strive to be an employer of choice by fostering a collaborative, values-driven workplace where employees can grow, contribute, and make a real difference.\n\nWe are seeking a talented Graphic Designer to join us as an independent contractor (1099). This remote opportunity is ideal for a creative professional who thrives in a fast-paced environment, enjoys working across multiple projects, and has a strong eye for branding, packaging, and marketing design.What You'll Do\n• Design packaging, labels, brochures, flyers, advertisements, trade show materials, signage, promotional pieces, and other branded collateral.\n• Create digital assets for websites, email marketing, and social media.\n• Develop concepts from initial sketches through final production-ready artwork.\n• Design and update logos, brand elements, and marketing materials.\n• Create product displays, retail merchandising concepts, and trade show graphics.\n• Collaborate with marketing, sales, and cross-functional teams to bring creative ideas to life.\n• Prepare production-ready files and work directly with print and manufacturing vendors.\n• Review and approve proofs to ensure brand consistency and quality.\n• Photograph products, events, and company activities for marketing use.\n• Stay current with design trends and identify opportunities to elevate our brands.\n• Manage multiple projects while meeting deadlines and maintaining exceptional attention to detail.\nWhat We're Looking For\n• Strong portfolio showcasing branding, packaging, print, and digital design.\n• Advanced proficiency in Adobe Creative Suite (Illustrator, Photoshop, InDesign) and Microsoft Office.\n• Excellent visual design, typography, and layout skills.\n• Strong communication and collaboration abilities.\n• Highly organized with excellent project management skills.\n• Ability to work independently while managing multiple priorities.\n• Experience working with printers, packaging vendors, or consumer product brands is a plus.\n• Product photography or photography editing experience is preferred.\nWhy Join Us?\n• Fully remote, flexible work arrangement.\n• Competitive contractor compensation at $90/hour.\n• Opportunity to help shape a nationally recognized pet brand.\n• Creative, collaborative team with meaningful work that impacts pets and communities around the world.\n• Variety of projects spanning branding, packaging, retail, digital marketing, and product launches.\nTo Apply\nPlease submit your resume, portfolio, and a brief introduction highlighting your relevant experience and creative approach.",
+    "job_is_remote": true,
+    "job_posted_at": "12 hours ago",
+    "job_posted_at_timestamp": 1782828000,
+    "job_posted_at_datetime_utc": "2026-06-30T14:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DPa78qCDyYOtjmcilAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "SWJObGkgiRVb688UAAAAAA==",
+    "job_title": "Production Artist/ Graphic Designer",
+    "employer_name": "Aquent",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxSZER4f34XkbiPNT1jkzHPMJp13OjQA2lwuz&s=0",
+    "employer_website": "https://aquent.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/production-artist-graphic-designer-at-aquent-4431982624",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/production-artist-graphic-designer-at-aquent-4431982624",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "We are seeking a detail-oriented, high-efficiency Production Artist / Graphic Designer to join our growing internal marketing team. The organization is undergoing a corporate rebrand and launching a new website. With a finalized brand style guide, the ideal candidate will lead the updating, formatting, and migration of an extensive library of sales collateral, presentation decks, and marketing assets into the new brand identity.\n\nThis is a 100% remote contract role 40 hours per week, depending on project needs with the potential to transition into a permanent, full-time position.\n\nKey Responsibilities\n\n• Brand Migration & Layout: Apply the established brand style guide across a high volume of existing presentation decks, sales collateral, and marketing materials.\n• Collateral Production: Design and produce polished marketing assets, including brochures, data sheets, whitepapers, and other sales materials.\n• Digital Asset Creation: Create web banners, social media graphics, and other digital marketing assets based on provided specifications.\n• File Management & Collaboration: Maintain an organized cloud-based file system, package clean vector and layered files, and prepare assets for handoff to web developers and external vendors.\n• Independent Execution: Manage production projects from start to finish with minimal supervision while maintaining quality and consistency.\n\nQualifications & Skills\n\n• Expert proficiency in Adobe Creative Suite, especially InDesign and Illustrator (Photoshop is a plus).\n• Strong understanding of typography, layout, hierarchy, alignment, and color consistency.\n• Experience working within a cloud-based collaboration environment (such as Google Workspace).\n• Comfortable with production-focused design work requiring efficiency, accuracy, and attention to detail.\n• Experience creating marketing assets for B2B, technology, SaaS, or enterprise software organizations is a plus but not required.\n\nJob Logistics\n\n• Hours: Flexible but consistent, typically ranging from 20–40 hours per week depending on workload.\n• Location: 100% remote. Candidates should be available during Central or Eastern Time business hours for team collaboration.\n• Opportunity: Contract position with the potential to convert to a full-time role based on business needs and performance.",
+    "job_is_remote": true,
+    "job_posted_at": "2 hours ago",
+    "job_posted_at_timestamp": 1782864000,
+    "job_posted_at_datetime_utc": "2026-07-01T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DSWJObGkgiRVb688UAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "28–35 an hour",
+    "job_min_salary": 28,
+    "job_max_salary": 35,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "ZvI7Dg3V6Cl8oK6mAAAAAA==",
+    "job_title": "Growth Creative Designer, Paid Advertising",
+    "employer_name": "Ramp Business Corporation",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ramp.com&size=128",
+    "employer_website": "https://ramp.com",
+    "job_publisher": "FlexJobs",
+    "job_employment_type": "Full-time and Contractor",
+    "job_employment_types": [
+      "FULLTIME",
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.flexjobs.com/gjw/ramp_business_corporation/growth-creative-designer-paid-advertising/publicjobs?id=8dce2e63-fa19-4eea-b74c-7a05bbb8f2cb",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.flexjobs.com/gjw/ramp_business_corporation/growth-creative-designer-paid-advertising/publicjobs?id=8dce2e63-fa19-4eea-b74c-7a05bbb8f2cb",
+        "is_direct": false,
+        "publisher": "FlexJobs"
+      }
+    ],
+    "job_description": "Title: Growth Creative Designer, Paid Advertising (Contract)\nJob Description:\nLocation\nNew York, NY (HQ); Remote (US); San Francisco, CA\nEmployment Type\nTemporary\nLocation Type\nHybrid\nDepartment\nMarketing\nCompensation\n• SF/NYTarget Base Salary $112K – $154K • $101K – $138K Equity\nThe final compensation will depend on the location and level at which the candidate is hired.\n\nAbout Ramp\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\nThe problems are high-stakes, data-dense, and unforgiving.\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\nThe median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\nAbout the Role\nRamp is redefining how businesses manage their finances, and our growth marketing team is how millions of people first hear that story. Paid ads are one of our highest-leverage channels, and creative is at the core of what makes them work.\nThe Growth Marketing team builds the creative that drives Ramp’s acquisition engine across Meta, LinkedIn, Reddit, and beyond.\nWe’re looking for a blazingly fast designer who thrives in a high-velocity testing environment, cares deeply about craft, and wants to shape how Ramp shows up across paid social, video, display, and landing pages. You’ll help us turn ideas into ads that move metrics—while pushing the creative bar on what a finance brand can look and feel like.\nThis is a 4–6 month contract position with the potential for extension based on business needs and performance.\n\nWhat You'll Do\n• Design and animate paid creative end-to-end across static and motion formats\n\n• Create ads for Meta, LinkedIn, Reddit, and emerging channels\n\n• Develop scalable design and motion systems that help the team move faster while maintaining a high creative bar\n\n• Concept hooks, headlines, visual treatments, and creative variants that earn attention and drive performance\n\n• Partner closely with performance marketers, copywriters, and product marketers to bring ideas to life\n\n• Iterate quickly based on performance data and contribute to testing strategy\n\n• Build templates, automations, AI workflows, and creative systems that increase team velocity\n\n• Explore new tools, techniques, and AI-native workflows to expand what’s possible inside our production pipeline\n\n• Help evolve how Ramp’s brand shows up across growth marketing\n\nWhat You Need\n• 5+ years of experience in visual design, motion design, or creative production\n\n• Strong portfolio demonstrating both static and motion work\n\n• Experience creating performance-driven creative for paid acquisition channels\n\n• Strong taste and a clear point of view on what makes great advertising\n\n• Comfort working in a fast-paced, test-and-learn environment where speed and iteration matter\n\n• Ability to use performance data and business outcomes as creative feedback\n\n• Expertise in Figma and Adobe Creative Suite (particularly After Effects)\n\nNice-to-Haves\n• Experience building automations, templates, component systems, scripts, or internal creative tooling\n\n• Fluency with AI tools such as Runway, Veo, Kling, Midjourney, ElevenLabs, Claude Code, or similar\n\n• Experience creating short-form video for Reels, Shorts, TikTok, and paid social\n\n• Experience in finance, fintech, SaaS, or other high-growth technology companies\n\n• Familiarity with performance marketing and growth experimentation frameworks\n\nBenefits available to all full-time Ramp employees (Global)\n• Flexible PTO\n\n• Unlimited AI token usage\n\n• Centralized home-office equipment ordering\n\n• Health and wellness stipend\n\n• Budget for intra-office travel\n\n• Weekly coffee stipend\n\nUnited States\n• 100% medical, dental & vision insurance coverage for you, with partial coverage for dependents\n\n• One Medical annual membership\n\n• 401(k), including employer match on contributions made while employed by Ramp\n\n• Fertility HRA (up to $10,000 per year)\n\n• Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay\n\n• Pet insurance\n\n• In-office perks: lunch, snacks, drinks, and more\n\n• Relocation support to NYC or SF (as needed)\n\nCanada\n• Group medical, dental, and vision coverage through Sun Life\n\n• Life, AD&D, and disability coverage\n\n• Fertility drug coverage (up to $4,000 lifetime)\n\n• Group Retirement Plan with employer match (RRSP + DPSP)\n\n• Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay, with additional time available at reduced pay\n\n• Employee Assistance Program and virtual care through Lumino Health\n\nUnited Kingdom\n• Private medical insurance through Freedom Elite\n\n• Virtual GP and at-home care via eMed x Livi\n\n• Workplace pension through Penfold, with salary sacrifice option\n\n• Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay with additional time available at reduced pay\n\nReferral Instructions\nIf you are being referred for the role, please contact that person to apply on your behalf.\n\nOther notices\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nBeware of recruiting scams: Ramp will only contact you through official @Ramp.com email addresses and will never ask for payment or sensitive personal information during the hiring process.",
+    "job_is_remote": true,
+    "job_posted_at": "18 hours ago",
+    "job_posted_at_timestamp": 1782806400,
+    "job_posted_at_datetime_utc": "2026-06-30T08:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DZvI7Dg3V6Cl8oK6mAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "101K–154K a year",
+    "job_min_salary": 101000,
+    "job_max_salary": 154000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "YWm_urtCxawGo7lEAAAAAA==",
+    "job_title": "PRODUCTION DESIGNER Job in FRATERNAL ACTIVITY",
+    "employer_name": "BLACK TIE PICTURES",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGNUpJ9EiAJ4yqPs77SfQtAnVoGYhV8EGxaTK2&s=0",
+    "employer_website": null,
+    "job_publisher": "Backstage",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.backstage.com/casting/fraternal-activity-3188215/production-designer-5571351",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.backstage.com/casting/fraternal-activity-3188215/production-designer-5571351",
+        "is_direct": false,
+        "publisher": "Backstage"
+      }
+    ],
+    "job_description": "Looking for a production designer to help me design and dress the sets. Most of the production design is written directly into the script, so I'm looking for a partner to help bring it to life and POP. You will also be working with the lighting department to ensure the sets are adequately visible.",
+    "job_is_remote": true,
+    "job_posted_at": "3 hours ago",
+    "job_posted_at_timestamp": 1782860400,
+    "job_posted_at_datetime_utc": "2026-06-30T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DYWm_urtCxawGo7lEAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "InLGjMkGjIh2d3blAAAAAA==",
+    "job_title": "Website Design Review and Improvement Recommendations for Insurance Startup — UI/UX Designer",
+    "employer_name": "Upwork",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://upwork.com&size=128",
+    "employer_website": "https://www.upwork.com",
+    "job_publisher": "Upwork",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.upwork.com/freelance-jobs/apply/Website-Design-Review-and-Improvement-Recommendations-for-Insurance-Startup-Designer_~022071986501859626195/",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.upwork.com/freelance-jobs/apply/Website-Design-Review-and-Improvement-Recommendations-for-Insurance-Startup-Designer_~022071986501859626195/",
+        "is_direct": false,
+        "publisher": "Upwork"
+      }
+    ],
+    "job_description": "We are looking for an experienced website designer, UI/UX specialist to review our current website and provide clear, practical recommendations to improve the design, layout, messaging flow and overall user experience.\n\nThis is not a full redesign or development project right now. We mainly need a professional design review with actionable feedback we can use to improve the site. The ideal person should understand modern startup websites, conversion-focused design and how to make a service-based website feel more polished, trustworthy and easy to navigate.\n\nWhat we need help with:\n\n- Review the current website from a design and UX perspective\n\n- Identify areas where the layout, spacing, typography, visuals or hierarchy can be improved\n\n- Suggest ways to make the site feel more trustworthy and professional for business owners\n\n- Review the homepage flow, calls to action and key sections\n\n- Check the mobile experience and note any design or usability issues\n\n- Provide clear recommendations with screenshots, notes or marked-up examples\n\n- Suggest improvements that are realistic to implement without overcomplicating the site\n\nDeliverables:\n\nA short design audit document or presentation that includes:\n\n- Main design issues found\n\n- Recommended improvements by priority\n\n- Homepage section-by-section feedback\n\n- Mobile design feedback\n\n- Suggestions for stronger trust, clarity and conversion\n\n- Optional visual examples or quick mockup ideas if helpful\n\nIdeal candidate:\n\nYou should have experience reviewing startup, SaaS, fintech, insurance, service business or B2B websites. Strong UI/UX judgment is more important for this first project. However, front-end knowledge is helpful because we want recommendations that can actually be implemented.\n\nPlease include:\n\n1. A few examples of websites you have reviewed, improved or redesigned\n\n2. Your approach to reviewing a website like this\n\n3. Your estimated timeline and fixed price for the audit\n\nThis could lead to a follow-up project if we decide to move forward with design updates or implementation.",
+    "job_is_remote": true,
+    "job_posted_at": "10 hours ago",
+    "job_posted_at_timestamp": 1782835200,
+    "job_posted_at_datetime_utc": "2026-06-30T16:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DInLGjMkGjIh2d3blAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "jZWP1HN2cu_d6vUzAAAAAA==",
+    "job_title": "Packaging Designer Needed for Medical Device Box Mockup",
+    "employer_name": "Upwork",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://upwork.com&size=128",
+    "employer_website": "https://www.upwork.com",
+    "job_publisher": "Upwork",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.upwork.com/freelance-jobs/apply/Packaging-Designer-Needed-for-Medical-Device-Box-Mockup_~022071984670475449165/",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.upwork.com/freelance-jobs/apply/Packaging-Designer-Needed-for-Medical-Device-Box-Mockup_~022071984670475449165/",
+        "is_direct": false,
+        "publisher": "Upwork"
+      }
+    ],
+    "job_description": "We are looking for an experienced packaging designer to create a print-ready box mockup for a medical device consumable.\n\nWe already have:\n\nBox dimensions\n\nCompany branding and logos\n\nAll required text and regulatory information for each panel\n\nExamples of our existing packaging for reference\n\nWe need someone to:\n\nDesign the box layout using our branding\n\nArrange the provided content across each panel in a clean, professional way\n\nEnsure the design is print-ready\n\nDeliver editable Adobe Illustrator (.AI) files and a print-ready PDF\n\nIncorporate 1–2 rounds of revisions\n\nThis is not a branding project, we already have the branding established. We are looking for someone with experience creating product packaging who can produce a polished, production ready box design.\n\nRequirements\n\nExperience with product packaging design\n\nProficiency in Adobe Illustrator\n\nAbility to create print-ready artwork\n\nStrong attention to detail",
+    "job_is_remote": true,
+    "job_posted_at": "10 hours ago",
+    "job_posted_at_timestamp": 1782835200,
+    "job_posted_at_datetime_utc": "2026-06-30T16:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DjZWP1HN2cu_d6vUzAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "30–50 an hour",
+    "job_min_salary": 30,
+    "job_max_salary": 50,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "hOMwAuTm4a-jhr1XAAAAAA==",
     "job_title": "Frontend TypeScript Developer",
     "employer_name": "Alignerr",
