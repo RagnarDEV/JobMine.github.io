@@ -1,5 +1,623 @@
 [
   {
+    "job_id": "jpy4tIFKl8NTZLVJAAAAAA==",
+    "job_title": "Software Engineer II - Data Platform",
+    "employer_name": "Pantheon",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxRaMQPIcjzDNH93xLx5uoqi33p6fMhZblw2J&s=0",
+    "employer_website": "https://pantheon.io",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/software-engineer-ii-data-platform-at-pantheon-4435501321",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/software-engineer-ii-data-platform-at-pantheon-4435501321",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "About Pantheon\n\nPantheon WebOps Platform powers the open web, running more than 300,000 sites in the cloud for customers including Google, Princeton, Salesloft and Doctors Without Borders. Every day, thousands of developers and marketers create, iterate, and scale WordPress and Drupal sites to reach billions of people globally. Pantheon's multitenant, container-based platform enables organizations to manage all of their websites from a single dashboard. Organizations including Clorox and the United Nations drive results through accelerated development and real-time publishing using Pantheon's collaborative workflows.\n\nThe Role\n\nThe Data Platform team powers Pantheon's data infrastructure and delivers analytics across the company. We are dedicated to providing reliable, scalable, and high-performance data solutions that drive business intelligence and operational excellence across the entire company. We are currently seeking a highly motivated and experienced Software Engineer II to join our dynamic team and play a pivotal role in shaping the future of data at Pantheon.\n\nWhat You Will Do\n\n• Build scalable, reliable data systems while maintaining SLOs for business-critical pipelines.\n• Partner with other internal teams such as Product, Sales Ops, and Finance to deliver high-impact data solutions.\n• Support self-service tooling and a data-driven culture across Pantheon's teams.\n• Contribute to the technical strategy and operations of Pantheon's data platform.\n• Stay up-to-date with industry trends and technologies in data engineering, analytics, and modern data platforms.\n• Continuously improve our standard of engineering excellence by implementing best practices for data architecture, testing, pipeline reliability, and documentation.\n\nWhat you Need to Succeed\n\n• Customer/Product Focus: An understanding of the direct or indirect business value of their work, ensuring that data solutions align with company-wide goals and provide maximum impact for internal and external customers.\n• Understanding of Distributed Data Systems: Familiarity with the concepts and challenges of processing large-scale datasets across distributed systems and a clear grasp of trade-offs when designing solutions for high throughput and low latency.\n• Strong Written and Verbal Communication Skills: The ability to clearly articulate technical designs, project status, and potential risks to both technical peers and non-technical stakeholders (Product, Sales, Finance, etc.).\n• Quality Mindset: Understanding of how to integrate automated test coverage and validation into a deployment pipeline.\n\nWhat you Bring to the Table\n\n• Demonstrated Experience: 3-5+ years of experience building production services and features, ideally with a mix of Data Engineering expertise.\n• Coding Proficiency: Ability to build maintainable components in Python and/or Go.\n• Database Knowledge: Comfortable using SQL with relational databases (e.g. MySQL, Postgres) and data warehouses (e.g. Snowflake, BigQuery).\n• Cloud & Infrastructure: Experience working with containerization (e.g., Docker, OCI), Terraform, and Kubernetes (K8s).\n• Data Experience: Familiarity with modern data stacks (e.g. Snowflake, dbt, Airflow, Looker)\n• Experience building data pipelines for AI and Machine Learning is a big plus!\n\nWhat We Offer\n\nWe have all the usual perks and benefits but what we can really offer you is a fantastic work environment powered by an amazing team.\n\n• Industry competitive compensation and equity plan\n• Flexible time off, sick days, and 13 paid holidays\n• Comprehensive medical insurance including Health, Dental and Vision\n• Paid parental leave (plus fertility, adoption and other family planning benefits)\n• In-office workspace (San Francisco & Chicago)\n• Monthly allowance for wellness, reading and access to LinkedIn Learning for continued development\n• Events and activities both team-based and company wide that inspire, educate and cultivate\n\nPantheon is an equal opportunity employer and we welcome applications from all backgrounds regardless of race, color, religion, sex, national origin, ancestry, age, marital status, sexual orientation, gender identity, veteran status, disability, or any other classification protected by law. Pantheon complies with federal and local disability laws and makes reasonable accommodations for applicants and employees with disabilities. If you need a reasonable accommodation due to a disability for any part of the interview process, please contact talent@pantheon.io. Pursuant to local and federal regulations, Pantheon will consider qualified applicants with arrest and conviction records for employment.\n\nAfter an offer is made and accepted, E-verify will be utilized to establish your identity and employment eligibility as required by the U.S. Department of Homeland Security.\n\nTo review the Employee and Applicant's Privacy Policy, click here.\n\nVisa Sponsorship is not available at this time.\n\nThe US base salary range for this position in the United States is $116,640 - 162,000 USD per year. Our salary ranges are determined by role, level, and location. At Pantheon, it is not typical for an individual to be hired at or near the top of the range for their role and compensation decisions are dependent on the facts and circumstances of each case.",
+    "job_is_remote": true,
+    "job_posted_at": "16 hours ago",
+    "job_posted_at_timestamp": 1782882000,
+    "job_posted_at_datetime_utc": "2026-07-01T05:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "dental_coverage",
+      "paid_time_off",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Dental insurance",
+      "Paid time off",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Djpy4tIFKl8NTZLVJAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "PRHqFSWgD7UAypkyAAAAAA==",
+    "job_title": "Backend Developer (Volunteer - Unpaid)",
+    "employer_name": "San R&D Business Solutions LLC",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBj5PCIoS58e2Wh6OMTijPLxH0P35e48viXdgX&s=0",
+    "employer_website": null,
+    "job_publisher": "DailyRemote",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://dailyremote.com/remote-job/backend-developer-volunteer-unpaid-5229898",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://dailyremote.com/remote-job/backend-developer-volunteer-unpaid-5229898",
+        "is_direct": false,
+        "publisher": "DailyRemote"
+      }
+    ],
+    "job_description": "This is a remote position.\nThis is not a paid opportunity (Volunteer Opportunity: 30 hrs / week)\n\nJob Title: Backend Developer\n\nLocation: Remote\n\nEmployment Type: Temporary Volunteer\n\nWork Authorization: All except H1B transfers\n\nAbout the Role:\n\nWe are looking for a skilled Backend Developer with 3+ years of experience in building scalable, high-performance, and secure server-side applications. The role involves developing APIs, integrating databases, optimizing performance, and collaborating with cross-functional teams to deliver robust solutions.\n\nKey Responsibilities:\n\n• Design, develop, and maintain server-side applications and APIs.\n\n• Work with relational and non-relational databases to ensure data integrity and performance.\n\n• Optimize backend systems for scalability, performance, and security.\n\n• Integrate front-end elements with server-side logic.\n\n• Collaborate with product managers, frontend developers, and QA teams to deliver high-quality software.\n\n• Write clean, reusable, and well-documented code.\n\n• Troubleshoot, debug, and resolve backend issues.\n\n• Participate in code reviews and follow best practices for development.\n\n• Implement and maintain CI/CD pipelines for backend services\n\nRequired Skills & Qualifications:\n\n• 3+ years of backend development experience.\n\n• Strong programming skills in one or more languages (Java, Python, Node.js, Go, or similar).\n\n• Experience with RESTful APIs and/or GraphQL.\n\n• Solid understanding of database systems (MySQL, PostgreSQL, MongoDB, etc.).\n\n• Knowledge of version control systems (Git, GitHub, GitLab).\n\n• Familiarity with containerization and orchestration (Docker, Kubernetes).\n\n• Understanding of cloud platforms (AWS, Azure, or GCP).\n\n• Ability to work in an Agile/Scrum environment.\n\n• Building and consuming REST APIs.\n\n• Understanding of CRUD operations with PostgreSQL.\n\n• Basic knowledge of deployment (Heroku, AWS EC2).\n\n• Advanced API design (GraphQL, WebSocket APIs).\n\n• Basic understanding of authentication & authorization (JWT, OAuth).\n\n• Microservices architecture and containerization (Docker, Kubernetes basics).\n\n• Knowledge of caching strategies (Redis, Memcached).\n\n• Familiarity with CI/CD pipelines and automated testing for backend (Jest, Mocha, Supertest).\n\nWhat's in for you:\n\n• Opportunity to work alongside senior leaders in a cross-functional, fast-paced setting.\n\n• Potential transition into a paid role or equity opportunity based on performance and company growth.\n\n• Certificate of recognition and professional references.\n\n• Freedom to experiment and contribute ideas to shape the company’s future.",
+    "job_is_remote": true,
+    "job_posted_at": "16 hours ago",
+    "job_posted_at_timestamp": 1782882000,
+    "job_posted_at_datetime_utc": "2026-07-01T05:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DPRHqFSWgD7UAypkyAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "eh8Q24GWQgP3_HCGAAAAAA==",
+    "job_title": "Full Stack Engineers",
+    "employer_name": "Kforce Inc",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpksUopQeRzD6QffVp6ASKVDGGSFDkyQzyBAV8&s=0",
+    "employer_website": "https://www.kforce.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/full-stack-engineers-at-kforce-inc-4435336393",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/full-stack-engineers-at-kforce-inc-4435336393",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Responsibilities\n\nKforce has a client in Fort Myers, FL that is seeking three experienced Full Stack Engineers to support a growing portfolio of infrastructure-heavy initiatives. These Engineers will play a key role in standing up core technical foundations and then owning products end-to-end as projects mature. Strong performers may be reallocated across initiatives as priorities evolve. This role is well-suited for engineers who thrive in fast-moving environments, are comfortable with ambiguity, and take clear ownership of their work. Key Responsibilities:\n\n• Design, build, and own full-stack applications from initial architecture through delivery\n• Stand up backend services and APIs where none currently exist\n• Collaborate on defining system patterns, ingress/egress, and infrastructure as projects evolve\n• Work across multiple concurrent initiatives (approximately 10-12)\n• Operate independently with minimal documentation or hand-holding\n• Break down complex problems, execute solutions, and move work forward autonomously\n\nRequirements\n\n• Strong full-stack background with a heavy infrastructure mindset\n• Experience working in small teams, startups, or early-stage environments\n• AI Tooling: Experience working with modern AI tools (Claude currently in use)\n• Comfortable operating with limited structure and evolving requirements\n• Self-directed, accountable, and proactive\n• Clear sense of ownership from problem definition through execution\n\nBackend/Services:\n\n• .NET/C#\n• Express services\n\nThe pay range is the lowest to highest compensation we reasonably in good faith believe we would pay at posting for this role. We may ultimately pay more or less than this range. Employee pay is based on factors like relevant education, qualifications, certifications, experience, skills, seniority, location, performance, union contract and business needs. This range may be modified in the future.\n\nWe offer comprehensive benefits including medical/dental/vision insurance, HSA, FSA, 401(k), and life, disability & ADD insurance to eligible employees. Salaried personnel receive paid time off. Hourly employees are not eligible for paid time off unless required by law. Hourly employees on a Service Contract Act project are eligible for paid sick leave.\n\nNote: Pay is not considered compensation until it is earned, vested and determinable. The amount and availability of any compensation remains in Kforce's sole discretion unless and until paid and may be modified in its discretion consistent with the law.\n\nThis job is not eligible for bonuses, incentives or commissions.\n\nKforce is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, gender identity, national origin, age, protected veteran status, or disability status.\n\nBy clicking “Apply Today” you agree to receive calls, AI-generated calls, text messages or emails from Kforce and its affiliates, and service providers. Note that if you choose to communicate with Kforce via text messaging the frequency may vary, and message and data rates may apply. Carriers are not liable for delayed or undelivered messages. You will always have the right to cease communicating via text by using key words such as STOP.",
+    "job_is_remote": true,
+    "job_posted_at": "22 hours ago",
+    "job_posted_at_timestamp": 1782860400,
+    "job_posted_at_datetime_utc": "2026-06-30T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "dental_coverage",
+      "health_insurance",
+      "paid_time_off"
+    ],
+    "job_benefits_strings": [
+      "Dental insurance",
+      "Health insurance",
+      "Paid time off"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Deh8Q24GWQgP3_HCGAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "60–75 an hour",
+    "job_min_salary": 60,
+    "job_max_salary": 75,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "44scDDRY3KDxMEfUAAAAAA==",
+    "job_title": "AI Engineer -- 100% Remote -- Only W2 Profiles",
+    "employer_name": "Trebecon LLC",
+    "employer_logo": null,
+    "employer_website": null,
+    "job_publisher": "Dice",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.dice.com/job-detail/cd8fd0bb-5161-4e9f-8c5b-8c4544dbd70d",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.dice.com/job-detail/cd8fd0bb-5161-4e9f-8c5b-8c4544dbd70d",
+        "is_direct": false,
+        "publisher": "Dice"
+      }
+    ],
+    "job_description": "Title: AI Engineer\n\nLocation : 100% Remote\n\nDescription:\n\nRequired Skills & Experience\n\n5+ years of full-time experience in electronic data processing systems study, design, and programming.\n\nBachelor’s degree in an IT-related or Engineering field; additional qualifying experience may be substituted on a year-for-year basis.\n\n4+ years of experience designing, developing, and implementing applications in C# and containerized environments such as Docker and Kubernetes.\n\n2+ years of experience working with AI/ML models, including fine-tuning and integrating models using AWS Bedrock and Azure AI services.\n\n3+ years of experience working with RESTful APIs and integrating external services into enterprise applications.\n\n3+ years of experience building CI/CD pipelines for AI models using GitHub Actions and Terraform.\n\nNice to Have Skills & Experience\n\n3+ years of experience with AI frameworks such as LangChain, MLflow, Hugging Face, or TensorFlow, plus 2+ years of Infrastructure as Code experience with Terraform or AWS CloudFormation.\n\n2+ years of experience developing AI-powered chatbots, decision-support systems, or automation agents, along with implementing security best practices for cloud-based AI services.\n\n2+ years of experience optimizing AI models for performance and cost efficiency in AWS and Azure; prior experience supporting healthcare or government-related AI applications is preferred.",
+    "job_is_remote": true,
+    "job_posted_at": "7 hours ago",
+    "job_posted_at_timestamp": 1782914400,
+    "job_posted_at_datetime_utc": "2026-07-01T14:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D44scDDRY3KDxMEfUAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "xLUuIbBYExi1dr_DAAAAAA==",
+    "job_title": "Freelance Data Scraping Engineer (Python)",
+    "employer_name": "Mindrift",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxeZvZwq2dtQ5Wdz3sczVJUFSMCTkTWNxS6Y9&s=0",
+    "employer_website": "https://mindrift.ai",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Part-time",
+    "job_employment_types": [
+      "PARTTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/freelance-data-scraping-engineer-python-at-mindrift-4432362057",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/freelance-data-scraping-engineer-python-at-mindrift-4432362057",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Mindrift is looking for highly skilled Python Data Scraping Engineers to join the Tendem project and drive specialized data scraping workflows within our hybrid AI + human system.\n\nIn this role, as an AI Pilot - that's how we refer to this role at Mindrift - you'll collaborate with Tendem Agents that handle repetitive tasks, while you provide critical thinking, domain expertise, and quality control to deliver accurate and actionable results.\n\nThis part-time remote opportunity is ideal for technical professionals with hands-on experience in web scraping, data extraction and processing.\n\nWhat We Do\n\nThe Mindrift platform connects specialists with AI projects from major tech innovators. Our mission is to unlock the potential of Generative AI by tapping into real-world expertise from across the globe.\n\nAbout The Role\n\nThis is a freelance role for a Tendem project. As a Python Data Scraping Engineer, you'll handle data scraping tasks requiring technical precision for web extraction and processing, utilizing various tools such as our provided Apify and OpenRouter alongside your own resourceful approaches.\n\nKey Responsibilities\n\n• Own end-to-end data extraction workflows across complex websites, ensuring complete coverage, accuracy, and reliable delivery of structured datasets.\n• Leverage internal tools (Apify, OpenRouter) alongside custom workflows to accelerate data collection, validation, and task execution while meeting defined requirements.\n• Ensure reliable extraction from dynamic and interactive web sources, adapting approaches as needed to handle JavaScript-rendered content and changing site behavior.\n• Enforce data quality standards through validation checks, cross-source consistency controls, adherence to formatting specifications, and systematic verification prior to delivery.\n• Scale scraping operations for large datasets using efficient batching or parallelization, monitor failures, and maintain stability against minor site structure changes\n\nCompensation\n\nOn this project, contributors can earn up to $37 per hour equivalent, depending on their level and pace of contribution.\n\nCompensation varies across projects depending on scope, complexity, and required expertise. Please note that other projects on the platform may offer different earning levels based on their requirements.\n\nHow To Get Started\n\nSimply apply to this post, qualify, and get the chance to contribute to projects that match your technical skills, on your own schedule. From coding and automation to fine-tuning AI outputs, you'll play a key role in advancing AI capabilities and real-world applications.\n\nRequirements\n\n• At least 3 year of relevant experience in data engineering, web scraping, automation, or software development (required).\n• Bachelor's or Master's Degree in Engineering, Applied Mathematics, Computer Science, or related technical fields is a plus\n• Strong experience in Python web scraping (BeautifulSoup, Selenium or similar), including dynamic content (JS, AJAX, infinite scroll) and APIs via proxies\n• Proven ability to extract data from complex structures (hierarchies, archived pages, inconsistent HTML)\n• Solid background in data cleaning, normalization, and validation, delivering structured datasets (CSV, JSON, Google Sheets)\n• Hands-on experience with LLMs and AI frameworks to enhance automation and problem-solving\n• Strong attention to detail and commitment to data accuracy\n• Self-directed work ethic with ability to troubleshoot independently\n• A link to GitHub is a plus\n• English proficiency: Upper-intermediate (B2) or above (required)\n\nBenefits\n\nWhy this freelance opportunity might be a great fit for you?\n\n• Work fully remote on your own schedule with just a laptop and stable internet connection.\n• Gain hands-on experience in a unique hybrid environment where human expertise and AI agents collaborate seamlessly — a distinctive skill set in a rapidly growing field.\n• Participate in performance-based bonus programs that reward high-quality work and consistent delivery",
+    "job_is_remote": true,
+    "job_posted_at": "12 hours ago",
+    "job_posted_at_timestamp": 1782896400,
+    "job_posted_at_datetime_utc": "2026-07-01T09:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DxLUuIbBYExi1dr_DAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "us3UptTsxkYpw8YtAAAAAA==",
+    "job_title": "Senior Lead Creative Technologist",
+    "employer_name": "Kyndryl",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8pYSXT0tiDB4enHhskdbARB53bQ_oUHAiN_Mf&s=0",
+    "employer_website": "https://www.kyndryl.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/senior-lead-creative-technologist-at-kyndryl-4434366442",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/senior-lead-creative-technologist-at-kyndryl-4434366442",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Who We Are\n\nAt Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster innovation, and a lasting competitive edge. For our people—Kyndryls—that means doing purposeful work that powers human progress. Join us and experience a flexible, supportive environment where your well-being is prioritized and your potential can thrive.\n\nThe Role\n\nA Creative Technologist is a cross-disciplinary person that bridge between a design vision and engineering execution, using experimentation to solve problems in new and novel ways. They Combines technical expertise with human-centered design to prototype and implement innovative solutions. Creative technologists blend expertise in code, hardware, and emerging technologies to bring ideas to life.\n\nAs a Creative Technologist at Kyndryl Vital you will lead design initiatives across a variety of complex projects, ensuring that solutions are innovative, intuitive, and aligned with client objectives.\n\nYou’ll act as both a hands-on expert and a team leader—driving the use of emerging technologies, setting prototyping standards, and overseeing the end-to-end design process from early discovery through user testing and delivery.\n\nYou’ll build strong relationships with senior client stakeholders, serving as a trusted advisor on how technologies like agentic AI, IoT, or AR can unlock value and elevate experiences. Internally, you’ll mentor teams across design and engineering—bridging creative vision and technical feasibility while fostering a culture of experimentation and collaboration.\n\nYou’ll partner with delivery leads to ensure creative technology workstreams align with timelines and goals, influencing implementation decisions and ensuring the final product reflects the intended experience. By balancing big ideas with practical constraints, you’ll deliver solutions that are both groundbreaking and scalable.\n\nWho You Are\n\nRequired Technical and Professional Expertise\n\n• Human-Centered Design: You have an expertise in applying human-centered design at a strategic level. You can not only execute design thinking techniques but also guide others in the team to ensure the end product genuinely resonates with users on a functional and emotional level.\n• Cross-disciplinary Collaboration: You lead cross-functional collaboration. You often act as the “glue” between different disciplines – facilitating communication between design, engineering, business, and even between our team and the client’s technical teams. Everyone stays aligned thanks to your ability to speak everyone’s language.\n• Innovation: You have a portfolio of projects that introduced new technology or novel interactions. You proactively explore the tech landscape for opportunities. For example, you might have implemented an industry-first use of a technology at a previous job, or you regularly prototype with experimental tech to assess its potential.\n• Rapid Prototyping: You can swiftly create everything from visual simulations to fully interactive prototypes that are nearly indistinguishable from a real product. Equally important, you can set up an environment for the team to prototype efficiently, possibly by establishing libraries, frameworks, or processes that accelerate prototyping cycles.\n• Human-in-the-Loop Patterns: You can design interaction patterns for approvals, escalation, rollbacks, and exception handling so agents act safely and users stay in control.\n• Feasibility Analysis: You have a deep skill in technical feasibility and risk assessment. You can map out the technical requirements of a visionary idea and identify what it would take to implement (time, resources, new skill sets, etc.). You anticipate challenges (scalability, performance, integration issues) and address them early\n• Storytelling: You craft presentations and narratives that not only explain a concept but inspire and rally support around a vision. As a result, stakeholders (from end-users in testing sessions to C-suite executives in readouts) are engaged and excited about the possibilities you present.\n• AI and Data Ethics: You lead by example in considering the ethical implications of design decisions, especially when they involve AI or user data. For instance, you ensure any AI features are transparent and fair, and you educate clients and team members about responsible AI and data practices. This includes responsible agentic AI patterns (tool permissioning, human-in-the-loop controls, auditability).\n• Tooling Standards & Governance (Scale): You can establish standards for agent tools (schema conventions, versioning, security review inputs, documentation) and align with AI engineers so open-source agent development integrates consistently across projects.\n• Experience Integration at Scale: You can set front-end integration patterns for agentic workflows (events/telemetry hooks, streaming, audit trails, and human-in-the-loop checkpoints) and ensure shipped experiences match intended design quality.\n• Quality at Scale: You can define team standards for evaluation, observability signals, and release readiness for agentic experiences moving from pilot to production.\n\nPreferred Professional And Technical Expertise\n\n• 8+ years of experience in roles involving creative technology, user experience, or digital innovation. You have led significant portions of projects and possibly managed other technologists or designers.\n• Demonstrated depth in one or more industry verticals or technology domains, which allows you to quickly contextualize solutions for specific business problems (e.g., you deeply understand healthcare tech and regulations, or you have expertise in automotive manufacturing user experience, etc.).\n• Experience in both enterprise-scale project delivery and design consulting. You can navigate corporate governance, security reviews, and large program structures, but you also know how to drive lean project delivery.\n• Strong knowledge of enterprise IT and architecture (e.g., cloud platforms, databases, APIs, security considerations) enabling you to design solutions that integrate well with clients’ ecosystems or to advise on technical architecture for prototypes.\n• Familiarity with organizational change management or DesignOps. At this level, you may be influencing not just the product but how the client organization adopts new tools or processes. Experience here helps ensure your solutions are actually embraced and implemented by the customer’s teams.\n• Advanced background in data science, AI/ML, or computational design is a plus. This could mean you’ve worked closely with data scientists, developed AI-driven prototypes, or otherwise can conceptually design and even build features that leverage data and ML.\n• Collaboration with Open-Source Agent Stacks: You can partner with AI engineers working in open-source agent runtimes and translate experience requirements into tool contracts, UI behaviors, and evaluation criteria without blocking engineering velocity.\n\nYou may specialize more deeply in (at this level, you might be an expert for a specialization while still maintaining a broad skill set):\n\n• AI/ML/GenAI\n• Phygital Design\n• Connected Product/IoT\n• Mobile and Web + Front-End Architecture for Experience\n\nRequired Education\n\n• Bachelor’s Degree in a relevant field (or equivalent demonstrable portfolio of work).\n\nPreferred Education\n\n• Advanced degree in a relevant field (e.g., MDM, MDes, MFA, d.MBA or equivalent MS in HCI, MBA with tech focus, PhD in a design or tech field) or equivalent continued education is a plus.\n\nThe compensation range for the position in the U.S. is\n\n$115,080 to $218,520 based on a full-time schedule.\n\nYour actual compensation may vary depending on your geography, job-related skills and experience. For part time roles, the compensation will be adjusted appropriately. The pay or salary range will not be below any applicable state, city or local minimum wage requirement.\n\nThere is a different applicable compensation range for the following work locations:\n\nCalifornia (San Francisco Bay Area):$138,120to$262,320\n\nCalifornia (All Other):$126,600to$240,480\n\nColorado: $115,080to$218,520\n\nMassachusetts$115,080to$240,480\n\nNew York City: $138,120to$262,320\n\nWashington: $126,600to$240,480\n\nWashington DC:$126,600to$240,480\n\nThis position will be eligible for Kyndryl’s discretionary annual bonus program, based on performance and subject to the terms of Kyndryl’s applicable plans. You may also receive a comprehensive benefits package which includes medical and dental coverage, disability, retirement benefits, paid leave, and paid time off. Note: If this is a sales commission eligible role, you will be eligible to participate in a sales commission plan in lieu of the annual discretionary bonus program.\n\nApplications will be accepted on a rolling basis.\n\nBeing You\n\nThe “Kyn” in Kyndryl means kinship, which represents the strong bonds we have with each other, our customers and our communities. We focus on ensuring all Kyndryls feel included and we welcome people of all cultures, backgrounds, and experiences. Even if you don’t meet every requirement, we encourage you to apply. We believe in growth, and we’re excited to see what you can bring. At Kyndryl, employee feedback has told us that our number one driver of employee engagement is belonging. That sense of belonging — being a valued, respected, trusted member of the team — is fundamental to our culture and fueling great experiences for our customers. This dedication to welcoming everyone into our company means that Kyndryl gives you the ability to thrive and contribute to our culture of empathy and shared success. That’s The Kyndryl Way.\n\nWhat You Can Expect\n\nYour career with us isn’t just a job—it’s an adventure with purpose. We offer a dynamic, hybrid-friendly culture that supports your well-being and empowers you to grow. Our Be Well programs are thoughtfully designed to support your financial, mental, physical, and social health—because we know that when you feel your best, you do your best.\n\nFrom your very first day, you’ll dive into impactful work that powers the systems our customers rely on every day. You won’t just contribute—you’ll make a difference, tackling meaningful projects that sharpen your skills and fuel your growth.\n\nWe’re here to champion your journey. With powerful tools to chart your career path, personalized development goals aligned with your ambitions, and continuous feedback to keep you inspired and on track, you’ll have everything you need to thrive and evolve. You’ll develop in-demand skills to grow your career and achieve your ambitions with access to cutting-edge learning opportunities—from certifications with Microsoft, Google, and Amazon to coaching and hands-on experiences. And through it all, you’ll be part of a culture that values empathy, restless learning, and a devotion to shared success.\n\nWe want you to thrive here—and we’re committed to helping you do just that. Ready to make an impact? Join us and help shape what’s next.\n\nGet Referred!\n\nIf you know someone that works at Kyndryl, when asked ‘How Did You Hear About Us’ during the application process, select ‘Employee Referral’ and enter your contact's Kyndryl email address.",
+    "job_is_remote": true,
+    "job_posted_at": "23 hours ago",
+    "job_posted_at_timestamp": 1782856800,
+    "job_posted_at_datetime_utc": "2026-06-30T22:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off",
+      "health_insurance",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Paid time off",
+      "Health insurance",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dus3UptTsxkYpw8YtAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "eKHJIQc96hn6w3TMAAAAAA==",
+    "job_title": "Product Analytics Engineer",
+    "employer_name": "Twin Health",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ_UamzFsxR7RIe9DMisl3eFVT8qNYYnOlkcfm&s=0",
+    "employer_website": "https://usa.twinhealth.com",
+    "job_publisher": "The Jungle",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.welcometothejungle.com/en/companies/twin-health/jobs/product-analytics-engineer_us_7ouepkhp",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.welcometothejungle.com/en/companies/twin-health/jobs/product-analytics-engineer_us_7ouepkhp",
+        "is_direct": false,
+        "publisher": "The Jungle"
+      }
+    ],
+    "job_description": "• We are looking for a Product Analytics Engineer to join our Data Platform team, where you will play a key role in driving data-driven insights and product analytics that directly improve member outcomes and Care Team effectiveness\n• This is an exciting opportunity to work at the intersection of product, data, and healthcare — serving as the critical bridge between our Data Engineering foundation and the product and business teams who rely on data to make decisions\n• You will collaborate closely with Product Managers, Area owners, Care Team leads, and Data Engineers to translate deep Member and Care Team data into actionable opportunities, enabling better metabolic health outcomes for our diverse member base through improvements in nutrition, exercise, sleep, and stress as well as higher efficacy and efficiency for our Care Team\n• Partner with Product Managers, Care Team leads, and Area owners to translate business goals into measurable hypotheses and actionable insights that drive product enhancements and member outcomes\n• Design and evaluate experiments (A/B tests and beyond) to validate product hypotheses and guide iteration\n• Partner with Product and ML teams to measure the impact of new features, workflows, and personalization systems\n• Build and maintain robust dbt models, dashboards, and self-serve analytics tools using Snowflake, dbt, and BI platforms\n• Define, monitor, and communicate KPIs across product areas — member engagement, CGM utilization, Care Team effectiveness, and more\n• Collaborate with Data Engineers to ensure the analytical layer is built on a reliable, well-structured data foundation\n• Build data pipelines for analytics and insight generation using Python, dbt, and Snowflake\n• Develop and implement data validation and monitoring strategies to ensure ongoing data integrity\n• Communicate findings clearly and effectively to both technical and non-technical stakeholders\n• Create and maintain technical documentation including data models, metric definitions, and data dictionaries\n• Contribute to the continuous improvement of data analytics processes and best practices\n• Other duties as assigned\nBenefits\n• 401(k) for retirement\n• Unlimited PTO\n• High-quality medical, dental, and vision coverage\n• HSA/FSA plans, life insurance, and disability\n• Support from licensed financial wellness advocates\n• Paid parental leave for birth/adoption (16 weeks of 100% paid leave for the primary caregiver and 8 weeks for the secondary)\n• Access to benefits supporting overall well-being (eg. pet insurance, gym discounts)\n• Stipend program (100% personalized and inclusive)",
+    "job_is_remote": true,
+    "job_posted_at": "21 hours ago",
+    "job_posted_at_timestamp": 1782864000,
+    "job_posted_at_datetime_utc": "2026-07-01T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off",
+      "health_insurance",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Paid time off",
+      "Health insurance",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DeKHJIQc96hn6w3TMAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "130K–140K a year",
+    "job_min_salary": 130000,
+    "job_max_salary": 140000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "TWrflUYrZzzLFqiAAAAAAA==",
+    "job_title": "Apply Now: Remote Android Engineer Job for US Based reputed company",
+    "employer_name": "2.halvolink",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://2.halvolink.liveblog365.com&size=128",
+    "employer_website": "https://2.halvolink.liveblog365.com",
+    "job_publisher": "2.Halvolink",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://2.halvolink.liveblog365.com/job/780636",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://2.halvolink.liveblog365.com/job/780636",
+        "is_direct": false,
+        "publisher": "2.Halvolink"
+      }
+    ],
+    "job_description": "reputed company to take the reputed company in your career? Join us as a Remote Android Engineer! We reputed company in flexibility; this hybrid role lets you balance your time between our Remote office and home. This position requires a strong and diverse skillset in relevant areas to drive reputed company. We offer a clear and simple compensation of a competitive salary for this position. Â Â We are a full-service reputed company resources company based in the US, crafting creative solutions for both big and small international clients. We are looking for an Android Engineer with a solid UX and UI design background to join reputed company of developers and complete an app for one of our clients. Design your lifestyle as a full-time freelancer, with the freedom to work however, wherever, on your... terms. About reputed company Freelance work is defining the careers of todayÂ’s developers in exciting new ways. If youÂ’re passionate about working flexibly with leading Fortune 500 brands and innovative Silicon Valley startups, reputed company could be a great fit for your next career shift. reputed company is an elite talent network for the worldÂ’s top 3% of developers, connecting the best and brightest freelancers with top organizations. Unlike a 9-to-5 job, youÂ’ll choose your own schedule and work from reputed company. Jobs come to you, so you wonÂ’t bid for projects against other freelancers in a race to the bottom. Plus, reputed company takes care of reputed company the overhead, empowering you to focus on successful engagements while getting paid on time, at the reputed company you decide, every time. As a freelancer, you could join an reputed company-expanding community of experts in over 120 countries, working remotely on the projects that meet your career ambitions. ThatÂ’s why the worldÂ’s top 3% of developers choose reputed company. Developers in our elite network share Requirements Â• English language proficiency Â• At least 3 years of professional experience Â• Experience with system architecture or leading a software team is a strong advantage Â• Full-time availability is a strong advantage Â• Project management skills Â• A keen attention to detail If youÂ’re reputed company for a career shift to impactful freelance work, take the reputed company by applying today Apply Job! Â Submit Your Application Seize this opportunity to reputed company a significant impact. Apply now and take the first reputed company towards a rewarding new role. Apply To This Job",
+    "job_is_remote": true,
+    "job_posted_at": "21 hours ago",
+    "job_posted_at_timestamp": 1782864000,
+    "job_posted_at_datetime_utc": "2026-07-01T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DTWrflUYrZzzLFqiAAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "yleAEPyYNKLonKUiAAAAAA==",
+    "job_title": "AI-Augmented Software Engineer (Remote U.S. â€“ Preferred Knoxville, TN)",
+    "employer_name": "CGI Group, Inc.",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpE-FXToK__hOfsGQMyP5RpOsPwmxeLOCgE9Er&s=0",
+    "employer_website": null,
+    "job_publisher": "Indeed",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.indeed.com/viewjob?jk=d709257da9a4a17a",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.indeed.com/viewjob?jk=d709257da9a4a17a",
+        "is_direct": false,
+        "publisher": "Indeed"
+      }
+    ],
+    "job_description": "Position Description:\n\nCGI is one of the world's largest independent IT and business consulting services firms. With more than 90,000 professionals worldwide, CGI delivers end-to-end services and solutions that help clients accelerate digital transformation, improve operational performance, and achieve meaningful business outcomes. At CGI, you'll work alongside talented professionals in a collaborative environment where innovation, ownership, and continuous learning are valued. Time Zone working hours are required to support collaboration with delivery teams and clients.\n\nCGI is seeking a Senior AI-Augmented Software Engineer to join our growing engineering organization. This role is ideal for a hands-on software engineer who is passionate about leveraging AI-assisted development tools to accelerate software delivery, improve code quality, and enhance engineering productivity.\n\nAs part of our delivery teams, you will utilize technologies such as GitHub Copilot, Gemini Code Assist, and cloud-based AI development tools to support modern software engineering practices while developing enterprise-grade applications, APIs, and integrations. You will work closely with distributed development teams, contribute to solution delivery efforts, and help drive adoption of AI-enabled development workflows across engineering organizations.\n\nThe ideal candidate brings strong Java engineering expertise, experience building enterprise integrations, and the ability to work effectively across hybrid on-premises and cloud environments. Experience within the insurance industry, including policy administration, rating, underwriting, payment integrity, or third-party data integrations, is highly valued.\n\nThis position is open to candidates located anywhere within the United States and may be performed remotely. Preference will be given to candidates located in or near Knoxville, Tennessee, or within commuting distance of a CGI office. Eastern Time Zone working hours are required.\n\nYour future duties and responsibilities:\n\nLeverage AI-assisted development tools including GitHub Copilot, Gemini Code Assist, and cloud-based AI platforms to accelerate software delivery\n\nApply effective prompting techniques and AI engineering workflows to improve development efficiency and code quality\n\nDesign, develop, test, and maintain enterprise-grade Java applications and services\n\nBuild and support RESTful APIs, SOAP services, and system integrations across internal and third-party platforms\n\nTroubleshoot, optimize, and enhance performance of Java/JVM-based applications in production environments\n\nContribute to AI-enabled software engineering practices and support adoption across delivery teams\n\nParticipate in CI/CD automation initiatives, testing strategies, and deployment reliability improvements\n\nCollaborate with distributed and offshore development teams within Agile delivery environments\n\nParticipate in sprint planning, backlog refinement, code reviews, and technical design discussions\n\nSupport solution delivery activities, client engagements, demonstrations, and technical workshops as needed\n\nRequired qualifications to be successful in this role:\n\n5+ years of hands-on software engineering experience\n\nStrong proficiency in Java and development of enterprise applications and REST APIs\n\nExperience with RESTEasy, Spring Boot, JAX-RS, or similar API frameworks\n\nExperience developing and supporting SOAP services, XML schemas, and service contracts\n\nStrong troubleshooting and performance tuning skills within Java/JVM-based environments\n\nExperience working within both cloud and on-premises environments using AWS, Azure, or similar platforms\n\nFamiliarity with Git, Maven, Gradle, Jenkins, CI/CD pipelines, and automated testing frameworks\n\nExperience working with relational databases and SQL fundamentals including SQL Server, PostgreSQL, or similar technologies\n\nStrong communication skills and experience collaborating within distributed Agile teams\n\nAbility to participate effectively in client-facing technical discussions and solution delivery activities\n\nDesired qualifications\n\nExperience utilizing GitHub Copilot, Gemini Code Assist, or similar AI-assisted development tools\n\nAWS, Microsoft Azure, or Google Cloud certifications\n\nExperience with Docker, Kubernetes, and containerized deployment strategies\n\nFamiliarity with caching technologies such as Redis or Amazon ElastiCache\n\nExperience with Python, R, or other scripting and automation languages\n\nKnowledge of API management platforms including Apigee, Kong, MuleSoft, or Azure API Management\n\nExperience with microservices architectures, event-driven systems, and messaging platforms such as Kafka, RabbitMQ, or JMS\n\nInsurance, policy administration, underwriting, rating, claims, or payment integrity industry experience\n\nBachelor's degree in Computer Science, Engineering, Information Systems, or a related field, or equivalent practical experience\n\nOther Information:\n\nCGI is required by law in some jurisdictions to include a reasonable estimate of the compensation range for this role. The determination of this range includes various factors not limited to skill set, level, experience, relevant training, and licensure and certifications. To support the ability to reward for merit-based performance, CGI typically does not hire individuals at or near the top of the range for their role. Compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current range for this role in the U.S. is $80,600.00 - $172,400.00.\n\nCGI's benefits are offered to eligible professionals on their first day of employment to include:\n\n. Competitive compensation\n\n. Comprehensive insurance options\n\n. Matching contributions through the 401(k) plan and the share purchase plan\n\n. Paid time off for vacation, holidays, and sick time\n\n. Paid parental leave\n\n.Learning opportunities and tuition assistance\n\n. Wellness and Well-being programs\n\nSkills:\n\n• Artificial Intelligence\n\n• Cloud Computing\n\n• Insurance\n\n• Java\n\n• Performance Tuning\n\n• RESTful (Rest-APIs)\n\nWhat you can expect from us:\n\nTogether, as owners, lets turn meaningful insights into action.\n\nLife at CGI is rooted in ownership, teamwork, respect and belonging. Here, youll reach your full potential because\n\nYou are invited to be an owner from day 1 as we work together to bring our Dream to life. Thats why we call ourselves CGI Partners rather than employees. We benefit from our collective success and actively shape our companys strategy and direction.\n\nYour work creates value. Youll develop innovative solutions and build relationships with teammates and clients while accessing global capabilities to scale your ideas, embrace new opportunities, and benefit from expansive industry and technology expertise.\n\nYoull shape your career by joining a company built to grow and last. Youll be supported by leaders who care about your health and well-being and provide you with opportunities to deepen your skills and broaden your horizons.\n\nCome join our teamone of the largest IT and business consulting services firms in the world.\n\nQualified applicants will receive consideration for employment without regard to their race, ethnicity, ancestry, color, sex, religion, creed, age, national origin, citizenship status, disability, pregnancy, medical condition, military and veteran status, marital status, sexual orientation or perceived sexual orientation, gender, gender identity, and gender expression, familial status or responsibilities, reproductive health decisions, political affiliation, genetic information, height, weight, or any other legally protected status or characteristics to the extent required by applicable federal, state, and/or local laws where we do business.\n\nCGI provides reasonable accommodations to qualified individuals with disabilities. If you need an accommodation to apply for a job in the U.S., please email the CGI U.S. Employment Compliance mailbox at US_Employment_Compliance@cgi.com. You will need to reference the Position ID of the position in which you are interested. Your message will be routed to the appropriate recruiter who will assist you. Please note, this email address is only to be used for those individuals who need an accommodation to apply for a job. Emails for any other reason or those that do not include a Position ID will not be returned.\n\nWe make it easy to translate military experience and skills! Click here to be directed to our site that is dedicated to veterans and transitioning service members.\n\nAll CGI offers of employment in the U.S. are contingent upon the ability to successfully complete a background investigation. Background investigation components can vary dependent upon specific assignment and/or level of US government security clearance held. Dependent upon role and/or federal government security clearance requirements, and in accordance with applicable laws, some background investigations may include a credit check. CGI will consider for employment qualified applicants with arrests and conviction records in accordance with all local regulations and ordinances.\n\nCGI will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with CGIs legal duty to furnish information.",
+    "job_is_remote": true,
+    "job_posted_at": "16 hours ago",
+    "job_posted_at_timestamp": 1782882000,
+    "job_posted_at_datetime_utc": "2026-07-01T05:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Paid time off",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DyleAEPyYNKLonKUiAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "80.6K–172K a year",
+    "job_min_salary": 80600,
+    "job_max_salary": 172000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "5WvstcurNmwTYpYvAAAAAA==",
+    "job_title": "Software Engineer (Hybrid Work Model)",
+    "employer_name": "Sentry Insurance",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sentry.com&size=128",
+    "employer_website": "https://www.sentry.com",
+    "job_publisher": "Sentry Insurance",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://jobs.sentry.com/job/jr-142337",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://jobs.sentry.com/job/jr-142337",
+        "is_direct": false,
+        "publisher": "Sentry Insurance"
+      }
+    ],
+    "job_description": "You’ll work closely with a team of engineers to develop, test, and maintain software applications, systems, or platforms.\n\nAt Sentry, we’re more than just insurance—and we can offer you more than just a job. We want you to enjoy a career with us, where you’re in the driver’s seat of your career path with access to resources to help you succeed personally and professionally.\n\nJoin our Cloud & Platform Engineering team, where you’ll be highly valued, growth is encouraged, and you’ll work across diverse technologies—fostering the innovation and creativity that drives leading business solutions for our application development teams.\n\nWhat You’ll Do\nYou’ll be a valuable contributor to our team. As a Sentry associate, we believe in your skills and knowledge. Your input and participation matters. You’ll have the opportunity to:\n• Innovate: Through our agile development process, you’ll have the opportunity to apply your creativity and innovation to drive new solutions.\n\n• Learn: Sentry provides several resources to help you further your career and continue your personal development, including Sentry University, LinkedIn Learning, and peer-led educational sessions and communities.\n\n• Grow: Sentry provides many opportunities to grow in your career. Through meaningful, ongoing conversations around growth and development, we encourage all associates to take ownership in their career path.\n\n• Contribute: You won’t just write code—you’ll build the platforms that other engineers depend on every day. As part of our Cloud & Platform Engineering team, you’ll develop applications and tooling that power our application, data, and infrastructure platforms—keeping systems running, teams productive, and technology moving forward. You’ll work in a full-stack, cloud-first environment with a modern, diverse tech stack that includes CI/CD tooling (Bitbucket, Jenkins, Artifactory, SonarQube, Chef), Amazon Web Services (AWS), Terraform, Docker, load balancing and certificate management, scripting languages (PowerShell, Python, Bash), programming languages (Java, C#, .NET), and front-end technologies (Vue.js, JavaScript, HTML/CSS). As a Software Engineer, you will:\n• Design and build internal applications and platform tooling that directly support engineering teams across the organization.\n\n• Develop and maintain front-end interfaces using Vue.js and modern web technologies to make complex platform data accessible and actionable.\n\n• Shape platform architecture including deployment pipelines, storage and server virtualization, search/analytics solutions, and observability practices.\n\n• Drive platform reliability by planning and executing maintenance activities that keep capabilities current and resilient.\n\n• Champion security best practices and actively contribute to vulnerability assessments and remediation efforts.\n\n• Engage fully in agile delivery—stand-ups, planning, retrospectives, code reviews, and technical demonstrations are all part of how this team works.\n\n• Partner with senior engineers and cross-functional teams to align platform configurations with evolving system requirements.\n\n• Tackle medium-complexity requests, incidents, and inquiries across the platform portfolio, growing your expertise with each one.\n\n• What it Takes:\n• Associate Degree in Computer Science or related discipline; or equivalent related work experience. Bachelor Degree preferred.\n\n• Minimum of 2 years related work experience.\n\n• Proficiency in programming languages and tools relevant to the role.\n\n• Strong problem-solving skills and ability to optimize systems.\n\n• Demonstrated understanding of design principles and development best practices.\n\n• Ability to work independently and in a team environment.\n\n• Demonstrated written and verbal communication skills.\n\n• Possess an understanding of relevant business domains.\n\nIf you have experience in the skills listed above, please consider joining our Sentry team!\n\nWhat You’ll Receive\nYou can enjoy a complete benefits package, including generous paid time off, 8% 401(k) match, matching charitable gift program, bonus plan based on company performance, meal stipends, associate discounts, volunteer time off and more!\n\nYou want a positive work/life balance. Our hybrid work model allows you to enjoy the benefits of working from home on Monday and Friday, but also provides the opportunity for team building and collaboration when working in the office on Tuesday, Wednesday, and Thursday. To help you work effectively and comfortably in both locations, we provide you with equipment to work at home and in the office.\n\nAbout Sentry\nOur Background: We’re part of one of the largest and most financially secure mutual insurance groups in the nation. We’ve earned an A+ rating from AM Best every year since 1992. Our associates bring together diverse backgrounds, experiences, and skillsets to make Sentry who we are. We’re honored to earn a spot on Forbes list of America's Best Midsize Employers, joining a select group of 400 companies. We’re in the business of helping others, and that includes the communities where we live and work. Our annual United Way campaign has raised more than $1 million for the past several years.\n\nOur Stevens Point campus offers a full-service fitness center, swimming pool, basketball and racquetball courts, auto center, credit union, on-site Aspirus clinic, restaurants, boutique hotel, and the award-winning SentryWorld golf course.\n\nHow You’ll Apply\nWe’d love for you to join us. Please complete your online application and upload your resume on our Careers site. If you have applied with us before, you only need to provide your email address and password. If this is your first time applying with Sentry, please create an account.\n\nIf you have specific questions regarding the position, application process, or are interested in learning more about Sentry, please reach out to Katelynne Rivera, Talent Acquisition Specialist Sr.\n\nFor this position, Sentry does not offer employment to holders of F-1, J-1, and H-1 Visas.\n\nGet ready to own your future at Sentry. Your opportunity awaits.\n\nTalent Acquisition Specialist\nThank you for your interest in Sentry!\nKatelynne Rivera\nKatelynne.Rivera@Sentry.com\n\nEqual Employment Opportunity\nSentry is an Equal Opportunity Employer. It is our policy that there be no discrimination in employment based on race, color, national origin, religion, sex, disability, age, marital status, or sexual orientation.",
+    "job_is_remote": true,
+    "job_posted_at": "21 hours ago",
+    "job_posted_at_timestamp": 1782864000,
+    "job_posted_at_datetime_utc": "2026-07-01T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D5WvstcurNmwTYpYvAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "ek5yBeXKPXvnoXH4AAAAAA==",
+    "job_title": "Full Stack C# - .NET Software Engineer job at NTT Group in Atlanta, GA",
+    "employer_name": "NTT Group",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://group.ntt&size=128",
+    "employer_website": "https://group.ntt",
+    "job_publisher": "Remote.co",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://remote.co/job-details/full-stack-c-net-software-engineer-97f7ca6d-615b-4788-88b4-a6334ee25b64",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://remote.co/job-details/full-stack-c-net-software-engineer-97f7ca6d-615b-4788-88b4-a6334ee25b64",
+        "is_direct": false,
+        "publisher": "Remote.co"
+      }
+    ],
+    "job_description": "Title: Full Stack C#/.NET Software Engineer (IoT)\n\nLocation: Atlanta, GA United States\n\nHybrid\n\nJob Description:\n\nReq ID: 378153\n\nNTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now.\n\nWe are currently seeking a Full Stack C#/.NET Software Engineer (IoT) to join our team in Atlanta, Georgia (US-GA), United States (US).\n\nOverview\n\nWe are seeking an experienced Full-Stack Developer to design, build, and support scalable applications that power IoT, Industry 4.0, and connected platform solutions. This role works closely with clients and cross-functional teams to deliver modern, cloud-native systems using .NET, Java, JavaScript/TypeScript, and Microsoft Azure.\n\nKey Responsibilities\n\nDesign, develop, test, and maintain full‑stack applications supporting IoT and Industry 4.0 initiatives.\nCollaborate with clients, product owners, architects, and internal teams to translate business requirements into technical solutions.\nBuild and maintain backend services, APIs, and microservices using C#/.NET and Java.\nDevelop responsive, intuitive front-end interfaces using modern JavaScript/TypeScript frameworks.\nArchitect and implement cloud‑native applications on Microsoft Azure.\nDevelop IoT integrations using MQTT, event-driven patterns, device connectivity, and telemetry processing.\nParticipate in architecture reviews, technical design sessions, and solution planning.\nBuild and maintain CI/CD pipelines using Azure DevOps and GitHub Actions.\nDeploy and scale containerized applications using Docker and Kubernetes.\nConduct testing, code reviews, troubleshooting, and performance optimization.\n\nBasic Qualifications\n\n5-7 years of software development experience with strong expertise in C#/.NET.\n5+ years of hands-on Java development.\n5+ years of experience with JavaScript/TypeScript.\n3+ years working with Microsoft Azure.\n3+ years of experience with Docker, Kubernetes, and cloud-native deployment.\n2+ years of Linux administration and troubleshooting.\n3+ years designing and developing RESTful APIs and microservices.\nKnowledge of TDD, BDD, and automated testing frameworks.\nExperience with GitHub, Azure DevOps, and CI/CD practices.\nUnderstanding of MQTT and IoT ecosystems.\nStrong communication, analytical, and problem‑solving skills.\n\nWork Model\n\nHybrid role; minimum 3 days per week onsite at the client location.\n\nEducation\n\nBachelor's degree in Computer Science, Engineering, Information Technology, or a related field.\n\nNice to Have\n\nExperience with Azure IoT Hub, Event Hubs, DPS, Logic Apps, or Microsoft Fabric.\nFront-end experience with React, Angular, Vue, Next.js, or Nuxt.js.\nExposure to MongoDB, Cosmos DB, graph databases, or Digital Twin technologies.\nBackground in Industry 4.0, Smart Manufacturing, or Industrial IoT.\nCertifications in Azure, AWS, or Kubernetes.\nConsulting or client-facing delivery experience.\n\nPay Transparency\n\nWhere required by law, NTT DATA provides a reasonable range of compensation for specific roles. The starting pay range for this remote role is $87,120-$151,250. This range reflects the minimum and maximum target compensation for the position across all US locations. Actual compensation will depend on a number of factors, including the candidate's actual work location, relevant experience, technical skills, and other qualifications.\n\nThis position is eligible for company benefits including medical, dental, and vision insurance with an employer contribution, flexible spending or health savings account, life and AD&D insurance, short- and long-term disability coverage, paid time off, employee assistance, participation in a 401k program with company match, and additional voluntary or legally-required benefits.\n\nWhenever possible, we hire locally to NTT DATA offices or client sites. This ensures we can provide timely and effective support tailored to each client's needs. While many positions offer remote or hybrid work options, these arrangements are subject to change based on client requirements.\n\nNTT DATA endeavors to make https://us.nttdata.com accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at https://us.nttdata.com/en/contact-us. This contact information is for accommodation requests only and cannot be used to inquire about the status of applications. NTT DATA is an equal opportunity employer. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status.",
+    "job_is_remote": true,
+    "job_posted_at": "14 hours ago",
+    "job_posted_at_timestamp": 1782889200,
+    "job_posted_at_datetime_utc": "2026-07-01T07:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance",
+      "paid_time_off",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Health insurance",
+      "Paid time off",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dek5yBeXKPXvnoXH4AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "2Ibnk-VUCsspsb6VAAAAAA==",
+    "job_title": "Jr. Online Graphic Designer",
+    "employer_name": "JobHub",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://jobhub.jl.liveblog365.com&size=128",
+    "employer_website": null,
+    "job_publisher": "JobHub",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://jobhub.jl.liveblog365.com/remote-jobs/jr-online-graphic-designer",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://jobhub.jl.liveblog365.com/remote-jobs/jr-online-graphic-designer",
+        "is_direct": false,
+        "publisher": "JobHub"
+      }
+    ],
+    "job_description": "About the position This is an entry-level role for a Jr. Online Graphic Designer. The position offers comprehensive training on core platforms, tools, and technologies. The role involves designing and creating engaging content marketing assets, including web graphics, advertisements, and digital marketing materials. Collaboration with the marketing team for design iteration and refinement is key. The designer will translate goals, research, and feedback into creative solutions, and work within an existing design system and UI pattern library. There are opportunities for learning and growth through real-world projects, feedback, and experimentation. The company emphasizes a culture of continuous improvement and believes working there can significantly enhance an individual's life. The role is part of a product team with experienced designers and engineers, within a growing SaaS business that values an inclusive environment, offers excellent health benefits, 401(k) matching, and provides the opportunity to impact small businesses daily. Trust and autonomy are given to ensure employees can perform at their best. Potential promotional paths include Graphic Designer, Associate Graphic Designer, Associate Lead Graphic Designer, Lead Graphic Designer, and Sr. Graphic Designer. Responsibilities • Design and create engaging content marketing assets, including web graphics, advertisements, and digital marketing materials, using Adobe Creative Suite tools. • Collaborate with the marketing team to test, iterate, and refine designs to improve performance and brand consistency across channels. • Translate goals, research, and feedback into thoughtful, high-quality creative solutions that support Nutshellâ€™s marketing objectives. • Work within and help maintain our existing design system and UI pattern library to ensure visual consistency and efficiency. • Learn and grow your design skills by contributing to real-world projects, receiving feedback, and experimenting with new ideas and approaches. Requirements • A Bachelorâ€™s Degree in graphic design, web design, UX, or related fields. • GPA above 3.4. • Successful portfolio showcasing excellent graphic design work, with a premium on web design and/or UX work. • Excellent design eye and a thorough understanding of design fundamentals such as Typography, Hierarchy, and Layout. • Outstanding skills in Adobe Creative Suite and/or Figma. • Knowledge of web design/graphic design/UX best practices. • Knowledge of responsive design best practices. • HTML/CSS coding experience (not required but a plus). • Experience in creating end-to-end UX processes and workflows, including user journeys, task analysis, information architecture, wireframing, prototyping, and evaluative research methods. • Understanding of how to use design artifacts to effectively build alignment, communicate ideas, and deliver an experience. • Experience in Saas product design - a bonus! • Passionate about UX and web design. • Passionate about typography and color theory. • High level of design skill and technical proficiency. • Energized by designing memorable and effective experiences online. • Takes direction well, but isn’t afraid to take initiative and make decisions. • Sees themselves as a problem-solver, and faces challenges with a can-do mindset. • Puts the customer and their goals first. • Professional, dependable, and independent worker with a solid work ethic. • Self-motivated, thrives on challenges, and enjoys getting things done. • Eye for detail and dedication to high-quality work. • Exceptional level of follow-through. • Excellent time/project management skills. • Works with a sense of urgency and can consistently meet deadlines. • Outstanding communicator and possesses strong interpersonal skills. • Lifelong learner who loves to grow and stretch outside of their comfort zone, and is always looking to improve their skills. Nice-to-haves • Internship/part-time/summer job experience. • HTML/CSS coding experience. • Experience in Saas product design. Benefits • Excellent health benefits • 401(k) matching • Flexible Schedule Start your day between 8-10 am • Health, vision, dental, and supplemental insurance with multiple plans and options to choose from, including HSA and FSA options with contribution matching • 100% Company 401k Matching Up to 4% • Generous PTO • New parent support (and paw-ternity leave!) • All technology & equipment provided - every FXer receives a tech set-up valued at ~\\$1500, plus a personal desk fund for any extra touches you want to add to your space! • 24/7 on-site gym and an employee wellness program including a free FitBit, fitness challenges, and a Headspace account • Complimentary coffee service by our on-site barista, tea bar, pet-friendly office spaces, casual dress code, surprise catered meals, and more • Charitable donation matching and local volunteer opportunities • Home buyer program • Profit sharing • Green commute benefits",
+    "job_is_remote": true,
+    "job_posted_at": "21 hours ago",
+    "job_posted_at_timestamp": 1782864000,
+    "job_posted_at_datetime_utc": "2026-07-01T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D2Ibnk-VUCsspsb6VAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "pTbE3P0z_5UpFy3XAAAAAA==",
+    "job_title": "Advanced Graphic Designer & Copywriter (Print & Digital Media)",
+    "employer_name": "Kakapo Marketing",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://kakapomarketing.com&size=128",
+    "employer_website": "https://www.kakapomarketing.com",
+    "job_publisher": "Indeed",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.indeed.com/viewjob?jk=33c852c1f4ba25f0",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.indeed.com/viewjob?jk=33c852c1f4ba25f0",
+        "is_direct": false,
+        "publisher": "Indeed"
+      }
+    ],
+    "job_description": "Remote Contract Graphic & Web Designer\n\nWe work with nonprofit ministries, mission-focused organizations and churches around the world. The ideal candidate will have strong experience working with ministries to create advanced-level graphics and accompanying copy for both print and digital media. A proven portfolio demonstrating the ability to produce strong creatives with compelling copy is required to be considered for this position. Strong writing skills, excellent organizational and time management skills, attention to detail and a desire to help exceed our clients' expectations are preferred.\n\nPrimary Responsibilities\n\n• Design graphics for print and digital media using Adobe Photoshop, Illustrator and InDesign\n\n• Create and manage posting of social media creatives for client accounts\n\n• Ensure all-around consistency with clients’ branding (style, fonts, images and tone)\n\n• Create and update website layouts/content as needed (using Wordpress platform)\n\n• Create email marketing campaign graphics and layout\n\n• Assist with project management of incoming client creative projects\n\nSkills and Qualifications\n\n• A Bachelor of Fine Arts in Graphic Design or related field\n\n• Advanced skill-level with Adobe products, especially Photoshop, Illustrator & InDesign (Mac not PC)\n\n• Proven experience using the Wordpress platform\n\n• Basic HTML knowledge and experience\n\n• Skills and experience in creative content writing\n\n• A minimum 2 years experience in graphic design\n\n• Advanced computer skills and knowledge of office productivity tools, including Google Workspace (Docs, Sheets, etc.) ·\n\n• Social media platform knowledge and posting experience\n\n• Home office space and excellent internet connection suitable for remote work environment required\n\n• Reliable Mac computer with active Adobe Creative Suite license\n\n• Ability to work independently and with a team to meet deadlines\n\n• Attention to detail and dedication to completing projects with excellence and according to the timeline provided is a must\n\n• Understanding of the unique marketing needs of non-profit ministries\n\nJob Type: Contract\n\nPay: $20.00 - $25.00 per hour\n\nBenefits:\n\n• Flexible schedule\n\n• Professional development assistance\n\nWork Location: Remote",
+    "job_is_remote": true,
+    "job_posted_at": "4 hours ago",
+    "job_posted_at_timestamp": 1782925200,
+    "job_posted_at_datetime_utc": "2026-07-01T17:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DpTbE3P0z_5UpFy3XAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "20–25 an hour",
+    "job_min_salary": 20,
+    "job_max_salary": 25,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "uIjNyJmKTdGlt6jzAAAAAA==",
     "job_title": "Remote .NET Developer - Contract",
     "employer_name": "Transform Labs",
