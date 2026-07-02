@@ -1,5 +1,735 @@
 [
   {
+    "job_id": "V1SFGLRi1VuBKNeaAAAAAA==",
+    "job_title": "Software Developer Remote / Telecommute Jobs",
+    "employer_name": "Peraton",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ22AiqTy4czdGS9TnyVetKGZPJEfS6hHrTqkpg&s=0",
+    "employer_website": "https://www.peraton.com",
+    "job_publisher": "Clearance Jobs",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.clearancejobs.com/jobs/9006937/software-developer",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.clearancejobs.com/jobs/9006937/software-developer",
+        "is_direct": false,
+        "publisher": "Clearance Jobs"
+      }
+    ],
+    "job_description": "About Peraton\n\nPeraton is a next-generation national security company that drives missions of consequence spanning the globe and extending to the farthest reaches of the galaxy. As the world's leading mission capability integrator and transformative enterprise IT provider, we deliver trusted, highly differentiated solutions and technologies to protect our nation and allies. Peraton operates at the critical nexus between traditional and nontraditional threats across all domains: land, sea, space, air, and cyberspace. The company serves as a valued partner to essential government agencies and supports every branch of the U.S. armed forces. Each day, our employees solve the most daunting challenges that our customers face. Visit peraton.com to learn how we're keeping people around the world safe and secure.\n\nProgram Overview\n\nSupports the Navy Research Laboratory with projects in oceanography, acoustics, geospatial modeling, and mine warfare, providing applied research and software development. Team members, who possess both scientific expertise and software coding skills, work closely with the customer to deliver exceptional operational products.\n\nAbout The Role\n\nPeraton is hiring a Software Developer for a remote position, migrating and enhancing a customer application into the gov-cloud.\n\nWhat you'll do:\n• Participates with Peraton team and customer to determine detailed requirements for new or enhanced application functionality.\n• Work remotely supporting program.\n• Following general, high-level guidance, migrates and modernizes application code within a new gov-cloud solution.\n• Assists in the detailed design of new application functionality.\n• Uses Visual Studio to develop and test code for new functionality.\n• Works with other teams to comprehend and assimilate/integrate separately-developed functionality into the software.\n• Posses a DevSecOps toolset (e.g. Jira/Git/Confluence) to plan and manage work and to manage documentation and code.\n• Assists with configuring CI/CD piplelines within the DevSecOps and uses them to deploy the application to testing environments.\n• Assists with integration and regression testing for the completed application.\n• Enables demonstrations and verification testing of application functionality.\n• Complies with applicable government directives, standards, guidelines, and criteria concerning software and data security.\n• Assists with configuring DevSecOps processes and use them to manage tasks and deliverables.\n• Uses Visual Studio and .Net Core MVC, Razor Pages, C#, JavaScript, JSON, TypeScript, SQL Server and other languages and technologies to re-develop and integrate the software application within the designated gov-cloud environment.\n• Sets up and uses continuous integration and deployment (CI/CD) pipelines to automatically test and deploy software application changes.\n• Develops and executes test cases to verify all required application functionality.\n• Uses cloud services and other selected technologies to test and scan the application for compliance with security requirements.\n• Prepares the test environment and database for demonstration and verification testing of the application. Assists in the capture and handling of observations/results.\n• Consults with solution owners to plan and coordinate software and environment changes as needed to enhance integration and functionality.\n\nQualifications\n\nWhat you'll need:\n• 5 years with BS/BA; 3 years with MS/MA, 0 years with PhD, 7 years AS/AA or 9 years HS.\n• Abiilty to obtain Active Secret clearance.\n• Ability to work remotely.\n• Certification: Security+ required, within 30 days of hire.\n• Direct hands-on experience developing software applications for a customer using .Net, C#, HTML, JavaScript, JSON, TypeScript, Razor, SQL Server and Git.\n• Direct hands-on experience with cloud-based DevSecOps tool suites like Jira/Confluence/GitLab and test management would be a plus.\n• Must be a U.S Citizen\nDesired experience:\n• Familiarity with managing, maintaining, testing and deploying software applications in a gov-cloud environment would be a plus.\n• Experience with application containerization. (Docker, Kubernetes)\n\nDetails\n\nTarget Salary Range: $80,000 - $128,000. This represents the typical salary range for this position. Salary is determined by various factors, including but not limited to, the scope and responsibilities of the position, the individual's experience, education, knowledge, skills, and competencies, as well as geographic location and business and contract considerations. Depending on the position, employees may be eligible for overtime, shift differential, and a discretionary bonus in addition to base pay.\n\nBenefits Statement: Peraton offers eligible employees a variety of benefits including medical, dental, vision, life, health savings account, short/long term disability, EAP, parental leave, 401(k), paid time off (PTO) for vacation, and company paid holidays. A full listing of available benefits can be viewed at https://www.careers.peraton.com/benefits.\n\nApplication Statements: The application period for the job is estimated to be 30 days from the job posting date. However, this timeline may be shortened or extended depending on business needs and the availability of qualified candidates. By applying to this job, you are expressing interest in the role and the Company. During the review of your application, you may be required to participate in an on-camera interview, as well as participate in a process to verify your identity.\n\nEEO:Equal opportunity employer, including disability and protected veterans, or other characteristics protected by law.",
+    "job_is_remote": true,
+    "job_posted_at": "10 hours ago",
+    "job_posted_at_timestamp": 1782918000,
+    "job_posted_at_datetime_utc": "2026-07-01T15:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DV1SFGLRi1VuBKNeaAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "80K–128K a year",
+    "job_min_salary": 80000,
+    "job_max_salary": 128000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "KO2Nxq8SjX678_PgAAAAAA==",
+    "job_title": "Senior Java Full Stack Engineer – AWS & Kubernetes (EKS)",
+    "employer_name": "Sophus IT Solutions",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-1O5EJX8zQ7cCTL6qLEYTn8-UKkEheX_K1Qm_&s=0",
+    "employer_website": null,
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/senior-java-full-stack-engineer-%E2%80%93-aws-kubernetes-eks-at-sophus-it-solutions-4434608766",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/senior-java-full-stack-engineer-%E2%80%93-aws-kubernetes-eks-at-sophus-it-solutions-4434608766",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "We're Hiring: Senior Java Full Stack Engineers (4 Open Positions)\n\n📍 Location: [Add Location/Remote/Hybrid]\n\n💼 Experience: 8–12+ Years\n\nWe're looking for experienced Senior Java Full Stack Engineers to join our team and play a key role in a large-scale AWS cloud modernization initiative, with a primary focus on migrating applications from Amazon ECS to Amazon EKS (Kubernetes).\n\nKey Responsibilities :\n• Design, develop, and maintain scalable Java-based enterprise applications.\n• Lead and support the migration of containerized workloads from Amazon ECS to Amazon EKS (Kubernetes).\n• Build and enhance cloud-native microservices using Spring Boot.\n• Develop responsive front-end applications using React (preferred) or Angular.\n• Implement Infrastructure as Code (Terraform or AWS CloudFormation).\n• Build and maintain CI/CD pipelines for automated deployments.\n• Collaborate with cross-functional teams to deliver secure, scalable, and high-performing solutions.\n• Follow best practices for cloud architecture, containerization, and DevOps.\n\nRequired Skills\n• 8–12+ years of hands-on experience in Java development\n• Strong experience with Java 11/17+\n• Spring Boot\n• Microservices Architecture\n• Strong experience with AWS\n• Hands-on experience with Amazon ECS and Amazon EKS/Kubernetes\n• Docker\n• Terraform or AWS CloudFormation\n• CI/CD tools such as Jenkins, GitHub Actions, or GitLab CI\n• RESTful API development\n• Front-end development using React (preferred) or Angular\n• Git version control\n\nNice to Have\n• Helm\n• ArgoCD\n• AWS IAM\n• Amazon CloudWatch\n• Prometheus & Grafana\n• Apache Kafka\n• Redis\n\nPreferred Background\n\nWe welcome candidates with experience working at leading organizations such as:\n• Capital One\n• Bank of America\n• Wells Fargo\n• JPMorgan Chase\n• Citi\n• Deloitte\n• Accenture\n• Cognizant\n• Infosys\n• TCS\n• Wipro\n\nWhy Join Us?\n• Work on a strategic cloud transformation program.\n• Build modern, cloud-native applications using the latest AWS technologies.\n• Collaborate with highly skilled engineering teams.\n• Opportunity to work on enterprise-scale migration and modernization initiatives.\n\n.\n\n#Hiring #Java #JavaDeveloper #SpringBoot #AWS #EKS #Kubernetes #Docker #Microservices #Terraform #Cloud #React #Angular #FullStackDeveloper #DevOps #TechJobs #SoftwareEngineering\n\n📩 Interested?\n\nApply through LinkedIn or send your resume to deepak@sophusinfo.com.\n\nBest Wishes & Luck,\n\nDeepak",
+    "job_is_remote": true,
+    "job_posted_at": "12 hours ago",
+    "job_posted_at_timestamp": 1782910800,
+    "job_posted_at_datetime_utc": "2026-07-01T13:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DKO2Nxq8SjX678_PgAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "b8JwCWYahJzclXykAAAAAA==",
+    "job_title": "Junior React Developer - GIS Web Apps (Remote possible)",
+    "employer_name": "Experis S.r.l.",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWea3O1wXP4d61BIy6jIKvatHQDwwKG3O7Hb_6&s=0",
+    "employer_website": null,
+    "job_publisher": "Recruit.net",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.recruit.net/job/react-developer-gis-web-apps-jobs/726FCBD91C24CB66",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.recruit.net/job/react-developer-gis-web-apps-jobs/726FCBD91C24CB66",
+        "is_direct": false,
+        "publisher": "Recruit.net"
+      }
+    ],
+    "job_description": "Experis S.r.l. cerca un React Developer Junior per lavorare su applicazioni in ambito GIS. La risorsa si unisce a un team di sviluppo, contribuendo alla creazione di applicazioni web per enti pubblici e clienti privati.\n\nIl candidato ideale ha esperienza in JavaScript, React e Redux, e sarà coinvolto in tutte le fasi dello sviluppo software, dalla programmazione ai test, in un ambiente Agile. Il lavoro può essere svolto in modalità full remote dopo un periodo iniziale in presenza.\n\nOffriamo un contratto a tempo indeterminato con RAL tra 25.000€ e 30.000€, oltre a benefit come buoni pasto e welfare.\n#J-18808-Ljbffr",
+    "job_is_remote": true,
+    "job_posted_at": "2 hours ago",
+    "job_posted_at_timestamp": 1782946800,
+    "job_posted_at_datetime_utc": "2026-07-01T23:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Db8JwCWYahJzclXykAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "VFY81o7eDX3P_9f2AAAAAA==",
+    "job_title": "Senior Software Engineer, iOS",
+    "employer_name": "Thrive Market",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb2yOAa48T57-WjG4r66-xmQRBwFzHfi0S4Z8B&s=0",
+    "employer_website": "https://thrivemarket.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/senior-software-engineer-ios-at-thrive-market-4435897172",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/senior-software-engineer-ios-at-thrive-market-4435897172",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "About Thrive Market\n\nThrive Market was founded in 2014 with a mission to make healthy and sustainable living easy and affordable for everyone. As an online, membership-based market, we deliver the highest quality healthy, and sustainable products at member-only prices, while matching every paid membership with a free one for someone in need. Every day, we leverage innovative technology and member-first thinking to help our over 1,700,000+ members find better products, support better brands, and build a better world in the process. We are also a Certified B Corporation, a Public Benefit Corporation, and a Climate Neutral Certified company.\n\nJoin us as we bring healthy and sustainable living to millions of Americans in the years to come.\n\nTHE ROLE\n\nThis Senior Software Engineer, iOS role is central to Thrive Market’s next phase of growth. Our iOS app serves our most engaged members and is a critical driver of how customers discover, evaluate, and shop an ever-evolving catalog. As the business continues to invest in personalization, experimentation, and modern product development, we’re expanding our iOS capabilities to ensure the platform can scale with both customer demand and product ambition.\n\nIn this role, you’ll help evolve our iOS app from a legacy-heavy foundation into a modern, maintainable, and high-velocity codebase. Near-term, that means stabilizing the platform, reducing technical debt, and leading the migration to a modular architecture and modern design system. Longer-term, you’ll partner closely with Product and Design in a true Product Triad to build deeply personalized, data-informed shopping experiences, leveraging analytics, experimentation, and ML-driven insights to help members discover the right products at the right time.\n\nResponsibilities\n\n• Lead the end-to-end design and implementation of complex features.\n• Maintain high code quality through rigorous code reviews, unit testing, and adherence to SOLID principles.\n• Identify and resolve bottlenecks, memory leaks, and crashes to ensure a 99.9% crash-free session rate.\n• Work alongside Product Managers to translate business requirements into technical specifications and realistic sprint goals.\n• Stay at the forefront of the Apple ecosystem (WWDC updates, Swift evolution) and integrate relevant technologies into our workflow.\n• Contribute to the growth of the team by sharing knowledge, documenting best practices, and participating in architectural discussions.\n• Building a deeply personalized shopping experience that makes every member feel like the app was built just for them.\n• You’ll be a key player in migrating legacy UIKit components into a modular, reactive architecture with a Design System DSL.\n• You’ll partner closely with Product, Design, and Engineering in a tight feedback loop (the \"Product Triad\"), ensuring we aren't just shipping code, but solving the right problems for our members.\n• From butter-smooth animations to ensuring our app is accessible to everyone, you’ll be the guardian of the \"look and feel\" of our iOS experience.\n• You'll join an engineering culture committed to moving from scrappy startup mode to mature systems mode, with opportunities to take on meaty, impactful engineering projects.\n\nQUALIFICATIONS (Required)\n\n• 7+ years of iOS development experience\n• Strong proficiency in Swift; ability to work in mixed Swift/Objective-C codebases\n• Strong understanding of application architecture and the “why’s” behind it\n• Experience with LLM coding assistants. Familiarity with the current state of agentic development\n• Experience with SwiftUI and UIKit\n• Experience with MVVM or similar architectural patterns\n• Experience with reactive programming (Combine, RxSwift, or ReactiveObjC)\n• Experience with local persistence and caching strategies\n• Experience writing unit tests and working with mocks/test doubles\n• Understanding of dependency injection and writing testable code\n• Familiarity with modular architecture using Swift Package Manager (SPM)\n• Familiarity with Git and collaborative development workflows\n• Experience migrating legacy codebases (Objective-C → Swift, UIKit → SwiftUI)\n\nNICE TO HAVE\n\n• E-commerce or consumer app experience\n• Familiarity with analytics platforms (Amplitude, etc.)\n• Experience with A/B testing / feature flagging (Optimizely, LaunchDarkly)\n• Experience with accessibility implementation (VoiceOver, Dynamic Type)\n• Experience with Native Android Applications e.g. Kotlin, Kotlin Multi-Platform, etc.\n\nBelong To a Better Company\n\n• Comprehensive health benefits (medical, dental, vision, life and disability)\n• Competitive salary (DOE) + equity\n• 401k plan\n• 9 Observed Holidays\n• Flexible Paid Time Off\n• Subsidized ClassPass Membership with access to fitness classes and wellness and beauty experiences\n• Ability to work in our beautiful office in Playa Vista\n• Free Thrive Market membership with exclusive employee discount\n• Coverage for Life Coaching & Therapy Sessions on our holistic mental health and well-being platform\n\nWe're a community of more than 1 Million + members who are united by a singular belief: It should be easy to find better products, support better brands, make better choices, and build a better world in the process.\n\nAt Thrive Market, we believe in building a diverse, inclusive, and authentic culture. If you are excited about this role along with our mission and values, we encourage you to apply.\n\nThrive Market is an EEO/Veterans/Disabled/LGBTQ employer\n\nAt Thrive Market, our goal is to be a diverse and inclusive workplace that is representative, at all job levels, of the members we serve and the communities we operate in. We’re proud to be an inclusive company and an Equal Opportunity Employer and we prohibit discrimination and harassment of any kind. We believe that diversity and inclusion among our teammates is critical to our success as a company, and we seek to recruit, develop and retain the most talented people from a diverse candidate pool. If you’re thinking about joining our team, we expect that you would agree!\n\nEmployment with Thrive Market requires that employees be based in the United States. This is a condition of employment and must be maintained throughout the duration of employment.\n\nIf you need assistance or accommodation due to a disability, please email us at eeo@thrivemarket.com and we’ll be happy to assist you.\n\nEnsure your Thrive Market job offer is legitimate and don't fall victim to fraud. Thrive Market never seeks payment from job applicants. Thrive Market recruiters will only reach out to applicants from an @thrivemarket.com email address. For added security, where possible, apply through our company website at www.thrivemarket.com.\n\n© Thrive Market 2026 All rights reserved.\n\nJOB INFORMATION\n\n• Compensation Description - The base salary range for this position is $175,000 - $190,000/Per Year.\n• Compensation may vary outside of this range depending on several factors, including a candidate’s qualifications, skills, competencies and experience, and geographic location.\n• Total Compensation includes Base Salary, Stock Options, Health & Wellness Benefits, Flexible PTO, and more!\n• This position requires traveling to our HQ office in Los Angeles, California, twice a year for all-company summits; once in the summer and once in the winter.",
+    "job_is_remote": true,
+    "job_posted_at": "7 hours ago",
+    "job_posted_at_timestamp": 1782928800,
+    "job_posted_at_datetime_utc": "2026-07-01T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "paid_time_off",
+      "health_insurance",
+      "dental_coverage"
+    ],
+    "job_benefits_strings": [
+      "Paid time off",
+      "Health insurance",
+      "Dental insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DVFY81o7eDX3P_9f2AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "aXijYIRMvvkSs4RrAAAAAA==",
+    "job_title": "Staff Engineer – C#/.NET",
+    "employer_name": "Intellibus",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUDUQJoqLbsXfEyP9rxHoriNSaNVzo51JGncf3&s=0",
+    "employer_website": "https://www.intellibus.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/staff-engineer-%E2%80%93-c%23-net-at-intellibus-4434660592",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/staff-engineer-%E2%80%93-c%23-net-at-intellibus-4434660592",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "We are looking forward to you joining our Platform Engineering Team.\n\nOur Platform Engineering Team is working to solve the Multiplicity Problem. We are trusted by some of the most reputable and established FinTech Firms. Recently, our team has spearheaded the Conversion and go-live of apps that support the backbone of the Financial Trading Industry.\n\nWe're looking for a Staff Engineer who thrives in fast-paced engineering environments and enjoys solving difficult technical problems while mentoring other engineers.\n\nThis is not a management position.\n\nYou'll be expected to remain hands-on while influencing architecture, driving engineering excellence, mentoring teams, and building highly scalable enterprise platforms used by some of the world's largest Financial Services organizations.\n\nWe are looking for Engineers who can:\n• Lead engineering initiatives while remaining an active contributor.\n• Design scalable distributed applications using C# and .NET.\n• Drive architecture discussions and technical decision-making.\n• Establish engineering standards and best practices.\n• Mentor senior and junior engineers through code reviews and design sessions.\n• Build enterprise-grade backend systems using C# and .NET.\n• Design RESTful APIs and microservices.\n• Build highly available distributed systems.\n• Optimize application performance and scalability.\n• Develop secure, maintainable, and testable software.\n• Develop cloud-native applications on AWS.\n• Work with Docker and Kubernetes.\n• Build CI/CD pipelines.\n• Support Infrastructure-as-Code initiatives.\n• Partner closely with DevOps and Platform Engineering teams.\n• Troubleshoot production issues.\n• Perform root cause analysis.\n• Improve observability and monitoring.\n• Enhance application reliability and resiliency.\n• Participate in production support and release activities.\n• Financial Services Engineering.\n\nExperience building enterprise applications within:\n• Banking\n• Payments\n• Trading\n• Capital Markets\n• Financial Services\n• Insurance\n• is highly preferred.\n\nRequired Qualifications, Must Have\n• 12+ years of software engineering experience.\n• 10+ years of hands-on C#/.NET development.\n• Experience leading complex technical initiatives.\n• Expert knowledge of Object-Oriented Design.\n• Strong knowledge of Design Patterns and SOLID principles.\n• REST API development.\n• Microservices architecture.\n• SQL Server or PostgreSQL.\n• Event-driven architecture.\n• Kafka or similar messaging technologies.\n• AWS Cloud.\n• Docker.\n• CI/CD.\n• Linux / Unix.\n• Git.\n• Industries\n• Financial Services\n• Banking\n• FinTech\n• Capital Markets\n• Trading\n• Payments\n• Insurance\n\nCompensation $70 - $80 / Hour\n\nOur Process\n• Schedule a 15 min Video Call with someone from our Team\n• 4 Proctored GQ Tests (< 2 hours)\n• 30-45 min Final Video Interview\n• Receive Job Offer\n\nIf you are interested in reaching out to us, please apply and our team will contact you within the hour.",
+    "job_is_remote": true,
+    "job_posted_at": "7 hours ago",
+    "job_posted_at_timestamp": 1782928800,
+    "job_posted_at_datetime_utc": "2026-07-01T18:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DaXijYIRMvvkSs4RrAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "B1BdUpUlPruPBxmlAAAAAA==",
+    "job_title": "Flutter and Node.js Developer",
+    "employer_name": "Jetzy",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHuiDmf46TMU90XAo5KuwIVE_9e3OxSVQSfFl5&s=0",
+    "employer_website": "https://www.jetzyapp.com",
+    "job_publisher": "Wellfound",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://wellfound.com/jobs/4417458-flutter-and-node-js-developer",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://wellfound.com/jobs/4417458-flutter-and-node-js-developer",
+        "is_direct": false,
+        "publisher": "Wellfound"
+      }
+    ],
+    "job_description": "About Jetzy\n\nJetzy is an exclusive global travel and lifestyle platform that connects people with curated experiences, exclusive member benefits, and relationships Our mission is to make travel more rewarding, connected, and accessible through a modern digital platform used by travelers around the world.\n\nPosition Overview\n\nJetzy is looking for a talented, energetic, and motivated Flutter & Node.js Developer to join our growing team. This role is ideal for someone who enjoys building high-quality mobile applications and scalable backend services while working in a fast-paced startup environment.\n\nResponsibilities\n\n• Develop and maintain cross-platform mobile applications using Flutter.\n\n• Build and maintain backend APIs and services using Node.js.\n\n• Integrate applications with databases and third-party APIs.\n\n• Troubleshoot, debug, and optimize application performance.\n\n• Collaborate with product, marketing, and design teams to deliver new features.\n\n• Write clean, maintainable, and well-documented code.\n\n• Qualifications\n\n• Bachelor's degree in Computer Science, Software Engineering, or a related field.\n\n• 1–2 years of professional experience with Flutter and Node.js development.\n\n• Strong understanding of Dart, JavaScript, and RESTful APIs.\n\n• Experience working with databases such as MongoDB or PostgreSQL is a plus.\n\n• Excellent problem-solving and analytical skills.\n\n• Perfect written and spoken English.\n\n• Young, energetic, self-motivated, and eager to learn in a dynamic startup environment.\n\n• Ability to work independently while collaborating effectively with a global team.\n\nMonthly compensation: $100–$1,000, based on experience, energy, and ability",
+    "job_is_remote": true,
+    "job_posted_at": "12 hours ago",
+    "job_posted_at_timestamp": 1782910800,
+    "job_posted_at_datetime_utc": "2026-07-01T13:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DB1BdUpUlPruPBxmlAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "7iVNnU_r1g9XV8NFAAAAAA==",
+    "job_title": "Backend Developer Needed for a Consumer Caregiver App",
+    "employer_name": "Upwork",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://upwork.com&size=128",
+    "employer_website": "https://www.upwork.com",
+    "job_publisher": "Upwork",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.upwork.com/freelance-jobs/apply/Backend-Developer-Needed-for-Consumer-Caregiver-App_~022072176554112161765/",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.upwork.com/freelance-jobs/apply/Backend-Developer-Needed-for-Consumer-Caregiver-App_~022072176554112161765/",
+        "is_direct": false,
+        "publisher": "Upwork"
+      }
+    ],
+    "job_description": "Backend Developer Needed for Consumer Caregiver App\n\nWe’re building a caregiver app that helps families keep track of a loved one’s care information, including diagnoses, medications, surgeries, notes, and tasks. This is a direct-to-consumer app, not a hospital or clinic product, so we need someone who can build a secure, privacy-first backend for sensitive health data.\n\nWhat you’ll build:\n\n- User authentication and account management.\n\n- Care recipient profiles.\n\n- Structured health records for diagnoses, medications, surgeries, allergies, appointments, notes, and care tasks.\n\n- Role-based sharing for multiple caregivers.\n\n- Secure file storage for documents or images.\n\n- Audit/activity logging.\n\n- Export and deletion features.\n\n- Admin tools for support and account recovery.\n\nWhat we need:\n\nWe’re looking for a backend developer who can build a clean, secure, production-ready system with strong privacy controls.\n\nRequired experience:\n\n- Strong backend development experience.\n\n- Experience with Postgres and secure API design.\n\n- Understanding of authentication, authorization, and role-based access control.\n\n- Experience with encryption, secure file storage, and logging.\n\n- Comfortable working with consumer health or sensitive data.\n\n- Ability to document architecture and hand off code cleanly.\n\nNice to have:\n\n- Experience with healthcare, healthtech, or privacy-sensitive apps.\n\n- Experience with Supabase or AWS.\n\n- Familiarity with FTC health privacy expectations for consumer apps.\n\n- Experience designing systems that can scale into stricter compliance later.\n\nPreferred stack\n\nFor this project, we’re leaning toward a cost-friendly, modern stack such as:\n\n- Front end: Lovable.\n\n- Backend: Supabase or a similar managed Postgres backend.\n\n- Auth: built-in auth with strong password/session handling.\n\n- Storage: private file storage.\n\n- Permissions: row-level security or equivalent.\n\n- Optional server logic: edge functions or a small Node service.\n\nIf you think a different stack is better, explain why.\n\nSecurity and privacy expectations:\n\nThis app will store sensitive family health information, so security matters a lot. We need the backend to include:\n\n- Encryption in transit and at rest.\n\n- Strong access controls.\n\n- Minimal data collection.\n\n- No unnecessary third-party tracking or ad-tech.\n\n- Audit logs for important actions.\n\n- Secure password handling.\n\n- Private storage and restricted file access.\n\n- Clear privacy-aware architecture.\n\nImportant note:\n\nThis is not a hospital backend. We do not need a complex enterprise healthcare platform on day one. We do need someone who understands how to build a secure consumer health app properly, with the option to evolve later if the product grows.\n\nDeliverables:\n\n1. A short architecture proposal.\n\n2. Recommended stack and rationale.\n\n3. Basic database schema.\n\n4. Security and permissions plan.\n\n5. Estimated timeline and budget.\n\n6. Build the MVP backend after approval.\n\nPlease send:\n\n- A short intro.\n\n- Relevant backend projects.\n\n- Any healthcare, privacy, or sensitive-data experience.\n\n- Your preferred stack.\n\n- Your estimated cost and timeline.\n\n- One example of a backend system you’ve built that required careful permissions or security.",
+    "job_is_remote": true,
+    "job_posted_at": "21 hours ago",
+    "job_posted_at_timestamp": 1782878400,
+    "job_posted_at_datetime_utc": "2026-07-01T04:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D7iVNnU_r1g9XV8NFAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "a6y94ryRR4zGK9xwAAAAAA==",
+    "job_title": "Escalation Engineer, Alpha (Remote) - $60,000/year USD",
+    "employer_name": "Crossover",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb3sg1JrmsrnE0X9o0HDXfowyFMVPZgGCshf4T&s=0",
+    "employer_website": "https://www.crossover.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/escalation-engineer-alpha-remote-%2460-000-year-usd-at-crossover-4434399542",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/escalation-engineer-alpha-remote-%2460-000-year-usd-at-crossover-4434399542",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "A student attempts to begin a lesson and the application fails to load. A guide reviews their dashboard and notices incorrect mastery scores displayed. L1 support and the AI have both attempted resolution without success. The issue now belongs to you — and a child's learning session depends on your ability to identify the underlying problem.\n\nThe majority of your time is dedicated to tickets that remain unresolved by others, spanning the various applications that comprise Alpha's learning platform. You replicate the issue in an environment matching the student's or guide's configuration, examine logs and documentation, leverage AI to accelerate your work, and then validate each output it provides, because an incorrect solution deployed to a classroom creates cascading problems. Ramping up on a new product nearly every week is standard. That is the nature of this role, not a cautionary note.\n\nYou take complete ownership of each issue: replicate it, identify the root cause, and resolve it with the minimum number of interactions required to restore functionality for the student or guide. The diagnostic reasoning you document strengthens the capability of the next agent and the next AI workflow, ensuring your resolution continues to deliver value well beyond the current ticket. In time, you become the go-to resource for the team's most challenging education-product issues.\n\nIf you are drawn to difficult, ambiguous problems, and you genuinely care that the product ultimately supports a child's education, submit your application.\n\nWhat You Will Be Doing\n\n• Resolve complex, escalated tickets from students, parents, and guides that neither AI nor L1 support were able to close.\n• Replicate failures in an environment that matches the user's device, application, and configuration, utilizing logs and actual artifacts.\n• Investigate across Alpha's suite of learning applications (tickets, Slack, knowledge bases, logs) prior to escalating.\n• Use AI tools (such as ChatGPT or Claude) to accelerate diagnosis, anchor them in genuine documentation, and validate every result.\n• Communicate with clarity and composure to non-technical users, collecting sufficient information upfront to enable single-pass resolution.\n• Escalate issues to engineering with comprehensive diagnostic context when a product defect is confirmed.\n• Document your diagnostic reasoning so subsequent agents and AI workflows can apply it.\n\nWhat You Won’t Be Doing\n\n• Following predetermined scripts or decision trees for a single product.\n• Processing the simple queue. AI already resolves tickets that require only a knowledge-base lookup.\n• Escalating difficult problems to engineering without first replicating and isolating them.\n• Allowing AI to conduct analysis on your behalf, or submitting its output without verification.\n• Waiting for direction, or for another party to remove blockers.\n\nEscalation Engineer Key Responsibilities\n\nResolve complex, ambiguous customer issues to root cause across Alpha's education products.\n\nBasic Requirements\n\n• 2+ years in a hands-on technical role such as technical support, software engineering, QA, sysadmin, or DevOps. The title does not need to be \"support.\"\n• Comfortable making and reading REST API calls and JSON, interpreting HTTP status codes (such as 401 vs 404 and 429 vs 403), and working in a command line and logs.\n• Hands-on experience using AI tools (such as ChatGPT or Claude) in your daily technical work.\n• Professional fluency in English, written and spoken.\n• Able to work a full 40-hour week during US business hours (Eastern Time). This is a full US-daytime shift.\n• Based in North America, Central America, South America, Australia, New Zealand, the United Kingdom, Ireland, or the Philippines.\n\nNice-to-have Requirements\n\n• Experience supporting non-technical end users (in education, edtech, or consumer apps), not just IT professionals.\n• Hands-on experience directing AI tools and catching their mistakes.\n• A track record of troubleshooting across several unrelated products, not just one.\n• Developer-grade depth: you can read code or trace an API call when the problem demands it.\n\nAbout Alpha\n\nWant to join a learning rebellion that’s transforming the traditional classroom?\n\nAlpha School is on a mission to reshape education with a bold approach that harnesses AI to accelerate learning and unleash student potential.\n\nThey don’t play by the old rules.\n\nAlpha is creating a new paradigm where students master core academics in just two hours a day, freeing up time for hands-on, passion-driven learning that truly prepares them for the real world.\n\nAlpha School is rewriting the rules of education.\n\nSounds too good to be true? It’s not.\n\nThere is so much to cover for this exciting role, and space here is limited. Hit the Apply button if you found this interesting and want to learn more. We look forward to meeting you!\n\nWorking with us\n\nThis is a full-time (40 hours per week), long-term position. The position is immediately available and requires entering into an independent contractor agreement with Crossover as a Contractor of Record. The compensation level for this role is $30 USD/hour, which equates to $60,000 USD/year assuming 40 hours per week and 50 weeks per year. The payment period is weekly. Consult www.crossover.com/help-and-faqs for more details on this topic.\n\nCrossover Job Code: LJ-5729-AR-COUNTRY-EscalationEngi.001",
+    "job_is_remote": true,
+    "job_posted_at": "24 hours ago",
+    "job_posted_at_timestamp": 1782864000,
+    "job_posted_at_datetime_utc": "2026-07-01T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Da6y94ryRR4zGK9xwAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": 30,
+    "job_salary_string": "30 an hour",
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "jdgGfx67o0Zs60TFAAAAAA==",
+    "job_title": "[Hiring] Google Workspace Deployment Engineer @66degrees",
+    "employer_name": "66degrees",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://66degrees.com&size=128",
+    "employer_website": "https://www.66degrees.com",
+    "job_publisher": "Remote Jobs",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://remotive.com/remote/jobs/all-others/google-workspace-deployment-engineer-5095162",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://remotive.com/remote/jobs/all-others/google-workspace-deployment-engineer-5095162",
+        "is_direct": false,
+        "publisher": "Remote Jobs"
+      }
+    ],
+    "job_description": "Role Description\n\nAs a Workspace Engineer you’ll provide technical execution and support for migrations to Google Workspace. This is a hands-on engineering position requiring technical proficiency in both (Google) and (Microsoft 365, Exchange, SharePoint) environments to ensure successful data transitions.\n\n•\nFor Small to Mid-Sized Engagements: Perform the technical tasks across the project lifecycle, carrying out the migration from initial discovery through to final cutover.\n\n•\nFor Large-Scale Enterprise Projects: Support the project team by executing phased migration strategies and serving as a technical subject matter expert during the implementation phase.\n\n•\nImplement and support Google Workspace small to mid deployments and migrations.\n\n•\nAssist in the design, implementation, and support Google Workspace Enterprise deployments and migrations.\n\n•\nParticipate in technical discussions with customer executives that drive decisions and implementation.\n\n•\nManage cloud networking services and connect to client networks.\n\n•\nExecute tasks related to SaaS configuration, development, and integrations.\n\n•\nConfigure and manage Cloud Platform services and APIs.\n\n•\nDevelop custom scripts as necessary using Powershell, Python or Appscript.\n\n•\nTrain our clients’ end users and their technical personnel as required per project scope.\n\n•\nWrite technical documentation for deployed solutions that includes end-user guides and process manuals.\n\n•\nWrite, contribute, publish content to our LMS for Google Workspace content.\n\n•\nAbility to travel to client sites as needed and requested.\n\n•\nAnything else that needs to be done that adds value to the business, our clients and your co-workers.\n\nQualifications\n\n•\nProficient knowledge of DNS, Networking and Email Administration.\n\n•\n3+ years of experience administering MS Active Directory and/or Azure Active Directory.\n\n•\n3+ years of experience administering Google Workspace (Formly G Suite).\n\n•\n3+ years of experience with and/or understanding of Office 365, Exchange or SharePoint Online.\n\n•\n3+ years of experience with migration tools (Google Workspace Migrate, CloudM Migrate, Movebot, Bit Titan, etc.).\n\n•\n3+ years of working with integration tools Okta, ADFS, GAM, Bettercloud, CloudM Manage, GCDS, etc.\n\n•\nFamiliarity with IT security practices such as identity and access management, device management and data protection.\n\n•\nAbility to travel to client sites as needed and requested.\n\n•\nThis position is highly client facing; candidates will be required to demonstrate strong communication and management skills.\n\n•\nPrior Google Workspace deployment and/or administration experience.\n\n•\nCertification (preference): Google Cloud Collaboration Engineer, Google Cloud Associate Engineer, Associate - Google Workspace Administrator.\n\nCompany Description\n\n66degrees is an end-to-end AI transformation partner that guides enterprises from complex business challenges to clear, quantifiable outcomes. Our company is the culmination of several successful firms, each a leader in its own right in cloud, artificial intelligence, and data. This convergence of talent and expertise is how we help businesses reach their own \"inflection point,\" where chaotic data becomes a strategic asset, complexity becomes clarity, and AI becomes an engine for growth. Our ultimate vision is to be the catalyst for a future where every business operates as an intelligent enterprise, with autonomous systems unlocking human potential.\n\nAt 66degrees, we believe in thriving through challenges and winning together. These values not only guide us in achieving our goals as a company but also for our people. We are dedicated to creating a significant impact for our employees by fostering a culture that sparks innovation and supports professional and personal growth along the way.",
+    "job_is_remote": true,
+    "job_posted_at": "14 hours ago",
+    "job_posted_at_timestamp": 1782903600,
+    "job_posted_at_datetime_utc": "2026-07-01T11:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DjdgGfx67o0Zs60TFAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "9u7NXo69deKZHkFfAAAAAA==",
+    "job_title": "Lead Software Engineer | Chicago, IL, USA | Remote",
+    "employer_name": "Selby Jennings",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-oo_9aiMShxgFJ80O6x8vwURmjvRcMLbelxQc&s=0",
+    "employer_website": "https://www.selbyjennings.com",
+    "job_publisher": "EFinancialCareers",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.efinancialcareers.com/jobs-United_States-Chicago-Lead_Software_Engineer.id24466515",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.efinancialcareers.com/jobs-United_States-Chicago-Lead_Software_Engineer.id24466515",
+        "is_direct": false,
+        "publisher": "EFinancialCareers"
+      }
+    ],
+    "job_description": "Lead Software Engineer (Full Stack) - Remote (U.S.) \r\n\r\n\r\nA fast-growing technology company building modern, cloud-based platforms for a complex, real-world industry is looking to hire a Lead Software Engineer. Their products power critical workflows for enterprise clients, and the firm is continuing to invest heavily in engineering as it scales. \r\n\r\nThe Role \r\n\r\n\r\n\r\nThis is a hands-on leadership position where the engineer will balance coding with technical ownership. They will play a key role in shaping architecture, improving system scalability, and ensuring high-quality delivery across a distributed engineering team. \r\n\r\nThe environment is fully remote and highly collaborative, with multiple teams contributing to a shared platform. \r\n\r\nKey Responsibilities \r\n\r\n\r\n• Lead the design and development of scalable, production-grade web applications \r\n• Contribute to system architecture and technical decision-making \r\n• Write clean, maintainable code across backend and frontend components \r\n• Conduct code reviews and uphold engineering best practices \r\n• Partner with product and cross-functional stakeholders to deliver business-critical features \r\n• Mentor engineers and help elevate overall team performance \r\n• Own projects end-to-end, from concept through delivery \r\n\r\nRequirements \r\n\r\n\r\n• 5+ years of full stack web development experience \r\n• Strong backend experience with Ruby or Python \r\n• Proficient and ability to contribute across the stack \r\n• Solid experience working with relational databases (SQL) \r\n• Proven experience leading a team or owning and delivering projects \r\n• Strong debugging and problem-solving skills \r\n• Experience building or scaling distributed systems \r\n\r\nNice to Have \r\n\r\n\r\n• Experience with cloud infrastructure and modern tooling (AWS, Docker, messaging systems) \r\n• Familiarity with Redis, Elasticsearch, or event-driven systems \r\n• Background in high-growth or product-focused environments \r\n\r\nWhy This Opportunity \r\n\r\n\r\n• Fully remote, flexible working environment \r\n• Strong engineering culture with an emphasis on ownership and impact \r\n• Opportunity to lead, mentor, and shape technical direction \r\n• Competitive base salary plus a comprehensive benefits package \r\n• Clear path for growth and internal progression",
+    "job_is_remote": true,
+    "job_posted_at": "9 hours ago",
+    "job_posted_at_timestamp": 1782921600,
+    "job_posted_at_datetime_utc": "2026-07-01T16:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D9u7NXo69deKZHkFfAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "160K–185K a year",
+    "job_min_salary": 160000,
+    "job_max_salary": 185000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "fcOws1DaZ-vS42XvAAAAAA==",
+    "job_title": "Regional Field Engineer",
+    "employer_name": "CertiPath",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRFrJt6e5vwPWlU03RkpRQZBQPTuvRSJ_7xThm&s=0",
+    "employer_website": "https://certipath.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/regional-field-engineer-at-certipath-4434662258",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/regional-field-engineer-at-certipath-4434662258",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "Want to energize your career?\n\nLooking for stability with the freedom to innovate? At CertiPath you can have both while making the world more secure and simplifying access processes. We are seeking a Regional Field Engineer to deliver outstanding physical security implementation and operations guidance to a federal agency with a nationwide footprint. Join our team, make a difference, and crush your goals at CertiPath.\n\nI’ve never heard of CertiPath. What do you do?\n\nCertiPath is a trusted leader in high-assurance digital identity and access management solutions. Since 2004, we have helped commercial organizations and government agencies modernize how people securely access facilities, networks, and critical resources. With the stability of an established company and the agility of a growing technology business, we foster a culture of innovation, collaboration, and continuous growth. Our mission is simple: enable secure, trusted access in an increasingly connected world.\n\nWhat will the Regional Field Engineer do?\n\nYou will work in a fast-paced environment where you will take a hands-on approach to helping a federal agency with its nationwide Physical Security Program Office (Program). You will work with a team of engineering professionals to architect security solutions that ensure that the Program complies with complex federal and agency mandates. You will have the opportunity to work on intricate systems integrations and help the client recover from critical systems failures. Best of all, you’ll get to grow your experience while working alongside smart people to solve problems that make the world a safer, more efficient place.\n\nLocation\n\nCircuit 10: OK, KS, NM, CO, WY, UT (Hybrid – 3-4 Days Onsite) • Full-Time\n\nWhat does a typical day look like for the Regional Field Engineer?\n\nThe person in this position will do the following:\n\n• Provide technical direction for problem definition, analysis, requirements development, and implementation for complex to extremely complex systems in the subject matter area.\n\n• Review technical responses from systems integrators and provide feedback to the government.\n\n• Assist the government with systems inspection and testing throughout the monitoring and controlling and closing phases of installation projects.\n\n• Assess the alignment of system design packages and installed systems to client security standards.\n\n• Provide technical guidance to clients and internal engineering staff.\n\n• Make recommendations and advise on system-wide improvements, optimization, testing, and deployment or maintenance efforts based on project observations and emerging industry trends.\n\n• Work closely with the Deputy Program Manager and the Program Manager to manage expectations and complete necessary work orders to maintain compliance with security standards.\n\n• Maintain close connections with client points of contact to stay abreast of ongoing activities and schedule upcoming jobs.\n\n• Prepare and deliver presentations to colleagues, staff, and government representatives.\n\n• Offer industry best practices and lessons learned from federal engagement past performance.\n\n• Maintain knowledge of current-generation technology and assist the client with the maintenance and replacement of end-of-life systems.\n\nWhat qualifications do you look for?\n\nYou might be the Regional Field Engineer we’re looking for if you have:\n\n• U.S. citizenship and the ability to obtain a government clearance (or you have recently held a government clearance).\n\n• A bachelor’s degree in computer science, information systems, engineering, or a related field (or equivalent experience).\n\n• 6+ years of experience in a relevant discipline or associated operational experience.\n\n• Experience successfully interpreting and applying FIPS 201-2, HSPD-12, OMB memorandums, NIST publications (800-116-1, 800-53, 800-73-4), and CIO Council papers.\n\n• The ability to collaborate with multiple stakeholders to define standards and controls per facility type, draft Scopes of Work for solicitations and RFIs, review and QA Technical Drawing Packages, ensure standardization of equipment and configuration management, and define requirements for facility assessments and site inspections.\n\n• The ability to do the following during client site visits: (1) move throughout the building to access equipment, (2) position yourself to review installed equipment, (3) move equipment weighing up to 50 pounds, and (4) inspect sites to detect security concerns.\n\nWe’re extra impressed by folks who have:\n\n• An active government clearance.\n\n• Prior Team Lead experience with PACS/PIV, VMS, IDS, and Networking\n\n• Experience with PKI, federal smart card/PIV technology, and FICAM-compliant PACS installation, configuration, and maintenance\n\n• Familiarity with legacy (end-of-life) PACS and VMS hardware/software\n\n• Hirsch Velocity and IQSight BVMS experience or certification a plus\n\n• Relevant certifications: CompTIA Security+, PSP, CPP, PMP, CSEIP, or CISSP\n\nWhat kind of benefits does CertiPath offer?\n\nAt CertiPath, we value trust, flexibility, and investing in our people. We are committed to creating an environment where employees can do meaningful work, continue to grow, and enjoy life outside of work.\n\nOur benefits include:\n\n• Competitive medical, dental, and vision coverage (including domestic partner coverage).\n\n• Health Savings Account (HSA) options, 401(k) with a generous company match, company-paid Life, AD&D, Short-Term, and Long-Term Disability.\n\n• Unlimited PTO, seven company holidays, & a company-wide week-long break at the end of each year, flexible working hours that support work-life balance.\n\n• LifeMart employee discount program.\n\n• Professional development opportunities and ongoing learning support.\n\nCertiPath is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to disability, status as a protected veteran, or any other status protected by applicable federal, state, local, or international law.",
+    "job_is_remote": true,
+    "job_posted_at": "8 hours ago",
+    "job_posted_at_timestamp": 1782925200,
+    "job_posted_at_datetime_utc": "2026-07-01T17:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "dental_coverage",
+      "health_insurance",
+      "paid_time_off"
+    ],
+    "job_benefits_strings": [
+      "Dental insurance",
+      "Health insurance",
+      "Paid time off"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DfcOws1DaZ-vS42XvAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "110K–150K a year",
+    "job_min_salary": 110000,
+    "job_max_salary": 150000,
+    "job_salary_period": "YEAR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "BfmSQEJdWUeiFtReAAAAAA==",
+    "job_title": "Sr. Designer (Visual and Motion)",
+    "employer_name": "Aquent",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxSZER4f34XkbiPNT1jkzHPMJp13OjQA2lwuz&s=0",
+    "employer_website": "https://aquent.com",
+    "job_publisher": "LinkedIn",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.linkedin.com/jobs/view/sr-designer-visual-and-motion-at-aquent-4431977709",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.linkedin.com/jobs/view/sr-designer-visual-and-motion-at-aquent-4431977709",
+        "is_direct": false,
+        "publisher": "LinkedIn"
+      }
+    ],
+    "job_description": "This is a remote role but you are required to work PST hours.\n\nOur agency client, is looking for a Senior Designer with an elite level of craft to join a dedicated project team. This is not a traditional branding or product design (UX/UI) role. Instead, we need a “Campaign Architect“—someone who can take established tech brand elements and translate them into high-fidelity digital ads, social campaigns, and Out-of-Home (OOH) experiences.\n\nThe ideal candidate sits at the intersection of Visual Design and Motion Storyboarding, possessing the ability to design sophisticated “ad-like objects” that feel premium, modern, and tech-forward.\n\nKey Responsibilities\n\n• Digital Campaign Execution: Design high-end assets for digital OOH (billboards), Instagram/social ads, and web-based marketing experiences.\n• Motion Storyboarding: Create detailed, frame-by-frame storyboards for UI-focused motion. You will design the “look and feel” of the motion, which will then be handed off to dedicated motion designers for production.\n• High-Level Craft: Execute pixel-perfect layouts with a heavy emphasis on modern typography, vector-based graphics, and clean UI aesthetics (avoiding photo-heavy or illustrative-only styles).\n• Ad-Centric Design: Focus on “objects” and “campaigns” rather than identity systems or long-form documentation.\n\nQualifications & Portfolio Requirements\n\n• Elite Visual Craft: A portfolio that demonstrates a clean, sophisticated, and minimal feel.\n• Motion Capability: You must show UI Motion (how a product’s interface moves) rather than character animation or slow-moving video spots.\n• Agency Experience: Proven experience in a fast-paced digital production or creative agency environment.\n• Tech-Forward Style: Expertise in working with tech brands. We are looking for designers who can make software interfaces look beautiful in a marketing context.\n• Software Mastery: Expert proficiency in Figma and the Adobe Creative Suite (specifically Illustrator and Photoshop). An understanding of After Effects logic is required for successful storyboarding.\n\nWhat We Are NOT Looking For\n\n• UX/Product Designers: If your portfolio is primarily wireframes, user flows, and app utility, this is not the right fit.\n• Brand Identity Specialists: We are moving away from logo design and “system building” to focus on campaign execution.\n• Illustrators: While illustration is a plus, the core need is for slick, digital ad design.\n\nThe target hiring compensation range for this role is $80.00 to $90.00. Compensation is based on several factors including, but not limited to education, relevant work experience, relevant certifications, and location.\n\nAbout Aquent Talent\n\nAquent Talent connects the best talent in marketing, creative, and design with the world’s biggest brands.\n\nOur eligible talent get access to amazing benefits like subsidized health, vision, and dental plans, paid sick leave, and retirement plans with a match. More information on our awesome benefits!\n\nAquent is an equal-opportunity employer. We evaluate qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, and other legally protected characteristics. We’re about creating an inclusive environment—one where different backgrounds, experiences, and perspectives are valued, and everyone can contribute, grow their careers, and thrive.",
+    "job_is_remote": true,
+    "job_posted_at": "9 hours ago",
+    "job_posted_at_timestamp": 1782925200,
+    "job_posted_at_datetime_utc": "2026-07-01T17:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": [
+      "dental_coverage",
+      "health_insurance"
+    ],
+    "job_benefits_strings": [
+      "Dental insurance",
+      "Health insurance"
+    ],
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DBfmSQEJdWUeiFtReAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "96–106 an hour",
+    "job_min_salary": 96,
+    "job_max_salary": 106,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "VexVHBWaAUqBjxDXAAAAAA==",
+    "job_title": "Merchandise Design Opportunity",
+    "employer_name": "Upwork",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://upwork.com&size=128",
+    "employer_website": "https://www.upwork.com",
+    "job_publisher": "Upwork",
+    "job_employment_type": "Contractor",
+    "job_employment_types": [
+      "CONTRACTOR"
+    ],
+    "job_apply_link": "https://www.upwork.com/freelance-jobs/apply/Merchandise-Design-Opportunity_~022072328197705200461/",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.upwork.com/freelance-jobs/apply/Merchandise-Design-Opportunity_~022072328197705200461/",
+        "is_direct": false,
+        "publisher": "Upwork"
+      }
+    ],
+    "job_description": "Hope Loves Company, a national 501(c)(3) nonprofit and the only organization in the country exclusively serving children and young adult caregivers impacted by ALS.\n\nWe are looking for a talented designer to help us build out a branded merchandise line through our Bonfire storefront and would love to find the right creative partner to bring our brand to life.\n\nA little about our brand:\n\nHope Loves Company is warm, hopeful, and community-rooted. Our colors are navy blue and pink and our logo features a heart and hand motif that speaks to care, connection, and showing up for one another. Our audience includes children, young adults, families navigating ALS, camp alumni, donors, and advocates -- so our merch needs to feel inclusive, wearable, and genuinely meaningful rather than generic nonprofit swag.\n\nWhat we're looking for:\n\nOriginal design concepts for a core merchandise line to be sold through our Bonfire storefront\n\nItems may include t-shirts, hoodies, hats, tote bags, water bottles, stickers, and other camp-friendly or everyday wearables\n\nDesigns that incorporate our existing logo as well as original graphics, typography, and mission-inspired artwork\n\nA style that feels modern, warm, and community-driven -- not corporate or overly polished\n\nDesigns optimized for Bonfire's print-on-demand platform including proper file formats, color profiles, and sizing specifications\n\nCampaign ideas we'd love to explore:\n\nCore HLC branded line -- everyday wear featuring our logo and mission language\n\nCamp HLC collection -- camp-specific designs for each of our five regional camps (NJ, IL, TX, GA, CA)\n\nHope in Action collection -- tied to our 2026 camp theme\n\nHugs of Hope collection -- softer, gift-oriented designs for our care package program\n\nFundraiser-specific limited drops -- tied to events like our golf tournament and car shows",
+    "job_is_remote": true,
+    "job_posted_at": "11 hours ago",
+    "job_posted_at_timestamp": 1782918000,
+    "job_posted_at_datetime_utc": "2026-07-01T15:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DVexVHBWaAUqBjxDXAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": "30–40 an hour",
+    "job_min_salary": 30,
+    "job_max_salary": 40,
+    "job_salary_period": "HOUR",
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "MCTRDLOA8MlR8SxaAAAAAA==",
+    "job_title": "Graphic Designer (Ecommerce)",
+    "employer_name": "confidential",
+    "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ixdf.org&size=128",
+    "employer_website": null,
+    "job_publisher": "IxDF",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://ixdf.org/jobs/graphic-designer-ecommerce-remote-8zkhe2",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://ixdf.org/jobs/graphic-designer-ecommerce-remote-8zkhe2",
+        "is_direct": false,
+        "publisher": "IxDF"
+      }
+    ],
+    "job_description": "Job Description\n\n[REDACTED] is assisting a high-growth Ecommerce and Digital Brand group in hiring a creative and strategic Graphic Designer. Our client operates in a fast-paced global market, delivering innovative products to a worldwide audience. We pride ourselves on visual storytelling that not only looks stunning but is specifically engineered to drive engagement and sales.\n\nWe are looking for a Graphic Designer with a strong background in the Ecommerce industry. You will be responsible for creating high-conversion visual assets across multiple digital touchpoints, from social media ads and email marketing to web banners and product packaging. This is a fully remote position for a proactive designer who understands the balance between brand aesthetics and performance-driven design.\n\nKey Responsibilities\n\n• Digital Asset Creation: Design high-impact visuals for social media (Meta, TikTok, Pinterest), email newsletters, and display advertising.\n\n• Ecommerce Optimization: Create web banners, landing page assets, and product infographics that enhance the user journey and increase conversion rates.\n\n• Brand Consistency: Maintain and evolve the brand's visual identity across all platforms, ensuring a cohesive look and feel.\n\n• Campaign Support: Collaborate with the Marketing and Performance teams to develop creative concepts for seasonal launches and global sales events (e.g., Black Friday).\n\n• Creative Iteration: Analyze the performance of your designs and iterate based on data and feedback to maximize ROAS.\n\n• Photo/Video Collaboration: Basic retouching of product photography and creating motion graphics or short-form video assets for ads.\n\nRequirements\n\n• Experience: Minimum 2 years of professional experience in Graphic Design, with a strong preference for candidates from an Ecommerce or Digital Agency background.\n\n• Portfolio: A portfolio showcasing performance-based design (ads, landing pages, email marketing) is mandatory.\n\n• Software Mastery: Expert proficiency in Adobe Creative Suite (Photoshop, Illustrator) and Canva/Figma. Experience with After Effects or Premiere Pro is a significant plus.\n\n• Ecommerce Knowledge: Deep understanding of digital marketing trends, typography, and visual hierarchy tailored for online consumers.\n\n• Language: Excellent English communication skills (written and verbal) are required for collaborating with an international team.\n\n• Efficiency: Ability to manage multiple projects simultaneously under tight deadlines without compromising on quality.\n\n• Environment: Fully comfortable working in a 100% remote setup.\n\nBenefits\n\n• Full Remote Flexibility: Work from anywhere with a focus on results.\n\n• Growth Opportunity: A fast-paced environment that encourages creative experimentation and professional development.\n\n• Monthly Salary: IDR 6 - 9 million gross.\n\nRoles & Responsibilities\n\n• Minimum 2 years of professional experience in Graphic Design\n\n• Portfolio showcasing performance-based design\n\n• Expert proficiency in Adobe Creative Suite and Canva/Figma\n\n• Excellent English communication skills\n\nRequirements\n\n• Design high-impact visuals for social media, email newsletters, and display advertising\n\n• Create web banners, landing page assets, and product infographics\n\n• Maintain and evolve the brand's visual identity across all platforms\n\n• Collaborate with the Marketing and Performance teams for creative concepts",
+    "job_is_remote": true,
+    "job_posted_at": "15 hours ago",
+    "job_posted_at_timestamp": 1782903600,
+    "job_posted_at_datetime_utc": "2026-07-01T11:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DMCTRDLOA8MlR8SxaAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "9et3RHbSmbN-x005AAAAAA==",
+    "job_title": "Sr. Packaging Designer in the USA",
+    "employer_name": "Shanghai BSF Human Resources Co., Ltd",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEGeY2ihUtN3onzZQ2jdyC2V3zd3eJrLkB3RyM&s=0",
+    "employer_website": null,
+    "job_publisher": "Jobgether",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://jobgether.com/offer/6a44fa6dac00a71a5a73eff0-sr.-packaging-designer-in-the-usa",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://jobgether.com/offer/6a44fa6dac00a71a5a73eff0-sr.-packaging-designer-in-the-usa",
+        "is_direct": false,
+        "publisher": "Jobgether"
+      }
+    ],
+    "job_description": "This a Full Remote job, the offer is available from: California (USA), Indiana (USA)\nJob brief\n\nOur client company is a leading supplier in the packaging, biodegradable materials, and construction fields of renewable products, listed as a public company. They are dedicated to developing products and technologies based on renewable materials. The company operates globally, with research and development, production, and sales teams distributed worldwide. Through ongoing research and development efforts, they continuously introduce environmentally friendly alternatives to chemical packaging materials, contributing to energy conservation and sustainable development.\n\nPosition Summary:\n\nWe are actively seeking a dynamic US Sr. Packaging Designer in USA who\n\nwill have demonstrated the ability to successfully design/develop and commercialize packages to meet customer needs. The ideal candidate will have demonstrated the ability to lead cross functional teams and build excellent working relationships with VIP customers.\n\nResponsibilities\n\n• Interface and collaborate with customers, understand customer needs and translate those needs into designing requirements leading to specific packaging and process specifications.\n• Develop and implement packaging designs for products and accessories. Balance a positive unboxing experience, protection, containment, brand communication and cost-effectiveness. Help to bring innovative packaging to meet customer needs.\n• Use knowledge of packaging materials, manufacturing process and transportation testing to deliver exceptional packaging solutions against demanding design requirements.\n• Generate and maintain frequently packaging development updates within the internal team and manage multiple project streams and communicate with customer.\n• Work closely with US customers and global factories on co-development and execution of designs, lead the design portion of the business case for new packages.\n• Be a proficient user of the Kongsberg cutting table for iterative design prototyping/simple handwork and of packaging laboratory equipment drop tester, vibration table and environmental chamber.\n• On site support on technical and quality related\n\nRequirements\n\n• 8+ years of industry experience with a company utilizing packaging designing or engineering.\n• Experience with structural packaging design software such as ArtiosCAD.\n• Experience with 3D CAD design software such as SolidWorks, NX or equivalent.\n• Experience troubleshooting technical challenges and managing them through resolution.\n• Ability to multi-task, work quickly, and communicate accurately and effectively.\n• Ability to work comfortably individually and good team player.\n• Customer orientation and business acumen.\n• Accountability and be able to be working under pressure.\n• Ability to travel frequently, within U.S. and oversea.\nThis offer from \"Shanghai BSF Human Resources Co., Ltd\" has been enriched by Jobgether.com and got a 75% flex score.",
+    "job_is_remote": true,
+    "job_posted_at": "14 hours ago",
+    "job_posted_at_timestamp": 1782907200,
+    "job_posted_at_datetime_utc": "2026-07-01T12:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D9et3RHbSmbN-x005AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
+    "job_id": "clWj6dKfSkoMi4lwAAAAAA==",
+    "job_title": "Product Designer (UX/UI) | Remote - vigo",
+    "employer_name": "Bizneo HR",
+    "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSVTqC5MMMPtHEFey_RPW6CvInPf3z-k199Fz7&s=0",
+    "employer_website": "https://www.bizneo.com",
+    "job_publisher": "Recruit.net",
+    "job_employment_type": "Full-time",
+    "job_employment_types": [
+      "FULLTIME"
+    ],
+    "job_apply_link": "https://www.recruit.net/job/product-designer-ux-ui-vigo-jobs/E2CA11871C562D21",
+    "job_apply_is_direct": false,
+    "apply_options": [
+      {
+        "apply_link": "https://www.recruit.net/job/product-designer-ux-ui-vigo-jobs/E2CA11871C562D21",
+        "is_direct": false,
+        "publisher": "Recruit.net"
+      }
+    ],
+    "job_description": "Hola! En Bizneo, no sólo somos una de las mayores HR Tech en España y LATAM, también somos un hervidero de ideas :) Si estás acostumbrado a convertir flujos complejos en elegantes e intuitivos, queremos conocerte.\n\n¿Qué harás aquí?\n\n• Diseñar nuevos productos , componentes e interfaces para nuestro software de recursos humanos.\n• Reunirte con clientes y usuarios para comprender sus necesidades, realizar entrevistas de discovery y validar hipótesis de producto.\n• Prototipar, validar y priorizar soluciones de diseño teniendo en cuenta los requisitos y feedback de todos los actores clave (clientes, product managers, desarrolladores, marketing etc.)\n• Establecer y mantener patrones de diseño , guías de estilo y bibliotecas de componentes.\n• Buscar activamente oportunidades de optimizar procesos y simplificar interfaces.\n\n¿Qué te pedimos?\n\n• Al menos 1 año de experiencia práctica en Diseño de Producto o UX/UI en entornos SaaS o productos digitales complejos.\n• Experiencia en actividades de investigación con clientes y usuarios (entrevistas de usuario, benchmarks, customer discovery...) para descubrir necesidades reales y orientar las decisiones de diseño.\n• Eres pragmático en el diseño, adaptando tu metodología según el contexto del negocio. Sabes cuándo priorizar la rapidez y efectividad frente a investigaciones extensas, y eres capaz de evaluar el coste/beneficio de dedicar tiempo extra a un diseño específico.\n• Conoces herramientas de diseño y prototipado como Figma\n\nPuntos extra si...\n\n• Has trabajado en startups o empresas de software en crecimiento.\n• Tienes experiencia con software B2B SMB orientados a conversión y experiencia de usuario.\n\n¿Qué ofrecemos?\n\n• 35 horas flexible: El horario general es de 08:00 a 15:00h pero puedes flexibilizarlo mientras te solapes la mayor parte del día con el horario del resto del equipo.\n• 23 días de vacaciones que puedes repartir libremente en cualquier momento del año.\n• Contrato indefinido\n• Teletrabajo 100% para siempre aunque puedes venir a visitarnos cuando quieras a nuestras oficinas de Av. Burgos en Madrid.",
+    "job_is_remote": true,
+    "job_posted_at": "2 hours ago",
+    "job_posted_at_timestamp": 1782950400,
+    "job_posted_at_datetime_utc": "2026-07-02T00:00:00.000Z",
+    "job_location": "Anywhere",
+    "job_city": null,
+    "job_state": null,
+    "job_country": null,
+    "job_latitude": null,
+    "job_longitude": null,
+    "job_benefits": null,
+    "job_benefits_strings": null,
+    "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DclWj6dKfSkoMi4lwAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+    "job_salary": null,
+    "job_salary_string": null,
+    "job_min_salary": null,
+    "job_max_salary": null,
+    "job_salary_period": null,
+    "job_highlights": {},
+    "job_onet_soc": null,
+    "job_onet_job_zone": null,
+    "employer_reviews": null
+  },
+  {
     "job_id": "jpy4tIFKl8NTZLVJAAAAAA==",
     "job_title": "Software Engineer II - Data Platform",
     "employer_name": "Pantheon",
